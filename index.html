@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japanese Quiz</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0f0e17;--surface:#1a1927;--surface2:#24223a;--border:rgba(255,255,255,0.08);--accent:#e94f6f;--accent2:#7c6af7;--text:#f0eefc;--muted:#8f8daa;--correct:#3ecf8e;--wrong:#e94f6f;--radius:12px}
+body{background:var(--bg);color:var(--text);font-family:'Inter','Noto Sans JP',sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:2rem 1rem}
+header{text-align:center;margin-bottom:1.5rem}
+header h1{font-size:clamp(1.5rem,4vw,2rem);font-weight:600;letter-spacing:-0.02em}
+header h1 span{color:var(--accent)}
+header p{color:var(--muted);font-size:0.85rem;margin-top:5px}
+.mode-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;width:100%;max-width:720px;margin-bottom:1.2rem}
+.mode-card{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--radius);padding:0.9rem 0.7rem;cursor:pointer;transition:all 0.15s;text-align:center}
+.mode-card:hover{border-color:var(--accent2);transform:translateY(-2px)}
+.mode-card.active{border-color:var(--accent);background:#1e1a30}
+.mode-card .icon{font-size:1.5rem;display:block;margin-bottom:5px;font-family:'Noto Sans JP',sans-serif}
+.mode-card .label{font-size:0.8rem;font-weight:500}
+.mode-card .sub{font-size:0.65rem;color:var(--muted);margin-top:2px}
+.diff-row{display:flex;gap:8px;justify-content:center;margin:0.3rem 0 0.8rem}
+.diff-btn{padding:5px 18px;border-radius:99px;border:1.5px solid var(--border);background:transparent;color:var(--muted);font-size:0.8rem;cursor:pointer;transition:all 0.15s}
+.diff-btn.active{border-color:var(--accent2);color:var(--text);background:rgba(124,106,247,0.12)}
+.diff-desc{text-align:center;font-size:0.76rem;color:var(--muted);margin-bottom:1.1rem;min-height:16px}
+.pool-info{text-align:center;font-size:0.72rem;color:var(--accent2);margin-bottom:0.8rem;min-height:14px}
+.count-row{display:flex;align-items:center;justify-content:center;gap:10px;margin:0 0 1.1rem;flex-wrap:wrap}
+.count-row label{font-size:0.8rem;color:var(--muted)}
+.count-btns{display:flex;gap:6px}
+.count-btn{padding:5px 13px;border-radius:99px;border:1.5px solid var(--border);background:transparent;color:var(--muted);font-size:0.8rem;cursor:pointer;transition:all 0.15s}
+.count-btn.active{border-color:var(--correct);color:var(--text);background:rgba(62,207,142,0.1)}
+.count-custom{width:52px;padding:4px 8px;border-radius:8px;border:1.5px solid var(--border);background:var(--surface2);color:var(--text);font-size:0.8rem;text-align:center}
+.count-custom:focus{outline:none;border-color:var(--correct)}
+.start-btn{display:block;margin:0 auto;padding:0.85rem 3rem;background:var(--accent);border:none;border-radius:var(--radius);color:white;font-size:0.95rem;font-weight:600;cursor:pointer;transition:opacity 0.15s}
+.start-btn:hover{opacity:0.85}
+#start-screen{width:100%;max-width:720px}
+.quiz-box{width:100%;max-width:580px;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:1.8rem;display:none}
+.quiz-top{display:flex;align-items:center;gap:10px;margin-bottom:1.4rem}
+.exit-btn{background:none;border:1px solid var(--border);color:var(--muted);border-radius:8px;padding:4px 10px;font-size:0.75rem;cursor:pointer;transition:all 0.15s;white-space:nowrap}
+.exit-btn:hover{border-color:var(--wrong);color:var(--wrong)}
+.progress-bar{flex:1;height:5px;background:var(--surface2);border-radius:99px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--accent2),var(--accent));border-radius:99px;transition:width 0.4s ease}
+.progress-label{font-size:0.75rem;color:var(--muted);white-space:nowrap}
+.score-badge{font-size:0.75rem;font-weight:500;color:var(--correct);white-space:nowrap}
+.question-area{text-align:center;margin-bottom:1.8rem}
+.question-type{display:inline-block;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent2);background:rgba(124,106,247,0.12);padding:3px 10px;border-radius:99px;margin-bottom:0.8rem}
+.question-jp{font-family:'Noto Sans JP',sans-serif;font-size:clamp(2rem,7vw,3.5rem);font-weight:700;line-height:1.25;margin-bottom:0.3rem}
+.question-jp.small{font-size:clamp(1.1rem,3.5vw,1.6rem)}
+.question-hint{font-size:0.82rem;color:var(--muted);line-height:1.5}
+.sentence-display{font-family:'Noto Sans JP',sans-serif;font-size:clamp(1.1rem,3.5vw,1.55rem);font-weight:500;line-height:1.9;text-align:center;margin-bottom:0.4rem}
+.sentence-blank{display:inline-block;min-width:2rem;border-bottom:3px solid var(--accent);color:var(--accent);font-weight:700;text-align:center;margin:0 2px;vertical-align:baseline}
+.sentence-blank.filled-correct{border-color:var(--correct);color:var(--correct)}
+.sentence-blank.filled-wrong{border-color:var(--wrong);color:var(--wrong)}
+.sentence-translation{font-size:0.78rem;color:var(--muted);text-align:center;margin-top:4px;font-style:italic}
+.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.option-btn{background:var(--surface2);border:1.5px solid var(--border);border-radius:var(--radius);padding:0.8rem 0.9rem;color:var(--text);font-size:0.85rem;font-family:'Inter','Noto Sans JP',sans-serif;cursor:pointer;transition:all 0.15s;text-align:center;line-height:1.45}
+.option-btn:hover:not(:disabled){border-color:var(--accent2);background:#2a2744}
+.option-btn.correct{border-color:var(--correct);background:rgba(62,207,142,0.12);color:var(--correct)}
+.option-btn.wrong{border-color:var(--wrong);background:rgba(233,79,111,0.12);color:var(--wrong)}
+.option-btn:disabled{cursor:default}
+.feedback{margin-top:1rem;padding:0.8rem 1rem;border-radius:var(--radius);font-size:0.83rem;line-height:1.55;display:none}
+.feedback.show{display:block}
+.feedback.correct-fb{background:rgba(62,207,142,0.1);border:1px solid rgba(62,207,142,0.25);color:var(--correct)}
+.feedback.wrong-fb{background:rgba(233,79,111,0.1);border:1px solid rgba(233,79,111,0.25);color:#f08099}
+.next-btn{display:none;width:100%;margin-top:1rem;padding:0.85rem;background:var(--accent);border:none;border-radius:var(--radius);color:white;font-size:0.9rem;font-weight:600;cursor:pointer;transition:opacity 0.15s}
+.next-btn.show{display:block}
+.next-btn:hover{opacity:0.85}
+.result-box{text-align:center;padding:1rem 0;display:none}
+.result-box.show{display:block}
+.result-score{font-size:3.8rem;font-weight:700;color:var(--accent);line-height:1}
+.result-label{color:var(--muted);font-size:0.88rem;margin-top:6px;margin-bottom:0.5rem}
+.result-streak{font-size:0.8rem;color:var(--accent2);margin-bottom:1.2rem}
+.result-msg{font-size:1.05rem;font-weight:500;margin-bottom:1.3rem;font-family:'Noto Sans JP',sans-serif}
+.result-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.restart-btn{padding:0.8rem 1.8rem;background:var(--accent2);border:none;border-radius:var(--radius);color:white;font-size:0.88rem;font-weight:600;cursor:pointer;transition:opacity 0.15s}
+.restart-btn:hover{opacity:0.85}
+.home-btn{padding:0.8rem 1.8rem;background:transparent;border:1.5px solid var(--border);border-radius:var(--radius);color:var(--muted);font-size:0.88rem;cursor:pointer;transition:all 0.15s}
+.home-btn:hover{border-color:var(--text);color:var(--text)}
+.confirm-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.65);display:none;align-items:center;justify-content:center;z-index:100}
+.confirm-overlay.show{display:flex}
+.confirm-box{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.8rem;text-align:center;max-width:300px;width:90%}
+.confirm-box p{color:var(--muted);font-size:0.88rem;margin:0.4rem 0 1.3rem}
+.confirm-btns{display:flex;gap:10px;justify-content:center}
+.confirm-yes{padding:0.65rem 1.6rem;background:var(--wrong);border:none;border-radius:var(--radius);color:white;font-size:0.85rem;font-weight:600;cursor:pointer}
+.confirm-no{padding:0.65rem 1.6rem;background:transparent;border:1.5px solid var(--border);border-radius:var(--radius);color:var(--muted);font-size:0.85rem;cursor:pointer}
+footer{margin-top:2rem;color:var(--muted);font-size:0.72rem;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <h1>日本語 <span>Quiz</span></h1>
+  <p>Kana · Numbers · Counters · Time · Kanji · Particles</p>
+</header>
+
+<div id="start-screen">
+  <div class="mode-grid" id="modeGrid">
+    <div class="mode-card active" data-mode="hiragana"><span class="icon">あ</span><div class="label">Hiragana</div><div class="sub">Characters & vocab</div></div>
+    <div class="mode-card" data-mode="katakana"><span class="icon">ア</span><div class="label">Katakana</div><div class="sub">Characters & loanwords</div></div>
+    <div class="mode-card" data-mode="numbers"><span class="icon">数</span><div class="label">Numbers</div><div class="sub">Procedural — infinite!</div></div>
+    <div class="mode-card" data-mode="counters"><span class="icon">個</span><div class="label">Counters</div><div class="sub">Objects, money, animals</div></div>
+    <div class="mode-card" data-mode="time"><span class="icon">時</span><div class="label">Time & Date</div><div class="sub">Hours, days, months</div></div>
+    <div class="mode-card" data-mode="kanji"><span class="icon">漢</span><div class="label">Kanji</div><div class="sub">Meaning & reading</div></div>
+    <div class="mode-card" data-mode="particle"><span class="icon">は</span><div class="label">Particles</div><div class="sub">Fill in は、が、を...</div></div>
+    <div class="mode-card" data-mode="mixed"><span class="icon">🎲</span><div class="label">Mixed</div><div class="sub">All of the above</div></div>
+  </div>
+  <div class="diff-row" id="diffRow">
+    <button class="diff-btn active" data-diff="easy">Easy</button>
+    <button class="diff-btn" data-diff="medium">Medium</button>
+    <button class="diff-btn" data-diff="hard">Hard</button>
+  </div>
+  <div class="diff-desc" id="diffDesc"></div>
+  <div class="pool-info" id="poolInfo"></div>
+  <div class="count-row">
+    <label>Questions:</label>
+    <div class="count-btns" id="countBtns">
+      <button class="count-btn" data-count="10">10</button>
+      <button class="count-btn active" data-count="20">20</button>
+      <button class="count-btn" data-count="30">30</button>
+      <button class="count-btn" data-count="50">50</button>
+    </div>
+    <input class="count-custom" id="countCustom" type="number" min="5" max="100" placeholder="?" title="Custom count (5–100)">
+  </div>
+  <button class="start-btn" onclick="startQuiz()">Start Quiz →</button>
+</div>
+
+<div class="quiz-box" id="quizBox">
+  <div class="quiz-top">
+    <button class="exit-btn" onclick="confirmExit()">✕ Exit</button>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-label" id="progressLabel">1 / 15</div>
+    <div class="score-badge" id="scoreBadge">✓ 0</div>
+  </div>
+  <div id="questionScreen">
+    <div class="question-area">
+      <span class="question-type" id="qType">Reading</span>
+      <div class="question-jp" id="qText"></div>
+      <div class="question-hint" id="qHint"></div>
+    </div>
+    <div class="options-grid" id="optionsGrid"></div>
+    <div class="feedback" id="feedback"></div>
+    <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next →</button>
+  </div>
+  <div class="result-box" id="resultBox">
+    <div class="result-score" id="resultScore"></div>
+    <div class="result-label">correct answers</div>
+    <div class="result-streak" id="resultStreak"></div>
+    <div class="result-msg" id="resultMsg"></div>
+    <div class="result-btns">
+      <button class="home-btn" onclick="goHome()">← Home</button>
+      <button class="restart-btn" onclick="restartQuiz()">Play again →</button>
+    </div>
+  </div>
+</div>
+
+<div class="confirm-overlay" id="confirmOverlay">
+  <div class="confirm-box">
+    <strong>Exit quiz?</strong>
+    <p>Your progress will be lost.</p>
+    <div class="confirm-btns">
+      <button class="confirm-no" onclick="closeConfirm()">Keep going</button>
+      <button class="confirm-yes" onclick="doExit()">Exit</button>
+    </div>
+  </div>
+</div>
+
+<footer>Free to use — no account needed</footer>
+
+<script>
+// ════════════════════════════════════════════════════════════════════
+// DATA — unified QUIZ_DATA array, one object per question
+// Fields: category, level, q, a, d[], note, hint?, translation?,
+//         meaning? (kana vocab), _generated? (procedural)
+// ════════════════════════════════════════════════════════════════════
+
+const QUIZ_DATA = [];
+
+// ── HELPER ───────────────────────────────────────────────────────────
+function add(category, level, q, a, d, note, extras={}) {
+  QUIZ_DATA.push({ category, level, q, a, d, note, ...extras });
+}
+
+// ════════════════════════════════════════════════════════════════════
+// HIRAGANA — easy: single chars; medium: 2-3 char words; hard: 4+ char
+// ════════════════════════════════════════════════════════════════════
+
+// Single characters
+const HIRA_CHARS = [
+  ['あ','a',['i','u','e','o']],['い','i',['a','u','e','o']],['う','u',['a','i','e','o']],
+  ['え','e',['a','i','u','o']],['お','o',['a','i','u','e']],['か','ka',['ki','ku','ke','ko']],
+  ['き','ki',['ka','ku','ke','ko']],['く','ku',['ka','ki','ke','ko']],['け','ke',['ka','ki','ku','ko']],
+  ['こ','ko',['ka','ki','ku','ke']],['さ','sa',['shi','su','se','so']],['し','shi',['sa','su','se','so']],
+  ['す','su',['sa','shi','se','so']],['せ','se',['sa','shi','su','so']],['そ','so',['sa','shi','su','se']],
+  ['た','ta',['chi','tsu','te','to']],['ち','chi',['ta','tsu','te','to']],['つ','tsu',['ta','chi','te','to']],
+  ['て','te',['ta','chi','tsu','to']],['と','to',['ta','chi','tsu','te']],['な','na',['ni','nu','ne','no']],
+  ['に','ni',['na','nu','ne','no']],['ぬ','nu',['na','ni','ne','no']],['ね','ne',['na','ni','nu','no']],
+  ['の','no',['na','ni','nu','ne']],['は','ha',['hi','fu','he','ho']],['ひ','hi',['ha','fu','he','ho']],
+  ['ふ','fu',['ha','hi','he','ho']],['へ','he',['ha','hi','fu','ho']],['ほ','ho',['ha','hi','fu','he']],
+  ['ま','ma',['mi','mu','me','mo']],['み','mi',['ma','mu','me','mo']],['む','mu',['ma','mi','me','mo']],
+  ['め','me',['ma','mi','mu','mo']],['も','mo',['ma','mi','mu','me']],['や','ya',['yu','yo','wa','ra']],
+  ['ゆ','yu',['ya','yo','wa','ri']],['よ','yo',['ya','yu','wa','ru']],['ら','ra',['ri','ru','re','ro']],
+  ['り','ri',['ra','ru','re','ro']],['る','ru',['ra','ri','re','ro']],['れ','re',['ra','ri','ru','ro']],
+  ['ろ','ro',['ra','ri','ru','re']],['わ','wa',['wo','ya','ha','ra']],['を','wo',['wa','o','ho','no']],
+  ['ん','n',['m','na','nu','ni']],['が','ga',['ka','gi','gu','go']],['ぎ','gi',['ki','ga','gu','ge']],
+  ['ぐ','gu',['ku','ga','gi','ge']],['げ','ge',['ke','ga','gi','gu']],['ご','go',['ko','ga','gi','gu']],
+  ['ざ','za',['sa','ji','zu','ze']],['じ','ji',['shi','za','zu','ze']],['ず','zu',['su','za','ji','ze']],
+  ['ぜ','ze',['se','za','ji','zu']],['ぞ','zo',['so','za','ji','zu']],['だ','da',['ta','di','du','do']],
+  ['で','de',['te','da','do','di']],['ど','do',['to','da','de','di']],['ば','ba',['ha','bi','bu','bo']],
+  ['び','bi',['hi','ba','bu','bo']],['ぶ','bu',['fu','ba','bi','bo']],['べ','be',['he','ba','bi','bu']],
+  ['ぼ','bo',['ho','ba','bi','bu']],['ぱ','pa',['ha','pi','pu','po']],['ぴ','pi',['hi','pa','pu','po']],
+  ['ぷ','pu',['fu','pa','pi','po']],['ぺ','pe',['he','pa','pi','pu']],['ぽ','po',['ho','pa','pi','pu']],
+  ['きゃ','kya',['kyu','kyo','gya','sha']],['きゅ','kyu',['kya','kyo','gyu','shu']],
+  ['きょ','kyo',['kya','kyu','gyo','sho']],['しゃ','sha',['shu','sho','cha','ja']],
+  ['しゅ','shu',['sha','sho','chu','ju']],['しょ','sho',['sha','shu','cho','jo']],
+  ['ちゃ','cha',['sha','chu','ja','tya']],['ちゅ','chu',['cha','cho','shu','ju']],
+  ['ちょ','cho',['cha','chu','sho','jo']],['にゃ','nya',['nyu','nyo','mya','rya']],
+  ['にゅ','nyu',['nya','nyo','myu','ryu']],['にょ','nyo',['nya','nyu','myo','ryo']],
+  ['ひゃ','hya',['hyu','hyo','bya','pya']],['みゃ','mya',['myu','myo','nya','rya']],
+  ['りゃ','rya',['ryu','ryo','nya','mya']],['りゅ','ryu',['rya','ryo','nyu','myu']],
+  ['りょ','ryo',['rya','ryu','nyo','myo']],['ぎゃ','gya',['gyu','gyo','kya','ja']],
+  ['じゃ','ja',['ju','jo','sha','cha']],['じゅ','ju',['ja','jo','shu','chu']],
+  ['じょ','jo',['ja','ju','sho','cho']],['びゃ','bya',['byu','byo','pya','hya']],
+  ['ぴゃ','pya',['pyu','pyo','bya','hya']],
+];
+HIRA_CHARS.forEach(([q,a,d]) => add('hiragana','easy',q,a,d,'ひらがな: '+q+' = '+a));
+
+// Medium: 2-3 char vocab words
+const HIRA_WORDS = [
+  ['ねこ','neko','cat',['inu','uma','tori','kuma']],['いぬ','inu','dog',['neko','uma','usagi','kuma']],
+  ['うみ','umi','sea',['yama','kawa','sora','mori']],['やま','yama','mountain',['umi','kawa','mori','ike']],
+  ['かわ','kawa','river',['umi','yama','mori','kaze']],['そら','sora','sky',['umi','yama','hoshi','tsuki']],
+  ['はな','hana','flower',['ki','kusa','ha','mi']],['みず','mizu','water',['hi','kaze','tsuchi','yuki']],
+  ['かぜ','kaze','wind',['ame','yuki','kiri','niji']],['ゆき','yuki','snow',['ame','kaze','kiri','hi']],
+  ['あめ','ame','rain',['yuki','kaze','kiri','niji']],['たべる','taberu','to eat',['nomu','neru','miru','kiku']],
+  ['のむ','nomu','to drink',['taberu','neru','aruku','kiku']],['みる','miru','to see/watch',['kiku','yomu','kaku','hanasu']],
+  ['いく','iku','to go',['kuru','kaeru','tomaru','hashiru']],['くる','kuru','to come',['iku','kaeru','tomaru','hashiru']],
+  ['ほん','hon','book',['kami','pen','tsukue','isu']],['てがみ','tegami','letter (mail)',['hon','zasshi','shinbun','meishi']],
+  ['おかね','okane','money',['shigoto','nimotsu','kaban','saifu']],['いえ','ie','house/home',['heya','mado','tobira','yane']],
+  ['まち','machi','town/city',['mura','shima','kuni','umi']],['こども','kodomo','child',['otona','hito','kazoku','tomodachi']],
+  ['せんせい','sensei','teacher',['gakusei','isha','keikan','kashu']],['がくせい','gakusei','student',['sensei','isha','shain','keikan']],
+  ['しごと','shigoto','work/job',['yasumi','benkyou','asobi','ryokou']],['とけい','tokei','clock/watch',['megane','keitai','saifu','kagi']],
+  ['くつ','kutsu','shoes',['kutsushita','fuku','boshi','tebukuro']],['めがね','megane','glasses',['tokei','keitai','saifu','kagi']],
+  ['かさ','kasa','umbrella',['kaban','kutsu','boshi','tebukuro']],['でんわ','denwa','telephone',['keitai','terebi','rajio','pasokon']],
+  ['りんご','ringo','apple',['mikan','banana','budo','ichigo']],['みかん','mikan','mandarin orange',['ringo','banana','budo','ichigo']],
+  ['さかな','sakana','fish',['niku','tori','yasai','kudamono']],['にく','niku','meat',['sakana','tori','yasai','kudamono']],
+  ['やさい','yasai','vegetables',['kudamono','niku','sakana','gohan']],['ごはん','gohan','rice/meal',['pan','udon','soba','ramen']],
+  ['みせ','mise','shop/store',['resutoran','ginkou','yuubinkyoku','byouin']],['えき','eki','train station',['mise','ginkou','yuubinkyoku','byouin']],
+  ['でぐち','deguchi','exit',['iriguchi','mado','tobira','kaidan']],['いりぐち','iriguchi','entrance',['deguchi','mado','tobira','kaidan']],
+  ['あかい','akai','red',['aoi','shiroi','kuroi','kiiroi']],['あおい','aoi','blue',['akai','shiroi','kuroi','kiiroi']],
+  ['しろい','shiroi','white',['akai','aoi','kuroi','kiiroi']],['くろい','kuroi','black',['akai','aoi','shiroi','kiiroi']],
+  ['たかい','takai','tall/expensive',['hikui','yasui','omoi','karui']],['やすい','yasui','cheap',['takai','hikui','omoi','karui']],
+  ['おおきい','ookii','big',['chiisai','takai','hiroi','semai']],['ちいさい','chiisai','small',['ookii','takai','hiroi','semai']],
+  ['あたらしい','atarashii','new',['furui','ookii','chiisai','takai']],['ふるい','furui','old',['atarashii','ookii','chiisai','takai']],
+  ['むずかしい','muzukashii','difficult',['yasashii','kantan','omoshiroi','tsumaranai']],
+  ['おもしろい','omoshiroi','interesting/funny',['tsumaranai','muzukashii','yasashii','kowai']],
+  ['いそがしい','isogashii','busy',['hima','yasashii','omoshiroi','tsumaranai']],
+  ['たのしい','tanoshii','fun/enjoyable',['tsumaranai','kanashii','kowai','samishii']],
+  ['かなしい','kanashii','sad',['tanoshii','ureshii','kowai','samishii']],
+  ['うれしい','ureshii','happy/glad',['kanashii','tanoshii','kowai','samishii']],
+];
+HIRA_WORDS.forEach(([q,a,meaning,d]) => add('hiragana','medium',q,a,d,`${q} = ${a} (${meaning})`,{hint:'How do you read this word?',meaning}));
+
+// Hard: 4+ char words and phrases
+const HIRA_HARD = [
+  ['ありがとう','arigatou','thank you',['sumimasen','gomen nasai','douitashimashite','yoroshiku']],
+  ['おはようございます','ohayou gozaimasu','good morning (formal)',['konnichiwa','konbanwa','oyasuminasai','sayounara']],
+  ['こんにちは','konnichiwa','hello / good afternoon',['ohayou','konbanwa','sayounara','tadaima']],
+  ['こんばんは','konbanwa','good evening',['konnichiwa','ohayou','sayounara','tadaima']],
+  ['どういたしまして','douitashimashite',"you're welcome",['arigatou','sumimasen','daijoubu','yoroshiku']],
+  ['すみません','sumimasen','excuse me / sorry',['gomen nasai','arigatou','daijoubu','yoroshiku']],
+  ['はじめまして','hajimemashite','nice to meet you',['yoroshiku','arigatou','sayounara','tadaima']],
+  ['よろしくおねがいします','yoroshiku onegaishimasu','please treat me well',['hajimemashite','arigatou','sumimasen','gomen nasai']],
+  ['わかりません','wakarimasen',"I don't understand",['shirimasen','dekimasen','arimasen','ikemasen']],
+  ['しりません','shirimasen',"I don't know",['wakarimasen','dekimasen','arimasen','ikemasen']],
+  ['たべもの','tabemono','food',['nomimono','kudamono','yasai','ryouri']],
+  ['のみもの','nomimono','drink/beverage',['tabemono','kudamono','yasai','ocha']],
+  ['でんしゃ','densha','train',['chikatetsu','basu','hikouki','kuruma']],
+  ['ちかてつ','chikatetsu','subway/metro',['densha','basu','takushii','hikouki']],
+  ['としょかん','toshokan','library',['yuubinkyoku','byouin','hakubutsukan','kouen']],
+  ['びょういん','byouin','hospital',['toshokan','yuubinkyoku','gakkou','kouen']],
+  ['おみやげ','omiyage','souvenir/gift',['purezento','nimotsu','kaban','saifu']],
+  ['アルバイト','arubaito','part-time job',['shigoto','seishain','intaan','borantia']],
+  ['ボランティア','borantia','volunteer work',['arubaito','shigoto','jibun','kyuuryou']],
+  ['おてあらい','otearai','bathroom/toilet',['ofuro','daidokoro','ima','shinshitsu']],
+  ['かいぎしつ','kaigishitsu','meeting room',['jimusho','kyoushitsu','toshokan','shokudou']],
+  ['じどうはんばいき','jidouhanbaiki','vending machine',['ATM','madoguchi','denwa','posuto']],
+  ['しんかんせん','shinkansen','bullet train',['densha','hikouki','fune','chikatetsu']],
+  ['けいたいでんわ','keitai denwa','mobile phone',['sumaato','pasokon','terebi','rajio']],
+  ['スーパーマーケット','suupaa maaketto','supermarket',['depaato','konbini','ichiba','resutoran']],
+  ['こうばん','kouban','police box',['shouchoushoa','byouin','yakusho','yuubinkyoku']],
+  ['やくしょ','yakusho','city hall/government office',['kouban','byouin','toshokan','yuubinkyoku']],
+  ['ゆうびんきょく','yuubinkyoku','post office',['ginkoo','byouin','toshokan','suupaa']],
+  ['おきなわ','okinawa','Okinawa',['hokkaido','kyuushuu','shikoku','honshu']],
+  ['ほっかいどう','hokkaido','Hokkaido',['okinawa','kyuushuu','shikoku','honshu']],
+];
+HIRA_HARD.forEach(([q,a,meaning,d]) => add('hiragana','hard',q,a,d,`${q} = ${a} (${meaning})`,{hint:'How do you read this?',meaning}));
+
+// ════════════════════════════════════════════════════════════════════
+// KATAKANA
+// ════════════════════════════════════════════════════════════════════
+const KATA_CHARS = [
+  ['ア','a',['i','u','e','o']],['イ','i',['a','u','e','o']],['ウ','u',['a','i','e','o']],
+  ['エ','e',['a','i','u','o']],['オ','o',['a','i','u','e']],['カ','ka',['ki','ku','ke','ko']],
+  ['キ','ki',['ka','ku','ke','ko']],['ク','ku',['ka','ki','ke','ko']],['ケ','ke',['ka','ki','ku','ko']],
+  ['コ','ko',['ka','ki','ku','ke']],['サ','sa',['shi','su','se','so']],['シ','shi',['sa','su','se','so']],
+  ['ス','su',['sa','shi','se','so']],['セ','se',['sa','shi','su','so']],['ソ','so',['sa','shi','su','se']],
+  ['タ','ta',['chi','tsu','te','to']],['チ','chi',['ta','tsu','te','to']],['ツ','tsu',['ta','chi','te','to']],
+  ['テ','te',['ta','chi','tsu','to']],['ト','to',['ta','chi','tsu','te']],['ナ','na',['ni','nu','ne','no']],
+  ['ニ','ni',['na','nu','ne','no']],['ヌ','nu',['na','ni','ne','no']],['ネ','ne',['na','ni','nu','no']],
+  ['ノ','no',['na','ni','nu','ne']],['ハ','ha',['hi','fu','he','ho']],['ヒ','hi',['ha','fu','he','ho']],
+  ['フ','fu',['ha','hi','he','ho']],['ヘ','he',['ha','hi','fu','ho']],['ホ','ho',['ha','hi','fu','he']],
+  ['マ','ma',['mi','mu','me','mo']],['ミ','mi',['ma','mu','me','mo']],['ム','mu',['ma','mi','me','mo']],
+  ['メ','me',['ma','mi','mu','mo']],['モ','mo',['ma','mi','mu','me']],['ヤ','ya',['yu','yo','wa','ra']],
+  ['ユ','yu',['ya','yo','wa','ri']],['ヨ','yo',['ya','yu','wa','ru']],['ラ','ra',['ri','ru','re','ro']],
+  ['リ','ri',['ra','ru','re','ro']],['ル','ru',['ra','ri','re','ro']],['レ','re',['ra','ri','ru','ro']],
+  ['ロ','ro',['ra','ri','ru','re']],['ワ','wa',['wo','ya','ha','ra']],['ン','n',['m','na','nu','ri']],
+  ['ガ','ga',['ka','gi','gu','go']],['ギ','gi',['ki','ga','gu','ge']],['グ','gu',['ku','ga','gi','ge']],
+  ['ゲ','ge',['ke','ga','gi','gu']],['ゴ','go',['ko','ga','gi','gu']],['ザ','za',['sa','ji','zu','ze']],
+  ['ジ','ji',['shi','za','zu','ze']],['ズ','zu',['su','za','ji','ze']],['ゼ','ze',['se','za','ji','zu']],
+  ['ゾ','zo',['so','za','ji','zu']],['ダ','da',['ta','di','du','do']],['デ','de',['te','da','do','di']],
+  ['ド','do',['to','da','de','di']],['バ','ba',['ha','bi','bu','bo']],['ビ','bi',['hi','ba','bu','bo']],
+  ['ブ','bu',['fu','ba','bi','bo']],['ベ','be',['he','ba','bi','bu']],['ボ','bo',['ho','ba','bi','bu']],
+  ['パ','pa',['ha','pi','pu','po']],['ピ','pi',['hi','pa','pu','po']],['プ','pu',['fu','pa','pi','po']],
+  ['ペ','pe',['he','pa','pi','pu']],['ポ','po',['ho','pa','pi','pu']],
+  ['ファ','fa',['fo','fi','fe','ha']],['フィ','fi',['fa','fo','fe','hi']],
+  ['ウィ','wi',['we','wa','ui','we']],['ウェ','we',['wi','wa','ui','wo']],
+  ['ティ','ti',['chi','te','di','ni']],['ディ','di',['ti','de','chi','ni']],
+  ['シャ','sha',['shu','sho','cha','ja']],['シュ','shu',['sha','sho','chu','ju']],
+  ['ショ','sho',['sha','shu','cho','jo']],['チャ','cha',['sha','chu','ja','tya']],
+  ['チュ','chu',['cha','cho','shu','ju']],['チョ','cho',['cha','chu','sho','jo']],
+  ['ジャ','ja',['ju','jo','sha','cha']],['ジュ','ju',['ja','jo','shu','chu']],
+  ['ジョ','jo',['ja','ju','sho','cho']],
+];
+KATA_CHARS.forEach(([q,a,d]) => add('katakana','easy',q,a,d,'カタカナ: '+q+' = '+a));
+
+// Katakana loanwords medium
+const KATA_WORDS = [
+  ['コーヒー','koohii','coffee',['tii','juusu','miruku','wain']],
+  ['テレビ','terebi','TV',['rajio','pasokon','kamera','sumaato']],
+  ['バス','basu','bus',['takushii','torakku','baikku','kuruma']],
+  ['パン','pan','bread',['keeki','kukkii','aisu','chokoreeeto']],
+  ['アイス','aisu','ice cream',['keeki','pan','juusu','chokoreeeto']],
+  ['ケーキ','keeki','cake',['pan','aisu','kukkii','chokoreeeto']],
+  ['ホテル','hoteru','hotel',['resutoran','suupaa','depaato','kaafe']],
+  ['レストラン','resutoran','restaurant',['hoteru','suupaa','depaato','kaafe']],
+  ['コンビニ','konbini','convenience store',['suupaa','depaato','resutoran','hoteru']],
+  ['カメラ','kamera','camera',['terebi','pasokon','sumaato','rajio']],
+  ['ゲーム','geemu','game',['eiga','ongaku','supootsu','hon']],
+  ['スポーツ','supootsu','sports',['geemu','ongaku','eiga','dansu']],
+  ['ニュース','nyuusu','news',['terebi','rajio','shinbun','zasshi']],
+  ['チケット','chiketto','ticket',['pasupooto','kaado','menkyosho','tegami']],
+  ['アパート','apaato','apartment',['hoteru','manshon','ie','heya']],
+  ['ビール','biiru','beer',['wain','sake','juusu','ocha']],
+  ['ワイン','wain','wine',['biiru','sake','juusu','ocha']],
+  ['ピザ','piza','pizza',['baagaa','sando','soba','ramen']],
+  ['バーガー','baagaa','burger',['piza','sando','soba','ramen']],
+  ['サラダ','sarada','salad',['suupu','sando','raisu','piza']],
+  ['スープ','suupu','soup',['sarada','sando','raisu','piza']],
+  ['ジュース','juusu','juice',['mizu','ocha','biiru','miruku']],
+  ['ミルク','miruku','milk',['juusu','mizu','ocha','biiru']],
+  ['バナナ','banana','banana',['ringo','orenji','ichigo','budo']],
+  ['オレンジ','orenji','orange',['banana','ringo','ichigo','budo']],
+  ['チョコレート','chokoreeto','chocolate',['keeki','aisu','kyandi','gamu']],
+  ['アイスクリーム','aisukuriimu','ice cream',['chokoreeto','keeki','purin','yoguruto']],
+  ['タクシー','takushii','taxi',['basu','torakku','baikku','kuruma']],
+  ['デパート','depaato','department store',['suupaa','konbini','hoteru','resutoran']],
+  ['エアコン','eakon','air conditioner',['hiitaa','terebi','rajio','pasokon']],
+  ['ラジオ','rajio','radio',['terebi','pasokon','kamera','sumaato']],
+  ['パソコン','pasokon','personal computer',['terebi','rajio','kamera','sumaato']],
+  ['スマホ','sumaho','smartphone',['pasokon','terebi','kamera','tabretto']],
+  ['マスク','masuku','mask',['tebukuro','boshi','megane','sukaafu']],
+  ['ハンカチ','hankachi','handkerchief',['masuku','tebukuro','boshi','sukaafu']],
+  ['リュック','ryukku','backpack/rucksack',['kaban','saifu','nimotsu','tebukuro']],
+  ['スーツ','suutsu','suit',['shatsu','zubon','jaketto','nekutai']],
+  ['ネクタイ','nekutai','necktie',['sukaafu','boshi','tebukuro','shatsu']],
+  ['ジャケット','jaketto','jacket',['kooto','seetaa','tii shatsu','shatsu']],
+  ['コート','kooto','coat',['jaketto','seetaa','tii shatsu','shatsu']],
+];
+KATA_WORDS.forEach(([q,a,meaning,d]) => add('katakana','medium',q,a,d,`${q} = ${a} (${meaning})`,{hint:'How do you read this loanword?',meaning}));
+
+// Katakana hard: longer loanwords
+const KATA_HARD = [
+  ['スマートフォン','sumaatofon','smartphone',['pasokon','terebi','kamera','tabretto']],
+  ['コンピューター','konpyuutaa','computer',['terebi','sumaato','kamera','tabretto']],
+  ['インターネット','intaanetto','internet',['terebi','rajio','pasokon','sofutowea']],
+  ['エレベーター','erebeetaa','elevator',['esukareetaa','kaiidan','doaa','robii']],
+  ['エスカレーター','esukareetaa','escalator',['erebeetaa','kaiidan','doaa','robii']],
+  ['アルバイト','arubaito','part-time job',['shigoto','kaisha','kyuuryou','yasumi']],
+  ['ボランティア','borantia','volunteer',['arubaito','shigoto','kaisha','intaan']],
+  ['アレルギー','arerugii','allergy',['byouki','byouin','kusuri','chuusha']],
+  ['クレジットカード','kurejitto kaado','credit card',['genkin','kouza','ginkou','debittokaado']],
+  ['ショッピングモール','shoppingu mooru','shopping mall',['depaato','suupaa','konbini','ichiba']],
+  ['プレゼンテーション','purezenteshon','presentation',['kaigi','repooto','mensetsu','supiiichi']],
+  ['フリーランサー','furiirransaa','freelancer',['arubaito','seishain','keiyakushain','paato']],
+  ['マクドナルド','makudonarudo',"McDonald's",['faasuto fuudo','resutoran','depaato','kissaten']],
+  ['アニメーション','animeshon','animation',['eiga','manga','terebi','geemu']],
+  ['インフルエンザ','infuruenza','influenza/flu',['kaze','netsu','arerugii','byouki']],
+  ['ワクチン','wakuchin','vaccine',['kusuri','chuusha','byouin','isha']],
+  ['リハビリテーション','rihabiriTEshon','rehabilitation',['byouin','isha','kusuri','shujutsu']],
+  ['コミュニケーション','komyunikeeshon','communication',['kaigi','hanashi','kaiwaa','soudanWin']],
+  ['グローバリゼーション','guroobarizeshon','globalization',['kokusaika','bunka','shakai','keizai']],
+  ['サステナビリティ','sasutenabiriti','sustainability',['kankyou','shizen','enerugi','chikyuu']],
+  ['デジタルトランスフォーメーション','dejitaru toransufoomeshon','digital transformation',['IT kakumei','deji ka','tekunorojii','innovation']],
+  ['エンターテインメント','entaateeinmento','entertainment',['goraku','geijutsu','ongaku','eiga']],
+  ['インフラストラクチャー','infurasutorakuchaa','infrastructure',['tatemono','douro','tetsudou','denki']],
+  ['パーソナリティ','paasonariti','personality',['seikaku','kibun','taido','kangaekata']],
+  ['マーケティング','maaketingu','marketing',['koukoku','hanbai','eigyou','PR']],
+];
+KATA_HARD.forEach(([q,a,meaning,d]) => add('katakana','hard',q,a,d,`${q} = ${a} (${meaning})`,{hint:'How do you read this?',meaning}));
+
+// ════════════════════════════════════════════════════════════════════
+// NUMBERS — procedural generation (infinite unique questions)
+// ════════════════════════════════════════════════════════════════════
+function numToJapanese(n) {
+  if (n === 0) return 'ぜろ';
+  const ones = ['','いち','に','さん','よん','ご','ろく','なな','はち','きゅう'];
+  const t = (n) => {
+    if (n < 10) return ones[n];
+    if (n < 100) {
+      const d = Math.floor(n/10), r = n%10;
+      return (d===1?'':ones[d])+'じゅう'+(r?ones[r]:'');
+    }
+    if (n < 1000) {
+      const d = Math.floor(n/100), r = n%100;
+      const h = d===1?'ひゃく':d===3?'さんびゃく':d===6?'ろっぴゃく':d===8?'はっぴゃく':ones[d]+'ひゃく';
+      return h+(r?t(r):'');
+    }
+    if (n < 10000) {
+      const d = Math.floor(n/1000), r = n%1000;
+      const k = d===1?'せん':d===3?'さんぜん':d===8?'はっせん':ones[d]+'せん';
+      return k+(r?t(r):'');
+    }
+    if (n < 100000000) {
+      const man = Math.floor(n/10000), r = n%10000;
+      return t(man)+'まん'+(r?t(r):'');
+    }
+    return n.toString();
+  };
+  return t(n);
+}
+
+function generateNumberQ(level) {
+  let n, candidates = [];
+  if (level==='easy') {
+    // 1–99, weighted toward multiples of 10 and teens
+    const pools = [
+      ()=>Math.floor(Math.random()*9)+1,       // 1-9
+      ()=>Math.floor(Math.random()*9)*10+10,   // 10,20...90
+      ()=>Math.floor(Math.random()*89)+11,      // 11-99
+    ];
+    n = pools[Math.floor(Math.random()*pools.length)]();
+  } else if (level==='medium') {
+    const pools = [
+      ()=>Math.floor(Math.random()*900)+100,    // 100-999
+      ()=>Math.floor(Math.random()*9000)+1000,  // 1000-9999
+    ];
+    n = pools[Math.floor(Math.random()*pools.length)]();
+  } else {
+    const pools = [
+      ()=>Math.floor(Math.random()*90000)+10000,    // 10000-99999
+      ()=>Math.floor(Math.random()*900000)+100000,  // 100000-999999
+      ()=>(Math.floor(Math.random()*90)+10)*100000, // round millions
+    ];
+    n = pools[Math.floor(Math.random()*pools.length)]();
+  }
+  const correct = numToJapanese(n);
+  // Generate plausible wrong answers by tweaking digits
+  const wrongs = new Set();
+  const tweaks = [n-1,n+1,n-10,n+10,n-100,n+100,n*2,Math.floor(n/2)];
+  tweaks.forEach(w => { if (w>0 && w!==n) wrongs.add(numToJapanese(w)); });
+  while (wrongs.size < 4) {
+    const r = n + (Math.floor(Math.random()*6)-3) * (level==='easy'?1:level==='medium'?100:1000);
+    if (r>0 && r!==n) wrongs.add(numToJapanese(r));
+  }
+  const d = [...wrongs].filter(w=>w!==correct).slice(0,3);
+  const display = n.toLocaleString('en-US').replace(/,/g,'，');
+  return {
+    category:'numbers', level, _generated:true,
+    q: display,
+    a: correct,
+    d,
+    note: `${display} = ${correct}`,
+    hint: 'How do you read this number in Japanese?'
+  };
+}
+
+// Seed a fixed set of number questions per level for the initial pool
+// (more are generated on demand)
+for (let i=0;i<60;i++) {
+  QUIZ_DATA.push(generateNumberQ('easy'));
+  QUIZ_DATA.push(generateNumberQ('medium'));
+  QUIZ_DATA.push(generateNumberQ('hard'));
+}
+
+// ════════════════════════════════════════════════════════════════════
+// COUNTERS
+// ════════════════════════════════════════════════════════════════════
+const COUNTERS = [
+  // easy
+  ['りんご１個','りんご いっこ (ikko)','1 apple',['りんご いちこ','りんご ひとつ','りんご いちまい','りんご いっぽん'],'個 (こ) = general counter for small round objects; 一個 = いっこ','easy'],
+  ['りんご２個','りんご にこ (niko)','2 apples',['りんご ふたつ','りんご にまい','りんご にほん','りんご にひき'],'2個 = にこ','easy'],
+  ['りんご３個','りんご さんこ (sanko)','3 apples',['りんご みっつ','りんご さんまい','りんご さんぼん','りんご みこ'],'3個 = さんこ','easy'],
+  ['シャツ１枚','シャツ いちまい (ichimai)','1 shirt',['シャツ いっこ','シャツ いっぽん','シャツ ひとつ','シャツ いちひき'],'枚 (まい) = flat things: paper, shirts, plates, tickets','easy'],
+  ['かみ２枚','かみ にまい (nimai)','2 sheets of paper',['かみ ふたつ','かみ にこ','かみ にほん','かみ にひき'],'2枚 = にまい','easy'],
+  ['えんぴつ１本','えんぴつ いっぽん (ippon)','1 pencil',['えんぴつ いちほん','えんぴつ いっこ','えんぴつ いちまい','えんぴつ ひとつ'],'本 (ほん) = long thin objects: pencils, bottles, fingers, roads','easy'],
+  ['ビール３本','ビール さんぼん (sanbon)','3 bottles of beer',['ビール さんほん','ビール みっつ','ビール さんこ','ビール さんまい'],'3本 = さんぼん (ぼん not ほん!)','easy'],
+  ['ねこ１匹','ねこ いっぴき (ippiki)','1 cat',['ねこ いちひき','ねこ いっとう','ねこ いちわ','ねこ いっこ'],'匹 (ひき) = small animals: cats, dogs, fish, insects','easy'],
+  ['いぬ２匹','いぬ にひき (nihiki)','2 dogs',['いぬ ふたつ','いぬ にとう','いぬ にわ','いぬ にこ'],'2匹 = にひき','easy'],
+  ['とり１羽','とり いちわ (ichiwa)','1 bird',['とり いっぴき','とり いっとう','とり いっこ','とり いちまい'],'羽 (わ) = birds and rabbits','easy'],
+  ['ほん２冊','ほん にさつ (nisatsu)','2 books',['ほん にほん','ほん にまい','ほん にこ','ほん ふたつ'],'冊 (さつ) = bound books, notebooks, magazines','easy'],
+  ['まんが５冊','まんが ごさつ (gosatsu)','5 manga volumes',['まんが ごほん','まんが ごまい','まんが ごこ','まんが いつつ'],'5冊 = ごさつ','easy'],
+  ['ティッシュ１枚','ティッシュ いちまい (ichimai)','1 tissue',['ティッシュ いっこ','ティッシュ いっぽん','ティッシュ ひとつ','ティッシュ いちひき'],'ティッシュ = tissue; 枚 for flat/thin objects','easy'],
+  ['きって３枚','きって さんまい (sanmai)','3 stamps',['きって さんぼん','きって みっつ','きって さんこ','きって さんひき'],'切手 (きって) = stamp; 枚 for flat objects','easy'],
+  ['コップ４個','コップ よんこ (yonko)','4 cups/glasses',['コップ しこ','コップ よっつ','コップ よんほん','コップ よんまい'],'コップ = cup/glass; 個 for general objects','easy'],
+  // medium
+  ['１，０００円','せんえん (sen en)','1,000 yen',['ひゃくえん','いちまんえん','せんゆう','ひゃくじゅうえん'],'円 (えん) = yen; 千円 = せんえん','medium'],
+  ['５，０００円','ごせんえん (gosen en)','5,000 yen',['ごひゃくえん','いちまんえん','ごじゅうえん','ごまんえん'],'5,000円 = ごせんえん','medium'],
+  ['１万円','いちまんえん (ichiman en)','10,000 yen',['じゅうせんえん','ひゃくまんえん','いちまんゆう','にまんえん'],'10,000円 = いちまんえん','medium'],
+  ['うし４頭','うし よんとう (yon tou)','4 cows',['うし よんひき','うし よんわ','うし よんこ','うし しとう'],'頭 (とう) = large animals: cows, horses, elephants, whales','medium'],
+  ['さかな５匹','さかな ごひき (go hiki)','5 fish',['さかな ごわ','さかな ごとう','さかな ごほん','さかな ごこ'],'5匹 = ごひき (fish use 匹)','medium'],
+  ['ひと３人','ひと さんにん (san nin)','3 people',['ひと みっつ','ひと さんこ','ひと さんぴき','ひと さんめい'],'人 (にん) = people; 三人 = さんにん','medium'],
+  ['ひと２人','ふたり (futari)','2 people',['ににん','ふたつ','にこ','にめい'],'2人 = ふたり — irregular! (not ににん)','medium'],
+  ['ひと１人','ひとり (hitori)','1 person',['いちにん','ひとつ','いちめい','いちこ'],'1人 = ひとり — irregular! (not いちにん)','medium'],
+  ['くるま２台','くるま にだい (ni dai)','2 cars',['くるま にこ','くるま にほん','くるま ふたつ','くるま にまい'],'台 (だい) = machines, vehicles, appliances, furniture','medium'],
+  ['テレビ３台','テレビ さんだい (san dai)','3 TVs',['テレビ みっつ','テレビ さんこ','テレビ さんほん','テレビ さんまい'],'3台 = さんだい (machines use 台)','medium'],
+  ['かいだん３階','さんがい (san gai)','3rd floor',['さんかい','さんかいだん','みかい','さんかいめ'],'階 (がい) = floor/story; 3階 = さんがい (not さんかい!)','medium'],
+  ['むしめがね１個','むしめがね いっこ (ikko)','1 magnifying glass',['いっぽん','いちまい','いっとう','いちわ'],'個 for small handheld objects','medium'],
+  ['はこ２個','はこ にこ (niko)','2 boxes',['にまい','にほん','ふたつ','にひき'],'箱 (はこ) = box; 個 for container objects','medium'],
+  ['でんち４本','でんち よんほん (yon hon)','4 batteries',['よんこ','よんまい','よんだい','よんひき'],'電池 (でんち) = battery; 本 for cylindrical objects','medium'],
+  ['ビール６本','ビール ろっぽん (roppon)','6 bottles of beer',['ビール ろくほん','ビール ろっこ','ビール ろくぼん','ビール むほん'],'6本 = ろっぽん ⚠️ sound change!','medium'],
+  // hard
+  ['えんぴつ６本','えんぴつ ろっぽん (roppon)','6 pencils',['ろくほん','ろくぼん','ろっこ','むほん'],'6本=ろっぽん, 8本=はっぽん, 10本=じゅっぽん','hard'],
+  ['ねこ６匹','ねこ ろっぴき (roppiki)','6 cats',['ろくひき','ろくぴき','むひき','ろっこ'],'6匹=ろっぴき ⚠️ sound change!','hard'],
+  ['ひこうき８機','ひこうき はっき (hakki)','8 airplanes',['はちき','はちだい','はっだい','やっき'],'機 (き) = aircraft, machines; 8機 = はっき','hard'],
+  ['いえ１０軒','いえ じゅっけん (jukken)','10 houses',['じゅうけん','じゅっこ','じゅうこ','とけん'],'軒 (けん) = houses, buildings; 10軒 = じゅっけん','hard'],
+  ['バス２台と電車３本','にだい と さんぼん','2 buses and 3 trains',['にほん と さんだい','にこ と さんぼん','にだい と さんまい','にまい と さんほん'],'台 for vehicles, 本 for train lines/rides','hard'],
+  ['すし１０個とビール２本','じゅっこ と にほん','10 sushi and 2 beers',['じゅうこ と にほん','じゅっこ と にぼん','じゅうこ と にぼん','じゅっまい と にほん'],'10個=じゅっこ, 2本=にほん','hard'],
+  ['ひゃっぽん','100 本 (ippon counter)','100 long thin objects',['ひゃくほん','ひゃくぼん','じゅっぽん','いっぽん'],'100本 = ひゃっぽん ⚠️ irregular','hard'],
+  ['さんびゃっこ','300 個 (ko counter)','300 pieces',['さんびゃくこ','みっこ','さんこ','みっぴゃっこ'],'300個 = さんびゃっこ','hard'],
+];
+COUNTERS.forEach(([q,a,meaning,d,note,level]) => add('counters',level,q,a,d,note,{hint:`How do you count: "${meaning}"?`,meaning}));
+
+// ════════════════════════════════════════════════════════════════════
+// TIME & DATE
+// ════════════════════════════════════════════════════════════════════
+const TIME_DATA = [
+  // easy: hours, minutes, days of week
+  ['１時','いちじ (ichiji)','1 o\'clock',['いちにち','ひとつ','いっぷん','いちじかん'],'時 (じ) = o\'clock; 一時 = いちじ','easy','How do you say this time?'],
+  ['２時','にじ (niji)','2 o\'clock',['ふたつ','にふん','にじかん','ふたじ'],'2時 = にじ','easy','How do you say this time?'],
+  ['３時','さんじ (sanji)','3 o\'clock',['さんふん','さんじかん','みっつ','さんにち'],'3時 = さんじ','easy','How do you say this time?'],
+  ['６時','ろくじ (rokuji)','6 o\'clock',['ろくふん','ろくじかん','ろっつ','ろくにち'],'6時 = ろくじ','easy','How do you say this time?'],
+  ['１２時','じゅうにじ (juuniji)','12 o\'clock',['じゅうにふん','じゅうにじかん','じゅうににち','にじゅうじ'],'12時 = じゅうにじ','easy','How do you say this time?'],
+  ['３０分','さんじゅっぷん (sanjuppun)','30 minutes',['さんじゅうふん','さんじゅうびょう','さんじゅうじ','さんじゅっびょう'],'分 (ふん/ぷん) = minutes; 30分 = さんじゅっぷん','easy','How do you say this duration?'],
+  ['１５分','じゅうごふん (juugofun)','15 minutes',['じゅうごぷん','じゅうごびょう','じゅうごじ','じゅうごにち'],'15分 = じゅうごふん','easy','How do you say this duration?'],
+  ['５分','ごふん (gofun)','5 minutes',['ごぷん','ごびょう','ごじ','いつつ'],'5分 = ごふん','easy','How do you say this duration?'],
+  ['１分','いっぷん (ippun)','1 minute',['いちふん','いちびょう','ひとつ','いっびょう'],'1分 = いっぷん ⚠️ (not いちふん)','easy','How do you say this duration?'],
+  ['月曜日','げつようび','Monday',['かようび','すいようび','もくようび','きんようび'],'月曜日 = げつようび = Monday — 月 means moon/month','easy','How do you read this day?'],
+  ['火曜日','かようび','Tuesday',['げつようび','すいようび','もくようび','どようび'],'火曜日 = かようび = Tuesday — 火 means fire','easy','How do you read this day?'],
+  ['水曜日','すいようび','Wednesday',['げつようび','かようび','きんようび','にちようび'],'水曜日 = すいようび = Wednesday — 水 means water','easy','How do you read this day?'],
+  ['木曜日','もくようび','Thursday',['かようび','すいようび','どようび','きんようび'],'木曜日 = もくようび = Thursday — 木 means tree','easy','How do you read this day?'],
+  ['金曜日','きんようび','Friday',['もくようび','どようび','にちようび','げつようび'],'金曜日 = きんようび = Friday — 金 means gold','easy','How do you read this day?'],
+  ['土曜日','どようび','Saturday',['もくようび','にちようび','きんようび','げつようび'],'土曜日 = どようび = Saturday — 土 means earth','easy','How do you read this day?'],
+  ['日曜日','にちようび','Sunday',['げつようび','どようび','すいようび','きんようび'],'日曜日 = にちようび = Sunday — 日 means sun','easy','How do you read this day?'],
+  // medium: AM/PM, months, irregular dates
+  ['３時半','さんじはん (sanji han)','3:30',['さんじさんじゅっぷん','さんじご','さんじゅっぷん','さんはん'],'半 (はん) = half past; 3時半 = 3:30','medium','How do you say this time?'],
+  ['午前','ごぜん (gozen)','AM (morning)',['ごご','しょうご','まよなか','ゆうがた'],'午前 = ごぜん = AM / morning','medium','What does this mean?'],
+  ['午後','ごご (gogo)','PM (afternoon)',['ごぜん','しょうご','まよなか','ゆうがた'],'午後 = ごご = PM / afternoon','medium','What does this mean?'],
+  ['午後３時','ごごさんじ (gogo sanji)','3 PM',['ごぜんさんじ','さんじごご','さんごごじ','ごごみっつ'],'午後三時 = 3 in the afternoon','medium','How do you say this time?'],
+  ['１月','いちがつ','January',['にがつ','さんがつ','じゅういちがつ','じゅうにがつ'],'1月 = いちがつ = January','medium','How do you read this month?'],
+  ['２月','にがつ','February',['いちがつ','さんがつ','じゅうにがつ','しちがつ'],'2月 = にがつ = February','medium','How do you read this month?'],
+  ['３月','さんがつ','March',['いちがつ','ごがつ','ろくがつ','はちがつ'],'3月 = さんがつ = March','medium','How do you read this month?'],
+  ['４月','しがつ','April',['よんがつ','さんがつ','ごがつ','ろくがつ'],'4月 = しがつ (not よんがつ!) = April','medium','How do you read this month?'],
+  ['５月','ごがつ','May',['よんがつ','ろくがつ','さんがつ','しちがつ'],'5月 = ごがつ = May','medium','How do you read this month?'],
+  ['６月','ろくがつ','June',['ごがつ','しちがつ','はちがつ','さんがつ'],'6月 = ろくがつ = June','medium','How do you read this month?'],
+  ['７月','しちがつ','July',['ろくがつ','はちがつ','くがつ','ごがつ'],'7月 = しちがつ = July','medium','How do you read this month?'],
+  ['８月','はちがつ','August',['しちがつ','くがつ','じゅうがつ','ろくがつ'],'8月 = はちがつ = August','medium','How do you read this month?'],
+  ['９月','くがつ','September',['はちがつ','じゅうがつ','しちがつ','ろくがつ'],'9月 = くがつ = September','medium','How do you read this month?'],
+  ['１０月','じゅうがつ','October',['くがつ','じゅういちがつ','はちがつ','しちがつ'],'10月 = じゅうがつ = October','medium','How do you read this month?'],
+  ['１１月','じゅういちがつ','November',['じゅうにがつ','じゅうがつ','いちがつ','にがつ'],'11月 = じゅういちがつ = November','medium','How do you read this month?'],
+  ['１２月','じゅうにがつ','December',['じゅういちがつ','じゅうがつ','いちがつ','にがつ'],'12月 = じゅうにがつ = December','medium','How do you read this month?'],
+  ['１日','ついたち (tsuitachi)','the 1st',['いちにち','いちじ','いちがつ','ひとにち'],'１日 = ついたち — irregular! Very different from いち','medium','How do you say this date?'],
+  ['２日','ふつか (futsuka)','the 2nd',['にち','にじつ','ふたにち','ふたか'],'2日 = ふつか — dates 1–10 have special readings!','medium','How do you say this date?'],
+  ['３日','みっか (mikka)','the 3rd',['さんにち','みにち','さんか','みつか'],'3日 = みっか','medium','How do you say this date?'],
+  ['４日','よっか (yokka)','the 4th',['よんにち','しにち','よっにち','よんか'],'4日 = よっか','medium','How do you say this date?'],
+  ['５日','いつか (itsuka)','the 5th',['ごにち','いつにち','ごか','いつたち'],'5日 = いつか','medium','How do you say this date?'],
+  ['９日','ここのか (kokonoka)','the 9th',['きゅうにち','ここにち','ここのたち','くにち'],'9日 = ここのか','medium','How do you say this date?'],
+  ['１４日','じゅうよっか (juuyokka)','the 14th',['じゅうよんにち','じゅうしにち','じゅうよっにち','じゅうよんか'],'14日 = じゅうよっか (4日 pattern)','medium','How do you say this date?'],
+  ['２０日','はつか (hatsuka)','the 20th',['にじゅうにち','にじゅうたち','にじゅうか','はつたち'],'20日 = はつか — another irregular!','medium','How do you say this date?'],
+  ['２４日','にじゅうよっか','the 24th',['にじゅうよんにち','にじゅうしにち','にじゅうよっにち','よんじゅうにち'],'24日 = にじゅうよっか (4 pattern applies)','medium','How do you say this date?'],
+  // hard: duration, relative time, complex expressions
+  ['２時間３０分','にじかん さんじゅっぷん','2 hours 30 minutes',['にじ さんじゅっぷん','にじかん さんじゅうふん','ふたじかん さんじゅっぷん','にかん さんじゅっぷん'],'時間 (じかん) = duration; 時 (じ) = o\'clock','hard','How do you say this duration?'],
+  ['来週の月曜日','Next Monday','come is らいしゅう',['Last Monday','This Monday','Every Monday','Monday morning'],'来週 (らいしゅう) = next week','hard','What does this mean?'],
+  ['先週の金曜日','Last Friday','せんしゅう = last week',['Next Friday','This Friday','Every Friday','Friday evening'],'先週 (せんしゅう) = last week','hard','What does this mean?'],
+  ['毎朝７時','Every morning at 7','まいあさ = every morning',['This morning at 7','7 AM yesterday','7 AM tomorrow','Last morning at 7'],'毎朝 (まいあさ) = every morning','hard','What does this mean?'],
+  ['３日後','3 days later','後 (ご) = after/later',['3 days ago','3 days before','every 3 days','3 months later'],'後 (ご/あと) = after; 三日後 = in 3 days','hard','What does this mean?'],
+  ['２週間前','2 weeks ago','前 (まえ) = before/ago',['2 weeks later','in 2 weeks','every 2 weeks','2 months ago'],'前 (まえ) = before; 二週間前 = 2 weeks ago','hard','What does this mean?'],
+  ['今年の４月１日','ことし の しがつ ついたち','this year April 1st',['ことし の よんがつ いちにち','ことし の しがつ いちにち','こんねん の しがつ ついたち','ことし の よんがつ ついたち'],'4月 = しがつ; 1日 = ついたち','hard','How do you read this date?'],
+  ['午後１１時４５分','ごご じゅういちじ よんじゅうごふん','11:45 PM',['ごご じゅうにじ じゅうごふんまえ','ごぜん じゅういちじ よんじゅうごふん','ごご じゅういちじはん','ごご じゅうにじ よんじゅうごふん'],'11:45 PM = 午後11時45分','hard','How do you say this time?'],
+  ['１週間に３回','3 times a week','週間 = week, 回 = times',['3 times a month','3 weeks in a row','3 days a week','once every 3 weeks'],'週間 (しゅうかん) = week(s); 回 (かい) = times','hard','What does this mean?'],
+  ['誕生日はいつですか','When is your birthday?','誕生日 = たんじょうび',['How old are you?','What day is today?','When were you born?','Do you have a birthday?'],'誕生日 (たんじょうび) = birthday; いつ = when','hard','What does this sentence mean?'],
+  ['おととい','the day before yesterday','一昨日',['yesterday','today','tomorrow','the day after tomorrow'],'おととい = day before yesterday; きのう = yesterday','hard','What does this word mean?'],
+  ['あさって','the day after tomorrow','明後日',['today','yesterday','tomorrow','the day before yesterday'],'あさって = day after tomorrow; あした = tomorrow','hard','What does this word mean?'],
+  ['しあさって','3 days from now','明明後日',['2 days ago','the day after tomorrow','tomorrow','4 days from now'],'しあさって = 3 days from now','hard','What does this word mean?'],
+  ['ねんがっぴ','date (year-month-day)','年月日',['時間','曜日','季節','世紀'],'年月日 (ねんがっぴ) = date format: year/month/day','hard','What does this word mean?'],
+  ['うるうどし','leap year','閏年',['fiscal year','calendar year','school year','light year'],'うるうどし (閏年) = leap year, occurs every 4 years','hard','What does this word mean?'],
+];
+TIME_DATA.forEach(([q,a,meaning,d,note,level,hint]) => add('time',level,q,a,d,note,{hint,meaning}));
+
+// ════════════════════════════════════════════════════════════════════
+// KANJI — N5, N4, N3 with separate reading/meaning questions
+// ════════════════════════════════════════════════════════════════════
+function addKanji(level, kanji, reading, meaning, dReading, dMeaning, note) {
+  add('kanji',level,kanji,reading,dReading,note+` Meaning: ${meaning}`,{hint:'How do you read this kanji?'});
+  add('kanji',level,kanji,meaning,dMeaning,note+` Reading: ${reading}`,{hint:'What does this kanji mean?'});
+}
+// N5
+addKanji('easy','山','やま (yama)','mountain',['かわ (kawa)','き (ki)','ひ (hi)','うみ (umi)'],['river','tree','fire','sea'],'山 =');
+addKanji('easy','川','かわ (kawa)','river',['やま (yama)','あめ (ame)','うみ (umi)','みずうみ (mizuumi)'],['mountain','rain','sea','lake'],'川 =');
+addKanji('easy','日','ひ (hi)','sun / day',['つき (tsuki)','か (ka)','みず (mizu)','ほし (hoshi)'],['moon','fire','water','star'],'日 = ひ/にち');
+addKanji('easy','月','つき (tsuki)','moon / month',['ひ (hi)','ほし (hoshi)','よる (yoru)','しゅう (shuu)'],['sun','star','night','week'],'月 = つき/がつ');
+addKanji('easy','火','ひ (hi)','fire',['みず (mizu)','つち (tsuchi)','かぜ (kaze)','き (ki)'],['water','earth','wind','tree'],'火 = ひ; also Tuesday');
+addKanji('easy','水','みず (mizu)','water',['ひ (hi)','こおり (koori)','かわ (kawa)','あめ (ame)'],['fire','ice','river','rain'],'水 = みず; also Wednesday');
+addKanji('easy','木','き (ki)','tree / wood',['くさ (kusa)','は (ha)','はな (hana)','やま (yama)'],['grass','leaf','flower','mountain'],'木 = き; also Thursday');
+addKanji('easy','金','きん (kin)','gold / money',['ぎん (gin)','どう (dou)','てつ (tetsu)','いし (ishi)'],['silver','copper','iron','stone'],'金 = きん/かね; also Friday');
+addKanji('easy','土','つち (tsuchi)','earth / soil',['いし (ishi)','すな (suna)','みず (mizu)','かぜ (kaze)'],['stone','sand','water','wind'],'土 = つち; also Saturday');
+addKanji('easy','人','ひと (hito)','person',['こ (ko)','おんな (onna)','おとこ (otoko)','ともだち (tomodachi)'],['child','woman','man','friend'],'人 = ひと/じん');
+addKanji('easy','大','おおきい (ookii)','big / large',['ちいさい (chiisai)','たかい (takai)','おもい (omoi)','ひろい (hiroi)'],['small','tall','heavy','wide'],'大 = おお/だい');
+addKanji('easy','小','ちいさい (chiisai)','small / little',['おおきい (ookii)','ほそい (hosoi)','かるい (karui)','ひくい (hikui)'],['big','thin','light','low'],'小 = ちい/しょう');
+addKanji('easy','上','うえ (ue)','above / up',['した (shita)','ひだり (hidari)','みぎ (migi)','なか (naka)'],['below','left','right','inside'],'上 = うえ/じょう');
+addKanji('easy','下','した (shita)','below / down',['うえ (ue)','ひだり (hidari)','みぎ (migi)','そと (soto)'],['above','left','right','outside'],'下 = した/か');
+addKanji('easy','中','なか (naka)','middle / inside',['そと (soto)','はし (hashi)','うえ (ue)','かど (kado)'],['outside','edge','above','corner'],'中 = なか/ちゅう');
+addKanji('easy','口','くち (kuchi)','mouth',['め (me)','みみ (mimi)','はな (hana)','て (te)'],['eye','ear','nose','hand'],'口 = くち/こう');
+addKanji('easy','目','め (me)','eye',['くち (kuchi)','みみ (mimi)','はな (hana)','かお (kao)'],['mouth','ear','nose','face'],'目 = め/もく');
+addKanji('easy','耳','みみ (mimi)','ear',['め (me)','くち (kuchi)','はな (hana)','て (te)'],['eye','mouth','nose','hand'],'耳 = みみ');
+addKanji('easy','手','て (te)','hand',['あし (ashi)','ゆび (yubi)','うで (ude)','からだ (karada)'],['foot','finger','arm','body'],'手 = て/しゅ');
+addKanji('easy','足','あし (ashi)','foot / leg',['て (te)','うで (ude)','からだ (karada)','あたま (atama)'],['hand','arm','body','head'],'足 = あし/そく');
+addKanji('easy','力','ちから (chikara)','power / strength',['かぜ (kaze)','おと (oto)','ひかり (hikari)','かたち (katachi)'],['wind','sound','light','shape'],'力 = ちから/りょく');
+addKanji('easy','本','ほん (hon)','book / origin',['ざっし (zasshi)','しんぶん (shinbun)','てがみ (tegami)','ノート (nooto)'],['magazine','newspaper','letter','notebook'],'本 = ほん/もと');
+addKanji('easy','文','ぶん (bun)','sentence / writing',['ことば (kotoba)','じ (ji)','てがみ (tegami)','ほん (hon)'],['word','character','letter','book'],'文 = ぶん/もん');
+addKanji('easy','子','こ (ko)','child',['おとな (otona)','ひと (hito)','おんな (onna)','おとこ (otoko)'],['adult','person','woman','man'],'子 = こ/し');
+addKanji('easy','女','おんな (onna)','woman',['おとこ (otoko)','こ (ko)','ひと (hito)','おとな (otona)'],['man','child','person','adult'],'女 = おんな/じょ');
+addKanji('easy','男','おとこ (otoko)','man',['おんな (onna)','こ (ko)','ひと (hito)','おとな (otona)'],['woman','child','person','adult'],'男 = おとこ/だん');
+
+// N4
+addKanji('medium','電','でん (den)','electricity',['ひ (hi)','ひかり (hikari)','き (ki)','ねつ (netsu)'],['fire','light','tree','heat'],'電 = でん; 電気/電車');
+addKanji('medium','車','くるま (kuruma)','car / vehicle',['じてんしゃ (jitensha)','ふね (fune)','でんしゃ (densha)','ひこうき (hikouki)'],['bicycle','ship','train','airplane'],'車 = くるま/しゃ');
+addKanji('medium','食','たべる (taberu)','eat / food',['のむ (nomu)','りょうりする','あじわう (ajiwau)','においう (niou)'],['drink','cook','taste','smell'],'食 = たべる/しょく');
+addKanji('medium','飲','のむ (nomu)','drink',['たべる (taberu)','りょうりする','あじわう (ajiwau)','においう (niou)'],['eat','cook','taste','smell'],'飲 = のむ/いん');
+addKanji('medium','見','みる (miru)','see / look',['きく (kiku)','はなす (hanasu)','かんじる (kanjiru)','さわる (sawaru)'],['hear','speak','feel','touch'],'見 = みる/けん');
+addKanji('medium','聞','きく (kiku)','hear / listen',['みる (miru)','はなす (hanasu)','よむ (yomu)','かく (kaku)'],['see','speak','read','write'],'聞 = きく/もん');
+addKanji('medium','言','いう (iu)','say / speak',['きく (kiku)','よむ (yomu)','かく (kaku)','かんがえる (kangaeru)'],['listen','read','write','think'],'言 = いう/げん');
+addKanji('medium','読','よむ (yomu)','read',['かく (kaku)','はなす (hanasu)','きく (kiku)','みる (miru)'],['write','speak','listen','watch'],'読 = よむ/どく');
+addKanji('medium','書','かく (kaku)','write',['よむ (yomu)','かぞえる (kazoeru)','しるす (shirusu)','えがく (egaku)'],['read','count','mark','draw'],'書 = かく/しょ');
+addKanji('medium','来','くる (kuru)','come',['いく (iku)','かえる (kaeru)','でる (deru)','つく (tsuku)'],['go','return','leave','arrive'],'来 = くる/らい');
+addKanji('medium','行','いく (iku)','go',['くる (kuru)','かえる (kaeru)','とまる (tomaru)','まつ (matsu)'],['come','return','stop','wait'],'行 = いく/こう');
+addKanji('medium','買','かう (kau)','buy',['うる (uru)','はらう (harau)','かりる (kariru)','かす (kasu)'],['sell','pay','borrow','lend'],'買 = かう/ばい');
+addKanji('medium','売','うる (uru)','sell',['かう (kau)','はらう (harau)','かりる (kariru)','かす (kasu)'],['buy','pay','borrow','lend'],'売 = うる/ばい');
+addKanji('medium','話','はなす (hanasu)','talk / story',['きく (kiku)','かく (kaku)','よむ (yomu)','さけぶ (sakebu)'],['listen','write','read','shout'],'話 = はなす/わ');
+addKanji('medium','起','おきる (okiru)','wake up / rise',['ねる (neru)','すわる (suwaru)','たつ (tatsu)','はしる (hashiru)'],['sleep','sit','stand','run'],'起 = おきる/き');
+addKanji('medium','寝','ねる (neru)','sleep',['おきる (okiru)','すわる (suwaru)','たつ (tatsu)','やすむ (yasumu)'],['wake up','sit','stand','rest'],'寝 = ねる/しん');
+addKanji('medium','待','まつ (matsu)','wait',['いそぐ (isogu)','でる (deru)','つく (tsuku)','とまる (tomaru)'],['hurry','leave','arrive','stop'],'待 = まつ/たい');
+addKanji('medium','会','あう (au)','meet',['わかれる (wakareru)','はなれる (hanareru)','はなす (hanasu)','しる (shiru)'],['part','separate','talk','know'],'会 = あう/かい; 会社');
+addKanji('medium','帰','かえる (kaeru)','return / go home',['いく (iku)','くる (kuru)','でる (deru)','つく (tsuku)'],['go','come','leave','arrive'],'帰 = かえる/き');
+addKanji('medium','出','でる (deru)','exit / leave',['はいる (hairu)','くる (kuru)','かえる (kaeru)','とまる (tomaru)'],['enter','come','return','stop'],'出 = でる/しゅつ');
+addKanji('medium','入','はいる (hairu)','enter',['でる (deru)','くる (kuru)','かえる (kaeru)','とまる (tomaru)'],['exit','come','return','stop'],'入 = はいる/にゅう');
+addKanji('medium','聞','きく (kiku)','hear / ask',['みる (miru)','はなす (hanasu)','よむ (yomu)','かく (kaku)'],['see','speak','read','write'],'聞 = きく; note: also means "to ask"');
+addKanji('medium','着','きる (kiru)','wear / arrive',['ぬぐ (nugu)','でる (deru)','はなれる (hanareru)','とまる (tomaru)'],['take off','leave','separate','stop'],'着 = きる/ちゃく; 着く = arrive');
+addKanji('medium','使','つかう (tsukau)','use',['つくる (tsukuru)','こわす (kowasu)','とる (toru)','あげる (ageru)'],['make','break','take','give'],'使 = つかう/し');
+addKanji('medium','持','もつ (motsu)','hold / have',['あげる (ageru)','とる (toru)','なくす (nakusu)','みつける (mitsukeru)'],['give','take','lose','find'],'持 = もつ/じ');
+addKanji('medium','知','しる (shiru)','know',['わすれる (wasureru)','まなぶ (manabu)','おぼえる (oboeru)','かんがえる (kangaeru)'],['forget','learn','remember','think'],'知 = しる/ち');
+
+// N3
+addKanji('hard','感','かんじる (kanjiru)','feeling / sense',['おもう (omou)','おぼえる (oboeru)','ねがう (negau)','わすれる (wasureru)'],['think','remember','wish','forget'],'感 = かん; 感謝/感動');
+addKanji('hard','考','かんがえる (kangaeru)','think / consider',['かんじる (kanjiru)','しる (shiru)','おぼえる (oboeru)','わすれる (wasureru)'],['feel','know','remember','forget'],'考 = かんがえる/こう');
+addKanji('hard','決','きめる (kimeru)','decide',['えらぶ (erabu)','かんがえる (kangaeru)','かえる (kaeru)','やめる (yameru)'],['choose','think','change','quit'],'決 = きめる/けつ; 解決');
+addKanji('hard','続','つづく (tsuzuku)','continue',['とまる (tomaru)','はじめる (hajimeru)','おわる (owaru)','くりかえす (kurikaesu)'],['stop','start','finish','repeat'],'続 = つづく/ぞく');
+addKanji('hard','変','かわる (kawaru)','change / strange',['おなじ (onaji)','うごく (ugoku)','とまる (tomaru)','もどる (modoru)'],['same','move','stop','return'],'変 = かわる/へん; 変 = strange');
+addKanji('hard','動','うごく (ugoku)','move',['とまる (tomaru)','いる (iru)','やすむ (yasumu)','たつ (tatsu)'],['stop','stay','rest','stand'],'動 = うごく/どう; 運動');
+addKanji('hard','忘','わすれる (wasureru)','forget',['おぼえる (oboeru)','しる (shiru)','まなぶ (manabu)','かんがえる (kangaeru)'],['remember','know','learn','think'],'忘 = わすれる/ぼう; 忘れ物');
+addKanji('hard','教','おしえる (oshieru)','teach',['まなぶ (manabu)','べんきょうする','しる (shiru)','よむ (yomu)'],['learn','study','know','read'],'教 = おしえる/きょう; 教室');
+addKanji('hard','習','ならう (narau)','practice / learn',['おしえる (oshieru)','よむ (yomu)','かく (kaku)','べんきょうする'],['teach','read','write','study'],'習 = ならう/しゅう; 練習');
+addKanji('hard','働','はたらく (hataraku)','work',['やすむ (yasumu)','あそぶ (asobu)','べんきょうする','ねる (neru)'],['rest','play','study','sleep'],'働 = はたらく/どう; 労働');
+addKanji('hard','集','あつめる (atsumeru)','gather / collect',['ちらす (chirasu)','あげる (ageru)','とる (toru)','うごく (ugoku)'],['scatter','give','take','move'],'集 = あつめる/しゅう; 集中');
+addKanji('hard','別','わかれる (wakareru)','separate / different',['おなじ (onaji)','あう (au)','くわわる (kuwawaru)','まぜる (mazeru)'],['same','meet','join','mix'],'別 = わかれる/べつ; 特別');
+addKanji('hard','笑','わらう (warau)','laugh / smile',['なく (naku)','おこる (okoru)','よろこぶ (yorokobu)','かなしむ (kanashimu)'],['cry','get angry','rejoice','grieve'],'笑 = わらう/しょう; 笑顔');
+addKanji('hard','泣','なく (naku)','cry',['わらう (warau)','おこる (okoru)','よろこぶ (yorokobu)','かなしむ (kanashimu)'],['laugh','get angry','rejoice','grieve'],'泣 = なく/きゅう');
+addKanji('hard','怒','おこる (okoru)','get angry',['わらう (warau)','なく (naku)','よろこぶ (yorokobu)','かなしむ (kanashimu)'],['laugh','cry','rejoice','grieve'],'怒 = おこる/ど; 怒鳴る');
+addKanji('hard','急','いそぐ (isogu)','hurry / urgent',['まつ (matsu)','ゆっくりする','とまる (tomaru)','おそい (osoi)'],['wait','go slowly','stop','slow'],'急 = いそぐ/きゅう; 急いで');
+addKanji('hard','困','こまる (komaru)','be troubled',['たすける (tasukeru)','てつだう (tetsudau)','しんぱいする','よろこぶ'],['help','assist','worry','rejoice'],'困 = こまる/こん; 困った');
+addKanji('hard','様','さま (sama)','manner / Mr./Ms.',['かた (kata)','かん (kan)','ほう (hou)','がた (gata)'],['person (formal)','feeling','direction','people (pl.)'],'様 = さま/よう; お客様');
+addKanji('hard','族','ぞく (zoku)','family / tribe',['かぞく (kazoku)','しんせき (shinseki)','なかま (nakama)','ともだち (tomodachi)'],['family (full word)','relative','companion','friend'],'族 = ぞく; 家族/民族');
+addKanji('hard','経','へる (heru)','pass through / experience',['すぎる (sugiru)','とおる (tooru)','きる (kiru)','わたる (wataru)'],['pass by time','go through','cut','cross'],'経 = へる/けい; 経験/経済');
+
+// ════════════════════════════════════════════════════════════════════
+// PARTICLES
+// ════════════════════════════════════════════════════════════════════
+const PARTICLE_DATA = [
+  // easy: core 5 particles
+  ['わたし___がくせいです。','は',['が','を','で'],'I am a student.','は (wa) = topic marker. "As for me, [I] am a student."','easy'],
+  ['これ___なんですか。','は',['が','を','に'],'What is this?','は marks これ as the topic','easy'],
+  ['ねこ___います。','が',['は','を','に'],'There is a cat.','が = subject marker for existence (いる/ある)','easy'],
+  ['あに___しゃいんです。','は',['が','を','に'],'My older brother is a company employee.','は = topic marker for stating what someone is','easy'],
+  ['わたしはパン___たべます。','を',['は','が','に'],'I eat bread.','を (wo) = direct object marker. パン = bread','easy'],
+  ['みず___のみます。','を',['は','が','で'],'(I) drink water.','を marks the object being drunk','easy'],
+  ['にほんご___べんきょうします。','を',['は','が','で'],'(I) study Japanese.','を = object marker. にほんご = Japanese','easy'],
+  ['がっこう___いきます。','に',['を','は','で'],'(I) go to school.','に = direction/destination with movement verbs','easy'],
+  ['としょかん___ほんをよみます。','で',['に','を','は'],'(I) read books at the library.','で = location of action marker','easy'],
+  ['バス___きます。','で',['に','を','は'],'(I) come by bus.','で = means/method of transport','easy'],
+  ['いえ___います。','に',['で','を','は'],'(I) am at home.','に = location of existence (いる/ある)','easy'],
+  ['くに___かえります。','に',['で','を','へ'],'(I) return to my home country.','に = destination. かえります = to return','easy'],
+  ['ともだち___てがみをかきます。','に',['で','を','は'],'(I) write a letter to a friend.','に = indirect object / recipient marker','easy'],
+  ['えいご___はなします。','で',['に','を','は'],'(I) speak in English.','で = means/language of action','easy'],
+  ['つくえ___うえ___ほんがあります。','の…の',['に…に','で…は','が…の'],'There is a book on the desk.','の = possessive/connector; うえ = top/above','easy'],
+  ['あした___テスト___あります。','は…が',['が…は','を…に','に…で'],'Tomorrow there is a test.','は = topic (あした); が = subject of あります','easy'],
+  ['これ___わたし___ほんです。','は…の',['が…の','を…の','に…の'],'This is my book.','は = topic; の = possessive (わたしの = my)','easy'],
+  ['ひとり___います。','で',['に','が','を'],'(I) am alone.','"alone" = ひとり; で marks state/condition','easy'],
+  ['三時___あいましょう。','に',['で','は','を'],'Let\'s meet at 3 o\'clock.','に = specific time marker','easy'],
+  ['コーヒー___おねがいします。','を',['は','が','に'],'Coffee please.','を = object of request','easy'],
+  // medium: tricky distinctions
+  ['あの人___だれですか。','は',['が','を','に'],'Who is that person?','は = topic in wh-questions about the topic','medium'],
+  ['だれ___きましたか。','が',['は','を','に'],'Who came?','が = subject in questions with だれ/なに/どれ','medium'],
+  ['なに___たべましたか。','を',['が','は','に'],'What did you eat?','を = object marker; なに＋を = "what [did you eat]?"','medium'],
+  ['ともだち___えいがをみました。','と',['に','で','は'],'I watched a movie with a friend.','と = with (together with someone)','medium'],
+  ['にほん___いきたいです。','に',['へ','で','を'],'I want to go to Japan.','に = destination (specific goal); へ also works but less common here','medium'],
+  ['コーヒー___こうちゃ___どちらがすきですか。','と…と',['や…や','か…か','も…も'],'Which do you like, coffee or tea?','と = exhaustive listing of exactly 2 items for comparison','medium'],
+  ['わたし___にほんごをべんきょうしています。','も',['は','が','で'],'I also study Japanese.','も = also/too, replaces は or が','medium'],
+  ['わたし___にほんごがわかります。','は',['が','を','に'],'I understand Japanese.','わかる: person は + thing understood が','medium'],
+  ['にほんご___わかります。','が',['は','を','に'],'[I] understand Japanese.','わかる: thing understood takes が','medium'],
+  ['きのう___えいが___みました。','は…を',['が…を','を…に','で…が'],'Yesterday I watched a movie.','きのう＋は (time topic); えいが＋を (object)','medium'],
+  ['かれ___うた___じょうずです。','は…が',['を…は','に…を','が…を'],'He is good at singing.','じょうず: person は + skill が','medium'],
+  ['このバス___えき___とまりますか。','は…に',['が…で','を…に','で…に'],'Does this bus stop at the station?','は = topic; に = location of stopping','medium'],
+  ['あさ___ごはん___たべました。','に…を',['は…を','が…に','で…は'],'I ate breakfast in the morning.','に = time marker; を = object','medium'],
+  ['ははおや___プレゼント___もらいました。','に…を',['が…は','を…に','で…が'],'I received a present from my mother.','に = source/giver with もらう; を = received object','medium'],
+  ['こうえん___こどもたち___あそんでいます。','で…が',['に…が','を…は','が…で'],'Children are playing in the park.','で = location of action; が = subject','medium'],
+  ['バス___でんしゃ___どちらが はやいですか。','と…と',['か…か','も…も','や…や'],'Which is faster, the bus or the train?','と…と for comparing exactly two options','medium'],
+  ['このしごと___むずかしい。','は',['が','を','に'],'This work is difficult.','は = topic marker for stating properties','medium'],
+  ['にほんご___えいご___むずかしいです。','は…より',['が…より','を…より','に…から'],'Japanese is more difficult than English.','より = than (comparison marker)','medium'],
+  ['クラス___なか___いちばん___せがたかいです。','の…で…が',['は…に…で','が…の…を','に…で…は'],'(I am) the tallest in the class.','の connector; で = within a scope; が = subject','medium'],
+  ['えき___まで___あるいていきます。','から…まで',['に…で','で…に','は…が'],'I will walk from here to the station.','から = from; まで = until/to (endpoint)','medium'],
+  // hard
+  ['これ___わたしのほんです。','が',['は','を','に'],'This (specifically) is my book.','が = emphasis/contrast, identifying this specific item','hard'],
+  ['わたし___かれ___すきです。','は…が',['が…を','を…に','に…は'],'I like him.','は = topic; すき/きらい/わかる: target takes が','hard'],
+  ['かれ___しか___わからない。','に',['は','が','で'],'Only he understands it.','に＋しか…ない = only. に for the knower/understander','hard'],
+  ['ははおや___てがみ___かいてもらいました。','に…を',['が…は','を…に','で…が'],'I had my mother write a letter.','もらう: giver に + received thing を','hard'],
+  ['このくすり___いちにち___さんかいのんでください。','を…に',['は…で','が…に','を…で'],'Take this medicine 3 times a day.','を = object; に = frequency (per unit)','hard'],
+  ['ともだち___いっしょ___えいが___みました。','と…に…を',['に…で…が','で…に…は','が…に…を'],'I watched a movie together with a friend.','と = together with; いっしょに = adverb; を = object','hard'],
+  ['なん___きょうみ___ありますか。','に…が',['を…は','が…に','は…を'],'What are you interested in?','きょうみがある: topic に + きょうみ が','hard'],
+  ['あめ___ふっている___かさ___もってきた。','が…から…を',['は…ので…が','を…に…は','に…で…を'],'Since it was raining, I brought an umbrella.','が = subject; から = because; を = object','hard'],
+  ['先生___しゅくだい___だされました。','に…を',['が…は','を…に','で…を'],'Homework was given (to me) by the teacher.','に = agent in passive; を = object','hard'],
+  ['この映画___みた___ことが___ありますか。','を…た',['は…て','が…て','で…た'],'Have you seen this movie before?','を = object; たことがある = have experienced','hard'],
+  ['どこ___もどってきた___ですか。','から',['に','で','を'],'Where did you come back from?','から = from (origin point)','hard'],
+  ['みんな___が　いけるわけ___ない。','全員…では',['は…が','を…に','に…を'],'Not everyone can go.','全員 = everyone; では + ない = not in this case','hard'],
+  ['かれ___くれた___プレゼント___とても うれしかった。','が…た…が',['は…の…を','を…て…に','に…た…は'],'The present he gave me made me very happy.','が = subject; が (2nd) = subject of うれしかった','hard'],
+  ['山田さん___話___よると、あしたは雨___そうです。','の…に…が',['は…を…に','が…で…を','を…の…に'],'According to Mr. Yamada, it seems it will rain tomorrow.','の話によると = according to; が = subject of rain','hard'],
+  ['この問題___かんたん___みえて、実は難しい。','は…に',['が…で','を…に','に…が'],'This problem looks easy but is actually difficult.','は = topic; に + みえる = looks/appears','hard'],
+];
+PARTICLE_DATA.forEach(([q,a,d,translation,note,level]) => {
+  add('particle',level,q,a,d,note,{hint:'Choose the correct particle(s) for the blank(s).',translation,_isParticle:true});
+});
+
+
+// ════════════════════════════════════════════════════════════════════
+// EXPANDED DATA — fills pools that were below 50
+// ════════════════════════════════════════════════════════════════════
+
+// ── HIRAGANA HARD extra (was 30, target 50+) ─────────────────────
+[
+  ['おめでとうございます','omedetou gozaimasu','congratulations (formal)',['arigatou gozaimasu','sumimasen','yoroshiku onegaishimasu','dou itashimashite']],
+  ['よいおとしを','yoi otoshi wo','Happy New Year (before NY)',['akemashite omedetou','otanjoubi omedetou','otsukaresamadeshita','okagesamade']],
+  ['あけましておめでとう','akemashite omedetou','Happy New Year (after NY)',['yoi otoshi wo','otanjoubi omedetou','omedetou gozaimasu','dou itashimashite']],
+  ['おたんじょうびおめでとう','otanjoubi omedetou','happy birthday',['omedetou gozaimasu','akemashite','yoi otoshi wo','okaerinasai']],
+  ['おかえりなさい','okaerinasai','welcome back (home)',['ittekimasu','itterasshai','tadaima','okaeri']],
+  ['いってきます','ittekimasu','I\'m off / see you later',['okaerinasai','itterasshai','tadaima','okaeri']],
+  ['いってらっしゃい','itterasshai','take care / have a good day',['ittekimasu','okaerinasai','tadaima','okaeri']],
+  ['ただいま','tadaima','I\'m home',['okaerinasai','ittekimasu','itterasshai','okaeri']],
+  ['いただきます','itadakimasu','let\'s eat / I humbly receive',['gochisousama','sumimasen','arigatou','yoroshiku']],
+  ['ごちそうさまでした','gochisousama deshita','thank you for the meal',['itadakimasu','sumimasen','arigatou','yoroshiku']],
+  ['おつかれさまでした','otsukaresama deshita','good work / thanks for your effort',['yoroshiku','gochisousama','itadakimasu','sumimasen']],
+  ['きをつけて','ki wo tsukete','take care / be careful',['ganbatte','daijoubu','sumimasen','yoroshiku']],
+  ['がんばってください','ganbatte kudasai','please do your best',['kiwotsukete','daijoubu','sumimasen','yoroshiku']],
+  ['だいじょうぶですか','daijoubu desu ka','are you okay?',['genki desu ka','ogenki desu ka','dou shimashita ka','nanika arimashita ka']],
+  ['おねがいします','onegaishimasu','please / I request',['arigatou','sumimasen','yoroshiku','douitashimashite']],
+  ['しつれいします','shitsurei shimasu','excuse me (formal)',['sumimasen','gomen nasai','yoroshiku','douitashimashite']],
+  ['もうしわけありません','moushiwake arimasen','I\'m terribly sorry (formal)',['sumimasen','gomen nasai','shitsurei shimasu','otsukaresama']],
+  ['よろしくおねがいいたします','yoroshiku onegai itashimasu','I humbly ask for your favor (very formal)',['yoroshiku onegaishimasu','hajimemashite','moushiwake arimasen','otsukaresama deshita']],
+  ['にほんごがすこしはなせます','nihongo ga sukoshi hanasemasu','I can speak a little Japanese',['nihongo ga wakarimasen','nihongo wo benkyou shiteimasu','nihongo ga jozu desu','nihongo ga muzukashii desu']],
+  ['えいごがわかりますか','eigo ga wakarimasu ka','do you understand English?',['nihongo ga wakarimasu ka','furansugo ga wakarimasu ka','chuugokugo ga wakarimasu ka','kankokugo ga wakarimasu ka']],
+].forEach(([q,a,meaning,d]) => add('hiragana','hard',q,a,d,`${q} = ${a} (${meaning})`,{hint:'How do you read this?',meaning}));
+
+// ── KATAKANA MEDIUM extra (was 40, target 50+) ───────────────────
+[
+  ['スーツケース','suutsukeesu','suitcase',['kaban','ryukku','handobaggu','nimotsu']],
+  ['ハンドバッグ','handobaggu','handbag',['kaban','ryukku','suutsukeesu','nimotsu']],
+  ['サングラス','sangurasu','sunglasses',['megane','masuku','boshi','sukaafu']],
+  ['イヤホン','iyahon','earphones',['heddhon','supiikaa','maiku','rajio']],
+  ['ヘッドホン','heddohon','headphones',['iyahon','supiikaa','maiku','rajio']],
+  ['キーボード','kiiboodo','keyboard',['mausu','monitaa','purintaa','sukyanna']],
+  ['マウス','mausu','mouse (computer)',['kiiboodo','monitaa','purintaa','taburetto']],
+  ['プリンター','purintaa','printer',['kiiboodo','mausu','monitaa','sukyanna']],
+  ['ソフトウェア','sofutowea','software',['haaduuea','aapuri','OS','puroguramu']],
+  ['アプリ','apuri','app',['sofutowea','haaduuea','OS','puroguramu']],
+  ['パスワード','pasuwaado','password',['IDナンバー','yuuzaanemuu','akauntoW','saikuru']],
+  ['ダウンロード','daunroodo','download',['apuroodo','isuutooru','sakujo','hozon']],
+  ['アップロード','apuroodo','upload',['daunroodo','isuutooru','sakujo','hozon']],
+  ['インストール','insutooru','install',['daunroodo','apuroodo','sakujo','hozon']],
+  ['ログイン','roguin','login',['rogauto','pasuwaado','akauntoW','sakujo']],
+  ['メッセージ','messeeji','message',['meeru','chatto','denwa','tegami']],
+  ['ノートパソコン','nooto pasokon','laptop computer',['desukutoppu','taburetto','sumaho','terebi']],
+  ['タブレット','taburetto','tablet',['nooto pasokon','sumaho','desukutoppu','kiiboodo']],
+  ['イベント','ibento','event',['matsuri','konsaato','pootii','enshuu']],
+  ['コンサート','konsaato','concert',['ibento','matsuri','pootii','enshuu']],
+  ['パーティー','paatii','party',['ibento','konsaato','matsuri','enshuu']],
+  ['サービス','saabisu','service',['seihin','hanbai','kigyou','eigyou']],
+  ['ビジネス','bijinesu','business',['saabisu','seihin','kigyou','eigyou']],
+  ['プロジェクト','purojekuto','project',['puran','sukejooru','kadai','mokuhyou']],
+  ['スケジュール','sukejuuru','schedule',['purojekuto','puran','kadai','mokuhyou']],
+  ['ミーティング','miitingu','meeting',['kaigi','konsaruteeshon','mensetsu','seminnaa']],
+  ['セミナー','seminaa','seminar',['miitingu','kaigi','koosu','intabyuu']],
+  ['インタビュー','intabyuu','interview',['seminaa','miitingu','kaigi','mensetsu']],
+  ['キャンセル','kyanseru','cancel',['henkou','torikeshi','chuushi','teiryuu']],
+  ['チェック','chekku','check',['kakunin','tashikame','shiraberu','miru']],
+].forEach(([q,a,meaning,d]) => add('katakana','medium',q,a,d,`${q} = ${a} (${meaning})`,{hint:'How do you read this loanword?',meaning}));
+
+// ── KATAKANA HARD extra (was 25, target 50+) ─────────────────────
+[
+  ['パーソナルコンピューター','paasonaru konpyuutaa','personal computer (PC)',['nooto pasokon','taburetto','desukutoppu','sumaho']],
+  ['ソーシャルメディア','soosharu media','social media',['intaanetto','snsW','masumedia','terebi']],
+  ['インフルエンサー','infuruensaa','influencer',['selebuhW','yuumeijin','haiyu','jaanaristo']],
+  ['コンテンツクリエイター','kontentsu kurieeitaa','content creator',['youtubaA','buroogaa','raibaa','haishinsha']],
+  ['サブスクリプション','sabusukuripushon','subscription',['kaiin','kaikei','ryoukin','teiki']],
+  ['クラウドファンディング','kuraudo fandingu','crowdfunding',['tooshi','kifu','en jyo','maketto']],
+  ['テレワーク','terewaaku','remote work/telework',['zaitekiW','rishokunW','arubaito','furiira']],
+  ['リモートワーク','rimooto waaku','remote work',['terewaaku','zaitekiW','arubaito','furiira']],
+  ['スタートアップ','sutaato appu','startup',['kigyou','kaisha','jigyou','bengoshi']],
+  ['ベンチャー','benchaa','venture (company)',['sutaato appu','kigyou','kaisha','jigyou']],
+  ['イノベーション','inobeeshon','innovation',['kakushin','hatsumei','kaihatsu','kenkyuu']],
+  ['デジタルトランスフォーメーション','dejitaru toransufoomeshon','digital transformation (DX)',['IT kakumei','deji ka','tekunorojii','inobeeshon']],
+  ['アーティフィシャルインテリジェンス','aatifisharu interijensu','artificial intelligence (AI)',['kikaiW gakushuu','deepu raaningu','robotto','jidouka']],
+  ['ビッグデータ','biggu deeta','big data',['AI','kuraudo','intaanetto','tsuuru']],
+  ['サイバーセキュリティ','saibaa sekyuriti','cybersecurity',['intaanetto','hakkaa','uirusu','hoomu peeji']],
+  ['ブロックチェーン','burokku cheen','blockchain',['krypto','bittocoin','NFT','desentralaize']],
+  ['メタバース','metabaasuW','metaverse',['VR','AR','gejutsu kaikan','kashitsu']],
+  ['サステナビリティ','sasutenabiriti','sustainability',['kankyou','shizen','enerugi','ekorojii']],
+  ['カーボンニュートラル','kaabon nyuutoraru','carbon neutral',['kankyouW','CO2','enerugi','ondankaW']],
+  ['リサイクル','risaikuru','recycle',['saiseiW','haikibutsuW','kankyouW','gomidashiW']],
+  ['ストレスマネジメント','sutoresu manejimento','stress management',['mentaruW kea','rirakuW','seishinW','kaundoW']],
+  ['ワークライフバランス','waaku raifu baransu','work-life balance',['rishokunW','terewaaku','kyuuryouW','karoushi']],
+  ['ダイバーシティ','daibaasite','diversity',['byoudouW','jinkenW','sabetsuW','kokusaikaW']],
+  ['ハラスメント','harasumento','harassment',['pawaaW hara','sekuhara','ijimeW','sabetsuW']],
+  ['コンプライアンス','konpuraiansu','compliance',['houritsuW','kisei','ruuR','hoanW']],
+].forEach(([q,a,meaning,d]) => add('katakana','hard',q,a,d,`${q} = ${a} (${meaning})`,{hint:'How do you read this?',meaning}));
+
+// ── COUNTERS EASY extra (was 15, target 50+) ─────────────────────
+[
+  ['かみ１枚','かみ いちまい (ichimai)','1 sheet of paper',['いっこ','いっぽん','ひとつ','いちひき'],'枚 (まい) for flat/thin things','easy'],
+  ['きって２枚','きって にまい (nimai)','2 stamps',['にこ','にほん','ふたつ','にひき'],'切手 (きって) = stamp; 枚 for flat items','easy'],
+  ['なまえ１つ','なまえ ひとつ (hitotsu)','1 name',['いっこ','いちまい','いっぽん','いちにん'],'一つ (ひとつ) = general counter; 1 of something','easy'],
+  ['いす２つ','いす ふたつ (futatsu)','2 chairs',['にこ','にまい','にほん','ふたり'],'二つ (ふたつ) = 2 of something (general counter)','easy'],
+  ['たまご３つ','たまご みっつ (mittsu)','3 eggs',['さんこ','さんまい','さんぼん','みこ'],'三つ (みっつ) = 3 of something (general counter)','easy'],
+  ['リンゴ４つ','りんご よっつ (yottsu)','4 apples (informal)',['よんこ','よんまい','よんぼん','よんひき'],'四つ (よっつ) = 4 of something; 個 is also fine','easy'],
+  ['いえ１軒','いえ いっけん (ikken)','1 house',['いっこ','いっぽん','いちまい','いちだい'],'軒 (けん) = houses, buildings; 1軒 = いっけん','easy'],
+  ['いえ２軒','いえ にけん (niken)','2 houses',['にこ','にほん','にまい','にだい'],'2軒 = にけん','easy'],
+  ['さかな２匹','さかな にひき (nihiki)','2 fish',['ふたつ','にとう','にわ','にこ'],'2匹 = にひき','easy'],
+  ['むし３匹','むし さんびき (sanbiki)','3 insects',['みっつ','さんとう','さんわ','さんこ'],'3匹 = さんびき ⚠️ sound change! (not さんひき)','easy'],
+  ['むし６匹','むし ろっぴき (roppiki)','6 insects',['ろくひき','ろくびき','ろっこ','むっつ'],'6匹 = ろっぴき ⚠️ sound change!','easy'],
+  ['さかな１０匹','さかな じゅっぴき (juppiki)','10 fish',['じゅうひき','じゅっこ','じゅうびき','とびき'],'10匹 = じゅっぴき ⚠️ sound change!','easy'],
+  ['でんしゃ２本','でんしゃ にほん (nihon)','2 train lines',['にだい','にまい','にこ','ふたつ'],'本 (ほん) for train lines/routes too','easy'],
+  ['もり１本','もり いっぽん (ippon)','1 forest (poetic)',['いっこ','いちまい','いちだい','ひとつ'],'本 can count trees/forests poetically','easy'],
+  ['てんき２日','てんき ふつか (futsuka)','2 days (of weather)',['にかん','にひ','にち','ふたかん'],'日 (にち/か) = days counter; 2日 = ふつか','easy'],
+  ['ねん１年','ねん いちねん (ichinen)','1 year',['いっさい','いちがつ','いちにち','ひとつ'],'年 (ねん) = years; 一年 = いちねん','easy'],
+  ['つき１か月','つき いっかげつ (ikkagetsu)','1 month (duration)',['いちがつ','ひとつき','ひとかげつ','いちか'],'か月 (かげつ) = months duration; 一か月 = いっかげつ','easy'],
+  ['しゅうかん１週間','いっしゅうかん (isshuu kan)','1 week',['いちしゅう','ひとつき','いちにち','いっかげつ'],'週間 (しゅうかん) = weeks; 一週間 = いっしゅうかん','easy'],
+  ['でんち２本','でんち にほん (nihon)','2 batteries',['にこ','にまい','にだい','にひき'],'電池 (でんち) = battery; 本 for cylindrical items','easy'],
+  ['えんぴつ２本','えんぴつ にほん (nihon)','2 pencils',['にこ','にまい','にほん (same)','ふたつ'],'2本 = にほん','easy'],
+  ['えんぴつ３本','えんぴつ さんぼん (sanbon)','3 pencils',['さんほん','みっつ','さんこ','さんまい'],'3本 = さんぼん ⚠️ (not さんほん)','easy'],
+  ['えんぴつ４本','えんぴつ よんほん (yonhon)','4 pencils',['よんぼん','よっつ','よんこ','よんまい'],'4本 = よんほん (no sound change)','easy'],
+  ['くつ１足','くつ いっそく (issoku)','1 pair of shoes',['いっこ','いちまい','いっぽん','いちひき'],'足 (そく) = footwear in pairs; 一足 = いっそく','easy'],
+  ['くつ２足','くつ にそく (nisoku)','2 pairs of shoes',['にこ','にまい','にほん','にひき'],'2足 = にそく','easy'],
+  ['グラス３個','グラス さんこ (sanko)','3 glasses',['みっつ','さんぼん','さんまい','さんひき'],'個 for glass/cup objects','easy'],
+  ['てぶくろ１組','てぶくろ ひとくみ (hitokumi)','1 pair of gloves',['いっこ','いちまい','いっそく','いっぽん'],'組 (くみ) = pairs/sets; 一組 = ひとくみ','easy'],
+  ['ふうとう５枚','ふうとう ごまい (gomai)','5 envelopes',['ごこ','ごほん','ごひき','いつつ'],'封筒 (ふうとう) = envelope; 枚 for flat items','easy'],
+  ['はがき３枚','はがき さんまい (sanmai)','3 postcards',['さんこ','さんぼん','みっつ','さんひき'],'葉書 (はがき) = postcard; 枚 for cards','easy'],
+  ['さいふ１個','さいふ いっこ (ikko)','1 wallet',['いちまい','いっぽん','ひとつ','いちひき'],'財布 (さいふ) = wallet; 個 for small objects','easy'],
+  ['かばん２個','かばん にこ (niko)','2 bags',['ふたつ','にまい','にほん','にひき'],'鞄 (かばん) = bag; 個 for bag-type items','easy'],
+  ['ほん５冊','ほん ごさつ (gosatsu)','5 books',['ごほん','いつつ','ごまい','ごこ'],'5冊 = ごさつ','easy'],
+  ['ざっし４冊','ざっし よんさつ (yonsatsu)','4 magazines',['よっつ','よんまい','よんこ','しさつ'],'雑誌 (ざっし) = magazine; 冊 for bound publications','easy'],
+  ['にっき１冊','にっき いっさつ (issatsu)','1 diary/notebook',['いっこ','いちまい','いっぽん','ひとつ'],'日記 (にっき) = diary; 一冊 = いっさつ','easy'],
+  ['きょうかしょ３冊','きょうかしょ さんさつ (sansatsu)','3 textbooks',['さんぼん','みっつ','さんまい','さんこ'],'教科書 (きょうかしょ) = textbook; 冊','easy'],
+  ['とり４羽','とり よんわ (yonwa)','4 birds',['よっつ','よんこ','よんひき','よんとう'],'4羽 = よんわ','easy'],
+].forEach(([q,a,meaning,d,note,level]) => add('counters',level,q,a,d,note,{hint:`How do you count: "${meaning}"?`,meaning}));
+
+// ── COUNTERS MEDIUM extra (was 15, target 50+) ───────────────────
+[
+  ['２００円','にひゃくえん (nihyaku en)','200 yen',['ふたつえん','にじゅうえん','にまんえん','ふたえん'],'200円 = にひゃくえん','medium'],
+  ['１０，０００円','いちまんえん (ichiman en)','10,000 yen',['じゅうせんえん','じゅうまんえん','いちおくえん','まんまんえん'],'一万円 = いちまんえん','medium'],
+  ['ひと４人','ひと よにん (yonin)','4 people',['よんにん','よっつ','よんこ','しにん'],'4人 = よにん (not よんにん!)','medium'],
+  ['ひと５人','ひと ごにん (gonin)','5 people',['いつつ','ごこ','ごにんめ','ごめい'],'5人 = ごにん','medium'],
+  ['かぞく６人','かぞく ろくにん (rokunin)','6 family members',['むつ','ろくこ','ろくめい','ろくにんめ'],'6人 = ろくにん','medium'],
+  ['くるま１台','くるま いちだい (ichidai)','1 car',['いっこ','いちほん','ひとつ','いちひき'],'1台 = いちだい','medium'],
+  ['じてんしゃ１台','じてんしゃ いちだい (ichidai)','1 bicycle',['いっこ','いちほん','ひとつ','いちまい'],'自転車 (じてんしゃ) = bicycle; 台','medium'],
+  ['パソコン２台','パソコン にだい (nidai)','2 computers',['ふたつ','にこ','にほん','にまい'],'パソコン = PC; 2台 = にだい','medium'],
+  ['れいぞうこ１台','れいぞうこ いちだい (ichidai)','1 refrigerator',['いっこ','いちほん','ひとつ','いちまい'],'冷蔵庫 (れいぞうこ) = fridge; 台','medium'],
+  ['エレベーター２台','エレベーター にだい (nidai)','2 elevators',['ふたつ','にこ','にほん','にまい'],'エレベーター = elevator; 台 for machines','medium'],
+  ['かいだん２階','にかい (nikai)','2nd floor',['ふたかい','にかいだん','ふたかいめ','ふたかいだん'],'2階 = にかい','medium'],
+  ['かいだん４階','よんかい (yonkai)','4th floor',['よっかい','しかい','よんかいめ','よっかいめ'],'4階 = よんかい (not よっかい!)','medium'],
+  ['かいだん８階','はちかい (hachikai)','8th floor',['はっかい','やっかい','はちかいめ','はっかいめ'],'8階 = はっかい ⚠️ (also はちかい in some contexts)','medium'],
+  ['うし２頭','うし にとう (nitou)','2 cows',['ふたつ','にひき','にわ','にこ'],'2頭 = にとう','medium'],
+  ['ぞう３頭','ぞう さんとう (santou)','3 elephants',['みっつ','さんひき','さんわ','さんこ'],'象 (ぞう) = elephant; 頭 for large animals','medium'],
+  ['うさぎ２羽','うさぎ にわ (niwa)','2 rabbits',['ふたつ','にひき','にとう','にこ'],'兎 (うさぎ) = rabbit; 羽 (same as birds!)','medium'],
+  ['にわとり４羽','にわとり よんわ (yonwa)','4 chickens',['よっつ','よんひき','よんとう','よんこ'],'にわとり = chicken; 4羽 = よんわ','medium'],
+  ['ひこうき１機','ひこうき いっき (ikki)','1 airplane',['いちだい','いっこ','いちまい','いちほん'],'機 (き) = aircraft/machines; 一機 = いっき','medium'],
+  ['せんとうき３機','せんとうき さんき (sanki)','3 fighter jets',['さんだい','さんこ','みっつ','さんまい'],'戦闘機 (せんとうき) = fighter jet; 3機 = さんき','medium'],
+  ['しゃしん３枚','しゃしん さんまい (sanmai)','3 photos',['さんこ','さんぼん','みっつ','さんひき'],'写真 (しゃしん) = photo; 枚 for flat items','medium'],
+  ['ちず２枚','ちず にまい (nimai)','2 maps',['にこ','にほん','ふたつ','にひき'],'地図 (ちず) = map; 枚 for flat items','medium'],
+  ['にもつ３個','にもつ さんこ (sanko)','3 pieces of luggage',['みっつ','さんまい','さんぼん','さんひき'],'荷物 (にもつ) = luggage; 個 for pieces','medium'],
+  ['ケーキ１切れ','ケーキ ひときれ (hitokire)','1 slice of cake',['いっこ','いちまい','いっぽん','ひとつ'],'切れ (きれ) = slices of food; 一切れ = ひときれ','medium'],
+  ['さしみ２切れ','さしみ ふたきれ (futakire)','2 slices of sashimi',['にこ','にまい','にほん','ふたつ'],'刺身 (さしみ) = sashimi; 切れ for slices','medium'],
+  ['スーツ２着','スーツ にちゃく (nichaku)','2 suits',['ふたつ','にまい','にほん','にこ'],'着 (ちゃく) = clothing items; 2着 = にちゃく','medium'],
+  ['せーたー３着','せーたー さんちゃく (sanchaku)','3 sweaters',['みっつ','さんまい','さんぼん','さんこ'],'3着 = さんちゃく','medium'],
+  ['くつした２足','くつした にそく (nisoku)','2 pairs of socks',['ふたつ','にまい','にほん','にこ'],'靴下 (くつした) = socks; 足 for footwear pairs','medium'],
+  ['てぶくろ３組','てぶくろ さんくみ (sankumi)','3 pairs of gloves',['みっつ','さんまい','さんぼん','さんこ'],'手袋 (てぶくろ) = gloves; 組 for pairs','medium'],
+  ['えいが１本','えいが いっぽん (ippon)','1 movie (film)',['いっこ','いちまい','いちだい','ひとつ'],'映画 (えいが) = movie; 本 for films/videos','medium'],
+  ['ドラマ２本','ドラマ にほん (nihon)','2 TV dramas',['ふたつ','にまい','にだい','にこ'],'ドラマ = drama; 本 for filmed content','medium'],
+  ['でんわ１本','でんわ いっぽん (ippon)','1 phone call',['いっこ','いちまい','いちだい','ひとつ'],'電話 (でんわ) = phone call; 本 for calls/calls','medium'],
+  ['メール２通','メール につう (nitsuu)','2 emails',['ふたつ','にまい','にほん','にこ'],'通 (つう) = correspondence items (letters, emails)','medium'],
+  ['てがみ３通','てがみ さんつう (santsuu)','3 letters',['みっつ','さんまい','さんぼん','さんこ'],'3通 = さんつう','medium'],
+  ['パーティー２回','パーティー にかい (nikai)','2 parties',['ふたつ','にまい','にだい','にほん'],'回 (かい) = number of times/occurrences','medium'],
+  ['かいぎ３回','かいぎ さんかい (sankai)','3 meetings',['みっつ','さんだい','さんほん','みかい'],'会議 (かいぎ) = meeting; 回 for occurrences','medium'],
+].forEach(([q,a,meaning,d,note,level]) => add('counters',level,q,a,d,note,{hint:`How do you count: "${meaning}"?`,meaning}));
+
+// ── COUNTERS HARD extra (was 8, target 50+) ──────────────────────
+[
+  ['えんぴつ８本','えんぴつ はっぽん (happon)','8 pencils',['はちほん','はちぼん','はっこ','やほん'],'8本 = はっぽん ⚠️ sound change!','hard'],
+  ['えんぴつ１０本','えんぴつ じゅっぽん (juppon)','10 pencils',['じゅうほん','じゅっこ','とほん','じゅっぼん'],'10本 = じゅっぽん ⚠️','hard'],
+  ['ねこ３匹','ねこ さんびき (sanbiki)','3 cats',['さんひき','みっつ','さんこ','さんとう'],'3匹 = さんびき ⚠️ sound change!','hard'],
+  ['ねこ８匹','ねこ はっぴき (happiki)','8 cats',['はちひき','はっこ','やひき','はちびき'],'8匹 = はっぴき ⚠️ sound change!','hard'],
+  ['ねこ１０匹','ねこ じゅっぴき (juppiki)','10 cats',['じゅうひき','じゅっこ','とひき','じゅっびき'],'10匹 = じゅっぴき ⚠️','hard'],
+  ['ビール８本','ビール はっぽん (happon)','8 beers',['はちほん','はちぼん','はっこ','やほん'],'8本 = はっぽん ⚠️','hard'],
+  ['ビール１０本','ビール じゅっぽん (juppon)','10 beers',['じゅうほん','じゅっこ','とほん','じゅうぼん'],'10本 = じゅっぽん ⚠️','hard'],
+  ['ひこうき６機','ひこうき ろっき (rokki)','6 airplanes',['ろくき','ろっこ','ろくだい','ろくまい'],'6機 = ろっき ⚠️ sound change!','hard'],
+  ['ひこうき１０機','ひこうき じゅっき (jukki)','10 airplanes',['じゅうき','じゅっこ','じゅうだい','とき'],'10機 = じゅっき ⚠️','hard'],
+  ['いえ６軒','いえ ろっけん (rokken)','6 houses',['ろくけん','ろっこ','ろくだい','ろくまい'],'6軒 = ろっけん ⚠️','hard'],
+  ['いえ８軒','いえ はっけん (hakken)','8 houses',['はちけん','はっこ','はちだい','はちまい'],'8軒 = はっけん ⚠️','hard'],
+  ['いえ１０軒','いえ じゅっけん (jukken)','10 houses',['じゅうけん','じゅっこ','じゅうだい','とけん'],'10軒 = じゅっけん ⚠️','hard'],
+  ['さかな６匹','さかな ろっぴき (roppiki)','6 fish',['ろくひき','ろっこ','ろくびき','むひき'],'6匹 = ろっぴき ⚠️','hard'],
+  ['とり６羽','とり ろっぱ (roppa)','6 birds',['ろくわ','ろっこ','ろくびき','ろっぱ'],'6羽 = ろっぱ ⚠️ sound change!','hard'],
+  ['とり８羽','とり はっぱ (happa)','8 birds',['はちわ','はっこ','はちびき','やわ'],'8羽 = はっぱ ⚠️','hard'],
+  ['とり１０羽','とり じゅっぱ (juppa)','10 birds',['じゅうわ','じゅっこ','とわ','じゅっぱ'],'10羽 = じゅっぱ ⚠️','hard'],
+  ['スーツ６着','スーツ ろくちゃく (rokuchaku)','6 suits',['ろっちゃく','ろっこ','ろくまい','むちゃく'],'6着 = ろくちゃく (no change here)','hard'],
+  ['くつ６足','くつ ろくそく (rokusoku)','6 pairs of shoes',['ろっそく','ろっこ','ろくまい','むそく'],'6足 = ろくそく','hard'],
+  ['てがみ６通','てがみ ろくつう (rokutsuu)','6 letters',['ろっつう','ろっこ','ろくまい','むつう'],'6通 = ろくつう','hard'],
+  ['えいが１０本','えいが じゅっぽん (juppon)','10 films',['じゅうほん','じゅっこ','とほん','じゅうぼん'],'10本 = じゅっぽん','hard'],
+  ['でんわ３本','でんわ さんぼん (sanbon)','3 phone calls',['さんほん','みっつ','さんこ','さんまい'],'3本 = さんぼん','hard'],
+  ['にもつ６個','にもつ ろっこ (rokko)','6 pieces of luggage',['ろくこ','ろっちゃく','ろくまい','むこ'],'6個 = ろっこ ⚠️','hard'],
+  ['にもつ８個','にもつ はっこ (hakko)','8 pieces of luggage',['はちこ','はっちゃく','はちまい','やこ'],'8個 = はっこ ⚠️','hard'],
+  ['にもつ１０個','にもつ じゅっこ (jukko)','10 pieces of luggage',['じゅうこ','じゅっちゃく','じゅうまい','とこ'],'10個 = じゅっこ ⚠️','hard'],
+  ['かいだん６階','ろっかい (rokkai)','6th floor',['ろくかい','ろっこ','むかい','ろっかいめ'],'6階 = ろっかい ⚠️','hard'],
+  ['かいだん８階','はっかい (hakkai)','8th floor',['はちかい','はっこ','やかい','はっかいめ'],'8階 = はっかい ⚠️','hard'],
+  ['かいだん１０階','じゅっかい (jukkai)','10th floor',['じゅうかい','じゅっこ','とかい','じゅっかいめ'],'10階 = じゅっかい ⚠️','hard'],
+  ['うし６頭','うし ろくとう (rokutou)','6 cows',['ろっとう','ろっこ','ろくひき','むとう'],'6頭 = ろくとう','hard'],
+  ['ぞう１０頭','ぞう じゅっとう (juttou)','10 elephants',['じゅうとう','じゅっこ','とひき','じゅっとう'],'10頭 = じゅっとう','hard'],
+  ['かいぎ６回','かいぎ ろっかい (rokkai)','6 meetings',['ろくかい','ろっこ','むかい','ろくかいめ'],'6回 = ろっかい ⚠️','hard'],
+  ['パーティー１０回','パーティー じゅっかい (jukkai)','10 parties',['じゅうかい','じゅっこ','とかい','とかいめ'],'10回 = じゅっかい ⚠️','hard'],
+  ['くすり２錠','くすり にじょう (nijou)','2 (medicine) tablets',['ふたつ','にまい','にほん','にこ'],'錠 (じょう) = tablets/pills; 2錠 = にじょう','hard'],
+  ['くすり３錠','くすり さんじょう (sanjou)','3 pills',['みっつ','さんまい','さんほん','さんこ'],'3錠 = さんじょう','hard'],
+  ['もり１０本','もり じゅっぽん (juppon)','10 trees',['じゅうほん','じゅっこ','とほん','じゅうぼん'],'木 and 本: trees use 本; 10本 = じゅっぽん','hard'],
+  ['はな６本','はな ろっぽん (roppon)','6 flowers (cut)',['ろくほん','ろくぼん','ろっこ','むほん'],'切り花 (cut flowers) use 本; 6本 = ろっぽん','hard'],
+].forEach(([q,a,meaning,d,note,level]) => add('counters',level,q,a,d,note,{hint:`How do you count: "${meaning}"?`,meaning}));
+
+// ── TIME EASY extra (was 16, target 50+) ─────────────────────────
+[
+  ['４時','よじ (yoji)','4 o\'clock',['よんじ','しじ','よっじ','よんふん'],'4時 = よじ (not よんじ!) — irregular!','easy','How do you say this time?'],
+  ['５時','ごじ (goji)','5 o\'clock',['ごふん','ごじかん','いつつ','ごにち'],'5時 = ごじ','easy','How do you say this time?'],
+  ['７時','しちじ (shichiji)','7 o\'clock',['ななじ','しちふん','しちじかん','なのじ'],'7時 = しちじ (also ななじ is acceptable)','easy','How do you say this time?'],
+  ['８時','はちじ (hachiji)','8 o\'clock',['はちふん','はちじかん','やつ','はちにち'],'8時 = はちじ','easy','How do you say this time?'],
+  ['９時','くじ (kuji)','9 o\'clock',['きゅうじ','くふん','くじかん','ここのつ'],'9時 = くじ (not きゅうじ!) — irregular!','easy','How do you say this time?'],
+  ['１０時','じゅうじ (juuji)','10 o\'clock',['じゅうふん','じゅうじかん','とお','じゅうにち'],'10時 = じゅうじ','easy','How do you say this time?'],
+  ['１１時','じゅういちじ (juuichiji)','11 o\'clock',['じゅうにじ','じゅういちふん','じゅういちじかん','じゅういちにち'],'11時 = じゅういちじ','easy','How do you say this time?'],
+  ['１０分','じゅっぷん (juppun)','10 minutes',['じゅうふん','じゅっびょう','じゅうじ','じゅっか'],'10分 = じゅっぷん ⚠️ (not じゅうふん)','easy','How do you say this duration?'],
+  ['２０分','にじゅっぷん (nijuppun)','20 minutes',['にじゅうふん','にじゅうびょう','にじゅうじ','にじゅっか'],'20分 = にじゅっぷん','easy','How do you say this duration?'],
+  ['４５分','よんじゅうごふん (yonjuugofun)','45 minutes',['よじゅうごふん','しじゅうごふん','よんじゅうごびょう','よんじゅうごじ'],'45分 = よんじゅうごふん','easy','How do you say this duration?'],
+  ['いちじかん','いちじかん (ichijikan)','1 hour',['いちじ','いっぷん','いちにち','いちがつ'],'時間 (じかん) = duration of hours; 一時間 = いちじかん','easy','How do you say this duration?'],
+  ['にじかん','にじかん (nijikan)','2 hours',['にじ','にふん','ふつか','にがつ'],'2時間 = にじかん','easy','How do you say this duration?'],
+  ['はんとし','はんとし (hantoshi)','half a year',['はんねん','はんつき','はんにち','はんじかん'],'半年 (はんとし) = 6 months / half a year','easy','What does this word mean?'],
+  ['まいにち','まいにち (mainichi)','every day',['まいあさ','まいばん','まいとし','まいつき'],'毎日 (まいにち) = every day','easy','What does this word mean?'],
+  ['まいあさ','まいあさ (maiasa)','every morning',['まいにち','まいばん','まいとし','まいつき'],'毎朝 (まいあさ) = every morning','easy','What does this word mean?'],
+  ['まいばん','まいばん (maiban)','every evening/night',['まいにち','まいあさ','まいとし','まいつき'],'毎晩 (まいばん) = every evening','easy','What does this word mean?'],
+  ['きょう','きょう (kyou)','today',['きのう','あした','あさって','おととい'],'今日 (きょう) = today','easy','What does this word mean?'],
+  ['きのう','きのう (kinou)','yesterday',['きょう','あした','あさって','おととい'],'昨日 (きのう) = yesterday','easy','What does this word mean?'],
+  ['あした','あした (ashita)','tomorrow',['きょう','きのう','あさって','おととい'],'明日 (あした/あす) = tomorrow','easy','What does this word mean?'],
+  ['おととい','おととい (ototoi)','the day before yesterday',['きょう','きのう','あした','あさって'],'一昨日 (おととい) = the day before yesterday','easy','What does this word mean?'],
+  ['あさって','あさって (asatte)','the day after tomorrow',['きょう','きのう','あした','おととい'],'明後日 (あさって) = the day after tomorrow','easy','What does this word mean?'],
+  ['けさ','けさ (kesa)','this morning',['こんばん','きょうのひる','きのうのあさ','あしたのあさ'],'今朝 (けさ) = this morning','easy','What does this word mean?'],
+  ['こんばん','こんばん (konban)','this evening/tonight',['けさ','きょう','こんにち','こんしゅう'],'今晩 (こんばん) = this evening','easy','What does this word mean?'],
+  ['ことし','ことし (kotoshi)','this year',['きょねん','らいねん','さらいねん','さくねん'],'今年 (ことし) = this year','easy','What does this word mean?'],
+  ['きょねん','きょねん (kyonen)','last year',['ことし','らいねん','さらいねん','おととし'],'去年 (きょねん) = last year','easy','What does this word mean?'],
+  ['らいねん','らいねん (rainen)','next year',['ことし','きょねん','さらいねん','おととし'],'来年 (らいねん) = next year','easy','What does this word mean?'],
+  ['こんしゅう','こんしゅう (konshuu)','this week',['せんしゅう','らいしゅう','さらいしゅう','こんげつ'],'今週 (こんしゅう) = this week','easy','What does this word mean?'],
+  ['せんしゅう','せんしゅう (senshuu)','last week',['こんしゅう','らいしゅう','さらいしゅう','こんげつ'],'先週 (せんしゅう) = last week','easy','What does this word mean?'],
+  ['らいしゅう','らいしゅう (raishuu)','next week',['こんしゅう','せんしゅう','さらいしゅう','こんげつ'],'来週 (らいしゅう) = next week','easy','What does this word mean?'],
+  ['こんげつ','こんげつ (kongetsu)','this month',['せんげつ','らいげつ','こんしゅう','ことし'],'今月 (こんげつ) = this month','easy','What does this word mean?'],
+  ['せんげつ','せんげつ (sengetsu)','last month',['こんげつ','らいげつ','こんしゅう','きょねん'],'先月 (せんげつ) = last month','easy','What does this word mean?'],
+  ['らいげつ','らいげつ (raigetsu)','next month',['こんげつ','せんげつ','こんしゅう','らいねん'],'来月 (らいげつ) = next month','easy','What does this word mean?'],
+].forEach(([q,a,meaning,d,note,level,hint]) => add('time',level,q,a,d,note,{hint,meaning}));
+
+// ── TIME MEDIUM extra (was 25, target 50+) ───────────────────────
+[
+  ['６日','むいか (muika)','the 6th',['ろくにち','むにち','ろっか','むっか'],'6日 = むいか','medium','How do you say this date?'],
+  ['７日','なのか (nanoka)','the 7th',['しちにち','ななにち','なのか','なぬか'],'7日 = なのか (not しちにち!)','medium','How do you say this date?'],
+  ['８日','ようか (youka)','the 8th',['はちにち','やにち','ようか','はっか'],'8日 = ようか ⚠️ irregular!','medium','How do you say this date?'],
+  ['１０日','とおか (tooka)','the 10th',['じゅうにち','じゅっか','とおにち','とか'],'10日 = とおか ⚠️ irregular!','medium','How do you say this date?'],
+  ['２４日','にじゅうよっか (nijuuyokka)','the 24th',['にじゅうよんにち','にじゅうしにち','にじゅうよっにち','にじゅうよんか'],'24日 = にじゅうよっか (4日 pattern applies)','medium','How do you say this date?'],
+  ['はるやすみ','はるやすみ (haruyasumi)','spring break/vacation',['なつやすみ','ふゆやすみ','あきやすみ','やすみ'],'春休み (はるやすみ) = spring break','medium','What does this word mean?'],
+  ['なつやすみ','なつやすみ (natsuyasumi)','summer vacation',['はるやすみ','ふゆやすみ','あきやすみ','やすみ'],'夏休み (なつやすみ) = summer vacation','medium','What does this word mean?'],
+  ['ふゆやすみ','ふゆやすみ (fuyuyasumi)','winter break',['はるやすみ','なつやすみ','あきやすみ','やすみ'],'冬休み (ふゆやすみ) = winter break','medium','What does this word mean?'],
+  ['はる','はる (haru)','spring',['なつ','あき','ふゆ','きせつ'],'春 (はる) = spring season','medium','What season is this?'],
+  ['なつ','なつ (natsu)','summer',['はる','あき','ふゆ','きせつ'],'夏 (なつ) = summer season','medium','What season is this?'],
+  ['あき','あき (aki)','autumn/fall',['はる','なつ','ふゆ','きせつ'],'秋 (あき) = autumn season','medium','What season is this?'],
+  ['ふゆ','ふゆ (fuyu)','winter',['はる','なつ','あき','きせつ'],'冬 (ふゆ) = winter season','medium','What season is this?'],
+  ['にほんのしょうがつ','January 1st — New Year in Japan','正月',['Golden Week','Obon','Christmas','Tanabata'],'正月 (しょうがつ) = Japanese New Year; １月１日','medium','What special occasion is this?'],
+  ['ゴールデンウィーク','late April to early May holidays','Golden Week',['Obon','Shogatsu','Tanabata','Seijin no Hi'],'ゴールデンウィーク = Golden Week, late April–early May','medium','What does this word mean?'],
+  ['おぼん','mid-August ancestor festival','Obon',['Shogatsu','Golden Week','Tanabata','Seijin no Hi'],'お盆 (おぼん) = Obon festival, mid-August','medium','What does this word mean?'],
+  ['たなばた','Star Festival, July 7th','Tanabata',['Obon','Shogatsu','Golden Week','Hinamatsuri'],'七夕 (たなばた) = Star Festival, July 7th','medium','What does this word mean?'],
+  ['せいじんのひ','Coming-of-Age Day (age 20)','Seijin no Hi',['Keiro no Hi','Taiiku no Hi','Bunka no Hi','Kinrou Kansha no Hi'],'成人の日 = Coming-of-Age Day, 2nd Monday of January','medium','What does this word mean?'],
+  ['はちじさんじゅっぷんまえ','7:30 (30 minutes before 8)','"7:30" via "30 minutes before 8"',['7:30 via "half past 7"','8:30','6:30','7:00'],'〜分前 (まえ) = X minutes before the hour; 8時30分前 = 7:30','medium','What time does this expression mean?'],
+  ['ごぜんれいじ','ごぜん れいじ (gozen reiji)','midnight (12 AM)',['ごご じゅうにじ','しょうご','ごぜん いちじ','ごご じゅういちじ'],'午前零時 (ごぜんれいじ) = midnight = 12:00 AM','medium','How do you say this time?'],
+  ['しょうご','しょうご (shougo)','noon (12 PM)',['ごぜんれいじ','ごご じゅうにじ','ごぜん じゅうにじ','まよなか'],'正午 (しょうご) = noon / 12:00 PM','medium','How do you say this time?'],
+  ['ふだん','ふだん (fudan)','usually / normally',['たまに','ときどき','よく','ぜんぜん'],'普段 (ふだん) = usually, normally','medium','What does this word mean?'],
+  ['ときどき','ときどき (tokidoki)','sometimes',['ふだん','たまに','よく','いつも'],'時々 (ときどき) = sometimes','medium','What does this adverb mean?'],
+  ['たまに','たまに (tama ni)','occasionally/rarely',['ふだん','ときどき','よく','いつも'],'たまに = occasionally, once in a while','medium','What does this adverb mean?'],
+  ['よく','よく (yoku)','often',['ふだん','たまに','ときどき','めったに'],'よく = often, frequently','medium','What does this adverb mean?'],
+  ['めったに〜ない','めったに〜ない (metta ni~nai)','rarely / seldom',['ふだん','たまに','よく','いつも'],'めったに＋negative = rarely, seldom','medium','What does this expression mean?'],
+  ['ずっと','ずっと (zutto)','all along / continuously',['たまに','ときどき','すこし','だいたい'],'ずっと = all the time, continuously, ever since','medium','What does this adverb mean?'],
+  ['もうすぐ','もうすぐ (mousugu)','very soon / almost',['まもなく','すこしまえ','あとで','さっき'],'もうすぐ = very soon, almost (time)','medium','What does this expression mean?'],
+].forEach(([q,a,meaning,d,note,level,hint]) => add('time',level,q,a,d,note,{hint,meaning}));
+
+// ── TIME HARD extra (was 15, target 50+) ─────────────────────────
+[
+  ['さらいねん','さらいねん (sarainen)','the year after next',['らいねん','ことし','きょねん','おととし'],'再来年 (さらいねん) = year after next','hard','What does this word mean?'],
+  ['おととし','おととし (ototoshi)','the year before last',['きょねん','ことし','らいねん','さらいねん'],'一昨年 (おととし) = year before last','hard','What does this word mean?'],
+  ['さらいしゅう','さらいしゅう (saraishu)','the week after next',['らいしゅう','こんしゅう','せんしゅう','せんせんしゅう'],'再来週 (さらいしゅう) = week after next','hard','What does this word mean?'],
+  ['せんせんしゅう','せんせんしゅう (sensenshuu)','the week before last',['せんしゅう','こんしゅう','らいしゅう','さらいしゅう'],'先々週 (せんせんしゅう) = week before last','hard','What does this word mean?'],
+  ['しあさって','しあさって (shiasatte)','3 days from now',['あさって','あした','きょう','あさってのつぎ'],'明明後日 (しあさって) = 3 days from now','hard','What does this word mean?'],
+  ['うるうとし','うるうどし (uruudoshi)','leap year',['へいねん','まるねん','さいねん','ひゃくねん'],'閏年 (うるうどし) = leap year (every 4 years)','hard','What does this word mean?'],
+  ['にほんのかいしゃのかいけいねんど','4月 to 3月 of the next year','Japanese fiscal year',['January to December','July to June','October to September','March to February'],'会計年度 (かいけいねんど) = fiscal year; Japan uses April–March','hard','When is Japan\'s fiscal/school year?'],
+  ['がっこうのにゅうがくしき','April — school entrance ceremony','School entrance ceremony month',['September','January','July','October'],'入学式 (にゅうがくしき) = school entrance ceremony; always April in Japan','hard','When does school typically start in Japan?'],
+  ['ちょうど２時間','ちょうど にじかん (choudo nijikan)','exactly 2 hours',['だいたい にじかん','やく にじかん','ほぼ にじかん','にじかんいじょう'],'ちょうど = exactly; 2時間 = 2 hours','hard','What does this time expression mean?'],
+  ['やく３０ぷん','やく さんじゅっぷん (yaku sanjuppun)','about 30 minutes',['ちょうど さんじゅっぷん','さんじゅっぷんいじょう','さんじゅっぷんいか','ぴったり さんじゅっぷん'],'約 (やく) = approximately; 約30分 = about 30 minutes','hard','What does this time expression mean?'],
+  ['さんじかんいじょう','さんじかんいじょう (sanjikan ijou)','3 hours or more',['さんじかんいか','さんじかんちょうど','さんじかんまえ','さんじかんご'],'以上 (いじょう) = or more; 3時間以上 = 3+ hours','hard','What does this time expression mean?'],
+  ['にじかんいか','にじかんいか (nijikan ika)','2 hours or less',['にじかんいじょう','にじかんちょうど','にじかんまえ','にじかんご'],'以下 (いか) = or less/under; 2時間以下 = under 2 hours','hard','What does this time expression mean?'],
+  ['こんかいとじかい','こんかいとじかい (konkai to jikai)','this time and next time',['まいかいとぜんかい','ぜんかいとこんかい','じかいとこんかい','まいかいとこんかい'],'今回 (こんかい) = this time; 次回 (じかい) = next time','hard','What does this expression mean?'],
+  ['ぜんかいからこんかいまで','from last time to this time','前回から今回まで',['from this time to next time','from long ago until now','from now on','since last year'],'前回 (ぜんかい) = last time; 今回 (こんかい) = this time','hard','What does this expression mean?'],
+  ['じだい','じだい (jidai)','era / period / age',['れきし','れきねん','きかん','ねんだい'],'時代 (じだい) = era, period; 江戸時代 = Edo period','hard','What does this word mean?'],
+  ['ねんごう','ねんごう (nengou)','Japanese era name',['せいれき','きりすとき','れきし','きかん'],'元号 (ねんごう) = Japanese era system: 令和, 平成, 昭和...','hard','What does this word mean?'],
+  ['せいれき','せいれき (seireki)','Western calendar (AD)',['ねんごう','われき','きゅうれき','たいいん'],'西暦 (せいれき) = Western calendar / Anno Domini','hard','What does this word mean?'],
+  ['われき','われき (wareki)','Japanese calendar',['せいれき','ねんごう','きゅうれき','たいいん'],'和暦 (われき) = Japanese traditional calendar system','hard','What does this word mean?'],
+  ['しゅんぶんのひ','しゅんぶんのひ (shunbun no hi)','Vernal Equinox Day (March)',['どようのひ','たいようのひ','しゅうぶんのひ','こうのひ'],'春分の日 = Vernal Equinox Day (around March 21)','hard','What holiday is this?'],
+  ['しゅうぶんのひ','しゅうぶんのひ (shuubun no hi)','Autumnal Equinox Day (Sept)',['しゅんぶんのひ','こどものひ','けんぽうきねんび','みどりのひ'],'秋分の日 = Autumnal Equinox Day (around Sept 23)','hard','What holiday is this?'],
+  ['こどものひ','こどものひ (kodomo no hi)','Children\'s Day (May 5)',['けんぽうきねんび','みどりのひ','しゅんぶんのひ','しゅうぶんのひ'],'こどもの日 = Children\'s Day, May 5 (part of Golden Week)','hard','What holiday is this?'],
+  ['けんぽうきねんび','けんぽうきねんび (kenpou kinenbi)','Constitution Day (May 3)',['こどものひ','みどりのひ','しゅんぶんのひ','かいふくびW'],'憲法記念日 = Constitution Day, May 3 (Golden Week)','hard','What holiday is this?'],
+  ['きねんび','きねんび (kinenbi)','anniversary / memorial day',['たんじょうび','むかしのひ','まつり','さいてん'],'記念日 (きねんび) = anniversary, memorial day','hard','What does this word mean?'],
+  ['まんねんひつ','まんねんひつ (mannen hitsu)','fountain pen',['ボールペン','えんぴつ','マーカー','シャーペン'],'万年筆 (まんねんひつ) = fountain pen — 万年 = 10,000 years!','hard','What does this compound mean?'],
+  ['いちじてき','いちじてき (ichijiteki)','temporary',['えいきゅうてき','きゅうてき','ながきてき','じかんてき'],'一時的 (いちじてき) = temporary; 一時 = one time/moment','hard','What does this word mean?'],
+].forEach(([q,a,meaning,d,note,level,hint]) => add('time',level,q,a,d,note,{hint,meaning}));
+
+// ── PARTICLES EASY extra (was 20, target 50+) ────────────────────
+[
+  ['がっこう___あります。','に',['で','が','は'],'There is a school (here).','に = location of existence (ある/いる)','easy'],
+  ['きょうしつ___まどがあります。','に',['で','が','を'],'There is a window in the classroom.','に = location; が = subject of existence','easy'],
+  ['スーパー___やさいをかいます。','で',['に','を','は'],'I buy vegetables at the supermarket.','で = location of action','easy'],
+  ['ともだち___あいます。','に',['で','を','は'],'I meet a friend.','に = target of meeting (会う takes に)','easy'],
+  ['でんしゃ___のります。','に',['を','で','は'],'I ride the train.','に = vehicle you board (乗る takes に)','easy'],
+  ['でんしゃ___おります。','を',['に','で','は'],'I get off the train.','を = vehicle you exit (降りる takes を)','easy'],
+  ['にほん___すんでいます。','に',['で','を','は'],'I live in Japan.','に = location of living (住む takes に)','easy'],
+  ['ここ___すわってください。','に',['で','を','は'],'Please sit here.','に = location for seating/placing yourself','easy'],
+  ['まいにちコーヒー___のみます。','を',['が','に','は'],'I drink coffee every day.','を = direct object','easy'],
+  ['となり___ひとはだれですか。','の',['が','に','で'],'Who is the person next door?','の = possessive connector (となりの = next door\'s)','easy'],
+  ['わたし___なまえはたろうです。','の',['が','に','で'],'My name is Taro.','の = possessive (わたしの = my)','easy'],
+  ['これ___だれ___ですか。','は…の',['が…の','を…の','に…の'],'Whose is this?','は = topic; の = possessive (誰の = whose)','easy'],
+  ['きのう___かいしゃ___やすみました。','は…を',['が…に','を…で','に…が'],'Yesterday I took the day off from work.','は = time topic; を = verb object (休む takes を for reason)','easy'],
+  ['なんじ___おきますか。','に',['で','を','は'],'What time do you wake up?','に = specific time (何時に = at what time)','easy'],
+  ['あした___てんきはどうですか。','の',['が','に','は'],'How is tomorrow\'s weather?','の = possessive connector (あしたの = tomorrow\'s)','easy'],
+  ['この本___おもしろいです。','は',['が','を','に'],'This book is interesting.','は = topic marker for describing a subject','easy'],
+  ['あそこ___レストランはいいですよ。','の',['が','に','で'],'The restaurant over there is good.','の = possessive/location connector (あそこの = over there\'s)','easy'],
+  ['テスト___まえ___べんきょうします。','の…に',['が…で','を…は','に…で'],'I study before the exam.','の = connector; に = time reference (前に = before)','easy'],
+  ['やまだ___さんはなんさいですか。','さん',['は','が','を'],'How old is Mr./Ms. Yamada?','さん = honorific suffix; separate from particles','easy'],
+  ['おちゃ___どうぞ。','を',['は','が','に'],'Please have some tea.','を = object offered (どうぞ = please)','easy'],
+  ['バス___のって___えき___いきます。','に…で…に',['を…が…で','で…に…を','に…に…に'],'I take the bus to go to the station.','に (board); で (means); に (destination)','easy'],
+  ['ここ___はいってはいけません。','に',['で','を','は'],'You must not enter here.','に = location for entering (入る takes に)','easy'],
+  ['としょかん___本___かりました。','で…を',['に…が','が…に','を…は'],'I borrowed a book from the library.','で = location of action; を = object','easy'],
+  ['かばん___なか___さいふがあります。','の…に',['が…で','は…に','に…の'],'There is a wallet inside the bag.','の = possessive; に = location of existence','easy'],
+  ['うち___かえります。','に',['で','へ','を'],'I return home.','に = destination (帰る takes に or へ)','easy'],
+  ['バス___まっています。','を',['に','が','は'],'I am waiting for the bus.','を = object of waiting (待つ takes を)','easy'],
+  ['にほんご___じょうずですね。','が',['を','は','に'],'Your Japanese is skillful, isn\'t it.','が = subject of skill (上手 takes が for the skill)','easy'],
+  ['そと___さむいです。','は',['が','に','で'],'It\'s cold outside.','は = topic (そとは = as for outside...)','easy'],
+  ['ジュース___ください。','を',['は','が','に'],'Please give me juice.','を = object of ください','easy'],
+  ['あに___いしゃです。','は',['が','を','に'],'My older brother is a doctor.','は = topic; doctor = predicate','easy'],
+].forEach(([q,a,d,translation,note,level]) => {
+  add('particle',level,q,a,d,note,{hint:'Choose the correct particle(s) for the blank(s).',translation,_isParticle:true});
+});
+
+// ── PARTICLES MEDIUM extra (was 20, target 50+) ──────────────────
+[
+  ['ごはん___たべながら___テレビ___みます。','を…ながら…を',['は…が…を','に…で…が','を…て…は'],'I watch TV while eating.','を (eat object); ながら = while doing; を (watch object)','medium'],
+  ['にほん___いったことがあります。','に',['で','へ','を'],'I have been to Japan.','に = destination with いったことがある','medium'],
+  ['それ___ほんとうですか。','は',['が','を','に'],'Is that true?','は = topic in yes/no questions','medium'],
+  ['かのじょ___だれ___しりません。','が…も',['は…を','を…が','に…は'],'I don\'t know who she is either.','が = subject; も = either/also (with negative)','medium'],
+  ['この問題___どう___おもいますか。','を…と',['は…が','が…に','に…を'],'What do you think about this problem?','を = object; と = quotation (思う takes と)','medium'],
+  ['かれ___はなし___きいてください。','の…を',['が…に','に…で','は…が'],'Please listen to his story.','の = possessive; を = object of 聞く','medium'],
+  ['うみ___そば___ホテル___とまりました。','の…に…に',['が…で…を','の…で…で','は…で…に'],'I stayed at a hotel near the sea.','の = possessive; に location; に = lodging','medium'],
+  ['コーヒー___ミルク___いれます。','に…を',['を…が','が…に','は…を'],'I put milk in the coffee.','に = target container; を = object added','medium'],
+  ['れんしゅう___すれば___じょうずになります。','を…ば',['は…と','が…て','に…たら'],'If you practice, you will improve.','を = object; ば = conditional form','medium'],
+  ['かれ___どこ___でも___いきます。','は…に…も',['が…で…は','を…に…に','に…は…が'],'He will go anywhere.','は = topic; に = destination; も = even/any','medium'],
+  ['おいしい___たべもの___たべたいです。','もの…を',['こと…が','が…を','もの…が'],'I want to eat delicious food.','もの = thing/food; を = object of want','medium'],
+  ['おかあさん___やさしい人です。','は',['が','を','に'],'Mom is a kind person.','は = topic marker for characterizing someone','medium'],
+  ['むかし___にほん___きたことがあります。','に…に',['で…を','は…が','を…に'],'Long ago I came to Japan.','に = time (昔に = in the past); に = destination','medium'],
+  ['このりょうり___だれ___つくりましたか。','は…が',['を…が','が…に','に…を'],'Who made this dish?','は = topic; が = subject of making','medium'],
+  ['えいが___みにいきます。','を',['が','に','は'],'I\'m going to see a movie.','を (movie) + verb of purpose; or use に for destination','medium'],
+  ['ともだち___プレゼント___あげました。','に…を',['が…は','を…に','で…が'],'I gave a present to a friend.','に = recipient; を = object given','medium'],
+  ['かれ___すごく___しんぱい___しています。','の…を',['は…が','が…に','に…を'],'I am very worried about him.','の = possessive (彼のこと); を = object of 心配','medium'],
+  ['このまち___ひと___やさしいです。','の…は',['は…が','に…を','が…の'],'The people in this town are kind.','の = connector (この町の人); は = topic','medium'],
+  ['かれ___いつ___きましたか。','は…に',['が…で','を…に','に…は'],'When did he come?','は = topic; に = time','medium'],
+  ['にほん___ぶんか___すきです。','の…が',['は…が','を…に','に…を'],'I like Japanese culture.','の = possessive (日本の文化); が = subject of すき','medium'],
+  ['ここ___すわっても___いいですか。','に',['で','を','は'],'May I sit here?','に = location for positioning oneself','medium'],
+  ['みんな___おなじこと___おもっています。','が…を',['は…が','を…に','に…は'],'Everyone thinks the same thing.','が = subject; を = object of 思う','medium'],
+  ['かれ___じてんしゃ___かいました。','は…を',['が…に','を…が','に…は'],'He bought a bicycle.','は = topic; を = object bought','medium'],
+  ['にほんご___べんきょうして___います。','を',['が','に','は'],'I am studying Japanese.','を = object of 勉強している','medium'],
+  ['てんき___よければ___いきます。','が',['は','を','に'],'If the weather is good, I will go.','が = subject of conditional; よければ = if good','medium'],
+  ['せんせい___ほめられました。','に',['が','は','で'],'I was praised by the teacher.','に = agent in passive construction','medium'],
+  ['かぜ___ひいたので___やすみます。','を',['が','は','に'],'Because I caught a cold, I will rest.','を = object of ひく (catch a cold: 風邪をひく)','medium'],
+  ['あの子___かわいいですね。','は',['が','を','に'],'That child is cute, isn\'t she/he.','は = topic marker','medium'],
+  ['かれ___くるまで___かいしゃ___いきます。','は…で…に',['が…に…で','を…が…に','に…は…で'],'He goes to the company by car.','は = topic; で = means; に = destination','medium'],
+  ['このはな___においがいいです。','は',['が','を','に'],'This flower smells good.','は = topic; におい が いい = smell is good','medium'],
+].forEach(([q,a,d,translation,note,level]) => {
+  add('particle',level,q,a,d,note,{hint:'Choose the correct particle(s) for the blank(s).',translation,_isParticle:true});
+});
+
+// ── PARTICLES HARD extra (was 15, target 50+) ────────────────────
+[
+  ['かれ___なに___いっても___きかない。','に…を…も',['が…は…に','は…に…を','を…が…も'],'No matter what you say to him, he won\'t listen.','に = indirect object; を = object; も with negative = no matter','hard'],
+  ['そんなこと___できる___はずがない。','が…る',['は…な','を…て','に…た'],'There\'s no way that can be done.','が = subject; はずがない = there is no reason/expectation','hard'],
+  ['かれ___しか___しらない___じじつだ。','に…か…ない',['は…だけ…の','が…のみ…だ','を…しか…ない'],'It\'s a fact that only he knows.','に = knower; しか with negative = only','hard'],
+  ['このしごと___たいして___むずかしくない。','は…に',['が…で','を…に','に…は'],'This work isn\'t particularly difficult.','は = topic; たいして＋negative = not particularly','hard'],
+  ['びょうき___なければ___いきます。','で…なければ',['が…なら','に…なら','で…たら'],'If I\'m not sick, I\'ll go.','で = reason/state; なければ = if not (conditional)','hard'],
+  ['かれ___はなし___きけばよかった。','の…を',['は…が','が…に','に…の'],'I should have listened to his story.','の = possessive; を = object; ばよかった = should have','hard'],
+  ['まいにち___れんしゅう___すること___だいじだ。','の…を…が',['は…に…の','が…の…に','の…に…を'],'Practicing every day is important.','の = topic marker (こと); を = object; が = subject','hard'],
+  ['みんな___ために___はたらいています。','の',['が','に','で'],'I am working for everyone.','の = possessive; ために = for the sake of','hard'],
+  ['この本___よめばよむほど___おもしろい。','は…ば',['が…と','を…て','に…ど'],'The more you read this book, the more interesting it is.','は = topic; 〜ば〜ほど = the more... the more','hard'],
+  ['かれ___てがみ___だしても___へんじがこない。','に…を…も',['が…は…に','は…に…を','を…が…も'],'Even if I send him a letter, no reply comes.','に = recipient; を = object; ても = even if','hard'],
+  ['にほん___せいかつ___なれましたか。','での…に',['の…が','に…を','は…が'],'Have you gotten used to life in Japan?','での = in (context); に = target of 慣れる','hard'],
+  ['この映画___どんな人___おすすめですか。','は…に',['が…を','を…に','に…が'],'Who would you recommend this movie for?','は = topic; に = target of recommendation','hard'],
+  ['りょうしん___しんぱい___させてしまった。','を…に',['に…が','が…を','は…に'],'I ended up making my parents worried.','を = causative object; に = cause (させる)','hard'],
+  ['なんとか___できる___ものなら___やってみる。','か…る',['に…な','を…い','は…て'],'If it can somehow be done, I\'ll try.','なんとか = somehow; ものなら conditional = if possible','hard'],
+  ['かれ___あんな___ことを___いうとは。','が…な',['は…い','を…な','に…な'],'I can\'t believe he said such a thing.','が = subject; あんな = such/like that; とは = surprise particle','hard'],
+  ['この試験___むずかしすぎて___できなかった。','は…て',['が…で','を…に','に…が'],'This exam was too difficult and I couldn\'t do it.','は = topic; すぎる = too much; て = reason/cause','hard'],
+  ['もっとはやく___いっておけば___よかった。','に…ば',['を…て','が…と','は…な'],'I should have told them sooner.','に = indirect object of 言う; おけばよかった = should have done in advance','hard'],
+  ['かのじょ___うた___じょうずなだけ___なく、おどりもうまい。','は…が…で',['を…に…は','が…は…で','に…を…が'],'Not only is her singing skilled, but she\'s also good at dancing.','は = topic; が = subject of skill; だけでなく = not only','hard'],
+  ['この計画___せいこう___するには___なにが必要ですか。','の…に',['が…に','は…を','を…が'],'What is needed for this plan to succeed?','の = possessive connector; には = for the purpose of','hard'],
+  ['どんな困難___あっても___あきらめない。','が',['は','を','に'],'No matter what difficulties there are, I won\'t give up.','が = subject; があっても = even if there are','hard'],
+  ['それ___あなた___のせいじゃない。','は…の',['が…に','を…の','に…が'],'That\'s not your fault.','は = topic; の = possessive (あなたの = your)','hard'],
+  ['じぶん___した___こと___せきにんをとる。','の…た…の',['が…た…を','は…て…に','に…の…が'],'Take responsibility for what you yourself have done.','の = possessive; した こと = thing done; の = nominalizer','hard'],
+  ['かのじょ___なに___かんがえているか___わからない。','が…を…か',['は…に…が','を…が…か','に…は…を'],'I don\'t know what she is thinking.','が = subject; を = object; か = embedded question marker','hard'],
+  ['このはなし___だれ___もしないでください。','は…に…も',['が…に…も','を…が…の','に…は…に'],'Please don\'t tell anyone about this.','は = topic; に = recipient; も with negative = no one','hard'],
+  ['もう少し___まてば___よかったのに。','待て…ば',['まつ…と','まっ…て','まて…た'],'If only I had waited a little longer.','ば = conditional; のに = expressing regret','hard'],
+].forEach(([q,a,d,translation,note,level]) => {
+  add('particle',level,q,a,d,note,{hint:'Choose the correct particle(s) for the blank(s).',translation,_isParticle:true});
+});
+
+// ── KANJI HARD extra — N3 additional (was 40, target 50+) ────────
+addKanji('hard','受','うける (ukeru)','receive / take (exam)',['とる (toru)','もらう (morau)','もつ (motsu)','きる (kiru)'],['get','receive (gift)','hold','cut'],'受 = うける/じゅ; 受ける = to receive/take; 受験 = taking exam');
+addKanji('hard','返','かえす (kaesu)','return / give back',['もどる (modoru)','かえる (kaeru)','わたす (watasu)','なげる (nageru)'],['go back','return (go)','hand over','throw'],'返 = かえす/へん; 返す = give back; 返事 = reply');
+addKanji('hard','払','はらう (harau)','pay',['かう (kau)','うる (uru)','かりる (kariru)','かえす (kaesu)'],['buy','sell','borrow','return'],'払 = はらう/ふつ; 支払い = payment');
+addKanji('hard','貸','かす (kasu)','lend',['かりる (kariru)','はらう (harau)','かう (kau)','うる (uru)'],['borrow','pay','buy','sell'],'貸 = かす/たい; 貸す = lend; 貸し出し = loan');
+addKanji('hard','借','かりる (kariru)','borrow',['かす (kasu)','はらう (harau)','かう (kau)','うる (uru)'],['lend','pay','buy','sell'],'借 = かりる/しゃく; 借りる = borrow; 借金 = debt');
+addKanji('hard','探','さがす (sagasu)','search / look for',['みつける (mitsukeru)','みる (miru)','しらべる (shiraberu)','えらぶ (erabu)'],['find','look','investigate','choose'],'探 = さがす/たん; 探す = search; 探偵 = detective');
+addKanji('hard','選','えらぶ (erabu)','choose / select',['さがす (sagasu)','きめる (kimeru)','なやむ (nayamu)','えらぶ (erabu)'],['search','decide','be troubled','choose (same)'],'選 = えらぶ/せん; 選ぶ = choose; 選手 = athlete');
+addKanji('hard','負','まける (makeru)','lose / be defeated',['かつ (katsu)','ひける (hikeru)','やめる (yameru)','あきらめる (akirameru)'],['win','withdraw','quit','give up'],'負 = まける/ふ; 負ける = lose; 勝負 = match/contest');
+addKanji('hard','勝','かつ (katsu)','win',['まける (makeru)','ひける (hikeru)','やめる (yameru)','あきらめる (akirameru)'],['lose','withdraw','quit','give up'],'勝 = かつ/しょう; 勝つ = win; 勝負 = match');
+addKanji('hard','比','くらべる (kuraberu)','compare',['えらぶ (erabu)','ちがう (chigau)','おなじ (onaji)','わける (wakeru)'],['choose','differ','same','divide'],'比 = くらべる/ひ; 比べる = compare; 比較 = comparison');
+addKanji('hard','様','ようす (yousu)','appearance / situation',['かたち (katachi)','すがた (sugata)','かんじ (kanji)','もの (mono)'],['shape','figure/form','feeling','thing'],'様 = さま/よう; 様子 = situation; お客様 = customer');
+addKanji('hard','重','おもい (omoi)','heavy / serious',['かるい (karui)','おおきい (ookii)','こい (koi)','ふとい (futoi)'],['light','big','dense','fat/thick'],'重 = おもい/じゅう; 重い = heavy; 重要 = important');
+addKanji('hard','軽','かるい (karui)','light (weight)',['おもい (omoi)','やわらかい (yawarakai)','うすい (usui)','ほそい (hosoi)'],['heavy','soft','thin','slim'],'軽 = かるい/けい; 軽い = light; 軽食 = light meal');
+addKanji('hard','短','みじかい (mijikai)','short',['ながい (nagai)','ひくい (hikui)','ほそい (hosoi)','ちいさい (chiisai)'],['long','low','thin','small'],'短 = みじかい/たん; 短い = short; 短所 = weakness');
+addKanji('hard','長','ながい (nagai)','long',['みじかい (mijikai)','ひくい (hikui)','たかい (takai)','ふとい (futoi)'],['short','low','tall/expensive','fat/thick'],'長 = ながい/ちょう; 長い = long; 長所 = strength/merit');
+
+// ── TOP-UP: counters_hard to 50+ ────────────────────────────────
+[
+  ['ビール３本','ビール さんぼん (sanbon)','3 beers',['さんほん','みっつ','さんこ','さんまい'],'3本 = さんぼん ⚠️ (ぼん not ほん)','hard'],
+  ['ひこうき３機','ひこうき さんき (sanki)','3 planes',['さんだい','さんこ','みっつ','さんまい'],'3機 = さんき','hard'],
+  ['でんち１０本','でんち じゅっぽん (juppon)','10 batteries',['じゅうほん','じゅっこ','とほん','じゅうぼん'],'10本 = じゅっぽん ⚠️','hard'],
+  ['てがみ１０通','てがみ じゅっつう (juttsuu)','10 letters',['じゅうつう','じゅっこ','とつう','じゅうつつ'],'10通 = じゅっつう ⚠️','hard'],
+  ['えいが６本','えいが ろっぽん (roppon)','6 films',['ろくほん','ろっこ','ろくぼん','むほん'],'6本 = ろっぽん ⚠️','hard'],
+  ['くすり６錠','くすり ろくじょう (rokujou)','6 tablets',['ろっこ','ろっじょう','むじょう','ろくまい'],'6錠 = ろくじょう','hard'],
+  ['はな３本','はな さんぼん (sanbon)','3 cut flowers',['さんほん','みっつ','さんこ','さんまい'],'切り花: 3本 = さんぼん','hard'],
+].forEach(([q,a,meaning,d,note,level]) => add('counters',level,q,a,d,note,{hint:`How do you count: "${meaning}"?`,meaning}));
+
+// ── TOP-UP: particle_hard to 50+ ────────────────────────────────
+[
+  ['それ___どういう___いみですか。','は…う',['が…な','を…い','に…お'],'What does that mean?','は = topic; どういう = what kind of (どういう意味)','hard'],
+  ['かれ___こと___まだ___すきです。','の…が…も',['は…を…も','が…の…は','に…が…も'],'I still like him.','"彼のこと" = him (as a person); が = subject of すき; も = still/even so','hard'],
+  ['もっとはやく___れんらく___すれば___よかった。','に…を…ば',['が…に…と','は…が…て','を…に…ば'],'I should have contacted them sooner.','に = recipient; を = object; すればよかった = should have','hard'],
+  ['その問題___どう___たいしょすればいいか___わからない。','に…に',['は…を','が…に','を…が'],'I don\'t know how to deal with that problem.','に = topic of dealing; どう = how; に = indirect','hard'],
+  ['かれ___いう___こと___いつも正しい。','の…う…は',['が…た…が','は…い…を','に…な…に'],'What he says is always right.','の = possessive; こと = nominalizer; は = topic','hard'],
+  ['こんなに___つかれている___のに___まだはたらく。','に…て…の',['が…な…に','を…て…は','は…で…も'],'Even though so tired, still working.','のに = even though (contrast/complaint)','hard'],
+  ['それ___なんとか___なる___だろう。','は…か…る',['が…に…な','を…と…い','に…は…な'],'That will somehow work out.','は = topic; なんとかなる = will somehow manage','hard'],
+  ['かれ___うわさ___きいたことがあります。','の…を',['は…が','が…に','に…の'],'I have heard rumors about him.','の = possessive; を = object of 聞く','hard'],
+  ['この計画___問題___あれば___すぐおしえて。','に…が…ば',['は…を…と','が…に…て','に…は…と'],'If there\'s a problem with this plan, tell me right away.','に = location of problem; が = subject; ば = if','hard'],
+  ['なにか___てつだえる___こと___あれば。','か…る…が',['は…な…に','が…い…を','に…て…は'],'If there\'s anything I can help with.','か = something; こと = nominalizer; が = subject of condition','hard'],
+].forEach(([q,a,d,translation,note,level]) => {
+  add('particle',level,q,a,d,note,{hint:'Choose the correct particle(s) for the blank(s).',translation,_isParticle:true});
+});
+
+// ── TOP-UP: time_easy to 50+ ─────────────────────────────────────
+[
+  ['ごご','ごご (gogo)','afternoon/PM',['ごぜん','あさ','よる','ひる'],'午後 (ごご) = afternoon/PM','easy','What time of day is this?'],
+  ['ごぜん','ごぜん (gozen)','morning/AM',['ごご','あさ','よる','ひる'],'午前 (ごぜん) = morning/AM','easy','What time of day is this?'],
+  ['あさ','あさ (asa)','morning',['ひる','よる','ゆうがた','ごご'],'朝 (あさ) = morning (general)','easy','What time of day is this?'],
+  ['ひる','ひる (hiru)','noon/daytime',['あさ','よる','ゆうがた','ごご'],'昼 (ひる) = noon/daytime','easy','What time of day is this?'],
+  ['よる','よる (yoru)','night',['あさ','ひる','ゆうがた','ごご'],'夜 (よる) = night','easy','What time of day is this?'],
+  ['ゆうがた','ゆうがた (yuugata)','evening',['あさ','ひる','よる','ごご'],'夕方 (ゆうがた) = early evening','easy','What time of day is this?'],
+].forEach(([q,a,meaning,d,note,level,hint]) => add('time',level,q,a,d,note,{hint,meaning}));
+
+// ── TOP-UP: time_hard to 50+ ─────────────────────────────────────
+[
+  ['ひごろ','ひごろ (higoro)','usually/habitually',['ときどき','たまに','よく','まいにち'],'日頃 (ひごろ) = habitually, on a daily basis','hard','What does this word mean?'],
+  ['まもなく','まもなく (mamonaku)','shortly/very soon',['もうすぐ','すぐに','あとで','まだ'],'間もなく (まもなく) = shortly, in a moment (more formal than もうすぐ)','hard','What does this word mean?'],
+  ['とっくに','とっくに (tokkuni)','long ago / already long since',['まだ','もうすぐ','やっと','さっき'],'とっくに = long ago, already (implies the person should know)','hard','What does this word mean?'],
+  ['やっと','やっと (yatto)','finally / at last (after effort)',['もうすぐ','まもなく','とっくに','さっき'],'やっと = finally (after much effort/waiting)','hard','What does this word mean?'],
+  ['ようやく','ようやく (youyaku)','finally / at last (formal)',['やっと','まもなく','とっくに','まだ'],'ようやく = finally (more formal/literary than やっと)','hard','What does this word mean?'],
+  ['かつて','かつて (katsute)','once / formerly / in the past',['むかし','いつか','もとは','まえ'],'かつて = once, formerly (often used with ある/ない: かつてない = unprecedented)','hard','What does this word mean?'],
+  ['いつのまにか','いつのまにか (itsu no ma ni ka)','before I knew it / without noticing',['いつか','いつも','ずっと','もうすぐ'],'いつの間にか = before I knew it, without realizing','hard','What does this phrase mean?'],
+  ['たちまち','たちまち (tachimachi)','instantly / in no time',['すぐに','まもなく','やっと','ようやく'],'たちまち = instantly, in the blink of an eye','hard','What does this word mean?'],
+  ['そのうち','そのうち (sono uchi)','before long / one of these days',['もうすぐ','まもなく','やっと','いずれ'],'そのうち = one of these days, eventually (vague future)','hard','What does this expression mean?'],
+  ['いずれ','いずれ (izure)','eventually / sooner or later',['そのうち','まもなく','やっと','もうすぐ'],'いずれ = eventually, sooner or later (formal)','hard','What does this word mean?'],
+].forEach(([q,a,meaning,d,note,level,hint]) => add('time',level,q,a,d,note,{hint,meaning}));
+
+// ════════════════════════════════════════════════════════════════════
+// ENGINE
+// ════════════════════════════════════════════════════════════════════
+function shuffle(arr) { return arr.slice().sort(()=>Math.random()-0.5); }
+
+// Session memory: track seen question fingerprints per category+level
+// Also track wrong answers for weighted re-appearance
+const seen = {}; // key -> count shown
+const wrongWeights = {}; // key -> extra weight
+
+function getKey(item) {
+  return `${item.category}|${item.level}|${item.q}|${item.a}`;
+}
+
+function getPool(category, level) {
+  const items = QUIZ_DATA.filter(item =>
+    (category === 'mixed' || item.category === category) &&
+    item.level === level
+  );
+  // For numbers: always regenerate some fresh ones to ensure variety
+  if (category === 'numbers' || category === 'mixed') {
+    const extra = level === 'easy' ? 20 : level === 'medium' ? 20 : 15;
+    for (let i=0;i<extra;i++) {
+      if (category === 'numbers') items.push(generateNumberQ(level));
+      else {
+        const numLevel = ['easy','medium','hard'][Math.floor(Math.random()*3)];
+        items.push(generateNumberQ(numLevel));
+      }
+    }
+  }
+  return items;
+}
+
+function pickQuestions(category, level, count) {
+  const pool = getPool(category, level);
+  // Weight: unseen items first, wrong items higher, seen items lower
+  const weighted = pool.map(item => {
+    const k = getKey(item);
+    const seenCount = seen[k] || 0;
+    const wrongBonus = wrongWeights[k] || 0;
+    // score: lower = more likely to be picked
+    const score = seenCount * 10 - wrongBonus * 5 + Math.random() * 8;
+    return { item, score };
+  });
+  weighted.sort((a,b) => a.score - b.score);
+  return weighted.slice(0, count).map(w => ({
+    ...w.item,
+    opts: buildOpts(w.item.a, w.item.d)
+  }));
+}
+
+function buildOpts(correct, d) {
+  return shuffle([correct, ...shuffle(d).slice(0,3)]);
+}
+
+// ── DIFF DESCRIPTIONS ──────────────────────────────────────────────
+const DIFF_DESCS = {
+  hiragana:  { easy:'Single kana characters (あ, い, が, じゃ...)', medium:'2–3 character words with meanings', hard:'4+ character words, phrases & place names' },
+  katakana:  { easy:'Single kana characters (ア, イ, ガ, ジャ...)', medium:'Loanwords 2–3 chars (コーヒー...)', hard:'Long loanwords (スマートフォン...)' },
+  numbers:   { easy:'1–99 (procedural — never repeats!)', medium:'100–9,999 (irregular readings!)', hard:'10,000+ using 万 and 億' },
+  counters:  { easy:'Basic: 個、枚、本、匹、冊', medium:'Money, people, vehicles, floors', hard:'Sound changes & mixed counter sentences' },
+  time:      { easy:'O\'clock, minutes, days of week', medium:'AM/PM, all 12 months, irregular dates', hard:'Duration, relative time, full expressions' },
+  kanji:     { easy:'JLPT N5 — reading & meaning (52 questions)', medium:'JLPT N4 — reading & meaning (52 questions)', hard:'JLPT N3 — reading & meaning (70 questions)' },
+  particle:  { easy:'は、が、を、に、で — core particles', medium:'と、も、へ、から、まで、より — intermediate', hard:'Complex multi-particle, passive, nuanced usage' },
+  mixed:     { easy:'Easy questions from all categories', medium:'Medium questions from all categories', hard:'Hard questions from all categories' },
+};
+
+function getPoolSize(category, level) {
+  const base = QUIZ_DATA.filter(i =>
+    (category==='mixed'||i.category===category) && i.level===level
+  ).length;
+  if (category==='numbers'||category==='mixed') return base + '+ (procedural)';
+  return base;
+}
+
+// ── STATE ──────────────────────────────────────────────────────────
+let selMode = 'hiragana', selDiff = 'easy', selCount = 20;
+let questions = [], current = 0, score = 0, answered = false;
+let bestStreak = 0, curStreak = 0;
+
+function updateInfo() {
+  document.getElementById('diffDesc').textContent = DIFF_DESCS[selMode]?.[selDiff] || '';
+  const size = getPoolSize(selMode, selDiff);
+  document.getElementById('poolInfo').textContent = `${size} questions in pool`;
+}
+
+document.getElementById('modeGrid').addEventListener('click', e => {
+  const card = e.target.closest('.mode-card');
+  if (!card) return;
+  document.querySelectorAll('.mode-card').forEach(c=>c.classList.remove('active'));
+  card.classList.add('active');
+  selMode = card.dataset.mode;
+  updateInfo();
+});
+
+document.getElementById('diffRow').addEventListener('click', e => {
+  const btn = e.target.closest('.diff-btn');
+  if (!btn) return;
+  document.querySelectorAll('.diff-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  selDiff = btn.dataset.diff;
+  updateInfo();
+});
+
+// Question count selector
+document.getElementById('countBtns').addEventListener('click', e => {
+  const btn = e.target.closest('.count-btn');
+  if (!btn) return;
+  document.querySelectorAll('.count-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  selCount = parseInt(btn.dataset.count);
+  document.getElementById('countCustom').value = '';
+});
+
+document.getElementById('countCustom').addEventListener('input', e => {
+  const val = parseInt(e.target.value);
+  if (val >= 5 && val <= 100) {
+    document.querySelectorAll('.count-btn').forEach(b=>b.classList.remove('active'));
+    selCount = val;
+  }
+});
+
+function startQuiz() {
+  const customVal = parseInt(document.getElementById('countCustom').value);
+  const count = (customVal >= 5 && customVal <= 100) ? customVal : selCount;
+  questions = pickQuestions(selMode, selDiff, count);
+  current = 0; score = 0; answered = false; curStreak = 0; bestStreak = 0;
+  document.getElementById('start-screen').style.display = 'none';
+  document.getElementById('quizBox').style.display = 'block';
+  document.getElementById('resultBox').classList.remove('show');
+  document.getElementById('questionScreen').style.display = 'block';
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const q = questions[current];
+  const total = questions.length;
+  answered = false;
+
+  document.getElementById('progressFill').style.width = ((current/total)*100)+'%';
+  document.getElementById('progressLabel').textContent = (current+1)+' / '+total;
+  document.getElementById('scoreBadge').textContent = '✓ '+score;
+
+  const typeLabels = {hiragana:'Hiragana',katakana:'Katakana',numbers:'Numbers',counters:'Counters',time:'Time & Date',kanji:'Kanji',particle:'Particles'};
+  document.getElementById('qType').textContent = typeLabels[q.category] || 'Quiz';
+
+  const el = document.getElementById('qText');
+  const hintEl = document.getElementById('qHint');
+
+  if (q._isParticle) {
+    el.className = 'sentence-display';
+    const parts = q.q.split('___');
+    el.innerHTML = parts.map((p,i) =>
+      i < parts.length-1
+        ? p+'<span class="sentence-blank" id="sb'+i+'">　</span>'
+        : p
+    ).join('');
+    hintEl.innerHTML = (q.translation ? '<span class="sentence-translation">'+q.translation+'</span><br>' : '') + 'Choose the correct particle(s):';
+  } else {
+    const isLong = q.q.length > 6;
+    el.className = 'question-jp' + (isLong ? ' small' : '');
+    el.textContent = q.q;
+    hintEl.textContent = q.hint || 'How do you read this?';
+  }
+
+  const grid = document.getElementById('optionsGrid');
+  grid.innerHTML = '';
+  q.opts.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.textContent = opt;
+    btn.onclick = () => selectAnswer(btn, opt, q.a, q);
+    grid.appendChild(btn);
+  });
+
+  document.getElementById('feedback').className = 'feedback';
+  document.getElementById('nextBtn').classList.remove('show');
+}
+
+function selectAnswer(btn, chosen, correct, q) {
+  if (answered) return;
+  answered = true;
+
+  // Track seen
+  const k = getKey(q);
+  seen[k] = (seen[k]||0)+1;
+
+  document.querySelectorAll('.option-btn').forEach(b => {
+    b.disabled = true;
+    if (b.textContent===correct) b.classList.add('correct');
+  });
+
+  if (q._isParticle) {
+    const blanks = document.querySelectorAll('[id^="sb"]');
+    blanks.forEach(bl => {
+      bl.textContent = chosen===correct ? correct : chosen;
+      bl.className = 'sentence-blank '+(chosen===correct?'filled-correct':'filled-wrong');
+    });
+  }
+
+  const fb = document.getElementById('feedback');
+  const note = q.note ? ' — '+q.note : '';
+
+  if (chosen===correct) {
+    score++;
+    curStreak++;
+    if (curStreak>bestStreak) bestStreak=curStreak;
+    delete wrongWeights[k];
+    btn.classList.add('correct');
+    fb.className = 'feedback correct-fb show';
+    fb.textContent = '✓ Correct!'+(curStreak>2?' 🔥 '+curStreak+' in a row!':'')+note;
+  } else {
+    curStreak=0;
+    wrongWeights[k] = (wrongWeights[k]||0)+1;
+    btn.classList.add('wrong');
+    fb.className = 'feedback wrong-fb show';
+    fb.textContent = '✗ Answer: '+correct+note;
+  }
+  document.getElementById('scoreBadge').textContent = '✓ '+score;
+  document.getElementById('nextBtn').classList.add('show');
+}
+
+function nextQuestion() {
+  current++;
+  if (current>=questions.length) showResult();
+  else renderQuestion();
+}
+
+function showResult() {
+  document.getElementById('questionScreen').style.display='none';
+  document.getElementById('progressFill').style.width='100%';
+  const total = questions.length;
+  const pct = Math.round((score/total)*100);
+  document.getElementById('resultScore').textContent = score+'/'+total;
+  document.getElementById('resultStreak').textContent = bestStreak > 2 ? '🔥 Best streak: '+bestStreak+' in a row' : '';
+  const msgs = [[0,40,'もう一度！Keep at it!'],[40,60,'いいね！Getting better!'],[60,80,'よくできました！Well done!'],[80,95,'すごい！Very impressive!'],[95,101,'完璧です！Perfect! 🎉']];
+  const m = msgs.find(([lo,hi])=>pct>=lo&&pct<hi);
+  document.getElementById('resultMsg').textContent = m?m[2]:'よくできました！';
+  document.getElementById('resultBox').classList.add('show');
+}
+
+function restartQuiz() {
+  document.getElementById('resultBox').classList.remove('show');
+  document.getElementById('questionScreen').style.display='block';
+  startQuiz();
+}
+
+function goHome() {
+  document.getElementById('quizBox').style.display='none';
+  document.getElementById('start-screen').style.display='block';
+}
+
+function confirmExit() { document.getElementById('confirmOverlay').classList.add('show'); }
+function closeConfirm() { document.getElementById('confirmOverlay').classList.remove('show'); }
+function doExit() { closeConfirm(); goHome(); }
+
+// Init
+updateInfo();
+</script>
+</body>
+</html>
