@@ -2,7 +2,7 @@
 
 A free, self-contained Japanese learning quiz app — no backend, no API key, no login required. Just one HTML file that runs entirely in the browser.
 
-**Live demo:** *(add your Netlify URL here after deploying)*
+**Live demo:** [*https://nihongo-quiz.netlify.app/*](https://nihongo-quiz.netlify.app/)
 
 ---
 
@@ -128,17 +128,10 @@ You can append to any of the existing data arrays in the file:
 ```
 japanese-quiz/
 ├── index.html    ← the entire app (HTML + CSS + JS + all data)
-├── README.md
-└── DEPLOY.md     ← step-by-step Netlify & GitHub Pages guide
+└── README.md
 ```
 
 Everything is intentionally in one file — zero build step, works offline, trivially hostable anywhere.
-
----
-
-## Hosting
-
-See **[DEPLOY.md](./DEPLOY.md)** for step-by-step instructions for Netlify (drag & drop, live in 2 minutes) and GitHub Pages.
 
 ---
 
