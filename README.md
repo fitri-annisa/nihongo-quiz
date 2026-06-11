@@ -1,6 +1,6 @@
 # 日本語 Quiz 🇯🇵
 
-A free, self-contained Japanese learning quiz app — no backend, no API key, no login required. Just one HTML file that runs entirely in the browser.
+A free, static Japanese learning quiz app — no backend, no API key, no login required. Vanilla HTML/CSS/JS with question data in separate JSON files.
 
 **Live demo:** [*https://nihongo-quiz.netlify.app/*](https://nihongo-quiz.netlify.app/)
 
@@ -8,154 +8,155 @@ A free, self-contained Japanese learning quiz app — no backend, no API key, no
 
 ## What's inside
 
-| Category | Easy | Medium | Hard |
-|---|---|---|---|
-| **Hiragana** | 92 single characters (incl. dakuten & combos) | 56 vocabulary words with meanings | 50 long phrases & place names |
-| **Katakana** | 83 single characters | 70 loanwords | 50 long loanwords |
-| **Numbers** | 1–99 *(procedural — infinite!)* | 100–9,999 *(procedural)* | 10,000+ using 万/億 *(procedural)* |
-| **Counters** | 50 questions — 個、枚、本、匹、冊 | 50 questions — money (円), people, vehicles | 50 questions — sound changes & tricky patterns |
-| **Time & Date** | 54 questions — hours, minutes, days of week | 52 questions — all 12 months, irregular dates | 50 questions — duration, relative time, era names |
-| **Kanji** | 52 questions — JLPT N5 reading & meaning | 52 questions — JLPT N4 reading & meaning | 70 questions — JLPT N3 reading & meaning |
-| **Particles** | 50 questions — は、が、を、に、で | 50 questions — と、も、へ、から、まで、より | 50 questions — complex multi-particle & passive |
-| **Mixed** | Random from all easy pools | Random from all medium pools | Random from all hard pools |
-
-**Total: 1,200+ unique questions** (plus infinite procedural numbers)
+| Category | Easy | Medium | Hard | Total |
+|---|---|---|---|---|
+| **Hiragana** | 92 (single chars) | 56 (vocab words) | 50 (phrases) | 198 |
+| **Katakana** | 83 (single chars) | 70 (loanwords) | 50 (long loanwords) | 203 |
+| **Kanji** | 224 (JLPT N5, 112 kanji) | 250 (JLPT N4, 123 kanji) | 310 (JLPT N3, 154 kanji) | 784 |
+| **Particles** | 50 | 50 | 50 | 150 |
+| **Time & Date** | 54 | 52 | 50 | 156 |
+| **Counters** | 47 | 40 | 33 | 120 |
+| **Numbers** | ∞ procedural (1–99) | ∞ (100–9,999) | ∞ (10,000+ with 万/億) | ∞ |
+| | | | **Total** | **1,611+** |
 
 ### Features
 
-- **You choose how many questions** — pick 10, 20, 30, 50, or type any number from 5–100
-- **Smart anti-repeat** — tracks questions you've seen this session; always serves unseen questions first
-- **Wrong answer boost** — questions you got wrong are prioritized to come back sooner
-- **Streak counter** — 🔥 tracks consecutive correct answers
-- **Procedural numbers** — number questions are generated on the fly, so they never repeat regardless of how many you pick
-- **Particle fill-in-the-blank** — shows full Japanese sentences with a blank, reveals the filled answer after you choose
-- **Exit button** — quit mid-quiz with a confirmation dialog
-- **Single HTML file** — host anywhere, works offline after first load
+- **Two answer modes** — multiple choice, or ⌨️ type the romaji answer (hiragana, katakana & numbers)
+- **Smart romaji checking** — case insensitive, whitespace-tolerant, one-letter typos count as "almost correct", but Kunrei-shiki romanization (si/ti/tu) is rejected with a Hepburn explanation (shi/chi/tsu)
+- **Alternate readings accepted** — 4 = yon *or* shi, 7 = nana *or* shichi, 9 = kyuu *or* ku
+- **You choose how many questions** — 10, 20, 30, 50, or any custom number 5–100
+- **Smart anti-repeat** — unseen questions served first; wrong answers come back sooner
+- **Procedural numbers** — generated on the fly, never repeat
+- **Particle fill-in-the-blank** — full sentences with a visual blank that fills in with your answer
+- **Streak counter** 🔥, exit confirmation, per-question explanations
+
+---
+
+## Project structure
+
+```
+japanese-quiz/
+├── index.html        ← HTML + CSS (no data, no logic)
+├── quiz.js           ← engine: loader, picker, romaji checker, UI
+└── data/
+    ├── hiragana.json
+    ├── katakana.json
+    ├── kanji.json
+    ├── particle.json
+    ├── time.json
+    ├── counters.json
+    └── README.md     ← data format docs
+```
+
+**Questions live in `data/*.json`** — to add questions, edit the JSON. No code changes needed.
 
 ---
 
 ## How to run locally
 
-No build step needed. Just open the file:
+The app loads data via `fetch()`, which browsers block on `file://` URLs — so you need a local web server:
 
 ```bash
-# Option 1: open directly
-open index.html
-
-# Option 2: serve with Python (avoids any browser file:// restrictions)
+# Python (built-in on Mac/Linux)
 python3 -m http.server 8080
-# then visit http://localhost:8080
+
+# or Node
+npx serve .
 ```
+
+Then open `http://localhost:8080`. 
+
+> On Netlify / GitHub Pages this is not an issue — everything is served over HTTP automatically.
 
 ---
 
-## How to add more questions
+## How to add questions
 
-All questions live in one `QUIZ_DATA` array inside `index.html`. Adding a new question is one line.
+Append a JSON object to the relevant file in `data/`. Format:
 
-### Basic question (kana, time, counters, etc.)
-
-```js
-add(
-  'hiragana',               // category: hiragana | katakana | numbers | counters | time | kanji | particle
-  'medium',                 // level: easy | medium | hard
-  'ねこ',                   // q: the question text shown to the user
-  'neko',                   // a: the correct answer
-  ['inu','uma','tori','kuma'], // d: wrong options (provide 3–4)
-  'ねこ = neko (cat)',       // note: shown in feedback after answering
-  {                         // optional extras:
-    hint: 'How do you read this word?',
-    meaning: 'cat'
-  }
-);
+```json
+{
+  "category": "hiragana",
+  "level": "medium",
+  "q": "ねこ",
+  "a": "neko",
+  "d": ["inu", "uma", "tori", "kuma"],
+  "note": "ねこ = neko (cat)",
+  "hint": "How do you read this word?",
+  "meaning": "cat"
+}
 ```
 
-### Particle fill-in-the-blank
+**Particle questions** use `___` for the blank and need two extra fields:
 
-Use `___` in the question string to mark the blank. The answer is the particle (or particles joined by `…`).
-
-```js
-add(
-  'particle', 'easy',
-  'わたし___がくせいです。',  // ___ = the blank
-  'は',                      // correct particle
-  ['が', 'を', 'で'],        // wrong options
-  'は = topic marker',
-  {
-    translation: 'I am a student.',
-    _isParticle: true         // tells the renderer to show the sentence format
-  }
-);
+```json
+{
+  "category": "particle",
+  "level": "easy",
+  "q": "わたし___がくせいです。",
+  "a": "は",
+  "d": ["が", "を", "で"],
+  "note": "は = topic marker",
+  "translation": "I am a student.",
+  "_isParticle": true
+}
 ```
 
-### Kanji — two questions in one call
+**Kanji** get two objects each — one for reading, one for meaning:
 
-`addKanji` automatically creates two questions: one asking for the reading, one asking for the meaning.
-
-```js
-addKanji(
-  'easy',                          // level
-  '山',                            // kanji character
-  'やま (yama)',                   // correct reading
-  'mountain',                      // correct meaning
-  ['かわ (kawa)', 'き (ki)', 'ひ (hi)', 'うみ (umi)'],  // wrong readings
-  ['river', 'tree', 'fire', 'sea'],                     // wrong meanings
-  '山 ='                           // note prefix
-);
+```json
+{ "category":"kanji", "level":"easy", "q":"山", "a":"やま (yama)", "d":["かわ (kawa)","き (ki)","ひ (hi)"], "note":"山 = やま — mountain", "hint":"How do you read this kanji?" },
+{ "category":"kanji", "level":"easy", "q":"山", "a":"mountain", "d":["river","tree","fire"], "note":"山 = やま (yama)", "hint":"What does this kanji mean?" }
 ```
 
-### Where to add
+### Distractor rules (important — prevents answer leaks!)
 
-You can append to any of the existing data arrays in the file:
+- **Counters**: counter reading only — `"いっこ"`, never `"りんご いっこ"` (the object name reveals the answer)
+- **Kana**: romaji only in options — `"neko"`, not `"ねこ (neko)"`
+- **Kanji reading questions**: kana options only; **meaning questions**: English only — never mix
+- **Days/months**: reading only — `"げつようび"`, not `"Monday (月曜日)"`
 
-| Array | Category | Level |
-|---|---|---|
-| `HIRA_CHARS` | hiragana | easy |
-| `HIRA_WORDS` | hiragana | medium |
-| `HIRA_HARD` | hiragana | hard |
-| `KATA_CHARS` | katakana | easy |
-| `KATA_WORDS` | katakana | medium |
-| `KATA_HARD` | katakana | hard |
-| `COUNTERS` | counters | easy/medium/hard (set in item) |
-| `TIME_DATA` | time | easy/medium/hard (set in item) |
-| `PARTICLE_DATA` | particle | easy/medium/hard (set in item) |
-| `addKanji(...)` calls | kanji | easy = N5, medium = N4, hard = N3 |
+Full format docs: [`data/README.md`](./data/README.md)
 
 ---
 
-## File structure
+## Typing mode details
 
-```
-japanese-quiz/
-├── index.html    ← the entire app (HTML + CSS + JS + all data)
-└── README.md
-```
+When "Type answer" is selected, hiragana, katakana, and numbers questions show a text input instead of buttons (other categories stay multiple choice).
 
-Everything is intentionally in one file — zero build step, works offline, trivially hostable anywhere.
+Checking rules:
+- Case insensitive, leading/trailing/internal whitespace ignored
+- Hepburn romanization required: **shi** not si, **chi** not ti, **tsu** not tu, **fu** not hu — Kunrei input is marked wrong with an explanation
+- One-letter typos (`neka` for `neko`) count as correct with a spelling reminder
+- Numbers accept alternate readings: yon/shi, nana/shichi, kyuu/ku
+
+---
+
+## Deploying
+
+See [DEPLOY.md](./DEPLOY.md) — Netlify drag & drop takes ~2 minutes, GitHub Pages also works. Both serve the JSON files correctly with zero configuration.
 
 ---
 
 ## Tech stack
 
-- Vanilla HTML/CSS/JS — zero frameworks, zero dependencies
-- Google Fonts (Noto Sans JP + Inter) loaded from CDN
-- Works fully offline after first load (fonts cached by browser)
-- ~1,500 lines of HTML/CSS/JS + data
+- Vanilla HTML/CSS/JS — zero frameworks, zero build step, zero dependencies
+- Google Fonts (Noto Sans JP + Inter) from CDN
+- Data as plain JSON — easy to contribute, easy to validate
 
 ---
 
 ## Contributing
 
-Pull requests welcome! The easiest contribution is adding more questions — just follow the format above and open a PR.
+PRs welcome! The easiest contribution is adding questions to `data/*.json` — follow the format above.
 
-Ideas for future additions:
+Roadmap ideas:
 - [ ] JLPT N2/N1 kanji
 - [ ] Grammar patterns (〜ている、〜たい、〜なければならない...)
-- [ ] Keigo (honorific speech)
-- [ ] Onomatopoeia (擬音語・擬態語)
-- [ ] Audio pronunciation (Web Speech API)
 - [ ] Progress saved across sessions (localStorage)
-- [ ] Dark/light theme toggle
+- [ ] Review mode — list wrong answers after each quiz
+- [ ] Audio pronunciation (Web Speech API)
+- [ ] Keigo (honorific speech)
 
 ---
 

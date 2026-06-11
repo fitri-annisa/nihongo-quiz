@@ -1,0 +1,2881 @@
+[
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ア",
+    "a": "a",
+    "d": [
+      "i",
+      "u",
+      "e",
+      "o"
+    ],
+    "note": "カタカナ: ア = a"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "イ",
+    "a": "i",
+    "d": [
+      "a",
+      "u",
+      "e",
+      "o"
+    ],
+    "note": "カタカナ: イ = i"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ウ",
+    "a": "u",
+    "d": [
+      "a",
+      "i",
+      "e",
+      "o"
+    ],
+    "note": "カタカナ: ウ = u"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "エ",
+    "a": "e",
+    "d": [
+      "a",
+      "i",
+      "u",
+      "o"
+    ],
+    "note": "カタカナ: エ = e"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "オ",
+    "a": "o",
+    "d": [
+      "a",
+      "i",
+      "u",
+      "e"
+    ],
+    "note": "カタカナ: オ = o"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "カ",
+    "a": "ka",
+    "d": [
+      "ki",
+      "ku",
+      "ke",
+      "ko"
+    ],
+    "note": "カタカナ: カ = ka"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "キ",
+    "a": "ki",
+    "d": [
+      "ka",
+      "ku",
+      "ke",
+      "ko"
+    ],
+    "note": "カタカナ: キ = ki"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ク",
+    "a": "ku",
+    "d": [
+      "ka",
+      "ki",
+      "ke",
+      "ko"
+    ],
+    "note": "カタカナ: ク = ku"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ケ",
+    "a": "ke",
+    "d": [
+      "ka",
+      "ki",
+      "ku",
+      "ko"
+    ],
+    "note": "カタカナ: ケ = ke"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "コ",
+    "a": "ko",
+    "d": [
+      "ka",
+      "ki",
+      "ku",
+      "ke"
+    ],
+    "note": "カタカナ: コ = ko"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "サ",
+    "a": "sa",
+    "d": [
+      "shi",
+      "su",
+      "se",
+      "so"
+    ],
+    "note": "カタカナ: サ = sa"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "シ",
+    "a": "shi",
+    "d": [
+      "sa",
+      "su",
+      "se",
+      "so"
+    ],
+    "note": "カタカナ: シ = shi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ス",
+    "a": "su",
+    "d": [
+      "sa",
+      "shi",
+      "se",
+      "so"
+    ],
+    "note": "カタカナ: ス = su"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "セ",
+    "a": "se",
+    "d": [
+      "sa",
+      "shi",
+      "su",
+      "so"
+    ],
+    "note": "カタカナ: セ = se"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ソ",
+    "a": "so",
+    "d": [
+      "sa",
+      "shi",
+      "su",
+      "se"
+    ],
+    "note": "カタカナ: ソ = so"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "タ",
+    "a": "ta",
+    "d": [
+      "chi",
+      "tsu",
+      "te",
+      "to"
+    ],
+    "note": "カタカナ: タ = ta"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "チ",
+    "a": "chi",
+    "d": [
+      "ta",
+      "tsu",
+      "te",
+      "to"
+    ],
+    "note": "カタカナ: チ = chi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ツ",
+    "a": "tsu",
+    "d": [
+      "ta",
+      "chi",
+      "te",
+      "to"
+    ],
+    "note": "カタカナ: ツ = tsu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "テ",
+    "a": "te",
+    "d": [
+      "ta",
+      "chi",
+      "tsu",
+      "to"
+    ],
+    "note": "カタカナ: テ = te"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ト",
+    "a": "to",
+    "d": [
+      "ta",
+      "chi",
+      "tsu",
+      "te"
+    ],
+    "note": "カタカナ: ト = to"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ナ",
+    "a": "na",
+    "d": [
+      "ni",
+      "nu",
+      "ne",
+      "no"
+    ],
+    "note": "カタカナ: ナ = na"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ニ",
+    "a": "ni",
+    "d": [
+      "na",
+      "nu",
+      "ne",
+      "no"
+    ],
+    "note": "カタカナ: ニ = ni"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ヌ",
+    "a": "nu",
+    "d": [
+      "na",
+      "ni",
+      "ne",
+      "no"
+    ],
+    "note": "カタカナ: ヌ = nu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ネ",
+    "a": "ne",
+    "d": [
+      "na",
+      "ni",
+      "nu",
+      "no"
+    ],
+    "note": "カタカナ: ネ = ne"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ノ",
+    "a": "no",
+    "d": [
+      "na",
+      "ni",
+      "nu",
+      "ne"
+    ],
+    "note": "カタカナ: ノ = no"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ハ",
+    "a": "ha",
+    "d": [
+      "hi",
+      "fu",
+      "he",
+      "ho"
+    ],
+    "note": "カタカナ: ハ = ha"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ヒ",
+    "a": "hi",
+    "d": [
+      "ha",
+      "fu",
+      "he",
+      "ho"
+    ],
+    "note": "カタカナ: ヒ = hi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "フ",
+    "a": "fu",
+    "d": [
+      "ha",
+      "hi",
+      "he",
+      "ho"
+    ],
+    "note": "カタカナ: フ = fu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ヘ",
+    "a": "he",
+    "d": [
+      "ha",
+      "hi",
+      "fu",
+      "ho"
+    ],
+    "note": "カタカナ: ヘ = he"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ホ",
+    "a": "ho",
+    "d": [
+      "ha",
+      "hi",
+      "fu",
+      "he"
+    ],
+    "note": "カタカナ: ホ = ho"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "マ",
+    "a": "ma",
+    "d": [
+      "mi",
+      "mu",
+      "me",
+      "mo"
+    ],
+    "note": "カタカナ: マ = ma"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ミ",
+    "a": "mi",
+    "d": [
+      "ma",
+      "mu",
+      "me",
+      "mo"
+    ],
+    "note": "カタカナ: ミ = mi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ム",
+    "a": "mu",
+    "d": [
+      "ma",
+      "mi",
+      "me",
+      "mo"
+    ],
+    "note": "カタカナ: ム = mu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "メ",
+    "a": "me",
+    "d": [
+      "ma",
+      "mi",
+      "mu",
+      "mo"
+    ],
+    "note": "カタカナ: メ = me"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "モ",
+    "a": "mo",
+    "d": [
+      "ma",
+      "mi",
+      "mu",
+      "me"
+    ],
+    "note": "カタカナ: モ = mo"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ヤ",
+    "a": "ya",
+    "d": [
+      "yu",
+      "yo",
+      "wa",
+      "ra"
+    ],
+    "note": "カタカナ: ヤ = ya"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ユ",
+    "a": "yu",
+    "d": [
+      "ya",
+      "yo",
+      "wa",
+      "ri"
+    ],
+    "note": "カタカナ: ユ = yu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ヨ",
+    "a": "yo",
+    "d": [
+      "ya",
+      "yu",
+      "wa",
+      "ru"
+    ],
+    "note": "カタカナ: ヨ = yo"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ラ",
+    "a": "ra",
+    "d": [
+      "ri",
+      "ru",
+      "re",
+      "ro"
+    ],
+    "note": "カタカナ: ラ = ra"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "リ",
+    "a": "ri",
+    "d": [
+      "ra",
+      "ru",
+      "re",
+      "ro"
+    ],
+    "note": "カタカナ: リ = ri"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ル",
+    "a": "ru",
+    "d": [
+      "ra",
+      "ri",
+      "re",
+      "ro"
+    ],
+    "note": "カタカナ: ル = ru"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "レ",
+    "a": "re",
+    "d": [
+      "ra",
+      "ri",
+      "ru",
+      "ro"
+    ],
+    "note": "カタカナ: レ = re"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ロ",
+    "a": "ro",
+    "d": [
+      "ra",
+      "ri",
+      "ru",
+      "re"
+    ],
+    "note": "カタカナ: ロ = ro"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ワ",
+    "a": "wa",
+    "d": [
+      "wo",
+      "ya",
+      "ha",
+      "ra"
+    ],
+    "note": "カタカナ: ワ = wa"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ン",
+    "a": "n",
+    "d": [
+      "m",
+      "na",
+      "nu",
+      "ri"
+    ],
+    "note": "カタカナ: ン = n"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ガ",
+    "a": "ga",
+    "d": [
+      "ka",
+      "gi",
+      "gu",
+      "go"
+    ],
+    "note": "カタカナ: ガ = ga"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ギ",
+    "a": "gi",
+    "d": [
+      "ki",
+      "ga",
+      "gu",
+      "ge"
+    ],
+    "note": "カタカナ: ギ = gi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "グ",
+    "a": "gu",
+    "d": [
+      "ku",
+      "ga",
+      "gi",
+      "ge"
+    ],
+    "note": "カタカナ: グ = gu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ゲ",
+    "a": "ge",
+    "d": [
+      "ke",
+      "ga",
+      "gi",
+      "gu"
+    ],
+    "note": "カタカナ: ゲ = ge"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ゴ",
+    "a": "go",
+    "d": [
+      "ko",
+      "ga",
+      "gi",
+      "gu"
+    ],
+    "note": "カタカナ: ゴ = go"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ザ",
+    "a": "za",
+    "d": [
+      "sa",
+      "ji",
+      "zu",
+      "ze"
+    ],
+    "note": "カタカナ: ザ = za"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ジ",
+    "a": "ji",
+    "d": [
+      "shi",
+      "za",
+      "zu",
+      "ze"
+    ],
+    "note": "カタカナ: ジ = ji"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ズ",
+    "a": "zu",
+    "d": [
+      "su",
+      "za",
+      "ji",
+      "ze"
+    ],
+    "note": "カタカナ: ズ = zu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ゼ",
+    "a": "ze",
+    "d": [
+      "se",
+      "za",
+      "ji",
+      "zu"
+    ],
+    "note": "カタカナ: ゼ = ze"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ゾ",
+    "a": "zo",
+    "d": [
+      "so",
+      "za",
+      "ji",
+      "zu"
+    ],
+    "note": "カタカナ: ゾ = zo"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ダ",
+    "a": "da",
+    "d": [
+      "ta",
+      "di",
+      "du",
+      "do"
+    ],
+    "note": "カタカナ: ダ = da"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "デ",
+    "a": "de",
+    "d": [
+      "te",
+      "da",
+      "do",
+      "di"
+    ],
+    "note": "カタカナ: デ = de"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ド",
+    "a": "do",
+    "d": [
+      "to",
+      "da",
+      "de",
+      "di"
+    ],
+    "note": "カタカナ: ド = do"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "バ",
+    "a": "ba",
+    "d": [
+      "ha",
+      "bi",
+      "bu",
+      "bo"
+    ],
+    "note": "カタカナ: バ = ba"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ビ",
+    "a": "bi",
+    "d": [
+      "hi",
+      "ba",
+      "bu",
+      "bo"
+    ],
+    "note": "カタカナ: ビ = bi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ブ",
+    "a": "bu",
+    "d": [
+      "fu",
+      "ba",
+      "bi",
+      "bo"
+    ],
+    "note": "カタカナ: ブ = bu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ベ",
+    "a": "be",
+    "d": [
+      "he",
+      "ba",
+      "bi",
+      "bu"
+    ],
+    "note": "カタカナ: ベ = be"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ボ",
+    "a": "bo",
+    "d": [
+      "ho",
+      "ba",
+      "bi",
+      "bu"
+    ],
+    "note": "カタカナ: ボ = bo"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "パ",
+    "a": "pa",
+    "d": [
+      "ha",
+      "pi",
+      "pu",
+      "po"
+    ],
+    "note": "カタカナ: パ = pa"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ピ",
+    "a": "pi",
+    "d": [
+      "hi",
+      "pa",
+      "pu",
+      "po"
+    ],
+    "note": "カタカナ: ピ = pi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "プ",
+    "a": "pu",
+    "d": [
+      "fu",
+      "pa",
+      "pi",
+      "po"
+    ],
+    "note": "カタカナ: プ = pu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ペ",
+    "a": "pe",
+    "d": [
+      "he",
+      "pa",
+      "pi",
+      "pu"
+    ],
+    "note": "カタカナ: ペ = pe"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ポ",
+    "a": "po",
+    "d": [
+      "ho",
+      "pa",
+      "pi",
+      "pu"
+    ],
+    "note": "カタカナ: ポ = po"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ファ",
+    "a": "fa",
+    "d": [
+      "fo",
+      "fi",
+      "fe",
+      "ha"
+    ],
+    "note": "カタカナ: ファ = fa"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "フィ",
+    "a": "fi",
+    "d": [
+      "fa",
+      "fo",
+      "fe",
+      "hi"
+    ],
+    "note": "カタカナ: フィ = fi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ウィ",
+    "a": "wi",
+    "d": [
+      "we",
+      "wa",
+      "ui",
+      "we"
+    ],
+    "note": "カタカナ: ウィ = wi"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ウェ",
+    "a": "we",
+    "d": [
+      "wi",
+      "wa",
+      "ui",
+      "wo"
+    ],
+    "note": "カタカナ: ウェ = we"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ティ",
+    "a": "ti",
+    "d": [
+      "chi",
+      "te",
+      "di",
+      "ni"
+    ],
+    "note": "カタカナ: ティ = ti"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ディ",
+    "a": "di",
+    "d": [
+      "ti",
+      "de",
+      "chi",
+      "ni"
+    ],
+    "note": "カタカナ: ディ = di"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "シャ",
+    "a": "sha",
+    "d": [
+      "shu",
+      "sho",
+      "cha",
+      "ja"
+    ],
+    "note": "カタカナ: シャ = sha"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "シュ",
+    "a": "shu",
+    "d": [
+      "sha",
+      "sho",
+      "chu",
+      "ju"
+    ],
+    "note": "カタカナ: シュ = shu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ショ",
+    "a": "sho",
+    "d": [
+      "sha",
+      "shu",
+      "cho",
+      "jo"
+    ],
+    "note": "カタカナ: ショ = sho"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "チャ",
+    "a": "cha",
+    "d": [
+      "sha",
+      "chu",
+      "ja",
+      "tya"
+    ],
+    "note": "カタカナ: チャ = cha"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "チュ",
+    "a": "chu",
+    "d": [
+      "cha",
+      "cho",
+      "shu",
+      "ju"
+    ],
+    "note": "カタカナ: チュ = chu"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "チョ",
+    "a": "cho",
+    "d": [
+      "cha",
+      "chu",
+      "sho",
+      "jo"
+    ],
+    "note": "カタカナ: チョ = cho"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ジャ",
+    "a": "ja",
+    "d": [
+      "ju",
+      "jo",
+      "sha",
+      "cha"
+    ],
+    "note": "カタカナ: ジャ = ja"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ジュ",
+    "a": "ju",
+    "d": [
+      "ja",
+      "jo",
+      "shu",
+      "chu"
+    ],
+    "note": "カタカナ: ジュ = ju"
+  },
+  {
+    "category": "katakana",
+    "level": "easy",
+    "q": "ジョ",
+    "a": "jo",
+    "d": [
+      "ja",
+      "ju",
+      "sho",
+      "cho"
+    ],
+    "note": "カタカナ: ジョ = jo"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "コーヒー",
+    "a": "koohii",
+    "d": [
+      "tii",
+      "juusu",
+      "miruku",
+      "wain"
+    ],
+    "note": "コーヒー = koohii (coffee)",
+    "hint": "How do you read this loanword?",
+    "meaning": "coffee"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "テレビ",
+    "a": "terebi",
+    "d": [
+      "rajio",
+      "pasokon",
+      "kamera",
+      "sumaato"
+    ],
+    "note": "テレビ = terebi (TV)",
+    "hint": "How do you read this loanword?",
+    "meaning": "TV"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "バス",
+    "a": "basu",
+    "d": [
+      "takushii",
+      "torakku",
+      "baikku",
+      "kuruma"
+    ],
+    "note": "バス = basu (bus)",
+    "hint": "How do you read this loanword?",
+    "meaning": "bus"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "パン",
+    "a": "pan",
+    "d": [
+      "keeki",
+      "kukkii",
+      "aisu",
+      "chokoreeeto"
+    ],
+    "note": "パン = pan (bread)",
+    "hint": "How do you read this loanword?",
+    "meaning": "bread"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "アイス",
+    "a": "aisu",
+    "d": [
+      "keeki",
+      "pan",
+      "juusu",
+      "chokoreeeto"
+    ],
+    "note": "アイス = aisu (ice cream)",
+    "hint": "How do you read this loanword?",
+    "meaning": "ice cream"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ケーキ",
+    "a": "keeki",
+    "d": [
+      "pan",
+      "aisu",
+      "kukkii",
+      "chokoreeeto"
+    ],
+    "note": "ケーキ = keeki (cake)",
+    "hint": "How do you read this loanword?",
+    "meaning": "cake"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ホテル",
+    "a": "hoteru",
+    "d": [
+      "resutoran",
+      "suupaa",
+      "depaato",
+      "kaafe"
+    ],
+    "note": "ホテル = hoteru (hotel)",
+    "hint": "How do you read this loanword?",
+    "meaning": "hotel"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "レストラン",
+    "a": "resutoran",
+    "d": [
+      "hoteru",
+      "suupaa",
+      "depaato",
+      "kaafe"
+    ],
+    "note": "レストラン = resutoran (restaurant)",
+    "hint": "How do you read this loanword?",
+    "meaning": "restaurant"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "コンビニ",
+    "a": "konbini",
+    "d": [
+      "suupaa",
+      "depaato",
+      "resutoran",
+      "hoteru"
+    ],
+    "note": "コンビニ = konbini (convenience store)",
+    "hint": "How do you read this loanword?",
+    "meaning": "convenience store"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "カメラ",
+    "a": "kamera",
+    "d": [
+      "terebi",
+      "pasokon",
+      "sumaato",
+      "rajio"
+    ],
+    "note": "カメラ = kamera (camera)",
+    "hint": "How do you read this loanword?",
+    "meaning": "camera"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ゲーム",
+    "a": "geemu",
+    "d": [
+      "eiga",
+      "ongaku",
+      "supootsu",
+      "hon"
+    ],
+    "note": "ゲーム = geemu (game)",
+    "hint": "How do you read this loanword?",
+    "meaning": "game"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "スポーツ",
+    "a": "supootsu",
+    "d": [
+      "geemu",
+      "ongaku",
+      "eiga",
+      "dansu"
+    ],
+    "note": "スポーツ = supootsu (sports)",
+    "hint": "How do you read this loanword?",
+    "meaning": "sports"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ニュース",
+    "a": "nyuusu",
+    "d": [
+      "terebi",
+      "rajio",
+      "shinbun",
+      "zasshi"
+    ],
+    "note": "ニュース = nyuusu (news)",
+    "hint": "How do you read this loanword?",
+    "meaning": "news"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "チケット",
+    "a": "chiketto",
+    "d": [
+      "pasupooto",
+      "kaado",
+      "menkyosho",
+      "tegami"
+    ],
+    "note": "チケット = chiketto (ticket)",
+    "hint": "How do you read this loanword?",
+    "meaning": "ticket"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "アパート",
+    "a": "apaato",
+    "d": [
+      "hoteru",
+      "manshon",
+      "ie",
+      "heya"
+    ],
+    "note": "アパート = apaato (apartment)",
+    "hint": "How do you read this loanword?",
+    "meaning": "apartment"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ビール",
+    "a": "biiru",
+    "d": [
+      "wain",
+      "sake",
+      "juusu",
+      "ocha"
+    ],
+    "note": "ビール = biiru (beer)",
+    "hint": "How do you read this loanword?",
+    "meaning": "beer"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ワイン",
+    "a": "wain",
+    "d": [
+      "biiru",
+      "sake",
+      "juusu",
+      "ocha"
+    ],
+    "note": "ワイン = wain (wine)",
+    "hint": "How do you read this loanword?",
+    "meaning": "wine"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ピザ",
+    "a": "piza",
+    "d": [
+      "baagaa",
+      "sando",
+      "soba",
+      "ramen"
+    ],
+    "note": "ピザ = piza (pizza)",
+    "hint": "How do you read this loanword?",
+    "meaning": "pizza"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "バーガー",
+    "a": "baagaa",
+    "d": [
+      "piza",
+      "sando",
+      "soba",
+      "ramen"
+    ],
+    "note": "バーガー = baagaa (burger)",
+    "hint": "How do you read this loanword?",
+    "meaning": "burger"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "サラダ",
+    "a": "sarada",
+    "d": [
+      "suupu",
+      "sando",
+      "raisu",
+      "piza"
+    ],
+    "note": "サラダ = sarada (salad)",
+    "hint": "How do you read this loanword?",
+    "meaning": "salad"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "スープ",
+    "a": "suupu",
+    "d": [
+      "sarada",
+      "sando",
+      "raisu",
+      "piza"
+    ],
+    "note": "スープ = suupu (soup)",
+    "hint": "How do you read this loanword?",
+    "meaning": "soup"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ジュース",
+    "a": "juusu",
+    "d": [
+      "mizu",
+      "ocha",
+      "biiru",
+      "miruku"
+    ],
+    "note": "ジュース = juusu (juice)",
+    "hint": "How do you read this loanword?",
+    "meaning": "juice"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ミルク",
+    "a": "miruku",
+    "d": [
+      "juusu",
+      "mizu",
+      "ocha",
+      "biiru"
+    ],
+    "note": "ミルク = miruku (milk)",
+    "hint": "How do you read this loanword?",
+    "meaning": "milk"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "バナナ",
+    "a": "banana",
+    "d": [
+      "ringo",
+      "orenji",
+      "ichigo",
+      "budo"
+    ],
+    "note": "バナナ = banana (banana)",
+    "hint": "How do you read this loanword?",
+    "meaning": "banana"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "オレンジ",
+    "a": "orenji",
+    "d": [
+      "banana",
+      "ringo",
+      "ichigo",
+      "budo"
+    ],
+    "note": "オレンジ = orenji (orange)",
+    "hint": "How do you read this loanword?",
+    "meaning": "orange"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "チョコレート",
+    "a": "chokoreeto",
+    "d": [
+      "keeki",
+      "aisu",
+      "kyandi",
+      "gamu"
+    ],
+    "note": "チョコレート = chokoreeto (chocolate)",
+    "hint": "How do you read this loanword?",
+    "meaning": "chocolate"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "アイスクリーム",
+    "a": "aisukuriimu",
+    "d": [
+      "chokoreeto",
+      "keeki",
+      "purin",
+      "yoguruto"
+    ],
+    "note": "アイスクリーム = aisukuriimu (ice cream)",
+    "hint": "How do you read this loanword?",
+    "meaning": "ice cream"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "タクシー",
+    "a": "takushii",
+    "d": [
+      "basu",
+      "torakku",
+      "baikku",
+      "kuruma"
+    ],
+    "note": "タクシー = takushii (taxi)",
+    "hint": "How do you read this loanword?",
+    "meaning": "taxi"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "デパート",
+    "a": "depaato",
+    "d": [
+      "suupaa",
+      "konbini",
+      "hoteru",
+      "resutoran"
+    ],
+    "note": "デパート = depaato (department store)",
+    "hint": "How do you read this loanword?",
+    "meaning": "department store"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "エアコン",
+    "a": "eakon",
+    "d": [
+      "hiitaa",
+      "terebi",
+      "rajio",
+      "pasokon"
+    ],
+    "note": "エアコン = eakon (air conditioner)",
+    "hint": "How do you read this loanword?",
+    "meaning": "air conditioner"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ラジオ",
+    "a": "rajio",
+    "d": [
+      "terebi",
+      "pasokon",
+      "kamera",
+      "sumaato"
+    ],
+    "note": "ラジオ = rajio (radio)",
+    "hint": "How do you read this loanword?",
+    "meaning": "radio"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "パソコン",
+    "a": "pasokon",
+    "d": [
+      "terebi",
+      "rajio",
+      "kamera",
+      "sumaato"
+    ],
+    "note": "パソコン = pasokon (personal computer)",
+    "hint": "How do you read this loanword?",
+    "meaning": "personal computer"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "スマホ",
+    "a": "sumaho",
+    "d": [
+      "pasokon",
+      "terebi",
+      "kamera",
+      "tabretto"
+    ],
+    "note": "スマホ = sumaho (smartphone)",
+    "hint": "How do you read this loanword?",
+    "meaning": "smartphone"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "マスク",
+    "a": "masuku",
+    "d": [
+      "tebukuro",
+      "boshi",
+      "megane",
+      "sukaafu"
+    ],
+    "note": "マスク = masuku (mask)",
+    "hint": "How do you read this loanword?",
+    "meaning": "mask"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ハンカチ",
+    "a": "hankachi",
+    "d": [
+      "masuku",
+      "tebukuro",
+      "boshi",
+      "sukaafu"
+    ],
+    "note": "ハンカチ = hankachi (handkerchief)",
+    "hint": "How do you read this loanword?",
+    "meaning": "handkerchief"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "リュック",
+    "a": "ryukku",
+    "d": [
+      "kaban",
+      "saifu",
+      "nimotsu",
+      "tebukuro"
+    ],
+    "note": "リュック = ryukku (backpack/rucksack)",
+    "hint": "How do you read this loanword?",
+    "meaning": "backpack/rucksack"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "スーツ",
+    "a": "suutsu",
+    "d": [
+      "shatsu",
+      "zubon",
+      "jaketto",
+      "nekutai"
+    ],
+    "note": "スーツ = suutsu (suit)",
+    "hint": "How do you read this loanword?",
+    "meaning": "suit"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ネクタイ",
+    "a": "nekutai",
+    "d": [
+      "sukaafu",
+      "boshi",
+      "tebukuro",
+      "shatsu"
+    ],
+    "note": "ネクタイ = nekutai (necktie)",
+    "hint": "How do you read this loanword?",
+    "meaning": "necktie"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ジャケット",
+    "a": "jaketto",
+    "d": [
+      "kooto",
+      "seetaa",
+      "tii shatsu",
+      "shatsu"
+    ],
+    "note": "ジャケット = jaketto (jacket)",
+    "hint": "How do you read this loanword?",
+    "meaning": "jacket"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "コート",
+    "a": "kooto",
+    "d": [
+      "jaketto",
+      "seetaa",
+      "tii shatsu",
+      "shatsu"
+    ],
+    "note": "コート = kooto (coat)",
+    "hint": "How do you read this loanword?",
+    "meaning": "coat"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "スマートフォン",
+    "a": "sumaatofon",
+    "d": [
+      "pasokon",
+      "terebi",
+      "kamera",
+      "tabretto"
+    ],
+    "note": "スマートフォン = sumaatofon (smartphone)",
+    "hint": "How do you read this?",
+    "meaning": "smartphone"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "コンピューター",
+    "a": "konpyuutaa",
+    "d": [
+      "terebi",
+      "sumaato",
+      "kamera",
+      "tabretto"
+    ],
+    "note": "コンピューター = konpyuutaa (computer)",
+    "hint": "How do you read this?",
+    "meaning": "computer"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "インターネット",
+    "a": "intaanetto",
+    "d": [
+      "terebi",
+      "rajio",
+      "pasokon",
+      "sofutowea"
+    ],
+    "note": "インターネット = intaanetto (internet)",
+    "hint": "How do you read this?",
+    "meaning": "internet"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "エレベーター",
+    "a": "erebeetaa",
+    "d": [
+      "esukareetaa",
+      "kaiidan",
+      "doaa",
+      "robii"
+    ],
+    "note": "エレベーター = erebeetaa (elevator)",
+    "hint": "How do you read this?",
+    "meaning": "elevator"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "エスカレーター",
+    "a": "esukareetaa",
+    "d": [
+      "erebeetaa",
+      "kaiidan",
+      "doaa",
+      "robii"
+    ],
+    "note": "エスカレーター = esukareetaa (escalator)",
+    "hint": "How do you read this?",
+    "meaning": "escalator"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "アルバイト",
+    "a": "arubaito",
+    "d": [
+      "shigoto",
+      "kaisha",
+      "kyuuryou",
+      "yasumi"
+    ],
+    "note": "アルバイト = arubaito (part-time job)",
+    "hint": "How do you read this?",
+    "meaning": "part-time job"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ボランティア",
+    "a": "borantia",
+    "d": [
+      "arubaito",
+      "shigoto",
+      "kaisha",
+      "intaan"
+    ],
+    "note": "ボランティア = borantia (volunteer)",
+    "hint": "How do you read this?",
+    "meaning": "volunteer"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "アレルギー",
+    "a": "arerugii",
+    "d": [
+      "byouki",
+      "byouin",
+      "kusuri",
+      "chuusha"
+    ],
+    "note": "アレルギー = arerugii (allergy)",
+    "hint": "How do you read this?",
+    "meaning": "allergy"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "クレジットカード",
+    "a": "kurejitto kaado",
+    "d": [
+      "genkin",
+      "kouza",
+      "ginkou",
+      "debittokaado"
+    ],
+    "note": "クレジットカード = kurejitto kaado (credit card)",
+    "hint": "How do you read this?",
+    "meaning": "credit card"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ショッピングモール",
+    "a": "shoppingu mooru",
+    "d": [
+      "depaato",
+      "suupaa",
+      "konbini",
+      "ichiba"
+    ],
+    "note": "ショッピングモール = shoppingu mooru (shopping mall)",
+    "hint": "How do you read this?",
+    "meaning": "shopping mall"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "プレゼンテーション",
+    "a": "purezenteshon",
+    "d": [
+      "kaigi",
+      "repooto",
+      "mensetsu",
+      "supiiichi"
+    ],
+    "note": "プレゼンテーション = purezenteshon (presentation)",
+    "hint": "How do you read this?",
+    "meaning": "presentation"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "フリーランサー",
+    "a": "furiiransaa",
+    "d": [
+      "arubaito",
+      "seishain",
+      "keiyakushain",
+      "paato"
+    ],
+    "note": "フリーランサー = furiirransaa (freelancer)",
+    "hint": "How do you read this?",
+    "meaning": "freelancer"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "マクドナルド",
+    "a": "makudonarudo",
+    "d": [
+      "faasuto fuudo",
+      "resutoran",
+      "depaato",
+      "kissaten"
+    ],
+    "note": "マクドナルド = makudonarudo (McDonald's)",
+    "hint": "How do you read this?",
+    "meaning": "McDonald's"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "アニメーション",
+    "a": "animeshon",
+    "d": [
+      "eiga",
+      "manga",
+      "terebi",
+      "geemu"
+    ],
+    "note": "アニメーション = animeshon (animation)",
+    "hint": "How do you read this?",
+    "meaning": "animation"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "インフルエンザ",
+    "a": "infuruenza",
+    "d": [
+      "kaze",
+      "netsu",
+      "arerugii",
+      "byouki"
+    ],
+    "note": "インフルエンザ = infuruenza (influenza/flu)",
+    "hint": "How do you read this?",
+    "meaning": "influenza/flu"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ワクチン",
+    "a": "wakuchin",
+    "d": [
+      "kusuri",
+      "chuusha",
+      "byouin",
+      "isha"
+    ],
+    "note": "ワクチン = wakuchin (vaccine)",
+    "hint": "How do you read this?",
+    "meaning": "vaccine"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "リハビリテーション",
+    "a": "rihabiriteshon",
+    "d": [
+      "byouin",
+      "isha",
+      "kusuri",
+      "shujutsu"
+    ],
+    "note": "リハビリテーション = rihabiriTEshon (rehabilitation)",
+    "hint": "How do you read this?",
+    "meaning": "rehabilitation"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "コミュニケーション",
+    "a": "komyunikeeshon",
+    "d": [
+      "kaigi",
+      "hanashi",
+      "kaiwaa",
+      "soudanWin"
+    ],
+    "note": "コミュニケーション = komyunikeeshon (communication)",
+    "hint": "How do you read this?",
+    "meaning": "communication"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "グローバリゼーション",
+    "a": "guroobarizeshon",
+    "d": [
+      "kokusaika",
+      "bunka",
+      "shakai",
+      "keizai"
+    ],
+    "note": "グローバリゼーション = guroobarizeshon (globalization)",
+    "hint": "How do you read this?",
+    "meaning": "globalization"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "サステナビリティ",
+    "a": "sasutenabiriti",
+    "d": [
+      "kankyou",
+      "shizen",
+      "enerugi",
+      "chikyuu"
+    ],
+    "note": "サステナビリティ = sasutenabiriti (sustainability)",
+    "hint": "How do you read this?",
+    "meaning": "sustainability"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "デジタルトランスフォーメーション",
+    "a": "dejitaru toransufoomeshon",
+    "d": [
+      "IT kakumei",
+      "deji ka",
+      "tekunorojii",
+      "innovation"
+    ],
+    "note": "デジタルトランスフォーメーション = dejitaru toransufoomeshon (digital transformation)",
+    "hint": "How do you read this?",
+    "meaning": "digital transformation"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "エンターテインメント",
+    "a": "entaateeinmento",
+    "d": [
+      "goraku",
+      "geijutsu",
+      "ongaku",
+      "eiga"
+    ],
+    "note": "エンターテインメント = entaateeinmento (entertainment)",
+    "hint": "How do you read this?",
+    "meaning": "entertainment"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "インフラストラクチャー",
+    "a": "infurasutorakuchaa",
+    "d": [
+      "tatemono",
+      "douro",
+      "tetsudou",
+      "denki"
+    ],
+    "note": "インフラストラクチャー = infurasutorakuchaa (infrastructure)",
+    "hint": "How do you read this?",
+    "meaning": "infrastructure"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "パーソナリティ",
+    "a": "paasonariti",
+    "d": [
+      "seikaku",
+      "kibun",
+      "taido",
+      "kangaekata"
+    ],
+    "note": "パーソナリティ = paasonariti (personality)",
+    "hint": "How do you read this?",
+    "meaning": "personality"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "マーケティング",
+    "a": "maaketingu",
+    "d": [
+      "koukoku",
+      "hanbai",
+      "eigyou",
+      "PR"
+    ],
+    "note": "マーケティング = maaketingu (marketing)",
+    "hint": "How do you read this?",
+    "meaning": "marketing"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "スーツケース",
+    "a": "suutsukeesu",
+    "d": [
+      "kaban",
+      "ryukku",
+      "handobaggu",
+      "nimotsu"
+    ],
+    "note": "スーツケース = suutsukeesu (suitcase)",
+    "hint": "How do you read this loanword?",
+    "meaning": "suitcase"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ハンドバッグ",
+    "a": "handobaggu",
+    "d": [
+      "kaban",
+      "ryukku",
+      "suutsukeesu",
+      "nimotsu"
+    ],
+    "note": "ハンドバッグ = handobaggu (handbag)",
+    "hint": "How do you read this loanword?",
+    "meaning": "handbag"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "サングラス",
+    "a": "sangurasu",
+    "d": [
+      "megane",
+      "masuku",
+      "boshi",
+      "sukaafu"
+    ],
+    "note": "サングラス = sangurasu (sunglasses)",
+    "hint": "How do you read this loanword?",
+    "meaning": "sunglasses"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "イヤホン",
+    "a": "iyahon",
+    "d": [
+      "heddhon",
+      "supiikaa",
+      "maiku",
+      "rajio"
+    ],
+    "note": "イヤホン = iyahon (earphones)",
+    "hint": "How do you read this loanword?",
+    "meaning": "earphones"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ヘッドホン",
+    "a": "heddohon",
+    "d": [
+      "iyahon",
+      "supiikaa",
+      "maiku",
+      "rajio"
+    ],
+    "note": "ヘッドホン = heddohon (headphones)",
+    "hint": "How do you read this loanword?",
+    "meaning": "headphones"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "キーボード",
+    "a": "kiiboodo",
+    "d": [
+      "mausu",
+      "monitaa",
+      "purintaa",
+      "sukyanna"
+    ],
+    "note": "キーボード = kiiboodo (keyboard)",
+    "hint": "How do you read this loanword?",
+    "meaning": "keyboard"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "マウス",
+    "a": "mausu",
+    "d": [
+      "kiiboodo",
+      "monitaa",
+      "purintaa",
+      "taburetto"
+    ],
+    "note": "マウス = mausu (mouse (computer))",
+    "hint": "How do you read this loanword?",
+    "meaning": "mouse (computer)"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "プリンター",
+    "a": "purintaa",
+    "d": [
+      "kiiboodo",
+      "mausu",
+      "monitaa",
+      "sukyanna"
+    ],
+    "note": "プリンター = purintaa (printer)",
+    "hint": "How do you read this loanword?",
+    "meaning": "printer"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ソフトウェア",
+    "a": "sofutowea",
+    "d": [
+      "haaduuea",
+      "aapuri",
+      "OS",
+      "puroguramu"
+    ],
+    "note": "ソフトウェア = sofutowea (software)",
+    "hint": "How do you read this loanword?",
+    "meaning": "software"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "アプリ",
+    "a": "apuri",
+    "d": [
+      "sofutowea",
+      "haaduuea",
+      "OS",
+      "puroguramu"
+    ],
+    "note": "アプリ = apuri (app)",
+    "hint": "How do you read this loanword?",
+    "meaning": "app"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "パスワード",
+    "a": "pasuwaado",
+    "d": [
+      "aidii nanbaa",
+      "yuuzaanemuu",
+      "akaunto",
+      "saikuru"
+    ],
+    "note": "パスワード = pasuwaado (password)",
+    "hint": "How do you read this loanword?",
+    "meaning": "password"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ダウンロード",
+    "a": "daunroodo",
+    "d": [
+      "apuroodo",
+      "isuutooru",
+      "sakujo",
+      "hozon"
+    ],
+    "note": "ダウンロード = daunroodo (download)",
+    "hint": "How do you read this loanword?",
+    "meaning": "download"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "アップロード",
+    "a": "apuroodo",
+    "d": [
+      "daunroodo",
+      "isuutooru",
+      "sakujo",
+      "hozon"
+    ],
+    "note": "アップロード = apuroodo (upload)",
+    "hint": "How do you read this loanword?",
+    "meaning": "upload"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "インストール",
+    "a": "insutooru",
+    "d": [
+      "daunroodo",
+      "apuroodo",
+      "sakujo",
+      "hozon"
+    ],
+    "note": "インストール = insutooru (install)",
+    "hint": "How do you read this loanword?",
+    "meaning": "install"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ログイン",
+    "a": "roguin",
+    "d": [
+      "rogauto",
+      "pasuwaado",
+      "akaunto",
+      "sakujo"
+    ],
+    "note": "ログイン = roguin (login)",
+    "hint": "How do you read this loanword?",
+    "meaning": "login"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "メッセージ",
+    "a": "messeeji",
+    "d": [
+      "meeru",
+      "chatto",
+      "denwa",
+      "tegami"
+    ],
+    "note": "メッセージ = messeeji (message)",
+    "hint": "How do you read this loanword?",
+    "meaning": "message"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ノートパソコン",
+    "a": "nooto pasokon",
+    "d": [
+      "desukutoppu",
+      "taburetto",
+      "sumaho",
+      "terebi"
+    ],
+    "note": "ノートパソコン = nooto pasokon (laptop computer)",
+    "hint": "How do you read this loanword?",
+    "meaning": "laptop computer"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "タブレット",
+    "a": "taburetto",
+    "d": [
+      "nooto pasokon",
+      "sumaho",
+      "desukutoppu",
+      "kiiboodo"
+    ],
+    "note": "タブレット = taburetto (tablet)",
+    "hint": "How do you read this loanword?",
+    "meaning": "tablet"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "イベント",
+    "a": "ibento",
+    "d": [
+      "matsuri",
+      "konsaato",
+      "pootii",
+      "enshuu"
+    ],
+    "note": "イベント = ibento (event)",
+    "hint": "How do you read this loanword?",
+    "meaning": "event"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "コンサート",
+    "a": "konsaato",
+    "d": [
+      "ibento",
+      "matsuri",
+      "pootii",
+      "enshuu"
+    ],
+    "note": "コンサート = konsaato (concert)",
+    "hint": "How do you read this loanword?",
+    "meaning": "concert"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "パーティー",
+    "a": "paatii",
+    "d": [
+      "ibento",
+      "konsaato",
+      "matsuri",
+      "enshuu"
+    ],
+    "note": "パーティー = paatii (party)",
+    "hint": "How do you read this loanword?",
+    "meaning": "party"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "サービス",
+    "a": "saabisu",
+    "d": [
+      "seihin",
+      "hanbai",
+      "kigyou",
+      "eigyou"
+    ],
+    "note": "サービス = saabisu (service)",
+    "hint": "How do you read this loanword?",
+    "meaning": "service"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ビジネス",
+    "a": "bijinesu",
+    "d": [
+      "saabisu",
+      "seihin",
+      "kigyou",
+      "eigyou"
+    ],
+    "note": "ビジネス = bijinesu (business)",
+    "hint": "How do you read this loanword?",
+    "meaning": "business"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "プロジェクト",
+    "a": "purojekuto",
+    "d": [
+      "puran",
+      "sukejooru",
+      "kadai",
+      "mokuhyou"
+    ],
+    "note": "プロジェクト = purojekuto (project)",
+    "hint": "How do you read this loanword?",
+    "meaning": "project"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "スケジュール",
+    "a": "sukejuuru",
+    "d": [
+      "purojekuto",
+      "puran",
+      "kadai",
+      "mokuhyou"
+    ],
+    "note": "スケジュール = sukejuuru (schedule)",
+    "hint": "How do you read this loanword?",
+    "meaning": "schedule"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "ミーティング",
+    "a": "miitingu",
+    "d": [
+      "kaigi",
+      "konsaruteeshon",
+      "mensetsu",
+      "seminnaa"
+    ],
+    "note": "ミーティング = miitingu (meeting)",
+    "hint": "How do you read this loanword?",
+    "meaning": "meeting"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "セミナー",
+    "a": "seminaa",
+    "d": [
+      "miitingu",
+      "kaigi",
+      "koosu",
+      "intabyuu"
+    ],
+    "note": "セミナー = seminaa (seminar)",
+    "hint": "How do you read this loanword?",
+    "meaning": "seminar"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "インタビュー",
+    "a": "intabyuu",
+    "d": [
+      "seminaa",
+      "miitingu",
+      "kaigi",
+      "mensetsu"
+    ],
+    "note": "インタビュー = intabyuu (interview)",
+    "hint": "How do you read this loanword?",
+    "meaning": "interview"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "キャンセル",
+    "a": "kyanseru",
+    "d": [
+      "henkou",
+      "torikeshi",
+      "chuushi",
+      "teiryuu"
+    ],
+    "note": "キャンセル = kyanseru (cancel)",
+    "hint": "How do you read this loanword?",
+    "meaning": "cancel"
+  },
+  {
+    "category": "katakana",
+    "level": "medium",
+    "q": "チェック",
+    "a": "chekku",
+    "d": [
+      "kakunin",
+      "tashikame",
+      "shiraberu",
+      "miru"
+    ],
+    "note": "チェック = chekku (check)",
+    "hint": "How do you read this loanword?",
+    "meaning": "check"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "パーソナルコンピューター",
+    "a": "paasonaru konpyuutaa",
+    "d": [
+      "nooto pasokon",
+      "taburetto",
+      "desukutoppu",
+      "sumaho"
+    ],
+    "note": "パーソナルコンピューター = paasonaru konpyuutaa (personal computer (PC))",
+    "hint": "How do you read this?",
+    "meaning": "personal computer (PC)"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ソーシャルメディア",
+    "a": "soosharu media",
+    "d": [
+      "intaanetto",
+      "esuenuesu",
+      "masumedia",
+      "terebi"
+    ],
+    "note": "ソーシャルメディア = soosharu media (social media)",
+    "hint": "How do you read this?",
+    "meaning": "social media"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "インフルエンサー",
+    "a": "infuruensaa",
+    "d": [
+      "serebu",
+      "yuumeijin",
+      "haiyu",
+      "jaanaristo"
+    ],
+    "note": "インフルエンサー = infuruensaa (influencer)",
+    "hint": "How do you read this?",
+    "meaning": "influencer"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "コンテンツクリエイター",
+    "a": "kontentsu kurieeitaa",
+    "d": [
+      "youtubaA",
+      "buroogaa",
+      "raibaa",
+      "haishinsha"
+    ],
+    "note": "コンテンツクリエイター = kontentsu kurieeitaa (content creator)",
+    "hint": "How do you read this?",
+    "meaning": "content creator"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "サブスクリプション",
+    "a": "sabusukuripushon",
+    "d": [
+      "kaiin",
+      "kaikei",
+      "ryoukin",
+      "teiki"
+    ],
+    "note": "サブスクリプション = sabusukuripushon (subscription)",
+    "hint": "How do you read this?",
+    "meaning": "subscription"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "クラウドファンディング",
+    "a": "kuraudo fandingu",
+    "d": [
+      "tooshi",
+      "kifu",
+      "en jyo",
+      "maketto"
+    ],
+    "note": "クラウドファンディング = kuraudo fandingu (crowdfunding)",
+    "hint": "How do you read this?",
+    "meaning": "crowdfunding"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "テレワーク",
+    "a": "terewaaku",
+    "d": [
+      "zaitaku",
+      "rishoku",
+      "arubaito",
+      "furiira"
+    ],
+    "note": "テレワーク = terewaaku (remote work/telework)",
+    "hint": "How do you read this?",
+    "meaning": "remote work/telework"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "リモートワーク",
+    "a": "rimooto waaku",
+    "d": [
+      "terewaaku",
+      "zaitaku",
+      "arubaito",
+      "furiira"
+    ],
+    "note": "リモートワーク = rimooto waaku (remote work)",
+    "hint": "How do you read this?",
+    "meaning": "remote work"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "スタートアップ",
+    "a": "sutaato appu",
+    "d": [
+      "kigyou",
+      "kaisha",
+      "jigyou",
+      "bengoshi"
+    ],
+    "note": "スタートアップ = sutaato appu (startup)",
+    "hint": "How do you read this?",
+    "meaning": "startup"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ベンチャー",
+    "a": "benchaa",
+    "d": [
+      "sutaato appu",
+      "kigyou",
+      "kaisha",
+      "jigyou"
+    ],
+    "note": "ベンチャー = benchaa (venture (company))",
+    "hint": "How do you read this?",
+    "meaning": "venture (company)"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "イノベーション",
+    "a": "inobeeshon",
+    "d": [
+      "kakushin",
+      "hatsumei",
+      "kaihatsu",
+      "kenkyuu"
+    ],
+    "note": "イノベーション = inobeeshon (innovation)",
+    "hint": "How do you read this?",
+    "meaning": "innovation"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "デジタルトランスフォーメーション",
+    "a": "dejitaru toransufoomeshon",
+    "d": [
+      "IT kakumei",
+      "deji ka",
+      "tekunorojii",
+      "inobeeshon"
+    ],
+    "note": "デジタルトランスフォーメーション = dejitaru toransufoomeshon (digital transformation (DX))",
+    "hint": "How do you read this?",
+    "meaning": "digital transformation (DX)"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "アーティフィシャルインテリジェンス",
+    "a": "aatifisharu interijensu",
+    "d": [
+      "kikaiW gakushuu",
+      "deepu raaningu",
+      "robotto",
+      "jidouka"
+    ],
+    "note": "アーティフィシャルインテリジェンス = aatifisharu interijensu (artificial intelligence (AI))",
+    "hint": "How do you read this?",
+    "meaning": "artificial intelligence (AI)"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ビッグデータ",
+    "a": "biggu deeta",
+    "d": [
+      "AI",
+      "kuraudo",
+      "intaanetto",
+      "tsuuru"
+    ],
+    "note": "ビッグデータ = biggu deeta (big data)",
+    "hint": "How do you read this?",
+    "meaning": "big data"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "サイバーセキュリティ",
+    "a": "saibaa sekyuriti",
+    "d": [
+      "intaanetto",
+      "hakkaa",
+      "uirusu",
+      "hoomu peeji"
+    ],
+    "note": "サイバーセキュリティ = saibaa sekyuriti (cybersecurity)",
+    "hint": "How do you read this?",
+    "meaning": "cybersecurity"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ブロックチェーン",
+    "a": "burokku cheen",
+    "d": [
+      "krypto",
+      "bittocoin",
+      "NFT",
+      "desentralaize"
+    ],
+    "note": "ブロックチェーン = burokku cheen (blockchain)",
+    "hint": "How do you read this?",
+    "meaning": "blockchain"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "メタバース",
+    "a": "metabaasu",
+    "d": [
+      "VR",
+      "AR",
+      "gejutsu kaikan",
+      "kashitsu"
+    ],
+    "note": "メタバース = metabaasuW (metaverse)",
+    "hint": "How do you read this?",
+    "meaning": "metaverse"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "サステナビリティ",
+    "a": "sasutenabiriti",
+    "d": [
+      "kankyou",
+      "shizen",
+      "enerugi",
+      "ekorojii"
+    ],
+    "note": "サステナビリティ = sasutenabiriti (sustainability)",
+    "hint": "How do you read this?",
+    "meaning": "sustainability"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "カーボンニュートラル",
+    "a": "kaabon nyuutoraru",
+    "d": [
+      "kankyou",
+      "CO2",
+      "enerugi",
+      "ondanka"
+    ],
+    "note": "カーボンニュートラル = kaabon nyuutoraru (carbon neutral)",
+    "hint": "How do you read this?",
+    "meaning": "carbon neutral"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "リサイクル",
+    "a": "risaikuru",
+    "d": [
+      "saisei",
+      "haikibutsu",
+      "kankyou",
+      "gomidashi"
+    ],
+    "note": "リサイクル = risaikuru (recycle)",
+    "hint": "How do you read this?",
+    "meaning": "recycle"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ストレスマネジメント",
+    "a": "sutoresu manejimento",
+    "d": [
+      "mentaruW kea",
+      "rirakkusu",
+      "seishin",
+      "kaunseringu"
+    ],
+    "note": "ストレスマネジメント = sutoresu manejimento (stress management)",
+    "hint": "How do you read this?",
+    "meaning": "stress management"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ワークライフバランス",
+    "a": "waaku raifu baransu",
+    "d": [
+      "rishoku",
+      "terewaaku",
+      "kyuuryou",
+      "karoushi"
+    ],
+    "note": "ワークライフバランス = waaku raifu baransu (work-life balance)",
+    "hint": "How do you read this?",
+    "meaning": "work-life balance"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ダイバーシティ",
+    "a": "daibaasite",
+    "d": [
+      "byoudou",
+      "jinken",
+      "sabetsu",
+      "kokusaika"
+    ],
+    "note": "ダイバーシティ = daibaasite (diversity)",
+    "hint": "How do you read this?",
+    "meaning": "diversity"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "ハラスメント",
+    "a": "harasumento",
+    "d": [
+      "pawaaW hara",
+      "sekuhara",
+      "ijime",
+      "sabetsu"
+    ],
+    "note": "ハラスメント = harasumento (harassment)",
+    "hint": "How do you read this?",
+    "meaning": "harassment"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "コンプライアンス",
+    "a": "konpuraiansu",
+    "d": [
+      "houritsu",
+      "kisei",
+      "ruuR",
+      "hoan"
+    ],
+    "note": "コンプライアンス = konpuraiansu (compliance)",
+    "hint": "How do you read this?",
+    "meaning": "compliance"
+  }
+]

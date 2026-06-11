@@ -1,0 +1,2252 @@
+[
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "わたし___がくせいです。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "で"
+    ],
+    "note": "は = topic marker. \"As for me, [I] am a student.\"",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I am a student.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "これ___なんですか。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は marks これ as the topic",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "What is this?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "ねこ___います。",
+    "a": "が",
+    "d": [
+      "は",
+      "を",
+      "に"
+    ],
+    "note": "が = subject marker for existence (いる/ある)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "There is a cat.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "あに___しゃいんです。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic marker for stating what someone is",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "My older brother is a company employee.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "わたしはパン___たべます。",
+    "a": "を",
+    "d": [
+      "は",
+      "が",
+      "に"
+    ],
+    "note": "を = direct object marker. パン = bread",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I eat bread.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "みず___のみます。",
+    "a": "を",
+    "d": [
+      "は",
+      "が",
+      "で"
+    ],
+    "note": "を marks the object being drunk",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) drink water.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "にほんご___べんきょうします。",
+    "a": "を",
+    "d": [
+      "は",
+      "が",
+      "で"
+    ],
+    "note": "を = object marker. にほんご = Japanese",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) study Japanese.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "がっこう___いきます。",
+    "a": "に",
+    "d": [
+      "を",
+      "は",
+      "で"
+    ],
+    "note": "に = direction/destination with movement verbs",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) go to school.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "としょかん___ほんをよみます。",
+    "a": "で",
+    "d": [
+      "に",
+      "を",
+      "は"
+    ],
+    "note": "で = location of action marker",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) read books at the library.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "バス___きます。",
+    "a": "で",
+    "d": [
+      "に",
+      "を",
+      "は"
+    ],
+    "note": "で = means/method of transport",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) come by bus.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "いえ___います。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "は"
+    ],
+    "note": "に = location of existence (いる/ある)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) am at home.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "くに___かえります。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "へ"
+    ],
+    "note": "に = destination. かえります = to return",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) return to my home country.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "ともだち___てがみをかきます。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "は"
+    ],
+    "note": "に = indirect object / recipient marker",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) write a letter to a friend.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "えいご___はなします。",
+    "a": "で",
+    "d": [
+      "に",
+      "を",
+      "は"
+    ],
+    "note": "で = means/language of action",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) speak in English.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "つくえ___うえ___ほんがあります。",
+    "a": "の…の",
+    "d": [
+      "に…に",
+      "で…は",
+      "が…の"
+    ],
+    "note": "の = possessive/connector; うえ = top/above",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "There is a book on the desk.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "あした___テスト___あります。",
+    "a": "は…が",
+    "d": [
+      "が…は",
+      "を…に",
+      "に…で"
+    ],
+    "note": "は = topic (あした); が = subject of あります",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Tomorrow there is a test.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "これ___わたし___ほんです。",
+    "a": "は…の",
+    "d": [
+      "が…の",
+      "を…の",
+      "に…の"
+    ],
+    "note": "は = topic; の = possessive (わたしの = my)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "This is my book.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "ひとり___います。",
+    "a": "で",
+    "d": [
+      "に",
+      "が",
+      "を"
+    ],
+    "note": "\"alone\" = ひとり; で marks state/condition",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I) am alone.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "三時___あいましょう。",
+    "a": "に",
+    "d": [
+      "で",
+      "は",
+      "を"
+    ],
+    "note": "に = specific time marker",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Let's meet at 3 o'clock.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "コーヒー___おねがいします。",
+    "a": "を",
+    "d": [
+      "は",
+      "が",
+      "に"
+    ],
+    "note": "を = object of request",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Coffee please.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "あの人___だれですか。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic in wh-questions about the topic",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Who is that person?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "だれ___きましたか。",
+    "a": "が",
+    "d": [
+      "は",
+      "を",
+      "に"
+    ],
+    "note": "が = subject in questions with だれ/なに/どれ",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Who came?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "なに___たべましたか。",
+    "a": "を",
+    "d": [
+      "が",
+      "は",
+      "に"
+    ],
+    "note": "を = object marker; なに＋を = \"what [did you eat]?\"",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "What did you eat?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "ともだち___えいがをみました。",
+    "a": "と",
+    "d": [
+      "に",
+      "で",
+      "は"
+    ],
+    "note": "と = with (together with someone)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I watched a movie with a friend.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "にほん___いきたいです。",
+    "a": "に",
+    "d": [
+      "へ",
+      "で",
+      "を"
+    ],
+    "note": "に = destination (specific goal); へ also works but less common here",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I want to go to Japan.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "コーヒー___こうちゃ___どちらがすきですか。",
+    "a": "と…と",
+    "d": [
+      "や…や",
+      "か…か",
+      "も…も"
+    ],
+    "note": "と = exhaustive listing of exactly 2 items for comparison",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Which do you like, coffee or tea?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "わたし___にほんごをべんきょうしています。",
+    "a": "も",
+    "d": [
+      "は",
+      "が",
+      "で"
+    ],
+    "note": "も = also/too, replaces は or が",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I also study Japanese.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "わたし___にほんごがわかります。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "わかる: person は + thing understood が",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I understand Japanese.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "にほんご___わかります。",
+    "a": "が",
+    "d": [
+      "は",
+      "を",
+      "に"
+    ],
+    "note": "わかる: thing understood takes が",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "[I] understand Japanese.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "きのう___えいが___みました。",
+    "a": "は…を",
+    "d": [
+      "が…を",
+      "を…に",
+      "で…が"
+    ],
+    "note": "きのう＋は (time topic); えいが＋を",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Yesterday I watched a movie.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かれ___うた___じょうずです。",
+    "a": "は…が",
+    "d": [
+      "を…は",
+      "に…を",
+      "が…を"
+    ],
+    "note": "じょうず: person は + skill が",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "He is good at singing.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "このバス___えき___とまりますか。",
+    "a": "は…に",
+    "d": [
+      "が…で",
+      "を…に",
+      "で…に"
+    ],
+    "note": "は = topic; に = location of stopping",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Does this bus stop at the station?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "あさ___ごはん___たべました。",
+    "a": "に…を",
+    "d": [
+      "は…を",
+      "が…に",
+      "で…は"
+    ],
+    "note": "に = time marker; を = object",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I ate breakfast in the morning.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "ははおや___プレゼント___もらいました。",
+    "a": "に…を",
+    "d": [
+      "が…は",
+      "を…に",
+      "で…が"
+    ],
+    "note": "に = source/giver with もらう; を = received object",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I received a present from my mother.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "こうえん___こどもたち___あそんでいます。",
+    "a": "で…が",
+    "d": [
+      "に…が",
+      "を…は",
+      "が…で"
+    ],
+    "note": "で = location of action; が = subject",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Children are playing in the park.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "バス___でんしゃ___どちらが はやいですか。",
+    "a": "と…と",
+    "d": [
+      "か…か",
+      "も…も",
+      "や…や"
+    ],
+    "note": "と…と for comparing exactly two options",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Which is faster, the bus or the train?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "このしごと___むずかしい。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic marker for stating properties",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "This work is difficult.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "にほんご___えいご___むずかしいです。",
+    "a": "は…より",
+    "d": [
+      "が…より",
+      "を…より",
+      "に…から"
+    ],
+    "note": "より = than (comparison marker)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Japanese is more difficult than English.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "クラス___なか___いちばん___せがたかいです。",
+    "a": "の…で…が",
+    "d": [
+      "は…に…で",
+      "が…の…を",
+      "に…で…は"
+    ],
+    "note": "の connector; で = within a scope; が = subject",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "(I am) the tallest in the class.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "えき___まで___あるいていきます。",
+    "a": "から…まで",
+    "d": [
+      "に…で",
+      "で…に",
+      "は…が"
+    ],
+    "note": "から = from; まで = until/to (endpoint)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I will walk from here to the station.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "これ___わたしのほんです。",
+    "a": "が",
+    "d": [
+      "は",
+      "を",
+      "に"
+    ],
+    "note": "が = emphasis/contrast, identifying this specific item",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "This (specifically) is my book.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "わたし___かれ___すきです。",
+    "a": "は…が",
+    "d": [
+      "が…を",
+      "を…に",
+      "に…は"
+    ],
+    "note": "は = topic; すき/きらい/わかる: target takes が",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I like him.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___しか___わからない。",
+    "a": "に",
+    "d": [
+      "は",
+      "が",
+      "で"
+    ],
+    "note": "に＋しか…ない = only. に for the knower/understander",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Only he understands it.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "ははおや___てがみ___かいてもらいました。",
+    "a": "に…を",
+    "d": [
+      "が…は",
+      "を…に",
+      "で…が"
+    ],
+    "note": "もらう: giver に + received thing を",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I had my mother write a letter.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "このくすり___いちにち___さんかいのんでください。",
+    "a": "を…に",
+    "d": [
+      "は…で",
+      "が…に",
+      "を…で"
+    ],
+    "note": "を = object; に = frequency (per unit)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Take this medicine 3 times a day.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "ともだち___いっしょ___えいが___みました。",
+    "a": "と…に…を",
+    "d": [
+      "に…で…が",
+      "で…に…は",
+      "が…に…を"
+    ],
+    "note": "と = together with; いっしょに = adverb; を = object",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I watched a movie together with a friend.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "なん___きょうみ___ありますか。",
+    "a": "に…が",
+    "d": [
+      "を…は",
+      "が…に",
+      "は…を"
+    ],
+    "note": "きょうみがある: topic に + きょうみ が",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "What are you interested in?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "あめ___ふっている___かさ___もってきた。",
+    "a": "が…から…を",
+    "d": [
+      "は…ので…が",
+      "を…に…は",
+      "に…で…を"
+    ],
+    "note": "が = subject; から = because; を = object",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Since it was raining, I brought an umbrella.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "先生___しゅくだい___だされました。",
+    "a": "に…を",
+    "d": [
+      "が…は",
+      "を…に",
+      "で…を"
+    ],
+    "note": "に = agent in passive; を = object",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Homework was given (to me) by the teacher.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "この映画___みた___ことが___ありますか。",
+    "a": "を…た",
+    "d": [
+      "は…て",
+      "が…て",
+      "で…た"
+    ],
+    "note": "を = object; たことがある = have experienced",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Have you seen this movie before?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "どこ___もどってきた___ですか。",
+    "a": "から",
+    "d": [
+      "に",
+      "で",
+      "を"
+    ],
+    "note": "から = from (origin point)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Where did you come back from?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "みんな___が　いけるわけ___ない。",
+    "a": "全員…では",
+    "d": [
+      "は…が",
+      "を…に",
+      "に…を"
+    ],
+    "note": "全員 = everyone; では + ない = not in this case",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Not everyone can go.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___くれた___プレゼント___とても うれしかった。",
+    "a": "が…た…が",
+    "d": [
+      "は…の…を",
+      "を…て…に",
+      "に…た…は"
+    ],
+    "note": "が = subject; が (2nd) = subject of うれしかった",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "The present he gave me made me very happy.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "山田さん___話___よると、あしたは雨___そうです。",
+    "a": "の…に…が",
+    "d": [
+      "は…を…に",
+      "が…で…を",
+      "を…の…に"
+    ],
+    "note": "の話によると = according to; が = subject of rain",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "According to Mr. Yamada, it seems it will rain tomorrow.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "この問題___かんたん___みえて、実は難しい。",
+    "a": "は…に",
+    "d": [
+      "が…で",
+      "を…に",
+      "に…が"
+    ],
+    "note": "は = topic; に + みえる = looks/appears",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "This problem looks easy but is actually difficult.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "がっこう___あります。",
+    "a": "に",
+    "d": [
+      "で",
+      "が",
+      "は"
+    ],
+    "note": "に = location of existence (ある/いる)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "There is a school (here).",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "きょうしつ___まどがあります。",
+    "a": "に",
+    "d": [
+      "で",
+      "が",
+      "を"
+    ],
+    "note": "に = location; が = subject of existence",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "There is a window in the classroom.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "スーパー___やさいをかいます。",
+    "a": "で",
+    "d": [
+      "に",
+      "を",
+      "は"
+    ],
+    "note": "で = location of action",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I buy vegetables at the supermarket.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "ともだち___あいます。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "は"
+    ],
+    "note": "に = target of meeting (会う takes に)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I meet a friend.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "でんしゃ___のります。",
+    "a": "に",
+    "d": [
+      "を",
+      "で",
+      "は"
+    ],
+    "note": "に = vehicle you board (乗る takes に)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I ride the train.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "でんしゃ___おります。",
+    "a": "を",
+    "d": [
+      "に",
+      "で",
+      "は"
+    ],
+    "note": "を = vehicle you exit (降りる takes を)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I get off the train.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "にほん___すんでいます。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "は"
+    ],
+    "note": "に = location of living (住む takes に)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I live in Japan.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "ここ___すわってください。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "は"
+    ],
+    "note": "に = location for seating/placing yourself",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Please sit here.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "まいにちコーヒー___のみます。",
+    "a": "を",
+    "d": [
+      "が",
+      "に",
+      "は"
+    ],
+    "note": "を = direct object",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I drink coffee every day.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "となり___ひとはだれですか。",
+    "a": "の",
+    "d": [
+      "が",
+      "に",
+      "で"
+    ],
+    "note": "の = possessive connector (となりの = next door's)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Who is the person next door?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "わたし___なまえはたろうです。",
+    "a": "の",
+    "d": [
+      "が",
+      "に",
+      "で"
+    ],
+    "note": "の = possessive (わたしの = my)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "My name is Taro.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "これ___だれ___ですか。",
+    "a": "は…の",
+    "d": [
+      "が…の",
+      "を…の",
+      "に…の"
+    ],
+    "note": "は = topic; の = possessive (誰の = whose)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Whose is this?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "きのう___かいしゃ___やすみました。",
+    "a": "は…を",
+    "d": [
+      "が…に",
+      "を…で",
+      "に…が"
+    ],
+    "note": "は = time topic; を = verb object (休む takes を for reason)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Yesterday I took the day off from work.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "なんじ___おきますか。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "は"
+    ],
+    "note": "に = specific time (何時に = at what time)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "What time do you wake up?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "あした___てんきはどうですか。",
+    "a": "の",
+    "d": [
+      "が",
+      "に",
+      "は"
+    ],
+    "note": "の = possessive connector (あしたの = tomorrow's)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "How is tomorrow's weather?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "この本___おもしろいです。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic marker for describing a subject",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "This book is interesting.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "あそこ___レストランはいいですよ。",
+    "a": "の",
+    "d": [
+      "が",
+      "に",
+      "で"
+    ],
+    "note": "の = possessive/location connector (あそこの = over there's)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "The restaurant over there is good.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "テスト___まえ___べんきょうします。",
+    "a": "の…に",
+    "d": [
+      "が…で",
+      "を…は",
+      "に…で"
+    ],
+    "note": "の = connector; に = time reference (前に = before)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I study before the exam.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "やまだ___さんはなんさいですか。",
+    "a": "さん",
+    "d": [
+      "は",
+      "が",
+      "を"
+    ],
+    "note": "さん = honorific suffix; separate from particles",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "How old is Mr./Ms. Yamada?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "おちゃ___どうぞ。",
+    "a": "を",
+    "d": [
+      "は",
+      "が",
+      "に"
+    ],
+    "note": "を = object offered (どうぞ = please)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Please have some tea.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "バス___のって___えき___いきます。",
+    "a": "に…で…に",
+    "d": [
+      "を…が…で",
+      "で…に…を",
+      "に…に…に"
+    ],
+    "note": "に; で; に",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I take the bus to go to the station.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "ここ___はいってはいけません。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "は"
+    ],
+    "note": "に = location for entering (入る takes に)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "You must not enter here.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "としょかん___本___かりました。",
+    "a": "で…を",
+    "d": [
+      "に…が",
+      "が…に",
+      "を…は"
+    ],
+    "note": "で = location of action; を = object",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I borrowed a book from the library.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "かばん___なか___さいふがあります。",
+    "a": "の…に",
+    "d": [
+      "が…で",
+      "は…に",
+      "に…の"
+    ],
+    "note": "の = possessive; に = location of existence",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "There is a wallet inside the bag.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "うち___かえります。",
+    "a": "に",
+    "d": [
+      "で",
+      "へ",
+      "を"
+    ],
+    "note": "に = destination (帰る takes に or へ)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I return home.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "バス___まっています。",
+    "a": "を",
+    "d": [
+      "に",
+      "が",
+      "は"
+    ],
+    "note": "を = object of waiting (待つ takes を)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I am waiting for the bus.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "にほんご___じょうずですね。",
+    "a": "が",
+    "d": [
+      "を",
+      "は",
+      "に"
+    ],
+    "note": "が = subject of skill (上手 takes が for the skill)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Your Japanese is skillful, isn't it.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "そと___さむいです。",
+    "a": "は",
+    "d": [
+      "が",
+      "に",
+      "で"
+    ],
+    "note": "は = topic (そとは = as for outside...)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "It's cold outside.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "ジュース___ください。",
+    "a": "を",
+    "d": [
+      "は",
+      "が",
+      "に"
+    ],
+    "note": "を = object of ください",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Please give me juice.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "easy",
+    "q": "あに___いしゃです。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic; doctor = predicate",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "My older brother is a doctor.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "ごはん___たべながら___テレビ___みます。",
+    "a": "を…ながら…を",
+    "d": [
+      "は…が…を",
+      "に…で…が",
+      "を…て…は"
+    ],
+    "note": "を (eat object); ながら = while doing; を (watch object)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I watch TV while eating.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "にほん___いったことがあります。",
+    "a": "に",
+    "d": [
+      "で",
+      "へ",
+      "を"
+    ],
+    "note": "に = destination with いったことがある",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I have been to Japan.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "それ___ほんとうですか。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic in yes/no questions",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Is that true?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かのじょ___だれ___しりません。",
+    "a": "が…も",
+    "d": [
+      "は…を",
+      "を…が",
+      "に…は"
+    ],
+    "note": "が = subject; も = either/also (with negative)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I don't know who she is either.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "この問題___どう___おもいますか。",
+    "a": "を…と",
+    "d": [
+      "は…が",
+      "が…に",
+      "に…を"
+    ],
+    "note": "を = object; と = quotation (思う takes と)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "What do you think about this problem?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かれ___はなし___きいてください。",
+    "a": "の…を",
+    "d": [
+      "が…に",
+      "に…で",
+      "は…が"
+    ],
+    "note": "の = possessive; を = object of 聞く",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Please listen to his story.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "うみ___そば___ホテル___とまりました。",
+    "a": "の…に…に",
+    "d": [
+      "が…で…を",
+      "の…で…で",
+      "は…で…に"
+    ],
+    "note": "の = possessive; に location; に = lodging",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I stayed at a hotel near the sea.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "コーヒー___ミルク___いれます。",
+    "a": "に…を",
+    "d": [
+      "を…が",
+      "が…に",
+      "は…を"
+    ],
+    "note": "に = target container; を = object added",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I put milk in the coffee.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "れんしゅう___すれば___じょうずになります。",
+    "a": "を…ば",
+    "d": [
+      "は…と",
+      "が…て",
+      "に…たら"
+    ],
+    "note": "を = object; ば = conditional form",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "If you practice, you will improve.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かれ___どこ___でも___いきます。",
+    "a": "は…に…も",
+    "d": [
+      "が…で…は",
+      "を…に…に",
+      "に…は…が"
+    ],
+    "note": "は = topic; に = destination; も = even/any",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "He will go anywhere.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "おいしい___たべもの___たべたいです。",
+    "a": "もの…を",
+    "d": [
+      "こと…が",
+      "が…を",
+      "もの…が"
+    ],
+    "note": "もの = thing/food; を = object of want",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I want to eat delicious food.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "おかあさん___やさしい人です。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic marker for characterizing someone",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Mom is a kind person.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "むかし___にほん___きたことがあります。",
+    "a": "に…に",
+    "d": [
+      "で…を",
+      "は…が",
+      "を…に"
+    ],
+    "note": "に = time (昔に = in the past); に = destination",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Long ago I came to Japan.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "このりょうり___だれ___つくりましたか。",
+    "a": "は…が",
+    "d": [
+      "を…が",
+      "が…に",
+      "に…を"
+    ],
+    "note": "は = topic; が = subject of making",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Who made this dish?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "えいが___みにいきます。",
+    "a": "を",
+    "d": [
+      "が",
+      "に",
+      "は"
+    ],
+    "note": "を + verb of purpose; or use に for destination",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I'm going to see a movie.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "ともだち___プレゼント___あげました。",
+    "a": "に…を",
+    "d": [
+      "が…は",
+      "を…に",
+      "で…が"
+    ],
+    "note": "に = recipient; を = object given",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I gave a present to a friend.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かれ___すごく___しんぱい___しています。",
+    "a": "の…を",
+    "d": [
+      "は…が",
+      "が…に",
+      "に…を"
+    ],
+    "note": "の = possessive (彼のこと); を = object of 心配",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I am very worried about him.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "このまち___ひと___やさしいです。",
+    "a": "の…は",
+    "d": [
+      "は…が",
+      "に…を",
+      "が…の"
+    ],
+    "note": "の = connector (この町の人); は = topic",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "The people in this town are kind.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かれ___いつ___きましたか。",
+    "a": "は…に",
+    "d": [
+      "が…で",
+      "を…に",
+      "に…は"
+    ],
+    "note": "は = topic; に = time",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "When did he come?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "にほん___ぶんか___すきです。",
+    "a": "の…が",
+    "d": [
+      "は…が",
+      "を…に",
+      "に…を"
+    ],
+    "note": "の = possessive (日本の文化); が = subject of すき",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I like Japanese culture.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "ここ___すわっても___いいですか。",
+    "a": "に",
+    "d": [
+      "で",
+      "を",
+      "は"
+    ],
+    "note": "に = location for positioning oneself",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "May I sit here?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "みんな___おなじこと___おもっています。",
+    "a": "が…を",
+    "d": [
+      "は…が",
+      "を…に",
+      "に…は"
+    ],
+    "note": "が = subject; を = object of 思う",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Everyone thinks the same thing.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かれ___じてんしゃ___かいました。",
+    "a": "は…を",
+    "d": [
+      "が…に",
+      "を…が",
+      "に…は"
+    ],
+    "note": "は = topic; を = object bought",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "He bought a bicycle.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "にほんご___べんきょうして___います。",
+    "a": "を",
+    "d": [
+      "が",
+      "に",
+      "は"
+    ],
+    "note": "を = object of 勉強している",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I am studying Japanese.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "てんき___よければ___いきます。",
+    "a": "が",
+    "d": [
+      "は",
+      "を",
+      "に"
+    ],
+    "note": "が = subject of conditional; よければ = if good",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "If the weather is good, I will go.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "せんせい___ほめられました。",
+    "a": "に",
+    "d": [
+      "が",
+      "は",
+      "で"
+    ],
+    "note": "に = agent in passive construction",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I was praised by the teacher.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かぜ___ひいたので___やすみます。",
+    "a": "を",
+    "d": [
+      "が",
+      "は",
+      "に"
+    ],
+    "note": "を = object of ひく (catch a cold: 風邪をひく)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Because I caught a cold, I will rest.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "あの子___かわいいですね。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic marker",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "That child is cute, isn't she/he.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "かれ___くるまで___かいしゃ___いきます。",
+    "a": "は…で…に",
+    "d": [
+      "が…に…で",
+      "を…が…に",
+      "に…は…で"
+    ],
+    "note": "は = topic; で = means; に = destination",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "He goes to the company by car.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "medium",
+    "q": "このはな___においがいいです。",
+    "a": "は",
+    "d": [
+      "が",
+      "を",
+      "に"
+    ],
+    "note": "は = topic; におい が いい = smell is good",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "This flower smells good.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___なに___いっても___きかない。",
+    "a": "に…を…も",
+    "d": [
+      "が…は…に",
+      "は…に…を",
+      "を…が…も"
+    ],
+    "note": "に = indirect object; を = object; も with negative = no matter",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "No matter what you say to him, he won't listen.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "そんなこと___できる___はずがない。",
+    "a": "が…る",
+    "d": [
+      "は…な",
+      "を…て",
+      "に…た"
+    ],
+    "note": "が = subject; はずがない = there is no reason/expectation",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "There's no way that can be done.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___しか___しらない___じじつだ。",
+    "a": "に…か…ない",
+    "d": [
+      "は…だけ…の",
+      "が…のみ…だ",
+      "を…しか…ない"
+    ],
+    "note": "に = knower; しか with negative = only",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "It's a fact that only he knows.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "このしごと___たいして___むずかしくない。",
+    "a": "は…に",
+    "d": [
+      "が…で",
+      "を…に",
+      "に…は"
+    ],
+    "note": "は = topic; たいして＋negative = not particularly",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "This work isn't particularly difficult.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "びょうき___なければ___いきます。",
+    "a": "で…なければ",
+    "d": [
+      "が…なら",
+      "に…なら",
+      "で…たら"
+    ],
+    "note": "で = reason/state; なければ = if not (conditional)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "If I'm not sick, I'll go.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___はなし___きけばよかった。",
+    "a": "の…を",
+    "d": [
+      "は…が",
+      "が…に",
+      "に…の"
+    ],
+    "note": "の = possessive; を = object; ばよかった = should have",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I should have listened to his story.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "まいにち___れんしゅう___すること___だいじだ。",
+    "a": "の…を…が",
+    "d": [
+      "は…に…の",
+      "が…の…に",
+      "の…に…を"
+    ],
+    "note": "の = topic marker (こと); を = object; が = subject",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Practicing every day is important.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "みんな___ために___はたらいています。",
+    "a": "の",
+    "d": [
+      "が",
+      "に",
+      "で"
+    ],
+    "note": "の = possessive; ために = for the sake of",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I am working for everyone.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "この本___よめばよむほど___おもしろい。",
+    "a": "は…ば",
+    "d": [
+      "が…と",
+      "を…て",
+      "に…ど"
+    ],
+    "note": "は = topic; 〜ば〜ほど = the more... the more",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "The more you read this book, the more interesting it is.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___てがみ___だしても___へんじがこない。",
+    "a": "に…を…も",
+    "d": [
+      "が…は…に",
+      "は…に…を",
+      "を…が…も"
+    ],
+    "note": "に = recipient; を = object; ても = even if",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Even if I send him a letter, no reply comes.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "にほん___せいかつ___なれましたか。",
+    "a": "での…に",
+    "d": [
+      "の…が",
+      "に…を",
+      "は…が"
+    ],
+    "note": "での = in (context); に = target of 慣れる",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Have you gotten used to life in Japan?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "この映画___どんな人___おすすめですか。",
+    "a": "は…に",
+    "d": [
+      "が…を",
+      "を…に",
+      "に…が"
+    ],
+    "note": "は = topic; に = target of recommendation",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Who would you recommend this movie for?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "りょうしん___しんぱい___させてしまった。",
+    "a": "を…に",
+    "d": [
+      "に…が",
+      "が…を",
+      "は…に"
+    ],
+    "note": "を = causative object; に = cause (させる)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I ended up making my parents worried.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "なんとか___できる___ものなら___やってみる。",
+    "a": "か…る",
+    "d": [
+      "に…な",
+      "を…い",
+      "は…て"
+    ],
+    "note": "なんとか = somehow; ものなら conditional = if possible",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "If it can somehow be done, I'll try.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___あんな___ことを___いうとは。",
+    "a": "が…な",
+    "d": [
+      "は…い",
+      "を…な",
+      "に…な"
+    ],
+    "note": "が = subject; あんな = such/like that; とは = surprise particle",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I can't believe he said such a thing.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "この試験___むずかしすぎて___できなかった。",
+    "a": "は…て",
+    "d": [
+      "が…で",
+      "を…に",
+      "に…が"
+    ],
+    "note": "は = topic; すぎる = too much; て = reason/cause",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "This exam was too difficult and I couldn't do it.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "もっとはやく___いっておけば___よかった。",
+    "a": "に…ば",
+    "d": [
+      "を…て",
+      "が…と",
+      "は…な"
+    ],
+    "note": "に = indirect object of 言う; おけばよかった = should have done in advance",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I should have told them sooner.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かのじょ___うた___じょうずなだけ___なく、おどりもうまい。",
+    "a": "は…が…で",
+    "d": [
+      "を…に…は",
+      "が…は…で",
+      "に…を…が"
+    ],
+    "note": "は = topic; が = subject of skill; だけでなく = not only",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Not only is her singing skilled, but she's also good at dancing.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "この計画___せいこう___するには___なにが必要ですか。",
+    "a": "の…に",
+    "d": [
+      "が…に",
+      "は…を",
+      "を…が"
+    ],
+    "note": "の = possessive connector; には = for the purpose of",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "What is needed for this plan to succeed?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "どんな困難___あっても___あきらめない。",
+    "a": "が",
+    "d": [
+      "は",
+      "を",
+      "に"
+    ],
+    "note": "が = subject; があっても = even if there are",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "No matter what difficulties there are, I won't give up.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "それ___あなた___のせいじゃない。",
+    "a": "は…の",
+    "d": [
+      "が…に",
+      "を…の",
+      "に…が"
+    ],
+    "note": "は = topic; の = possessive (あなたの = your)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "That's not your fault.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "じぶん___した___こと___せきにんをとる。",
+    "a": "の…た…の",
+    "d": [
+      "が…た…を",
+      "は…て…に",
+      "に…の…が"
+    ],
+    "note": "の = possessive; した こと = thing done; の = nominalizer",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Take responsibility for what you yourself have done.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かのじょ___なに___かんがえているか___わからない。",
+    "a": "が…を…か",
+    "d": [
+      "は…に…が",
+      "を…が…か",
+      "に…は…を"
+    ],
+    "note": "が = subject; を = object; か = embedded question marker",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I don't know what she is thinking.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "このはなし___だれ___もしないでください。",
+    "a": "は…に…も",
+    "d": [
+      "が…に…も",
+      "を…が…の",
+      "に…は…に"
+    ],
+    "note": "は = topic; に = recipient; も with negative = no one",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Please don't tell anyone about this.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "もう少し___まてば___よかったのに。",
+    "a": "待て…ば",
+    "d": [
+      "まつ…と",
+      "まっ…て",
+      "まて…た"
+    ],
+    "note": "ば = conditional; のに = expressing regret",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "If only I had waited a little longer.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "それ___どういう___いみですか。",
+    "a": "は…う",
+    "d": [
+      "が…な",
+      "を…い",
+      "に…お"
+    ],
+    "note": "は = topic; どういう = what kind of (どういう意味)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "What does that mean?",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___こと___まだ___すきです。",
+    "a": "の…が…も",
+    "d": [
+      "は…を…も",
+      "が…の…は",
+      "に…が…も"
+    ],
+    "note": "\"彼のこと\" = him (as a person); が = subject of すき; も = still/even so",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I still like him.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "もっとはやく___れんらく___すれば___よかった。",
+    "a": "に…を…ば",
+    "d": [
+      "が…に…と",
+      "は…が…て",
+      "を…に…ば"
+    ],
+    "note": "に = recipient; を = object; すればよかった = should have",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I should have contacted them sooner.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "その問題___どう___たいしょすればいいか___わからない。",
+    "a": "に…に",
+    "d": [
+      "は…を",
+      "が…に",
+      "を…が"
+    ],
+    "note": "に = topic of dealing; どう = how; に = indirect",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I don't know how to deal with that problem.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___いう___こと___いつも正しい。",
+    "a": "の…う…は",
+    "d": [
+      "が…た…が",
+      "は…い…を",
+      "に…な…に"
+    ],
+    "note": "の = possessive; こと = nominalizer; は = topic",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "What he says is always right.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "こんなに___つかれている___のに___まだはたらく。",
+    "a": "に…て…の",
+    "d": [
+      "が…な…に",
+      "を…て…は",
+      "は…で…も"
+    ],
+    "note": "のに = even though (contrast/complaint)",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "Even though so tired, still working.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "それ___なんとか___なる___だろう。",
+    "a": "は…か…る",
+    "d": [
+      "が…に…な",
+      "を…と…い",
+      "に…は…な"
+    ],
+    "note": "は = topic; なんとかなる = will somehow manage",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "That will somehow work out.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "かれ___うわさ___きいたことがあります。",
+    "a": "の…を",
+    "d": [
+      "は…が",
+      "が…に",
+      "に…の"
+    ],
+    "note": "の = possessive; を = object of 聞く",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "I have heard rumors about him.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "この計画___問題___あれば___すぐおしえて。",
+    "a": "に…が…ば",
+    "d": [
+      "は…を…と",
+      "が…に…て",
+      "に…は…と"
+    ],
+    "note": "に = location of problem; が = subject; ば = if",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "If there's a problem with this plan, tell me right away.",
+    "_isParticle": true
+  },
+  {
+    "category": "particle",
+    "level": "hard",
+    "q": "なにか___てつだえる___こと___あれば。",
+    "a": "か…る…が",
+    "d": [
+      "は…な…に",
+      "が…い…を",
+      "に…て…は"
+    ],
+    "note": "か = something; こと = nominalizer; が = subject of condition",
+    "hint": "Choose the correct particle(s) for the blank(s).",
+    "translation": "If there's anything I can help with.",
+    "_isParticle": true
+  }
+]

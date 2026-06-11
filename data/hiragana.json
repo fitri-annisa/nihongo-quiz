@@ -1,0 +1,2788 @@
+[
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "あ",
+    "a": "a",
+    "d": [
+      "i",
+      "u",
+      "e",
+      "o"
+    ],
+    "note": "ひらがな: あ = a"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "い",
+    "a": "i",
+    "d": [
+      "a",
+      "u",
+      "e",
+      "o"
+    ],
+    "note": "ひらがな: い = i"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "う",
+    "a": "u",
+    "d": [
+      "a",
+      "i",
+      "e",
+      "o"
+    ],
+    "note": "ひらがな: う = u"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "え",
+    "a": "e",
+    "d": [
+      "a",
+      "i",
+      "u",
+      "o"
+    ],
+    "note": "ひらがな: え = e"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "お",
+    "a": "o",
+    "d": [
+      "a",
+      "i",
+      "u",
+      "e"
+    ],
+    "note": "ひらがな: お = o"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "か",
+    "a": "ka",
+    "d": [
+      "ki",
+      "ku",
+      "ke",
+      "ko"
+    ],
+    "note": "ひらがな: か = ka"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "き",
+    "a": "ki",
+    "d": [
+      "ka",
+      "ku",
+      "ke",
+      "ko"
+    ],
+    "note": "ひらがな: き = ki"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "く",
+    "a": "ku",
+    "d": [
+      "ka",
+      "ki",
+      "ke",
+      "ko"
+    ],
+    "note": "ひらがな: く = ku"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "け",
+    "a": "ke",
+    "d": [
+      "ka",
+      "ki",
+      "ku",
+      "ko"
+    ],
+    "note": "ひらがな: け = ke"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "こ",
+    "a": "ko",
+    "d": [
+      "ka",
+      "ki",
+      "ku",
+      "ke"
+    ],
+    "note": "ひらがな: こ = ko"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "さ",
+    "a": "sa",
+    "d": [
+      "shi",
+      "su",
+      "se",
+      "so"
+    ],
+    "note": "ひらがな: さ = sa"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "し",
+    "a": "shi",
+    "d": [
+      "sa",
+      "su",
+      "se",
+      "so"
+    ],
+    "note": "ひらがな: し = shi"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "す",
+    "a": "su",
+    "d": [
+      "sa",
+      "shi",
+      "se",
+      "so"
+    ],
+    "note": "ひらがな: す = su"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "せ",
+    "a": "se",
+    "d": [
+      "sa",
+      "shi",
+      "su",
+      "so"
+    ],
+    "note": "ひらがな: せ = se"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "そ",
+    "a": "so",
+    "d": [
+      "sa",
+      "shi",
+      "su",
+      "se"
+    ],
+    "note": "ひらがな: そ = so"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "た",
+    "a": "ta",
+    "d": [
+      "chi",
+      "tsu",
+      "te",
+      "to"
+    ],
+    "note": "ひらがな: た = ta"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ち",
+    "a": "chi",
+    "d": [
+      "ta",
+      "tsu",
+      "te",
+      "to"
+    ],
+    "note": "ひらがな: ち = chi"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "つ",
+    "a": "tsu",
+    "d": [
+      "ta",
+      "chi",
+      "te",
+      "to"
+    ],
+    "note": "ひらがな: つ = tsu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "て",
+    "a": "te",
+    "d": [
+      "ta",
+      "chi",
+      "tsu",
+      "to"
+    ],
+    "note": "ひらがな: て = te"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "と",
+    "a": "to",
+    "d": [
+      "ta",
+      "chi",
+      "tsu",
+      "te"
+    ],
+    "note": "ひらがな: と = to"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "な",
+    "a": "na",
+    "d": [
+      "ni",
+      "nu",
+      "ne",
+      "no"
+    ],
+    "note": "ひらがな: な = na"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "に",
+    "a": "ni",
+    "d": [
+      "na",
+      "nu",
+      "ne",
+      "no"
+    ],
+    "note": "ひらがな: に = ni"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぬ",
+    "a": "nu",
+    "d": [
+      "na",
+      "ni",
+      "ne",
+      "no"
+    ],
+    "note": "ひらがな: ぬ = nu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ね",
+    "a": "ne",
+    "d": [
+      "na",
+      "ni",
+      "nu",
+      "no"
+    ],
+    "note": "ひらがな: ね = ne"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "の",
+    "a": "no",
+    "d": [
+      "na",
+      "ni",
+      "nu",
+      "ne"
+    ],
+    "note": "ひらがな: の = no"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "は",
+    "a": "ha",
+    "d": [
+      "hi",
+      "fu",
+      "he",
+      "ho"
+    ],
+    "note": "ひらがな: は = ha"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ひ",
+    "a": "hi",
+    "d": [
+      "ha",
+      "fu",
+      "he",
+      "ho"
+    ],
+    "note": "ひらがな: ひ = hi"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ふ",
+    "a": "fu",
+    "d": [
+      "ha",
+      "hi",
+      "he",
+      "ho"
+    ],
+    "note": "ひらがな: ふ = fu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "へ",
+    "a": "he",
+    "d": [
+      "ha",
+      "hi",
+      "fu",
+      "ho"
+    ],
+    "note": "ひらがな: へ = he"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ほ",
+    "a": "ho",
+    "d": [
+      "ha",
+      "hi",
+      "fu",
+      "he"
+    ],
+    "note": "ひらがな: ほ = ho"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ま",
+    "a": "ma",
+    "d": [
+      "mi",
+      "mu",
+      "me",
+      "mo"
+    ],
+    "note": "ひらがな: ま = ma"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "み",
+    "a": "mi",
+    "d": [
+      "ma",
+      "mu",
+      "me",
+      "mo"
+    ],
+    "note": "ひらがな: み = mi"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "む",
+    "a": "mu",
+    "d": [
+      "ma",
+      "mi",
+      "me",
+      "mo"
+    ],
+    "note": "ひらがな: む = mu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "め",
+    "a": "me",
+    "d": [
+      "ma",
+      "mi",
+      "mu",
+      "mo"
+    ],
+    "note": "ひらがな: め = me"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "も",
+    "a": "mo",
+    "d": [
+      "ma",
+      "mi",
+      "mu",
+      "me"
+    ],
+    "note": "ひらがな: も = mo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "や",
+    "a": "ya",
+    "d": [
+      "yu",
+      "yo",
+      "wa",
+      "ra"
+    ],
+    "note": "ひらがな: や = ya"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ゆ",
+    "a": "yu",
+    "d": [
+      "ya",
+      "yo",
+      "wa",
+      "ri"
+    ],
+    "note": "ひらがな: ゆ = yu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "よ",
+    "a": "yo",
+    "d": [
+      "ya",
+      "yu",
+      "wa",
+      "ru"
+    ],
+    "note": "ひらがな: よ = yo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ら",
+    "a": "ra",
+    "d": [
+      "ri",
+      "ru",
+      "re",
+      "ro"
+    ],
+    "note": "ひらがな: ら = ra"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "り",
+    "a": "ri",
+    "d": [
+      "ra",
+      "ru",
+      "re",
+      "ro"
+    ],
+    "note": "ひらがな: り = ri"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "る",
+    "a": "ru",
+    "d": [
+      "ra",
+      "ri",
+      "re",
+      "ro"
+    ],
+    "note": "ひらがな: る = ru"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "れ",
+    "a": "re",
+    "d": [
+      "ra",
+      "ri",
+      "ru",
+      "ro"
+    ],
+    "note": "ひらがな: れ = re"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ろ",
+    "a": "ro",
+    "d": [
+      "ra",
+      "ri",
+      "ru",
+      "re"
+    ],
+    "note": "ひらがな: ろ = ro"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "わ",
+    "a": "wa",
+    "d": [
+      "wo",
+      "ya",
+      "ha",
+      "ra"
+    ],
+    "note": "ひらがな: わ = wa"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "を",
+    "a": "wo",
+    "d": [
+      "wa",
+      "o",
+      "ho",
+      "no"
+    ],
+    "note": "ひらがな: を = wo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ん",
+    "a": "n",
+    "d": [
+      "m",
+      "na",
+      "nu",
+      "ni"
+    ],
+    "note": "ひらがな: ん = n"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "が",
+    "a": "ga",
+    "d": [
+      "ka",
+      "gi",
+      "gu",
+      "go"
+    ],
+    "note": "ひらがな: が = ga"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぎ",
+    "a": "gi",
+    "d": [
+      "ki",
+      "ga",
+      "gu",
+      "ge"
+    ],
+    "note": "ひらがな: ぎ = gi"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぐ",
+    "a": "gu",
+    "d": [
+      "ku",
+      "ga",
+      "gi",
+      "ge"
+    ],
+    "note": "ひらがな: ぐ = gu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "げ",
+    "a": "ge",
+    "d": [
+      "ke",
+      "ga",
+      "gi",
+      "gu"
+    ],
+    "note": "ひらがな: げ = ge"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ご",
+    "a": "go",
+    "d": [
+      "ko",
+      "ga",
+      "gi",
+      "gu"
+    ],
+    "note": "ひらがな: ご = go"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ざ",
+    "a": "za",
+    "d": [
+      "sa",
+      "ji",
+      "zu",
+      "ze"
+    ],
+    "note": "ひらがな: ざ = za"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "じ",
+    "a": "ji",
+    "d": [
+      "shi",
+      "za",
+      "zu",
+      "ze"
+    ],
+    "note": "ひらがな: じ = ji"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ず",
+    "a": "zu",
+    "d": [
+      "su",
+      "za",
+      "ji",
+      "ze"
+    ],
+    "note": "ひらがな: ず = zu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぜ",
+    "a": "ze",
+    "d": [
+      "se",
+      "za",
+      "ji",
+      "zu"
+    ],
+    "note": "ひらがな: ぜ = ze"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぞ",
+    "a": "zo",
+    "d": [
+      "so",
+      "za",
+      "ji",
+      "zu"
+    ],
+    "note": "ひらがな: ぞ = zo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "だ",
+    "a": "da",
+    "d": [
+      "ta",
+      "di",
+      "du",
+      "do"
+    ],
+    "note": "ひらがな: だ = da"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "で",
+    "a": "de",
+    "d": [
+      "te",
+      "da",
+      "do",
+      "di"
+    ],
+    "note": "ひらがな: で = de"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ど",
+    "a": "do",
+    "d": [
+      "to",
+      "da",
+      "de",
+      "di"
+    ],
+    "note": "ひらがな: ど = do"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ば",
+    "a": "ba",
+    "d": [
+      "ha",
+      "bi",
+      "bu",
+      "bo"
+    ],
+    "note": "ひらがな: ば = ba"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "び",
+    "a": "bi",
+    "d": [
+      "hi",
+      "ba",
+      "bu",
+      "bo"
+    ],
+    "note": "ひらがな: び = bi"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぶ",
+    "a": "bu",
+    "d": [
+      "fu",
+      "ba",
+      "bi",
+      "bo"
+    ],
+    "note": "ひらがな: ぶ = bu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "べ",
+    "a": "be",
+    "d": [
+      "he",
+      "ba",
+      "bi",
+      "bu"
+    ],
+    "note": "ひらがな: べ = be"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぼ",
+    "a": "bo",
+    "d": [
+      "ho",
+      "ba",
+      "bi",
+      "bu"
+    ],
+    "note": "ひらがな: ぼ = bo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぱ",
+    "a": "pa",
+    "d": [
+      "ha",
+      "pi",
+      "pu",
+      "po"
+    ],
+    "note": "ひらがな: ぱ = pa"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぴ",
+    "a": "pi",
+    "d": [
+      "hi",
+      "pa",
+      "pu",
+      "po"
+    ],
+    "note": "ひらがな: ぴ = pi"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぷ",
+    "a": "pu",
+    "d": [
+      "fu",
+      "pa",
+      "pi",
+      "po"
+    ],
+    "note": "ひらがな: ぷ = pu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぺ",
+    "a": "pe",
+    "d": [
+      "he",
+      "pa",
+      "pi",
+      "pu"
+    ],
+    "note": "ひらがな: ぺ = pe"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぽ",
+    "a": "po",
+    "d": [
+      "ho",
+      "pa",
+      "pi",
+      "pu"
+    ],
+    "note": "ひらがな: ぽ = po"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "きゃ",
+    "a": "kya",
+    "d": [
+      "kyu",
+      "kyo",
+      "gya",
+      "sha"
+    ],
+    "note": "ひらがな: きゃ = kya"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "きゅ",
+    "a": "kyu",
+    "d": [
+      "kya",
+      "kyo",
+      "gyu",
+      "shu"
+    ],
+    "note": "ひらがな: きゅ = kyu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "きょ",
+    "a": "kyo",
+    "d": [
+      "kya",
+      "kyu",
+      "gyo",
+      "sho"
+    ],
+    "note": "ひらがな: きょ = kyo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "しゃ",
+    "a": "sha",
+    "d": [
+      "shu",
+      "sho",
+      "cha",
+      "ja"
+    ],
+    "note": "ひらがな: しゃ = sha"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "しゅ",
+    "a": "shu",
+    "d": [
+      "sha",
+      "sho",
+      "chu",
+      "ju"
+    ],
+    "note": "ひらがな: しゅ = shu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "しょ",
+    "a": "sho",
+    "d": [
+      "sha",
+      "shu",
+      "cho",
+      "jo"
+    ],
+    "note": "ひらがな: しょ = sho"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ちゃ",
+    "a": "cha",
+    "d": [
+      "sha",
+      "chu",
+      "ja",
+      "tya"
+    ],
+    "note": "ひらがな: ちゃ = cha"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ちゅ",
+    "a": "chu",
+    "d": [
+      "cha",
+      "cho",
+      "shu",
+      "ju"
+    ],
+    "note": "ひらがな: ちゅ = chu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ちょ",
+    "a": "cho",
+    "d": [
+      "cha",
+      "chu",
+      "sho",
+      "jo"
+    ],
+    "note": "ひらがな: ちょ = cho"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "にゃ",
+    "a": "nya",
+    "d": [
+      "nyu",
+      "nyo",
+      "mya",
+      "rya"
+    ],
+    "note": "ひらがな: にゃ = nya"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "にゅ",
+    "a": "nyu",
+    "d": [
+      "nya",
+      "nyo",
+      "myu",
+      "ryu"
+    ],
+    "note": "ひらがな: にゅ = nyu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "にょ",
+    "a": "nyo",
+    "d": [
+      "nya",
+      "nyu",
+      "myo",
+      "ryo"
+    ],
+    "note": "ひらがな: にょ = nyo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ひゃ",
+    "a": "hya",
+    "d": [
+      "hyu",
+      "hyo",
+      "bya",
+      "pya"
+    ],
+    "note": "ひらがな: ひゃ = hya"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "みゃ",
+    "a": "mya",
+    "d": [
+      "myu",
+      "myo",
+      "nya",
+      "rya"
+    ],
+    "note": "ひらがな: みゃ = mya"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "りゃ",
+    "a": "rya",
+    "d": [
+      "ryu",
+      "ryo",
+      "nya",
+      "mya"
+    ],
+    "note": "ひらがな: りゃ = rya"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "りゅ",
+    "a": "ryu",
+    "d": [
+      "rya",
+      "ryo",
+      "nyu",
+      "myu"
+    ],
+    "note": "ひらがな: りゅ = ryu"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "りょ",
+    "a": "ryo",
+    "d": [
+      "rya",
+      "ryu",
+      "nyo",
+      "myo"
+    ],
+    "note": "ひらがな: りょ = ryo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぎゃ",
+    "a": "gya",
+    "d": [
+      "gyu",
+      "gyo",
+      "kya",
+      "ja"
+    ],
+    "note": "ひらがな: ぎゃ = gya"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "じゃ",
+    "a": "ja",
+    "d": [
+      "ju",
+      "jo",
+      "sha",
+      "cha"
+    ],
+    "note": "ひらがな: じゃ = ja"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "じゅ",
+    "a": "ju",
+    "d": [
+      "ja",
+      "jo",
+      "shu",
+      "chu"
+    ],
+    "note": "ひらがな: じゅ = ju"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "じょ",
+    "a": "jo",
+    "d": [
+      "ja",
+      "ju",
+      "sho",
+      "cho"
+    ],
+    "note": "ひらがな: じょ = jo"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "びゃ",
+    "a": "bya",
+    "d": [
+      "byu",
+      "byo",
+      "pya",
+      "hya"
+    ],
+    "note": "ひらがな: びゃ = bya"
+  },
+  {
+    "category": "hiragana",
+    "level": "easy",
+    "q": "ぴゃ",
+    "a": "pya",
+    "d": [
+      "pyu",
+      "pyo",
+      "bya",
+      "hya"
+    ],
+    "note": "ひらがな: ぴゃ = pya"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "ねこ",
+    "a": "neko",
+    "d": [
+      "inu",
+      "uma",
+      "tori",
+      "kuma"
+    ],
+    "note": "ねこ = neko (cat)",
+    "hint": "How do you read this word?",
+    "meaning": "cat"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "いぬ",
+    "a": "inu",
+    "d": [
+      "neko",
+      "uma",
+      "usagi",
+      "kuma"
+    ],
+    "note": "いぬ = inu (dog)",
+    "hint": "How do you read this word?",
+    "meaning": "dog"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "うみ",
+    "a": "umi",
+    "d": [
+      "yama",
+      "kawa",
+      "sora",
+      "mori"
+    ],
+    "note": "うみ = umi (sea)",
+    "hint": "How do you read this word?",
+    "meaning": "sea"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "やま",
+    "a": "yama",
+    "d": [
+      "umi",
+      "kawa",
+      "mori",
+      "ike"
+    ],
+    "note": "やま = yama (mountain)",
+    "hint": "How do you read this word?",
+    "meaning": "mountain"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "かわ",
+    "a": "kawa",
+    "d": [
+      "umi",
+      "yama",
+      "mori",
+      "kaze"
+    ],
+    "note": "かわ = kawa (river)",
+    "hint": "How do you read this word?",
+    "meaning": "river"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "そら",
+    "a": "sora",
+    "d": [
+      "umi",
+      "yama",
+      "hoshi",
+      "tsuki"
+    ],
+    "note": "そら = sora (sky)",
+    "hint": "How do you read this word?",
+    "meaning": "sky"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "はな",
+    "a": "hana",
+    "d": [
+      "ki",
+      "kusa",
+      "ha",
+      "mi"
+    ],
+    "note": "はな = hana (flower)",
+    "hint": "How do you read this word?",
+    "meaning": "flower"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "みず",
+    "a": "mizu",
+    "d": [
+      "hi",
+      "kaze",
+      "tsuchi",
+      "yuki"
+    ],
+    "note": "みず = mizu (water)",
+    "hint": "How do you read this word?",
+    "meaning": "water"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "かぜ",
+    "a": "kaze",
+    "d": [
+      "ame",
+      "yuki",
+      "kiri",
+      "niji"
+    ],
+    "note": "かぜ = kaze (wind)",
+    "hint": "How do you read this word?",
+    "meaning": "wind"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "ゆき",
+    "a": "yuki",
+    "d": [
+      "ame",
+      "kaze",
+      "kiri",
+      "hi"
+    ],
+    "note": "ゆき = yuki (snow)",
+    "hint": "How do you read this word?",
+    "meaning": "snow"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "あめ",
+    "a": "ame",
+    "d": [
+      "yuki",
+      "kaze",
+      "kiri",
+      "niji"
+    ],
+    "note": "あめ = ame (rain)",
+    "hint": "How do you read this word?",
+    "meaning": "rain"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "たべる",
+    "a": "taberu",
+    "d": [
+      "nomu",
+      "neru",
+      "miru",
+      "kiku"
+    ],
+    "note": "たべる = taberu (to eat)",
+    "hint": "How do you read this word?",
+    "meaning": "to eat"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "のむ",
+    "a": "nomu",
+    "d": [
+      "taberu",
+      "neru",
+      "aruku",
+      "kiku"
+    ],
+    "note": "のむ = nomu (to drink)",
+    "hint": "How do you read this word?",
+    "meaning": "to drink"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "みる",
+    "a": "miru",
+    "d": [
+      "kiku",
+      "yomu",
+      "kaku",
+      "hanasu"
+    ],
+    "note": "みる = miru (to see/watch)",
+    "hint": "How do you read this word?",
+    "meaning": "to see/watch"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "いく",
+    "a": "iku",
+    "d": [
+      "kuru",
+      "kaeru",
+      "tomaru",
+      "hashiru"
+    ],
+    "note": "いく = iku (to go)",
+    "hint": "How do you read this word?",
+    "meaning": "to go"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "くる",
+    "a": "kuru",
+    "d": [
+      "iku",
+      "kaeru",
+      "tomaru",
+      "hashiru"
+    ],
+    "note": "くる = kuru (to come)",
+    "hint": "How do you read this word?",
+    "meaning": "to come"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "ほん",
+    "a": "hon",
+    "d": [
+      "kami",
+      "pen",
+      "tsukue",
+      "isu"
+    ],
+    "note": "ほん = hon (book)",
+    "hint": "How do you read this word?",
+    "meaning": "book"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "てがみ",
+    "a": "tegami",
+    "d": [
+      "hon",
+      "zasshi",
+      "shinbun",
+      "meishi"
+    ],
+    "note": "てがみ = tegami (letter (mail))",
+    "hint": "How do you read this word?",
+    "meaning": "letter (mail)"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "おかね",
+    "a": "okane",
+    "d": [
+      "shigoto",
+      "nimotsu",
+      "kaban",
+      "saifu"
+    ],
+    "note": "おかね = okane (money)",
+    "hint": "How do you read this word?",
+    "meaning": "money"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "いえ",
+    "a": "ie",
+    "d": [
+      "heya",
+      "mado",
+      "tobira",
+      "yane"
+    ],
+    "note": "いえ = ie (house/home)",
+    "hint": "How do you read this word?",
+    "meaning": "house/home"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "まち",
+    "a": "machi",
+    "d": [
+      "mura",
+      "shima",
+      "kuni",
+      "umi"
+    ],
+    "note": "まち = machi (town/city)",
+    "hint": "How do you read this word?",
+    "meaning": "town/city"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "こども",
+    "a": "kodomo",
+    "d": [
+      "otona",
+      "hito",
+      "kazoku",
+      "tomodachi"
+    ],
+    "note": "こども = kodomo (child)",
+    "hint": "How do you read this word?",
+    "meaning": "child"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "せんせい",
+    "a": "sensei",
+    "d": [
+      "gakusei",
+      "isha",
+      "keikan",
+      "kashu"
+    ],
+    "note": "せんせい = sensei (teacher)",
+    "hint": "How do you read this word?",
+    "meaning": "teacher"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "がくせい",
+    "a": "gakusei",
+    "d": [
+      "sensei",
+      "isha",
+      "shain",
+      "keikan"
+    ],
+    "note": "がくせい = gakusei (student)",
+    "hint": "How do you read this word?",
+    "meaning": "student"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "しごと",
+    "a": "shigoto",
+    "d": [
+      "yasumi",
+      "benkyou",
+      "asobi",
+      "ryokou"
+    ],
+    "note": "しごと = shigoto (work/job)",
+    "hint": "How do you read this word?",
+    "meaning": "work/job"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "とけい",
+    "a": "tokei",
+    "d": [
+      "megane",
+      "keitai",
+      "saifu",
+      "kagi"
+    ],
+    "note": "とけい = tokei (clock/watch)",
+    "hint": "How do you read this word?",
+    "meaning": "clock/watch"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "くつ",
+    "a": "kutsu",
+    "d": [
+      "kutsushita",
+      "fuku",
+      "boshi",
+      "tebukuro"
+    ],
+    "note": "くつ = kutsu (shoes)",
+    "hint": "How do you read this word?",
+    "meaning": "shoes"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "めがね",
+    "a": "megane",
+    "d": [
+      "tokei",
+      "keitai",
+      "saifu",
+      "kagi"
+    ],
+    "note": "めがね = megane (glasses)",
+    "hint": "How do you read this word?",
+    "meaning": "glasses"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "かさ",
+    "a": "kasa",
+    "d": [
+      "kaban",
+      "kutsu",
+      "boshi",
+      "tebukuro"
+    ],
+    "note": "かさ = kasa (umbrella)",
+    "hint": "How do you read this word?",
+    "meaning": "umbrella"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "でんわ",
+    "a": "denwa",
+    "d": [
+      "keitai",
+      "terebi",
+      "rajio",
+      "pasokon"
+    ],
+    "note": "でんわ = denwa (telephone)",
+    "hint": "How do you read this word?",
+    "meaning": "telephone"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "りんご",
+    "a": "ringo",
+    "d": [
+      "mikan",
+      "banana",
+      "budo",
+      "ichigo"
+    ],
+    "note": "りんご = ringo (apple)",
+    "hint": "How do you read this word?",
+    "meaning": "apple"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "みかん",
+    "a": "mikan",
+    "d": [
+      "ringo",
+      "banana",
+      "budo",
+      "ichigo"
+    ],
+    "note": "みかん = mikan (mandarin orange)",
+    "hint": "How do you read this word?",
+    "meaning": "mandarin orange"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "さかな",
+    "a": "sakana",
+    "d": [
+      "niku",
+      "tori",
+      "yasai",
+      "kudamono"
+    ],
+    "note": "さかな = sakana (fish)",
+    "hint": "How do you read this word?",
+    "meaning": "fish"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "にく",
+    "a": "niku",
+    "d": [
+      "sakana",
+      "tori",
+      "yasai",
+      "kudamono"
+    ],
+    "note": "にく = niku (meat)",
+    "hint": "How do you read this word?",
+    "meaning": "meat"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "やさい",
+    "a": "yasai",
+    "d": [
+      "kudamono",
+      "niku",
+      "sakana",
+      "gohan"
+    ],
+    "note": "やさい = yasai (vegetables)",
+    "hint": "How do you read this word?",
+    "meaning": "vegetables"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "ごはん",
+    "a": "gohan",
+    "d": [
+      "pan",
+      "udon",
+      "soba",
+      "ramen"
+    ],
+    "note": "ごはん = gohan (rice/meal)",
+    "hint": "How do you read this word?",
+    "meaning": "rice/meal"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "みせ",
+    "a": "mise",
+    "d": [
+      "resutoran",
+      "ginkou",
+      "yuubinkyoku",
+      "byouin"
+    ],
+    "note": "みせ = mise (shop/store)",
+    "hint": "How do you read this word?",
+    "meaning": "shop/store"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "えき",
+    "a": "eki",
+    "d": [
+      "mise",
+      "ginkou",
+      "yuubinkyoku",
+      "byouin"
+    ],
+    "note": "えき = eki (train station)",
+    "hint": "How do you read this word?",
+    "meaning": "train station"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "でぐち",
+    "a": "deguchi",
+    "d": [
+      "iriguchi",
+      "mado",
+      "tobira",
+      "kaidan"
+    ],
+    "note": "でぐち = deguchi (exit)",
+    "hint": "How do you read this word?",
+    "meaning": "exit"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "いりぐち",
+    "a": "iriguchi",
+    "d": [
+      "deguchi",
+      "mado",
+      "tobira",
+      "kaidan"
+    ],
+    "note": "いりぐち = iriguchi (entrance)",
+    "hint": "How do you read this word?",
+    "meaning": "entrance"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "あかい",
+    "a": "akai",
+    "d": [
+      "aoi",
+      "shiroi",
+      "kuroi",
+      "kiiroi"
+    ],
+    "note": "あかい = akai (red)",
+    "hint": "How do you read this word?",
+    "meaning": "red"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "あおい",
+    "a": "aoi",
+    "d": [
+      "akai",
+      "shiroi",
+      "kuroi",
+      "kiiroi"
+    ],
+    "note": "あおい = aoi (blue)",
+    "hint": "How do you read this word?",
+    "meaning": "blue"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "しろい",
+    "a": "shiroi",
+    "d": [
+      "akai",
+      "aoi",
+      "kuroi",
+      "kiiroi"
+    ],
+    "note": "しろい = shiroi (white)",
+    "hint": "How do you read this word?",
+    "meaning": "white"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "くろい",
+    "a": "kuroi",
+    "d": [
+      "akai",
+      "aoi",
+      "shiroi",
+      "kiiroi"
+    ],
+    "note": "くろい = kuroi (black)",
+    "hint": "How do you read this word?",
+    "meaning": "black"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "たかい",
+    "a": "takai",
+    "d": [
+      "hikui",
+      "yasui",
+      "omoi",
+      "karui"
+    ],
+    "note": "たかい = takai (tall/expensive)",
+    "hint": "How do you read this word?",
+    "meaning": "tall/expensive"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "やすい",
+    "a": "yasui",
+    "d": [
+      "takai",
+      "hikui",
+      "omoi",
+      "karui"
+    ],
+    "note": "やすい = yasui (cheap)",
+    "hint": "How do you read this word?",
+    "meaning": "cheap"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "おおきい",
+    "a": "ookii",
+    "d": [
+      "chiisai",
+      "takai",
+      "hiroi",
+      "semai"
+    ],
+    "note": "おおきい = ookii (big)",
+    "hint": "How do you read this word?",
+    "meaning": "big"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "ちいさい",
+    "a": "chiisai",
+    "d": [
+      "ookii",
+      "takai",
+      "hiroi",
+      "semai"
+    ],
+    "note": "ちいさい = chiisai (small)",
+    "hint": "How do you read this word?",
+    "meaning": "small"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "あたらしい",
+    "a": "atarashii",
+    "d": [
+      "furui",
+      "ookii",
+      "chiisai",
+      "takai"
+    ],
+    "note": "あたらしい = atarashii (new)",
+    "hint": "How do you read this word?",
+    "meaning": "new"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "ふるい",
+    "a": "furui",
+    "d": [
+      "atarashii",
+      "ookii",
+      "chiisai",
+      "takai"
+    ],
+    "note": "ふるい = furui (old)",
+    "hint": "How do you read this word?",
+    "meaning": "old"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "むずかしい",
+    "a": "muzukashii",
+    "d": [
+      "yasashii",
+      "kantan",
+      "omoshiroi",
+      "tsumaranai"
+    ],
+    "note": "むずかしい = muzukashii (difficult)",
+    "hint": "How do you read this word?",
+    "meaning": "difficult"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "おもしろい",
+    "a": "omoshiroi",
+    "d": [
+      "tsumaranai",
+      "muzukashii",
+      "yasashii",
+      "kowai"
+    ],
+    "note": "おもしろい = omoshiroi (interesting/funny)",
+    "hint": "How do you read this word?",
+    "meaning": "interesting/funny"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "いそがしい",
+    "a": "isogashii",
+    "d": [
+      "hima",
+      "yasashii",
+      "omoshiroi",
+      "tsumaranai"
+    ],
+    "note": "いそがしい = isogashii (busy)",
+    "hint": "How do you read this word?",
+    "meaning": "busy"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "たのしい",
+    "a": "tanoshii",
+    "d": [
+      "tsumaranai",
+      "kanashii",
+      "kowai",
+      "samishii"
+    ],
+    "note": "たのしい = tanoshii (fun/enjoyable)",
+    "hint": "How do you read this word?",
+    "meaning": "fun/enjoyable"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "かなしい",
+    "a": "kanashii",
+    "d": [
+      "tanoshii",
+      "ureshii",
+      "kowai",
+      "samishii"
+    ],
+    "note": "かなしい = kanashii (sad)",
+    "hint": "How do you read this word?",
+    "meaning": "sad"
+  },
+  {
+    "category": "hiragana",
+    "level": "medium",
+    "q": "うれしい",
+    "a": "ureshii",
+    "d": [
+      "kanashii",
+      "tanoshii",
+      "kowai",
+      "samishii"
+    ],
+    "note": "うれしい = ureshii (happy/glad)",
+    "hint": "How do you read this word?",
+    "meaning": "happy/glad"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "ありがとう",
+    "a": "arigatou",
+    "d": [
+      "sumimasen",
+      "gomen nasai",
+      "douitashimashite",
+      "yoroshiku"
+    ],
+    "note": "ありがとう = arigatou (thank you)",
+    "hint": "How do you read this?",
+    "meaning": "thank you"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おはようございます",
+    "a": "ohayou gozaimasu",
+    "d": [
+      "konnichiwa",
+      "konbanwa",
+      "oyasuminasai",
+      "sayounara"
+    ],
+    "note": "おはようございます = ohayou gozaimasu (good morning (formal))",
+    "hint": "How do you read this?",
+    "meaning": "good morning (formal)"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "こんにちは",
+    "a": "konnichiwa",
+    "d": [
+      "ohayou",
+      "konbanwa",
+      "sayounara",
+      "tadaima"
+    ],
+    "note": "こんにちは = konnichiwa (hello / good afternoon)",
+    "hint": "How do you read this?",
+    "meaning": "hello / good afternoon"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "こんばんは",
+    "a": "konbanwa",
+    "d": [
+      "konnichiwa",
+      "ohayou",
+      "sayounara",
+      "tadaima"
+    ],
+    "note": "こんばんは = konbanwa (good evening)",
+    "hint": "How do you read this?",
+    "meaning": "good evening"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "どういたしまして",
+    "a": "douitashimashite",
+    "d": [
+      "arigatou",
+      "sumimasen",
+      "daijoubu",
+      "yoroshiku"
+    ],
+    "note": "どういたしまして = douitashimashite (you're welcome)",
+    "hint": "How do you read this?",
+    "meaning": "you're welcome"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "すみません",
+    "a": "sumimasen",
+    "d": [
+      "gomen nasai",
+      "arigatou",
+      "daijoubu",
+      "yoroshiku"
+    ],
+    "note": "すみません = sumimasen (excuse me / sorry)",
+    "hint": "How do you read this?",
+    "meaning": "excuse me / sorry"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "はじめまして",
+    "a": "hajimemashite",
+    "d": [
+      "yoroshiku",
+      "arigatou",
+      "sayounara",
+      "tadaima"
+    ],
+    "note": "はじめまして = hajimemashite (nice to meet you)",
+    "hint": "How do you read this?",
+    "meaning": "nice to meet you"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "よろしくおねがいします",
+    "a": "yoroshiku onegaishimasu",
+    "d": [
+      "hajimemashite",
+      "arigatou",
+      "sumimasen",
+      "gomen nasai"
+    ],
+    "note": "よろしくおねがいします = yoroshiku onegaishimasu (please treat me well)",
+    "hint": "How do you read this?",
+    "meaning": "please treat me well"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "わかりません",
+    "a": "wakarimasen",
+    "d": [
+      "shirimasen",
+      "dekimasen",
+      "arimasen",
+      "ikemasen"
+    ],
+    "note": "わかりません = wakarimasen (I don't understand)",
+    "hint": "How do you read this?",
+    "meaning": "I don't understand"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "しりません",
+    "a": "shirimasen",
+    "d": [
+      "wakarimasen",
+      "dekimasen",
+      "arimasen",
+      "ikemasen"
+    ],
+    "note": "しりません = shirimasen (I don't know)",
+    "hint": "How do you read this?",
+    "meaning": "I don't know"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "たべもの",
+    "a": "tabemono",
+    "d": [
+      "nomimono",
+      "kudamono",
+      "yasai",
+      "ryouri"
+    ],
+    "note": "たべもの = tabemono (food)",
+    "hint": "How do you read this?",
+    "meaning": "food"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "のみもの",
+    "a": "nomimono",
+    "d": [
+      "tabemono",
+      "kudamono",
+      "yasai",
+      "ocha"
+    ],
+    "note": "のみもの = nomimono (drink/beverage)",
+    "hint": "How do you read this?",
+    "meaning": "drink/beverage"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "でんしゃ",
+    "a": "densha",
+    "d": [
+      "chikatetsu",
+      "basu",
+      "hikouki",
+      "kuruma"
+    ],
+    "note": "でんしゃ = densha (train)",
+    "hint": "How do you read this?",
+    "meaning": "train"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "ちかてつ",
+    "a": "chikatetsu",
+    "d": [
+      "densha",
+      "basu",
+      "takushii",
+      "hikouki"
+    ],
+    "note": "ちかてつ = chikatetsu (subway/metro)",
+    "hint": "How do you read this?",
+    "meaning": "subway/metro"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "としょかん",
+    "a": "toshokan",
+    "d": [
+      "yuubinkyoku",
+      "byouin",
+      "hakubutsukan",
+      "kouen"
+    ],
+    "note": "としょかん = toshokan (library)",
+    "hint": "How do you read this?",
+    "meaning": "library"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "びょういん",
+    "a": "byouin",
+    "d": [
+      "toshokan",
+      "yuubinkyoku",
+      "gakkou",
+      "kouen"
+    ],
+    "note": "びょういん = byouin (hospital)",
+    "hint": "How do you read this?",
+    "meaning": "hospital"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おみやげ",
+    "a": "omiyage",
+    "d": [
+      "purezento",
+      "nimotsu",
+      "kaban",
+      "saifu"
+    ],
+    "note": "おみやげ = omiyage (souvenir/gift)",
+    "hint": "How do you read this?",
+    "meaning": "souvenir/gift"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "アルバイト",
+    "a": "arubaito",
+    "d": [
+      "shigoto",
+      "seishain",
+      "intaan",
+      "borantia"
+    ],
+    "note": "アルバイト = arubaito (part-time job)",
+    "hint": "How do you read this?",
+    "meaning": "part-time job"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "ボランティア",
+    "a": "borantia",
+    "d": [
+      "arubaito",
+      "shigoto",
+      "jibun",
+      "kyuuryou"
+    ],
+    "note": "ボランティア = borantia (volunteer work)",
+    "hint": "How do you read this?",
+    "meaning": "volunteer work"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おてあらい",
+    "a": "otearai",
+    "d": [
+      "ofuro",
+      "daidokoro",
+      "ima",
+      "shinshitsu"
+    ],
+    "note": "おてあらい = otearai (bathroom/toilet)",
+    "hint": "How do you read this?",
+    "meaning": "bathroom/toilet"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "かいぎしつ",
+    "a": "kaigishitsu",
+    "d": [
+      "jimusho",
+      "kyoushitsu",
+      "toshokan",
+      "shokudou"
+    ],
+    "note": "かいぎしつ = kaigishitsu (meeting room)",
+    "hint": "How do you read this?",
+    "meaning": "meeting room"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "じどうはんばいき",
+    "a": "jidouhanbaiki",
+    "d": [
+      "ATM",
+      "madoguchi",
+      "denwa",
+      "posuto"
+    ],
+    "note": "じどうはんばいき = jidouhanbaiki (vending machine)",
+    "hint": "How do you read this?",
+    "meaning": "vending machine"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "しんかんせん",
+    "a": "shinkansen",
+    "d": [
+      "densha",
+      "hikouki",
+      "fune",
+      "chikatetsu"
+    ],
+    "note": "しんかんせん = shinkansen (bullet train)",
+    "hint": "How do you read this?",
+    "meaning": "bullet train"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "けいたいでんわ",
+    "a": "keitai denwa",
+    "d": [
+      "sumaato",
+      "pasokon",
+      "terebi",
+      "rajio"
+    ],
+    "note": "けいたいでんわ = keitai denwa (mobile phone)",
+    "hint": "How do you read this?",
+    "meaning": "mobile phone"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "スーパーマーケット",
+    "a": "suupaa maaketto",
+    "d": [
+      "depaato",
+      "konbini",
+      "ichiba",
+      "resutoran"
+    ],
+    "note": "スーパーマーケット = suupaa maaketto (supermarket)",
+    "hint": "How do you read this?",
+    "meaning": "supermarket"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "こうばん",
+    "a": "kouban",
+    "d": [
+      "shouchoushoa",
+      "byouin",
+      "yakusho",
+      "yuubinkyoku"
+    ],
+    "note": "こうばん = kouban (police box)",
+    "hint": "How do you read this?",
+    "meaning": "police box"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "やくしょ",
+    "a": "yakusho",
+    "d": [
+      "kouban",
+      "byouin",
+      "toshokan",
+      "yuubinkyoku"
+    ],
+    "note": "やくしょ = yakusho (city hall/government office)",
+    "hint": "How do you read this?",
+    "meaning": "city hall/government office"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "ゆうびんきょく",
+    "a": "yuubinkyoku",
+    "d": [
+      "ginkoo",
+      "byouin",
+      "toshokan",
+      "suupaa"
+    ],
+    "note": "ゆうびんきょく = yuubinkyoku (post office)",
+    "hint": "How do you read this?",
+    "meaning": "post office"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おきなわ",
+    "a": "okinawa",
+    "d": [
+      "hokkaido",
+      "kyuushuu",
+      "shikoku",
+      "honshu"
+    ],
+    "note": "おきなわ = okinawa (Okinawa)",
+    "hint": "How do you read this?",
+    "meaning": "Okinawa"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "ほっかいどう",
+    "a": "hokkaido",
+    "d": [
+      "okinawa",
+      "kyuushuu",
+      "shikoku",
+      "honshu"
+    ],
+    "note": "ほっかいどう = hokkaido (Hokkaido)",
+    "hint": "How do you read this?",
+    "meaning": "Hokkaido"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おめでとうございます",
+    "a": "omedetou gozaimasu",
+    "d": [
+      "arigatou gozaimasu",
+      "sumimasen",
+      "yoroshiku onegaishimasu",
+      "dou itashimashite"
+    ],
+    "note": "おめでとうございます = omedetou gozaimasu (congratulations (formal))",
+    "hint": "How do you read this?",
+    "meaning": "congratulations (formal)"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "よいおとしを",
+    "a": "yoi otoshi wo",
+    "d": [
+      "akemashite omedetou",
+      "otanjoubi omedetou",
+      "otsukaresamadeshita",
+      "okagesamade"
+    ],
+    "note": "よいおとしを = yoi otoshi wo (Happy New Year (before NY))",
+    "hint": "How do you read this?",
+    "meaning": "Happy New Year (before NY)"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "あけましておめでとう",
+    "a": "akemashite omedetou",
+    "d": [
+      "yoi otoshi wo",
+      "otanjoubi omedetou",
+      "omedetou gozaimasu",
+      "dou itashimashite"
+    ],
+    "note": "あけましておめでとう = akemashite omedetou (Happy New Year (after NY))",
+    "hint": "How do you read this?",
+    "meaning": "Happy New Year (after NY)"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おたんじょうびおめでとう",
+    "a": "otanjoubi omedetou",
+    "d": [
+      "omedetou gozaimasu",
+      "akemashite",
+      "yoi otoshi wo",
+      "okaerinasai"
+    ],
+    "note": "おたんじょうびおめでとう = otanjoubi omedetou (happy birthday)",
+    "hint": "How do you read this?",
+    "meaning": "happy birthday"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おかえりなさい",
+    "a": "okaerinasai",
+    "d": [
+      "ittekimasu",
+      "itterasshai",
+      "tadaima",
+      "okaeri"
+    ],
+    "note": "おかえりなさい = okaerinasai (welcome back (home))",
+    "hint": "How do you read this?",
+    "meaning": "welcome back (home)"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "いってきます",
+    "a": "ittekimasu",
+    "d": [
+      "okaerinasai",
+      "itterasshai",
+      "tadaima",
+      "okaeri"
+    ],
+    "note": "いってきます = ittekimasu (I'm off / see you later)",
+    "hint": "How do you read this?",
+    "meaning": "I'm off / see you later"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "いってらっしゃい",
+    "a": "itterasshai",
+    "d": [
+      "ittekimasu",
+      "okaerinasai",
+      "tadaima",
+      "okaeri"
+    ],
+    "note": "いってらっしゃい = itterasshai (take care / have a good day)",
+    "hint": "How do you read this?",
+    "meaning": "take care / have a good day"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "ただいま",
+    "a": "tadaima",
+    "d": [
+      "okaerinasai",
+      "ittekimasu",
+      "itterasshai",
+      "okaeri"
+    ],
+    "note": "ただいま = tadaima (I'm home)",
+    "hint": "How do you read this?",
+    "meaning": "I'm home"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "いただきます",
+    "a": "itadakimasu",
+    "d": [
+      "gochisousama",
+      "sumimasen",
+      "arigatou",
+      "yoroshiku"
+    ],
+    "note": "いただきます = itadakimasu (let's eat / I humbly receive)",
+    "hint": "How do you read this?",
+    "meaning": "let's eat / I humbly receive"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "ごちそうさまでした",
+    "a": "gochisousama deshita",
+    "d": [
+      "itadakimasu",
+      "sumimasen",
+      "arigatou",
+      "yoroshiku"
+    ],
+    "note": "ごちそうさまでした = gochisousama deshita (thank you for the meal)",
+    "hint": "How do you read this?",
+    "meaning": "thank you for the meal"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おつかれさまでした",
+    "a": "otsukaresama deshita",
+    "d": [
+      "yoroshiku",
+      "gochisousama",
+      "itadakimasu",
+      "sumimasen"
+    ],
+    "note": "おつかれさまでした = otsukaresama deshita (good work / thanks for your effort)",
+    "hint": "How do you read this?",
+    "meaning": "good work / thanks for your effort"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "きをつけて",
+    "a": "ki wo tsukete",
+    "d": [
+      "ganbatte",
+      "daijoubu",
+      "sumimasen",
+      "yoroshiku"
+    ],
+    "note": "きをつけて = ki wo tsukete (take care / be careful)",
+    "hint": "How do you read this?",
+    "meaning": "take care / be careful"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "がんばってください",
+    "a": "ganbatte kudasai",
+    "d": [
+      "kiwotsukete",
+      "daijoubu",
+      "sumimasen",
+      "yoroshiku"
+    ],
+    "note": "がんばってください = ganbatte kudasai (please do your best)",
+    "hint": "How do you read this?",
+    "meaning": "please do your best"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "だいじょうぶですか",
+    "a": "daijoubu desu ka",
+    "d": [
+      "genki desu ka",
+      "ogenki desu ka",
+      "dou shimashita ka",
+      "nanika arimashita ka"
+    ],
+    "note": "だいじょうぶですか = daijoubu desu ka (are you okay?)",
+    "hint": "How do you read this?",
+    "meaning": "are you okay?"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "おねがいします",
+    "a": "onegaishimasu",
+    "d": [
+      "arigatou",
+      "sumimasen",
+      "yoroshiku",
+      "douitashimashite"
+    ],
+    "note": "おねがいします = onegaishimasu (please / I request)",
+    "hint": "How do you read this?",
+    "meaning": "please / I request"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "しつれいします",
+    "a": "shitsurei shimasu",
+    "d": [
+      "sumimasen",
+      "gomen nasai",
+      "yoroshiku",
+      "douitashimashite"
+    ],
+    "note": "しつれいします = shitsurei shimasu (excuse me (formal))",
+    "hint": "How do you read this?",
+    "meaning": "excuse me (formal)"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "もうしわけありません",
+    "a": "moushiwake arimasen",
+    "d": [
+      "sumimasen",
+      "gomen nasai",
+      "shitsurei shimasu",
+      "otsukaresama"
+    ],
+    "note": "もうしわけありません = moushiwake arimasen (I'm terribly sorry (formal))",
+    "hint": "How do you read this?",
+    "meaning": "I'm terribly sorry (formal)"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "よろしくおねがいいたします",
+    "a": "yoroshiku onegai itashimasu",
+    "d": [
+      "yoroshiku onegaishimasu",
+      "hajimemashite",
+      "moushiwake arimasen",
+      "otsukaresama deshita"
+    ],
+    "note": "よろしくおねがいいたします = yoroshiku onegai itashimasu (I humbly ask for your favor (very formal))",
+    "hint": "How do you read this?",
+    "meaning": "I humbly ask for your favor (very formal)"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "にほんごがすこしはなせます",
+    "a": "nihongo ga sukoshi hanasemasu",
+    "d": [
+      "nihongo ga wakarimasen",
+      "nihongo wo benkyou shiteimasu",
+      "nihongo ga jozu desu",
+      "nihongo ga muzukashii desu"
+    ],
+    "note": "にほんごがすこしはなせます = nihongo ga sukoshi hanasemasu (I can speak a little Japanese)",
+    "hint": "How do you read this?",
+    "meaning": "I can speak a little Japanese"
+  },
+  {
+    "category": "hiragana",
+    "level": "hard",
+    "q": "えいごがわかりますか",
+    "a": "eigo ga wakarimasu ka",
+    "d": [
+      "nihongo ga wakarimasu ka",
+      "furansugo ga wakarimasu ka",
+      "chuugokugo ga wakarimasu ka",
+      "kankokugo ga wakarimasu ka"
+    ],
+    "note": "えいごがわかりますか = eigo ga wakarimasu ka (do you understand English?)",
+    "hint": "How do you read this?",
+    "meaning": "do you understand English?"
+  }
+]
