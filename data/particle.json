@@ -632,7 +632,7 @@
   {
     "category": "particle",
     "level": "hard",
-    "q": "かれ___しか___わからない。",
+    "q": "かれ___しかわからない。",
     "a": "に",
     "d": [
       "は",
@@ -737,14 +737,14 @@
   {
     "category": "particle",
     "level": "hard",
-    "q": "この映画___みた___ことが___ありますか。",
-    "a": "を…た",
+    "q": "この映画___みたこと___ありますか。",
+    "a": "を…が",
     "d": [
-      "は…て",
-      "が…て",
-      "で…た"
+      "は…を",
+      "が…は",
+      "に…を"
     ],
-    "note": "を = object; たことがある = have experienced",
+    "note": "を = object of みる; 〜たことがある = have experienced (が marks こと)",
     "hint": "Choose the correct particle(s) for the blank(s).",
     "translation": "Have you seen this movie before?",
     "_isParticle": true
@@ -752,7 +752,7 @@
   {
     "category": "particle",
     "level": "hard",
-    "q": "どこ___もどってきた___ですか。",
+    "q": "どこ___もどってきたのですか。",
     "a": "から",
     "d": [
       "に",
@@ -1517,7 +1517,7 @@
   {
     "category": "particle",
     "level": "medium",
-    "q": "かれ___すごく___しんぱい___しています。",
+    "q": "かれ___こと___すごくしんぱいしています。",
     "a": "の…を",
     "d": [
       "は…が",
@@ -1577,7 +1577,7 @@
   {
     "category": "particle",
     "level": "medium",
-    "q": "ここ___すわっても___いいですか。",
+    "q": "ここ___すわってもいいですか。",
     "a": "に",
     "d": [
       "で",
@@ -1622,7 +1622,7 @@
   {
     "category": "particle",
     "level": "medium",
-    "q": "にほんご___べんきょうして___います。",
+    "q": "にほんご___べんきょうしています。",
     "a": "を",
     "d": [
       "が",
@@ -1637,7 +1637,7 @@
   {
     "category": "particle",
     "level": "medium",
-    "q": "てんき___よければ___いきます。",
+    "q": "てんき___よければいきます。",
     "a": "が",
     "d": [
       "は",
@@ -1667,7 +1667,7 @@
   {
     "category": "particle",
     "level": "medium",
-    "q": "かぜ___ひいたので___やすみます。",
+    "q": "かぜ___ひいたのでやすみます。",
     "a": "を",
     "d": [
       "が",
@@ -1832,7 +1832,7 @@
   {
     "category": "particle",
     "level": "hard",
-    "q": "みんな___ために___はたらいています。",
+    "q": "みんな___ためにはたらいています。",
     "a": "の",
     "d": [
       "が",
@@ -1922,31 +1922,31 @@
   {
     "category": "particle",
     "level": "hard",
-    "q": "なんとか___できる___ものなら___やってみる。",
-    "a": "か…る",
+    "q": "あめ___ふっても、しあい___おこなわれます。",
+    "a": "が…は",
     "d": [
-      "に…な",
-      "を…い",
-      "は…て"
+      "は…が",
+      "を…に",
+      "に…を"
     ],
-    "note": "なんとか = somehow; ものなら conditional = if possible",
+    "note": "が = subject of ふる; は = topic of おこなわれる",
     "hint": "Choose the correct particle(s) for the blank(s).",
-    "translation": "If it can somehow be done, I'll try.",
+    "translation": "Even if it rains, the match will be held.",
     "_isParticle": true
   },
   {
     "category": "particle",
     "level": "hard",
-    "q": "かれ___あんな___ことを___いうとは。",
-    "a": "が…な",
+    "q": "かれ___あんなこと___いうとはおもわなかった。",
+    "a": "が…を",
     "d": [
-      "は…い",
-      "を…な",
-      "に…な"
+      "は…が",
+      "を…に",
+      "に…は"
     ],
-    "note": "が = subject; あんな = such/like that; とは = surprise particle",
+    "note": "が = subject (surprise nuance); を = object of いう",
     "hint": "Choose the correct particle(s) for the blank(s).",
-    "translation": "I can't believe he said such a thing.",
+    "translation": "I didn't think he would say such a thing.",
     "_isParticle": true
   },
   {
@@ -1997,22 +1997,22 @@
   {
     "category": "particle",
     "level": "hard",
-    "q": "この計画___せいこう___するには___なにが必要ですか。",
+    "q": "この計画___せいこう___は、なにがひつようですか。",
     "a": "の…に",
     "d": [
       "が…に",
       "は…を",
       "を…が"
     ],
-    "note": "の = possessive connector; には = for the purpose of",
+    "note": "の = possessive; には = for the purpose of (成功には)",
     "hint": "Choose the correct particle(s) for the blank(s).",
-    "translation": "What is needed for this plan to succeed?",
+    "translation": "What is needed for this plan's success?",
     "_isParticle": true
   },
   {
     "category": "particle",
     "level": "hard",
-    "q": "どんな困難___あっても___あきらめない。",
+    "q": "どんな困難___あってもあきらめない。",
     "a": "が",
     "d": [
       "は",
@@ -2073,13 +2073,13 @@
     "category": "particle",
     "level": "hard",
     "q": "このはなし___だれ___もしないでください。",
-    "a": "は…に…も",
+    "a": "は…に",
     "d": [
-      "が…に…も",
-      "を…が…の",
-      "に…は…に"
+      "が…に",
+      "を…と",
+      "に…が"
     ],
-    "note": "は = topic; に = recipient; も with negative = no one",
+    "note": "は = topic; にも (に+も) with negative = to no one",
     "hint": "Choose the correct particle(s) for the blank(s).",
     "translation": "Please don't tell anyone about this.",
     "_isParticle": true
@@ -2147,14 +2147,14 @@
   {
     "category": "particle",
     "level": "hard",
-    "q": "その問題___どう___たいしょすればいいか___わからない。",
-    "a": "に…に",
+    "q": "その問題___どうたいしょすればいい___わからない。",
+    "a": "に…か",
     "d": [
-      "は…を",
-      "が…に",
-      "を…が"
+      "を…か",
+      "が…を",
+      "に…が"
     ],
-    "note": "に = topic of dealing; どう = how; に = indirect",
+    "note": "に = target of 対処する; か = embedded question marker",
     "hint": "Choose the correct particle(s) for the blank(s).",
     "translation": "I don't know how to deal with that problem.",
     "_isParticle": true

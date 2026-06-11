@@ -514,8 +514,11 @@ function selectAnswer(btn, chosen, correct, q) {
   });
 
   if (q._isParticle) {
-    document.querySelectorAll('[id^="sb"]').forEach(bl => {
-      bl.textContent = chosen===correct ? correct : chosen;
+    // Multi-blank answers are joined with "…" (e.g. "は…が") — split and
+    // fill each blank with its own particle, not the whole string
+    const parts = chosen.split('…');
+    document.querySelectorAll('[id^="sb"]').forEach((bl, i) => {
+      bl.textContent = parts[i] !== undefined ? parts[i] : '？';
       bl.className = 'sentence-blank '+(chosen===correct?'filled-correct':'filled-wrong');
     });
   }
