@@ -80,11 +80,12 @@ One reading question + one meaning question:
 
 ## Typing mode requirements
 
-The `a` field doubles as the expected typed answer for hiragana/katakana, so:
+The `a` field doubles as the expected typed answer for hiragana/katakana (romaji) and for numbers/time kana readings (auto-converted to romaji), so:
 
 - Keep `a` as **clean Hepburn romaji** for kana questions: lowercase, plain letters, spaces ok (`"ohayou gozaimasu"`)
-- No parentheses, no kana, no annotations in `a` — `"neko"` not `"neko (cat)"`
-- Checking is case-insensitive and whitespace-insensitive; 1-letter typos count as almost-correct; Kunrei-shiki (si/ti/tu) is rejected with an explanation
+- Keep `a` as **pure kana** for time reading questions (`"はちじ"`) — entries with English answers (vocab/meaning questions) automatically use multiple choice
+- No parentheses, no annotations in `a` — `"neko"` not `"neko (cat)"`, `"ごごさんじ"` not `"ごごさんじ (gogo sanji)"` — annotations leak the answer in the options
+- Checking is case-insensitive and whitespace-insensitive; 1-letter typos count as almost-correct (medium/hard, multi-kana only); Kunrei-shiki (si/ti/tu) is rejected with an explanation
 
 ## Validating after edits
 

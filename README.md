@@ -21,14 +21,16 @@ A free, static Japanese learning quiz app — no backend, no API key, no login r
 
 ### Features
 
-- **Two answer modes** — multiple choice, or ⌨️ type the romaji answer (hiragana, katakana & numbers)
-- **Smart romaji checking** — case insensitive, whitespace-tolerant, one-letter typos count as "almost correct", but Kunrei-shiki romanization (si/ti/tu) is rejected with a Hepburn explanation (shi/chi/tsu)
-- **Alternate readings accepted** — 4 = yon *or* shi, 7 = nana *or* shichi, 9 = kyuu *or* ku
+- **Two answer modes** — multiple choice, or ⌨️ type the romaji answer (hiragana, katakana, numbers & time readings; English-answer questions automatically fall back to multiple choice)
+- **Smart romaji checking** — case insensitive, whitespace-tolerant; Kunrei-shiki romanization (si/ti/tu) is rejected with a Hepburn explanation (shi/chi/tsu)
+- **Typo tolerance** — one-letter typos show ❗ "almost correct" (yellow): not counted in score, streak resets, and the question comes back sooner for practice. Disabled for single kana, where a one-letter difference is a different reading, not a typo
+- **Alternate readings accepted** — 4 = yon *or* shi, 7 = nana *or* shichi, 9 = kyuu *or* ku (numbers); しちじ/ななじ for 7時 — but 4時 is strictly よじ and 9時 strictly くじ
+- **Explanatory feedback** — every answer shows the reading, English meaning, and for counters the *why* behind sound changes (はち → はっ: ち drops, consonant doubles)
 - **You choose how many questions** — 10, 20, 30, 50, or any custom number 5–100
 - **Smart anti-repeat** — unseen questions served first; wrong answers come back sooner
 - **Procedural numbers** — generated on the fly, never repeat
 - **Particle fill-in-the-blank** — full sentences with a visual blank that fills in with your answer
-- **Streak counter** 🔥, exit confirmation, per-question explanations
+- **Streak counter** 🔥 (perfect spelling only), exit confirmation
 
 ---
 
@@ -122,13 +124,13 @@ Full format docs: [`data/README.md`](./data/README.md)
 
 ## Typing mode details
 
-When "Type answer" is selected, hiragana, katakana, and numbers questions show a text input instead of buttons (other categories stay multiple choice).
+When "Type answer" is selected, hiragana, katakana, numbers, and time-reading questions show a text input instead of buttons. Questions whose answer is an English meaning (e.g. ふゆ → "winter") automatically fall back to multiple choice, as do other categories.
 
 Checking rules:
 - Case insensitive, leading/trailing/internal whitespace ignored
 - Hepburn romanization required: **shi** not si, **chi** not ti, **tsu** not tu, **fu** not hu — Kunrei input is marked wrong with an explanation
-- One-letter typos (`neka` for `neko`) count as correct with a spelling reminder
-- Numbers accept alternate readings: yon/shi, nana/shichi, kyuu/ku
+- One-letter typos (`neka` for `neko`) show ❗ "almost correct": not scored, streak resets, and the question is re-queued for practice. No typo tolerance on single kana (う, か, しゃ) — a one-letter difference there is a different reading
+- Numbers accept alternate readings: yon/shi, nana/shichi, kyuu/ku. Time accepts しちじ/ななじ for 7時, but 4時 = よじ and 9時 = くじ are strict
 
 ---
 
@@ -151,11 +153,11 @@ See [DEPLOY.md](./DEPLOY.md) — Netlify drag & drop takes ~2 minutes, GitHub Pa
 PRs welcome! The easiest contribution is adding questions to `data/*.json` — follow the format above.
 
 Roadmap ideas:
+- [ ] Reading 
 - [ ] JLPT N2/N1 kanji
 - [ ] Grammar patterns (〜ている、〜たい、〜なければならない...)
 - [ ] Progress saved across sessions (localStorage)
 - [ ] Review mode — list wrong answers after each quiz
-- [ ] Audio pronunciation (Web Speech API)
 - [ ] Keigo (honorific speech)
 
 ---
