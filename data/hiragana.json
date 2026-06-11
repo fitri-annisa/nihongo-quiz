@@ -2293,36 +2293,6 @@
   {
     "category": "hiragana",
     "level": "hard",
-    "q": "アルバイト",
-    "a": "arubaito",
-    "d": [
-      "shigoto",
-      "seishain",
-      "intaan",
-      "borantia"
-    ],
-    "note": "アルバイト = arubaito (part-time job)",
-    "hint": "How do you read this?",
-    "meaning": "part-time job"
-  },
-  {
-    "category": "hiragana",
-    "level": "hard",
-    "q": "ボランティア",
-    "a": "borantia",
-    "d": [
-      "arubaito",
-      "shigoto",
-      "jibun",
-      "kyuuryou"
-    ],
-    "note": "ボランティア = borantia (volunteer work)",
-    "hint": "How do you read this?",
-    "meaning": "volunteer work"
-  },
-  {
-    "category": "hiragana",
-    "level": "hard",
     "q": "おてあらい",
     "a": "otearai",
     "d": [
@@ -2386,7 +2356,7 @@
     "q": "けいたいでんわ",
     "a": "keitai denwa",
     "d": [
-      "sumaato",
+      "pasokon",
       "pasokon",
       "terebi",
       "rajio"
@@ -2398,25 +2368,10 @@
   {
     "category": "hiragana",
     "level": "hard",
-    "q": "スーパーマーケット",
-    "a": "suupaa maaketto",
-    "d": [
-      "depaato",
-      "konbini",
-      "ichiba",
-      "resutoran"
-    ],
-    "note": "スーパーマーケット = suupaa maaketto (supermarket)",
-    "hint": "How do you read this?",
-    "meaning": "supermarket"
-  },
-  {
-    "category": "hiragana",
-    "level": "hard",
     "q": "こうばん",
     "a": "kouban",
     "d": [
-      "shouchoushoa",
+      "shouboushou",
       "byouin",
       "yakusho",
       "yuubinkyoku"
@@ -2446,7 +2401,7 @@
     "q": "ゆうびんきょく",
     "a": "yuubinkyoku",
     "d": [
-      "ginkoo",
+      "ginkou",
       "byouin",
       "toshokan",
       "suupaa"

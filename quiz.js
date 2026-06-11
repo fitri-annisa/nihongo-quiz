@@ -253,10 +253,9 @@ function getPool(category, level) {
     (category === 'mixed' || item.category === category) &&
     item.level === level
   );
-  // Inject fresh procedural number questions every time
+  // Inject fresh procedural number questions every time (matching the selected level)
   const numCount = category === 'numbers' ? 25 : category === 'mixed' ? 10 : 0;
-  const numLevel = category === 'mixed' ? ['easy','medium','hard'][Math.floor(Math.random()*3)] : level;
-  for (let i = 0; i < numCount; i++) items.push(generateNumberQ(numLevel));
+  for (let i = 0; i < numCount; i++) items.push(generateNumberQ(level));
   return items;
 }
 
@@ -579,6 +578,31 @@ function goHome() {
 function confirmExit() { document.getElementById('confirmOverlay').classList.add('show'); }
 function closeConfirm() { document.getElementById('confirmOverlay').classList.remove('show'); }
 function doExit() { closeConfirm(); goHome(); }
+
+// ── THEME ─────────────────────────────────────────────────────────────
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  const btn = document.getElementById('themeBtn');
+  if (btn) btn.textContent = theme === 'light' ? '🌙' : '☀️';
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+  const next = current === 'light' ? 'dark' : 'light';
+  applyTheme(next);
+  try { localStorage.setItem('jq-theme', next); } catch (e) { /* private mode etc. */ }
+}
+
+// Restore saved theme (or follow system preference on first visit)
+(function initTheme() {
+  let saved = null;
+  try { saved = localStorage.getItem('jq-theme'); } catch (e) {}
+  if (saved === 'light' || saved === 'dark') {
+    applyTheme(saved);
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    applyTheme('light');
+  }
+})();
 
 // ── INIT ──────────────────────────────────────────────────────────────
 (async () => {

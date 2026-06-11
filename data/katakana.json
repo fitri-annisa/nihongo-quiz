@@ -2877,5 +2877,20 @@
     "note": "コンプライアンス = konpuraiansu (compliance)",
     "hint": "How do you read this?",
     "meaning": "compliance"
+  },
+  {
+    "category": "katakana",
+    "level": "hard",
+    "q": "スーパーマーケット",
+    "a": "suupaa maaketto",
+    "d": [
+      "depaato",
+      "konbini",
+      "ichiba",
+      "resutoran"
+    ],
+    "note": "スーパーマーケット = suupaa maaketto (supermarket)",
+    "hint": "How do you read this?",
+    "meaning": "supermarket"
   }
 ]
