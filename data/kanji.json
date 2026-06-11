@@ -10,7 +10,7 @@
       "ひ",
       "うみ"
     ],
-    "note": "山 = Meaning: mountain",
+    "note": "山 — Meaning: mountain",
     "hint": "How do you read this kanji?"
   },
   {
@@ -24,7 +24,7 @@
       "fire",
       "sea"
     ],
-    "note": "山 = Reading: やま",
+    "note": "山 — Reading: やま",
     "hint": "What does this kanji mean?"
   },
   {
@@ -38,7 +38,7 @@
       "うみ",
       "みずうみ"
     ],
-    "note": "川 = Meaning: river",
+    "note": "川 — Meaning: river",
     "hint": "How do you read this kanji?"
   },
   {
@@ -52,7 +52,7 @@
       "sea",
       "lake"
     ],
-    "note": "川 = Reading: かわ",
+    "note": "川 — Reading: かわ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -66,7 +66,7 @@
       "みず",
       "ほし"
     ],
-    "note": "日 = ひ/にち Meaning: sun / day",
+    "note": "日 = ひ/にち — Meaning: sun / day",
     "hint": "How do you read this kanji?"
   },
   {
@@ -80,7 +80,7 @@
       "water",
       "star"
     ],
-    "note": "日 = ひ/にち Reading: ひ",
+    "note": "日 = ひ/にち — Reading: ひ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -94,7 +94,7 @@
       "よる",
       "しゅう"
     ],
-    "note": "月 = つき/がつ Meaning: moon / month",
+    "note": "月 = つき/がつ — Meaning: moon / month",
     "hint": "How do you read this kanji?"
   },
   {
@@ -108,7 +108,7 @@
       "night",
       "week"
     ],
-    "note": "月 = つき/がつ Reading: つき",
+    "note": "月 = つき/がつ — Reading: つき",
     "hint": "What does this kanji mean?"
   },
   {
@@ -122,7 +122,7 @@
       "かぜ",
       "き"
     ],
-    "note": "火 = ひ; also Tuesday Meaning: fire",
+    "note": "火 = ひ; also Tuesday — Meaning: fire",
     "hint": "How do you read this kanji?"
   },
   {
@@ -136,7 +136,7 @@
       "wind",
       "tree"
     ],
-    "note": "火 = ひ; also Tuesday Reading: ひ",
+    "note": "火 = ひ; also Tuesday — Reading: ひ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -150,7 +150,7 @@
       "かわ",
       "あめ"
     ],
-    "note": "水 = みず; also Wednesday Meaning: water",
+    "note": "水 = みず; also Wednesday — Meaning: water",
     "hint": "How do you read this kanji?"
   },
   {
@@ -164,7 +164,7 @@
       "river",
       "rain"
     ],
-    "note": "水 = みず; also Wednesday Reading: みず",
+    "note": "水 = みず; also Wednesday — Reading: みず",
     "hint": "What does this kanji mean?"
   },
   {
@@ -178,7 +178,7 @@
       "はな",
       "やま"
     ],
-    "note": "木 = き; also Thursday Meaning: tree / wood",
+    "note": "木 = き; also Thursday — Meaning: tree / wood",
     "hint": "How do you read this kanji?"
   },
   {
@@ -192,7 +192,7 @@
       "flower",
       "mountain"
     ],
-    "note": "木 = き; also Thursday Reading: き",
+    "note": "木 = き; also Thursday — Reading: き",
     "hint": "What does this kanji mean?"
   },
   {
@@ -206,7 +206,7 @@
       "てつ",
       "いし"
     ],
-    "note": "金 = きん/かね; also Friday Meaning: gold / money",
+    "note": "金 = きん/かね; also Friday — Meaning: gold / money",
     "hint": "How do you read this kanji?"
   },
   {
@@ -220,7 +220,7 @@
       "iron",
       "stone"
     ],
-    "note": "金 = きん/かね; also Friday Reading: きん",
+    "note": "金 = きん/かね; also Friday — Reading: きん",
     "hint": "What does this kanji mean?"
   },
   {
@@ -234,7 +234,7 @@
       "みず",
       "かぜ"
     ],
-    "note": "土 = つち; also Saturday Meaning: earth / soil",
+    "note": "土 = つち; also Saturday — Meaning: earth / soil",
     "hint": "How do you read this kanji?"
   },
   {
@@ -248,7 +248,7 @@
       "water",
       "wind"
     ],
-    "note": "土 = つち; also Saturday Reading: つち",
+    "note": "土 = つち; also Saturday — Reading: つち",
     "hint": "What does this kanji mean?"
   },
   {
@@ -262,7 +262,7 @@
       "おとこ",
       "ともだち"
     ],
-    "note": "人 = ひと/じん Meaning: person",
+    "note": "人 = ひと/じん — Meaning: person",
     "hint": "How do you read this kanji?"
   },
   {
@@ -276,7 +276,7 @@
       "man",
       "friend"
     ],
-    "note": "人 = ひと/じん Reading: ひと",
+    "note": "人 = ひと/じん — Reading: ひと",
     "hint": "What does this kanji mean?"
   },
   {
@@ -290,7 +290,7 @@
       "おもい",
       "ひろい"
     ],
-    "note": "大 = おお/だい Meaning: big / large",
+    "note": "大 = おお/だい — Meaning: big / large",
     "hint": "How do you read this kanji?"
   },
   {
@@ -304,7 +304,7 @@
       "heavy",
       "wide"
     ],
-    "note": "大 = おお/だい Reading: おおきい",
+    "note": "大 = おお/だい — Reading: おおきい",
     "hint": "What does this kanji mean?"
   },
   {
@@ -318,7 +318,7 @@
       "かるい",
       "ひくい"
     ],
-    "note": "小 = ちい/しょう Meaning: small / little",
+    "note": "小 = ちい/しょう — Meaning: small / little",
     "hint": "How do you read this kanji?"
   },
   {
@@ -332,7 +332,7 @@
       "light",
       "low"
     ],
-    "note": "小 = ちい/しょう Reading: ちいさい",
+    "note": "小 = ちい/しょう — Reading: ちいさい",
     "hint": "What does this kanji mean?"
   },
   {
@@ -346,7 +346,7 @@
       "みぎ",
       "なか"
     ],
-    "note": "上 = うえ/じょう Meaning: above / up",
+    "note": "上 = うえ/じょう — Meaning: above / up",
     "hint": "How do you read this kanji?"
   },
   {
@@ -360,7 +360,7 @@
       "right",
       "inside"
     ],
-    "note": "上 = うえ/じょう Reading: うえ",
+    "note": "上 = うえ/じょう — Reading: うえ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -374,7 +374,7 @@
       "みぎ",
       "そと"
     ],
-    "note": "下 = した/か Meaning: below / down",
+    "note": "下 = した/か — Meaning: below / down",
     "hint": "How do you read this kanji?"
   },
   {
@@ -388,7 +388,7 @@
       "right",
       "outside"
     ],
-    "note": "下 = した/か Reading: した",
+    "note": "下 = した/か — Reading: した",
     "hint": "What does this kanji mean?"
   },
   {
@@ -402,7 +402,7 @@
       "うえ",
       "かど"
     ],
-    "note": "中 = なか/ちゅう Meaning: middle / inside",
+    "note": "中 = なか/ちゅう — Meaning: middle / inside",
     "hint": "How do you read this kanji?"
   },
   {
@@ -416,7 +416,7 @@
       "above",
       "corner"
     ],
-    "note": "中 = なか/ちゅう Reading: なか",
+    "note": "中 = なか/ちゅう — Reading: なか",
     "hint": "What does this kanji mean?"
   },
   {
@@ -430,7 +430,7 @@
       "はな",
       "て"
     ],
-    "note": "口 = くち/こう Meaning: mouth",
+    "note": "口 = くち/こう — Meaning: mouth",
     "hint": "How do you read this kanji?"
   },
   {
@@ -444,7 +444,7 @@
       "nose",
       "hand"
     ],
-    "note": "口 = くち/こう Reading: くち",
+    "note": "口 = くち/こう — Reading: くち",
     "hint": "What does this kanji mean?"
   },
   {
@@ -458,7 +458,7 @@
       "はな",
       "かお"
     ],
-    "note": "目 = め/もく Meaning: eye",
+    "note": "目 = め/もく — Meaning: eye",
     "hint": "How do you read this kanji?"
   },
   {
@@ -472,7 +472,7 @@
       "nose",
       "face"
     ],
-    "note": "目 = め/もく Reading: め",
+    "note": "目 = め/もく — Reading: め",
     "hint": "What does this kanji mean?"
   },
   {
@@ -486,7 +486,7 @@
       "はな",
       "て"
     ],
-    "note": "耳 = みみ Meaning: ear",
+    "note": "耳 = みみ — Meaning: ear",
     "hint": "How do you read this kanji?"
   },
   {
@@ -500,7 +500,7 @@
       "nose",
       "hand"
     ],
-    "note": "耳 = みみ Reading: みみ",
+    "note": "耳 = みみ — Reading: みみ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -514,7 +514,7 @@
       "うで",
       "からだ"
     ],
-    "note": "手 = て/しゅ Meaning: hand",
+    "note": "手 = て/しゅ — Meaning: hand",
     "hint": "How do you read this kanji?"
   },
   {
@@ -528,7 +528,7 @@
       "arm",
       "body"
     ],
-    "note": "手 = て/しゅ Reading: て",
+    "note": "手 = て/しゅ — Reading: て",
     "hint": "What does this kanji mean?"
   },
   {
@@ -542,7 +542,7 @@
       "からだ",
       "あたま"
     ],
-    "note": "足 = あし/そく Meaning: foot / leg",
+    "note": "足 = あし/そく — Meaning: foot / leg",
     "hint": "How do you read this kanji?"
   },
   {
@@ -556,7 +556,7 @@
       "body",
       "head"
     ],
-    "note": "足 = あし/そく Reading: あし",
+    "note": "足 = あし/そく — Reading: あし",
     "hint": "What does this kanji mean?"
   },
   {
@@ -570,7 +570,7 @@
       "ひかり",
       "かたち"
     ],
-    "note": "力 = ちから/りょく Meaning: power / strength",
+    "note": "力 = ちから/りょく — Meaning: power / strength",
     "hint": "How do you read this kanji?"
   },
   {
@@ -584,7 +584,7 @@
       "light",
       "shape"
     ],
-    "note": "力 = ちから/りょく Reading: ちから",
+    "note": "力 = ちから/りょく — Reading: ちから",
     "hint": "What does this kanji mean?"
   },
   {
@@ -598,7 +598,7 @@
       "てがみ",
       "ノート"
     ],
-    "note": "本 = ほん/もと Meaning: book / origin",
+    "note": "本 = ほん/もと — Meaning: book / origin",
     "hint": "How do you read this kanji?"
   },
   {
@@ -612,7 +612,7 @@
       "letter",
       "notebook"
     ],
-    "note": "本 = ほん/もと Reading: ほん",
+    "note": "本 = ほん/もと — Reading: ほん",
     "hint": "What does this kanji mean?"
   },
   {
@@ -626,7 +626,7 @@
       "てがみ",
       "ほん"
     ],
-    "note": "文 = ぶん/もん Meaning: sentence / writing",
+    "note": "文 = ぶん/もん — Meaning: sentence / writing",
     "hint": "How do you read this kanji?"
   },
   {
@@ -640,7 +640,7 @@
       "letter",
       "book"
     ],
-    "note": "文 = ぶん/もん Reading: ぶん",
+    "note": "文 = ぶん/もん — Reading: ぶん",
     "hint": "What does this kanji mean?"
   },
   {
@@ -654,7 +654,7 @@
       "おんな",
       "おとこ"
     ],
-    "note": "子 = こ/し Meaning: child",
+    "note": "子 = こ/し — Meaning: child",
     "hint": "How do you read this kanji?"
   },
   {
@@ -668,7 +668,7 @@
       "woman",
       "man"
     ],
-    "note": "子 = こ/し Reading: こ",
+    "note": "子 = こ/し — Reading: こ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -682,7 +682,7 @@
       "ひと",
       "おとな"
     ],
-    "note": "女 = おんな/じょ Meaning: woman",
+    "note": "女 = おんな/じょ — Meaning: woman",
     "hint": "How do you read this kanji?"
   },
   {
@@ -696,7 +696,7 @@
       "person",
       "adult"
     ],
-    "note": "女 = おんな/じょ Reading: おんな",
+    "note": "女 = おんな/じょ — Reading: おんな",
     "hint": "What does this kanji mean?"
   },
   {
@@ -710,7 +710,7 @@
       "ひと",
       "おとな"
     ],
-    "note": "男 = おとこ/だん Meaning: man",
+    "note": "男 = おとこ/だん — Meaning: man",
     "hint": "How do you read this kanji?"
   },
   {
@@ -724,7 +724,7 @@
       "person",
       "adult"
     ],
-    "note": "男 = おとこ/だん Reading: おとこ",
+    "note": "男 = おとこ/だん — Reading: おとこ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -738,7 +738,7 @@
       "き",
       "ねつ"
     ],
-    "note": "電 = でん; 電気/電車 Meaning: electricity",
+    "note": "電 = でん; 電気/電車 — Meaning: electricity",
     "hint": "How do you read this kanji?"
   },
   {
@@ -752,7 +752,7 @@
       "tree",
       "heat"
     ],
-    "note": "電 = でん; 電気/電車 Reading: でん",
+    "note": "電 = でん; 電気/電車 — Reading: でん",
     "hint": "What does this kanji mean?"
   },
   {
@@ -766,7 +766,7 @@
       "でんしゃ",
       "ひこうき"
     ],
-    "note": "車 = くるま/しゃ Meaning: car / vehicle",
+    "note": "車 = くるま/しゃ — Meaning: car / vehicle",
     "hint": "How do you read this kanji?"
   },
   {
@@ -780,7 +780,7 @@
       "train",
       "airplane"
     ],
-    "note": "車 = くるま/しゃ Reading: くるま",
+    "note": "車 = くるま/しゃ — Reading: くるま",
     "hint": "What does this kanji mean?"
   },
   {
@@ -794,7 +794,7 @@
       "あじわう",
       "においう"
     ],
-    "note": "食 = たべる/しょく Meaning: eat / food",
+    "note": "食 = たべる/しょく — Meaning: eat / food",
     "hint": "How do you read this kanji?"
   },
   {
@@ -808,7 +808,7 @@
       "taste",
       "smell"
     ],
-    "note": "食 = たべる/しょく Reading: たべる",
+    "note": "食 = たべる/しょく — Reading: たべる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -822,7 +822,7 @@
       "あじわう",
       "においう"
     ],
-    "note": "飲 = のむ/いん Meaning: drink",
+    "note": "飲 = のむ/いん — Meaning: drink",
     "hint": "How do you read this kanji?"
   },
   {
@@ -836,7 +836,7 @@
       "taste",
       "smell"
     ],
-    "note": "飲 = のむ/いん Reading: のむ",
+    "note": "飲 = のむ/いん — Reading: のむ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -850,7 +850,7 @@
       "かんじる",
       "さわる"
     ],
-    "note": "見 = みる/けん Meaning: see / look",
+    "note": "見 = みる/けん — Meaning: see / look",
     "hint": "How do you read this kanji?"
   },
   {
@@ -864,7 +864,7 @@
       "feel",
       "touch"
     ],
-    "note": "見 = みる/けん Reading: みる",
+    "note": "見 = みる/けん — Reading: みる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -878,7 +878,7 @@
       "よむ",
       "かく"
     ],
-    "note": "聞 = きく/もん Meaning: hear / listen",
+    "note": "聞 = きく/もん — Meaning: hear / listen",
     "hint": "How do you read this kanji?"
   },
   {
@@ -892,7 +892,7 @@
       "read",
       "write"
     ],
-    "note": "聞 = きく/もん Reading: きく",
+    "note": "聞 = きく/もん — Reading: きく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -906,7 +906,7 @@
       "かく",
       "かんがえる"
     ],
-    "note": "言 = いう/げん Meaning: say / speak",
+    "note": "言 = いう/げん — Meaning: say / speak",
     "hint": "How do you read this kanji?"
   },
   {
@@ -920,7 +920,7 @@
       "write",
       "think"
     ],
-    "note": "言 = いう/げん Reading: いう",
+    "note": "言 = いう/げん — Reading: いう",
     "hint": "What does this kanji mean?"
   },
   {
@@ -934,7 +934,7 @@
       "きく",
       "みる"
     ],
-    "note": "読 = よむ/どく Meaning: read",
+    "note": "読 = よむ/どく — Meaning: read",
     "hint": "How do you read this kanji?"
   },
   {
@@ -948,7 +948,7 @@
       "listen",
       "watch"
     ],
-    "note": "読 = よむ/どく Reading: よむ",
+    "note": "読 = よむ/どく — Reading: よむ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -962,7 +962,7 @@
       "しるす",
       "えがく"
     ],
-    "note": "書 = かく/しょ Meaning: write",
+    "note": "書 = かく/しょ — Meaning: write",
     "hint": "How do you read this kanji?"
   },
   {
@@ -976,7 +976,7 @@
       "mark",
       "draw"
     ],
-    "note": "書 = かく/しょ Reading: かく",
+    "note": "書 = かく/しょ — Reading: かく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -990,7 +990,7 @@
       "でる",
       "つく"
     ],
-    "note": "来 = くる/らい Meaning: come",
+    "note": "来 = くる/らい — Meaning: come",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1004,7 +1004,7 @@
       "leave",
       "arrive"
     ],
-    "note": "来 = くる/らい Reading: くる",
+    "note": "来 = くる/らい — Reading: くる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1018,7 +1018,7 @@
       "とまる",
       "まつ"
     ],
-    "note": "行 = いく/こう Meaning: go",
+    "note": "行 = いく/こう — Meaning: go",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1032,7 +1032,7 @@
       "stop",
       "wait"
     ],
-    "note": "行 = いく/こう Reading: いく",
+    "note": "行 = いく/こう — Reading: いく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1046,7 +1046,7 @@
       "かりる",
       "かす"
     ],
-    "note": "買 = かう/ばい Meaning: buy",
+    "note": "買 = かう/ばい — Meaning: buy",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1060,7 +1060,7 @@
       "borrow",
       "lend"
     ],
-    "note": "買 = かう/ばい Reading: かう",
+    "note": "買 = かう/ばい — Reading: かう",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1074,7 +1074,7 @@
       "かりる",
       "かす"
     ],
-    "note": "売 = うる/ばい Meaning: sell",
+    "note": "売 = うる/ばい — Meaning: sell",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1088,7 +1088,7 @@
       "borrow",
       "lend"
     ],
-    "note": "売 = うる/ばい Reading: うる",
+    "note": "売 = うる/ばい — Reading: うる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1102,7 +1102,7 @@
       "よむ",
       "さけぶ"
     ],
-    "note": "話 = はなす/わ Meaning: talk / story",
+    "note": "話 = はなす/わ — Meaning: talk / story",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1116,7 +1116,7 @@
       "read",
       "shout"
     ],
-    "note": "話 = はなす/わ Reading: はなす",
+    "note": "話 = はなす/わ — Reading: はなす",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1130,7 +1130,7 @@
       "たつ",
       "はしる"
     ],
-    "note": "起 = おきる/き Meaning: wake up / rise",
+    "note": "起 = おきる/き — Meaning: wake up / rise",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1144,7 +1144,7 @@
       "stand",
       "run"
     ],
-    "note": "起 = おきる/き Reading: おきる",
+    "note": "起 = おきる/き — Reading: おきる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1158,7 +1158,7 @@
       "たつ",
       "やすむ"
     ],
-    "note": "寝 = ねる/しん Meaning: sleep",
+    "note": "寝 = ねる/しん — Meaning: sleep",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1172,7 +1172,7 @@
       "stand",
       "rest"
     ],
-    "note": "寝 = ねる/しん Reading: ねる",
+    "note": "寝 = ねる/しん — Reading: ねる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1186,7 +1186,7 @@
       "つく",
       "とまる"
     ],
-    "note": "待 = まつ/たい Meaning: wait",
+    "note": "待 = まつ/たい — Meaning: wait",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1200,7 +1200,7 @@
       "arrive",
       "stop"
     ],
-    "note": "待 = まつ/たい Reading: まつ",
+    "note": "待 = まつ/たい — Reading: まつ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1214,7 +1214,7 @@
       "はなす",
       "しる"
     ],
-    "note": "会 = あう/かい; 会社 Meaning: meet",
+    "note": "会 = あう/かい; 会社 — Meaning: meet",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1228,7 +1228,7 @@
       "talk",
       "know"
     ],
-    "note": "会 = あう/かい; 会社 Reading: あう",
+    "note": "会 = あう/かい; 会社 — Reading: あう",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1242,7 +1242,7 @@
       "でる",
       "つく"
     ],
-    "note": "帰 = かえる/き Meaning: return / go home",
+    "note": "帰 = かえる/き — Meaning: return / go home",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1256,7 +1256,7 @@
       "leave",
       "arrive"
     ],
-    "note": "帰 = かえる/き Reading: かえる",
+    "note": "帰 = かえる/き — Reading: かえる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1270,7 +1270,7 @@
       "かえる",
       "とまる"
     ],
-    "note": "出 = でる/しゅつ Meaning: exit / leave",
+    "note": "出 = でる/しゅつ — Meaning: exit / leave",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1284,7 +1284,7 @@
       "return",
       "stop"
     ],
-    "note": "出 = でる/しゅつ Reading: でる",
+    "note": "出 = でる/しゅつ — Reading: でる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1298,7 +1298,7 @@
       "かえる",
       "とまる"
     ],
-    "note": "入 = はいる/にゅう Meaning: enter",
+    "note": "入 = はいる/にゅう — Meaning: enter",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1312,7 +1312,7 @@
       "return",
       "stop"
     ],
-    "note": "入 = はいる/にゅう Reading: はいる",
+    "note": "入 = はいる/にゅう — Reading: はいる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1326,7 +1326,7 @@
       "よむ",
       "かく"
     ],
-    "note": "聞 = きく; note: also means \"to ask\" Meaning: hear / ask",
+    "note": "聞 = きく; note: also means \"to ask\" — Meaning: hear / ask",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1340,7 +1340,7 @@
       "read",
       "write"
     ],
-    "note": "聞 = きく; note: also means \"to ask\" Reading: きく",
+    "note": "聞 = きく; note: also means \"to ask\" — Reading: きく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1354,7 +1354,7 @@
       "はなれる",
       "とまる"
     ],
-    "note": "着 = きる/ちゃく; 着く = arrive Meaning: wear / arrive",
+    "note": "着 = きる/ちゃく; 着く = arrive — Meaning: wear / arrive",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1368,7 +1368,7 @@
       "separate",
       "stop"
     ],
-    "note": "着 = きる/ちゃく; 着く = arrive Reading: きる",
+    "note": "着 = きる/ちゃく; 着く = arrive — Reading: きる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1382,7 +1382,7 @@
       "とる",
       "あげる"
     ],
-    "note": "使 = つかう/し Meaning: use",
+    "note": "使 = つかう/し — Meaning: use",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1396,7 +1396,7 @@
       "take",
       "give"
     ],
-    "note": "使 = つかう/し Reading: つかう",
+    "note": "使 = つかう/し — Reading: つかう",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1410,7 +1410,7 @@
       "なくす",
       "みつける"
     ],
-    "note": "持 = もつ/じ Meaning: hold / have",
+    "note": "持 = もつ/じ — Meaning: hold / have",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1424,7 +1424,7 @@
       "lose",
       "find"
     ],
-    "note": "持 = もつ/じ Reading: もつ",
+    "note": "持 = もつ/じ — Reading: もつ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1438,7 +1438,7 @@
       "おぼえる",
       "かんがえる"
     ],
-    "note": "知 = しる/ち Meaning: know",
+    "note": "知 = しる/ち — Meaning: know",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1452,7 +1452,7 @@
       "remember",
       "think"
     ],
-    "note": "知 = しる/ち Reading: しる",
+    "note": "知 = しる/ち — Reading: しる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1466,7 +1466,7 @@
       "ねがう",
       "わすれる"
     ],
-    "note": "感 = かん; 感謝/感動 Meaning: feeling / sense",
+    "note": "感 = かん; 感謝/感動 — Meaning: feeling / sense",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1480,7 +1480,7 @@
       "wish",
       "forget"
     ],
-    "note": "感 = かん; 感謝/感動 Reading: かんじる",
+    "note": "感 = かん; 感謝/感動 — Reading: かんじる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1494,7 +1494,7 @@
       "おぼえる",
       "わすれる"
     ],
-    "note": "考 = かんがえる/こう Meaning: think / consider",
+    "note": "考 = かんがえる/こう — Meaning: think / consider",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1508,7 +1508,7 @@
       "remember",
       "forget"
     ],
-    "note": "考 = かんがえる/こう Reading: かんがえる",
+    "note": "考 = かんがえる/こう — Reading: かんがえる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1522,7 +1522,7 @@
       "かえる",
       "やめる"
     ],
-    "note": "決 = きめる/けつ; 解決 Meaning: decide",
+    "note": "決 = きめる/けつ; 解決 — Meaning: decide",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1536,7 +1536,7 @@
       "change",
       "quit"
     ],
-    "note": "決 = きめる/けつ; 解決 Reading: きめる",
+    "note": "決 = きめる/けつ; 解決 — Reading: きめる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1550,7 +1550,7 @@
       "おわる",
       "くりかえす"
     ],
-    "note": "続 = つづく/ぞく Meaning: continue",
+    "note": "続 = つづく/ぞく — Meaning: continue",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1564,7 +1564,7 @@
       "finish",
       "repeat"
     ],
-    "note": "続 = つづく/ぞく Reading: つづく",
+    "note": "続 = つづく/ぞく — Reading: つづく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1578,7 +1578,7 @@
       "とまる",
       "もどる"
     ],
-    "note": "変 = かわる/へん; 変 = strange Meaning: change / strange",
+    "note": "変 = かわる/へん; 変 = strange — Meaning: change / strange",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1592,7 +1592,7 @@
       "stop",
       "return"
     ],
-    "note": "変 = かわる/へん; 変 = strange Reading: かわる",
+    "note": "変 = かわる/へん; 変 = strange — Reading: かわる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1606,7 +1606,7 @@
       "やすむ",
       "たつ"
     ],
-    "note": "動 = うごく/どう; 運動 Meaning: move",
+    "note": "動 = うごく/どう; 運動 — Meaning: move",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1620,7 +1620,7 @@
       "rest",
       "stand"
     ],
-    "note": "動 = うごく/どう; 運動 Reading: うごく",
+    "note": "動 = うごく/どう; 運動 — Reading: うごく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1634,7 +1634,7 @@
       "まなぶ",
       "かんがえる"
     ],
-    "note": "忘 = わすれる/ぼう; 忘れ物 Meaning: forget",
+    "note": "忘 = わすれる/ぼう; 忘れ物 — Meaning: forget",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1648,7 +1648,7 @@
       "learn",
       "think"
     ],
-    "note": "忘 = わすれる/ぼう; 忘れ物 Reading: わすれる",
+    "note": "忘 = わすれる/ぼう; 忘れ物 — Reading: わすれる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1662,7 +1662,7 @@
       "しる",
       "よむ"
     ],
-    "note": "教 = おしえる/きょう; 教室 Meaning: teach",
+    "note": "教 = おしえる/きょう; 教室 — Meaning: teach",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1676,7 +1676,7 @@
       "know",
       "read"
     ],
-    "note": "教 = おしえる/きょう; 教室 Reading: おしえる",
+    "note": "教 = おしえる/きょう; 教室 — Reading: おしえる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1690,7 +1690,7 @@
       "かく",
       "べんきょうする"
     ],
-    "note": "習 = ならう/しゅう; 練習 Meaning: practice / learn",
+    "note": "習 = ならう/しゅう; 練習 — Meaning: practice / learn",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1704,7 +1704,7 @@
       "write",
       "study"
     ],
-    "note": "習 = ならう/しゅう; 練習 Reading: ならう",
+    "note": "習 = ならう/しゅう; 練習 — Reading: ならう",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1718,7 +1718,7 @@
       "べんきょうする",
       "ねる"
     ],
-    "note": "働 = はたらく/どう; 労働 Meaning: work",
+    "note": "働 = はたらく/どう; 労働 — Meaning: work",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1732,7 +1732,7 @@
       "study",
       "sleep"
     ],
-    "note": "働 = はたらく/どう; 労働 Reading: はたらく",
+    "note": "働 = はたらく/どう; 労働 — Reading: はたらく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1746,7 +1746,7 @@
       "とる",
       "うごく"
     ],
-    "note": "集 = あつめる/しゅう; 集中 Meaning: gather / collect",
+    "note": "集 = あつめる/しゅう; 集中 — Meaning: gather / collect",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1760,7 +1760,7 @@
       "take",
       "move"
     ],
-    "note": "集 = あつめる/しゅう; 集中 Reading: あつめる",
+    "note": "集 = あつめる/しゅう; 集中 — Reading: あつめる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1774,7 +1774,7 @@
       "くわわる",
       "まぜる"
     ],
-    "note": "別 = わかれる/べつ; 特別 Meaning: separate / different",
+    "note": "別 = わかれる/べつ; 特別 — Meaning: separate / different",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1788,7 +1788,7 @@
       "join",
       "mix"
     ],
-    "note": "別 = わかれる/べつ; 特別 Reading: わかれる",
+    "note": "別 = わかれる/べつ; 特別 — Reading: わかれる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1802,7 +1802,7 @@
       "よろこぶ",
       "かなしむ"
     ],
-    "note": "笑 = わらう/しょう; 笑顔 Meaning: laugh / smile",
+    "note": "笑 = わらう/しょう; 笑顔 — Meaning: laugh / smile",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1816,7 +1816,7 @@
       "rejoice",
       "grieve"
     ],
-    "note": "笑 = わらう/しょう; 笑顔 Reading: わらう",
+    "note": "笑 = わらう/しょう; 笑顔 — Reading: わらう",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1830,7 +1830,7 @@
       "よろこぶ",
       "かなしむ"
     ],
-    "note": "泣 = なく/きゅう Meaning: cry",
+    "note": "泣 = なく/きゅう — Meaning: cry",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1844,7 +1844,7 @@
       "rejoice",
       "grieve"
     ],
-    "note": "泣 = なく/きゅう Reading: なく",
+    "note": "泣 = なく/きゅう — Reading: なく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1858,7 +1858,7 @@
       "よろこぶ",
       "かなしむ"
     ],
-    "note": "怒 = おこる/ど; 怒鳴る Meaning: get angry",
+    "note": "怒 = おこる/ど; 怒鳴る — Meaning: get angry",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1872,7 +1872,7 @@
       "rejoice",
       "grieve"
     ],
-    "note": "怒 = おこる/ど; 怒鳴る Reading: おこる",
+    "note": "怒 = おこる/ど; 怒鳴る — Reading: おこる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1886,7 +1886,7 @@
       "とまる",
       "おそい"
     ],
-    "note": "急 = いそぐ/きゅう; 急いで Meaning: hurry / urgent",
+    "note": "急 = いそぐ/きゅう; 急いで — Meaning: hurry / urgent",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1900,7 +1900,7 @@
       "stop",
       "slow"
     ],
-    "note": "急 = いそぐ/きゅう; 急いで Reading: いそぐ",
+    "note": "急 = いそぐ/きゅう; 急いで — Reading: いそぐ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1914,7 +1914,7 @@
       "しんぱいする",
       "よろこぶ"
     ],
-    "note": "困 = こまる/こん; 困った Meaning: be troubled",
+    "note": "困 = こまる/こん; 困った — Meaning: be troubled",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1928,7 +1928,7 @@
       "worry",
       "rejoice"
     ],
-    "note": "困 = こまる/こん; 困った Reading: こまる",
+    "note": "困 = こまる/こん; 困った — Reading: こまる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1942,7 +1942,7 @@
       "ほう",
       "がた"
     ],
-    "note": "様 = さま/よう; お客様 Meaning: manner / Mr./Ms.",
+    "note": "様 = さま/よう; お客様 — Meaning: manner / Mr./Ms.",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1956,7 +1956,7 @@
       "direction",
       "people (pl.)"
     ],
-    "note": "様 = さま/よう; お客様 Reading: さま",
+    "note": "様 = さま/よう; お客様 — Reading: さま",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1970,7 +1970,7 @@
       "なかま",
       "ともだち"
     ],
-    "note": "族 = ぞく; 家族/民族 Meaning: family / tribe",
+    "note": "族 = ぞく; 家族/民族 — Meaning: family / tribe",
     "hint": "How do you read this kanji?"
   },
   {
@@ -1984,7 +1984,7 @@
       "companion",
       "friend"
     ],
-    "note": "族 = ぞく; 家族/民族 Reading: ぞく",
+    "note": "族 = ぞく; 家族/民族 — Reading: ぞく",
     "hint": "What does this kanji mean?"
   },
   {
@@ -1998,7 +1998,7 @@
       "きる",
       "わたる"
     ],
-    "note": "経 = へる/けい; 経験/経済 Meaning: pass through / experience",
+    "note": "経 = へる/けい; 経験/経済 — Meaning: pass through / experience",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2012,7 +2012,7 @@
       "cut",
       "cross"
     ],
-    "note": "経 = へる/けい; 経験/経済 Reading: へる",
+    "note": "経 = へる/けい; 経験/経済 — Reading: へる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2026,7 +2026,7 @@
       "もつ",
       "きる"
     ],
-    "note": "受 = うける/じゅ; 受ける = to receive/take; 受験 = taking exam Meaning: receive / take (exam)",
+    "note": "受 = うける/じゅ; 受ける = to receive/take; 受験 = taking exam — Meaning: receive / take (exam)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2040,7 +2040,7 @@
       "hold",
       "cut"
     ],
-    "note": "受 = うける/じゅ; 受ける = to receive/take; 受験 = taking exam Reading: うける",
+    "note": "受 = うける/じゅ; 受ける = to receive/take; 受験 = taking exam — Reading: うける",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2054,7 +2054,7 @@
       "わたす",
       "なげる"
     ],
-    "note": "返 = かえす/へん; 返す = give back; 返事 = reply Meaning: return / give back",
+    "note": "返 = かえす/へん; 返す = give back; 返事 = reply — Meaning: return / give back",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2068,7 +2068,7 @@
       "hand over",
       "throw"
     ],
-    "note": "返 = かえす/へん; 返す = give back; 返事 = reply Reading: かえす",
+    "note": "返 = かえす/へん; 返す = give back; 返事 = reply — Reading: かえす",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2082,7 +2082,7 @@
       "かりる",
       "かえす"
     ],
-    "note": "払 = はらう/ふつ; 支払い = payment Meaning: pay",
+    "note": "払 = はらう/ふつ; 支払い = payment — Meaning: pay",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2096,7 +2096,7 @@
       "borrow",
       "return"
     ],
-    "note": "払 = はらう/ふつ; 支払い = payment Reading: はらう",
+    "note": "払 = はらう/ふつ; 支払い = payment — Reading: はらう",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2110,7 +2110,7 @@
       "かう",
       "うる"
     ],
-    "note": "貸 = かす/たい; 貸す = lend; 貸し出し = loan Meaning: lend",
+    "note": "貸 = かす/たい; 貸す = lend; 貸し出し = loan — Meaning: lend",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2124,7 +2124,7 @@
       "buy",
       "sell"
     ],
-    "note": "貸 = かす/たい; 貸す = lend; 貸し出し = loan Reading: かす",
+    "note": "貸 = かす/たい; 貸す = lend; 貸し出し = loan — Reading: かす",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2138,7 +2138,7 @@
       "かう",
       "うる"
     ],
-    "note": "借 = かりる/しゃく; 借りる = borrow; 借金 = debt Meaning: borrow",
+    "note": "借 = かりる/しゃく; 借りる = borrow; 借金 = debt — Meaning: borrow",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2152,7 +2152,7 @@
       "buy",
       "sell"
     ],
-    "note": "借 = かりる/しゃく; 借りる = borrow; 借金 = debt Reading: かりる",
+    "note": "借 = かりる/しゃく; 借りる = borrow; 借金 = debt — Reading: かりる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2166,7 +2166,7 @@
       "しらべる",
       "えらぶ"
     ],
-    "note": "探 = さがす/たん; 探す = search; 探偵 = detective Meaning: search / look for",
+    "note": "探 = さがす/たん; 探す = search; 探偵 = detective — Meaning: search / look for",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2180,7 +2180,7 @@
       "investigate",
       "choose"
     ],
-    "note": "探 = さがす/たん; 探す = search; 探偵 = detective Reading: さがす",
+    "note": "探 = さがす/たん; 探す = search; 探偵 = detective — Reading: さがす",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2194,7 +2194,7 @@
       "なやむ",
       "えらぶ (alt)"
     ],
-    "note": "選 = えらぶ/せん; 選ぶ = choose; 選手 = athlete Meaning: choose / select",
+    "note": "選 = えらぶ/せん; 選ぶ = choose; 選手 = athlete — Meaning: choose / select",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2208,7 +2208,7 @@
       "be troubled",
       "choose (same)"
     ],
-    "note": "選 = えらぶ/せん; 選ぶ = choose; 選手 = athlete Reading: えらぶ",
+    "note": "選 = えらぶ/せん; 選ぶ = choose; 選手 = athlete — Reading: えらぶ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2222,7 +2222,7 @@
       "やめる",
       "あきらめる"
     ],
-    "note": "負 = まける/ふ; 負ける = lose; 勝負 = match/contest Meaning: lose / be defeated",
+    "note": "負 = まける/ふ; 負ける = lose; 勝負 = match/contest — Meaning: lose / be defeated",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2236,7 +2236,7 @@
       "quit",
       "give up"
     ],
-    "note": "負 = まける/ふ; 負ける = lose; 勝負 = match/contest Reading: まける",
+    "note": "負 = まける/ふ; 負ける = lose; 勝負 = match/contest — Reading: まける",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2250,7 +2250,7 @@
       "やめる",
       "あきらめる"
     ],
-    "note": "勝 = かつ/しょう; 勝つ = win; 勝負 = match Meaning: win",
+    "note": "勝 = かつ/しょう; 勝つ = win; 勝負 = match — Meaning: win",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2264,7 +2264,7 @@
       "quit",
       "give up"
     ],
-    "note": "勝 = かつ/しょう; 勝つ = win; 勝負 = match Reading: かつ",
+    "note": "勝 = かつ/しょう; 勝つ = win; 勝負 = match — Reading: かつ",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2278,7 +2278,7 @@
       "おなじ",
       "わける"
     ],
-    "note": "比 = くらべる/ひ; 比べる = compare; 比較 = comparison Meaning: compare",
+    "note": "比 = くらべる/ひ; 比べる = compare; 比較 = comparison — Meaning: compare",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2292,7 +2292,7 @@
       "same",
       "divide"
     ],
-    "note": "比 = くらべる/ひ; 比べる = compare; 比較 = comparison Reading: くらべる",
+    "note": "比 = くらべる/ひ; 比べる = compare; 比較 = comparison — Reading: くらべる",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2306,7 +2306,7 @@
       "かんじ",
       "もの"
     ],
-    "note": "様 = さま/よう; 様子 = situation; お客様 = customer Meaning: appearance / situation",
+    "note": "様 = さま/よう; 様子 = situation; お客様 = customer — Meaning: appearance / situation",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2320,7 +2320,7 @@
       "feeling",
       "thing"
     ],
-    "note": "様 = さま/よう; 様子 = situation; お客様 = customer Reading: ようす",
+    "note": "様 = さま/よう; 様子 = situation; お客様 = customer — Reading: ようす",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2334,7 +2334,7 @@
       "こい",
       "ふとい"
     ],
-    "note": "重 = おもい/じゅう; 重い = heavy; 重要 = important Meaning: heavy / serious",
+    "note": "重 = おもい/じゅう; 重い = heavy; 重要 = important — Meaning: heavy / serious",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2348,7 +2348,7 @@
       "dense",
       "fat/thick"
     ],
-    "note": "重 = おもい/じゅう; 重い = heavy; 重要 = important Reading: おもい",
+    "note": "重 = おもい/じゅう; 重い = heavy; 重要 = important — Reading: おもい",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2362,7 +2362,7 @@
       "うすい",
       "ほそい"
     ],
-    "note": "軽 = かるい/けい; 軽い = light; 軽食 = light meal Meaning: light (weight)",
+    "note": "軽 = かるい/けい; 軽い = light; 軽食 = light meal — Meaning: light (weight)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2376,7 +2376,7 @@
       "thin",
       "slim"
     ],
-    "note": "軽 = かるい/けい; 軽い = light; 軽食 = light meal Reading: かるい",
+    "note": "軽 = かるい/けい; 軽い = light; 軽食 = light meal — Reading: かるい",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2390,7 +2390,7 @@
       "ほそい",
       "ちいさい"
     ],
-    "note": "短 = みじかい/たん; 短い = short; 短所 = weakness Meaning: short",
+    "note": "短 = みじかい/たん; 短い = short; 短所 = weakness — Meaning: short",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2404,7 +2404,7 @@
       "thin",
       "small"
     ],
-    "note": "短 = みじかい/たん; 短い = short; 短所 = weakness Reading: みじかい",
+    "note": "短 = みじかい/たん; 短い = short; 短所 = weakness — Reading: みじかい",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2418,7 +2418,7 @@
       "たかい",
       "ふとい"
     ],
-    "note": "長 = ながい/ちょう; 長い = long; 長所 = strength/merit Meaning: long",
+    "note": "長 = ながい/ちょう; 長い = long; 長所 = strength/merit — Meaning: long",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2432,7 +2432,7 @@
       "tall/expensive",
       "fat/thick"
     ],
-    "note": "長 = ながい/ちょう; 長い = long; 長所 = strength/merit Reading: ながい",
+    "note": "長 = ながい/ちょう; 長い = long; 長所 = strength/merit — Reading: ながい",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2446,7 +2446,7 @@
       "よん (yon)",
       "ご (go)"
     ],
-    "note": "一 = いち; Meaning: one",
+    "note": "一 = いち — Meaning: one",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2460,7 +2460,7 @@
       "four",
       "five"
     ],
-    "note": "一 = いち; Reading: いち (ichi)",
+    "note": "一 = いち — Reading: いち (ichi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2474,7 +2474,7 @@
       "よん (yon)",
       "ろく (roku)"
     ],
-    "note": "二 = に; Meaning: two",
+    "note": "二 = に — Meaning: two",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2488,7 +2488,7 @@
       "four",
       "six"
     ],
-    "note": "二 = に; Reading: に (ni)",
+    "note": "二 = に — Reading: に (ni)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2502,7 +2502,7 @@
       "ご (go)",
       "なな (nana)"
     ],
-    "note": "三 = さん; Meaning: three",
+    "note": "三 = さん — Meaning: three",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2516,7 +2516,7 @@
       "five",
       "seven"
     ],
-    "note": "三 = さん; Reading: さん (san)",
+    "note": "三 = さん — Reading: さん (san)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2530,7 +2530,7 @@
       "ろく (roku)",
       "に (ni)"
     ],
-    "note": "四 = よん/し; Meaning: four",
+    "note": "四 = よん/し — Meaning: four",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2544,7 +2544,7 @@
       "six",
       "two"
     ],
-    "note": "四 = よん/し; Reading: よん (yon)",
+    "note": "四 = よん/し — Reading: よん (yon)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2558,7 +2558,7 @@
       "なな (nana)",
       "はち (hachi)"
     ],
-    "note": "五 = ご; Meaning: five",
+    "note": "五 = ご — Meaning: five",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2572,7 +2572,7 @@
       "seven",
       "eight"
     ],
-    "note": "五 = ご; Reading: ご (go)",
+    "note": "五 = ご — Reading: ご (go)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2586,7 +2586,7 @@
       "はち (hachi)",
       "きゅう (kyuu)"
     ],
-    "note": "六 = ろく; Meaning: six",
+    "note": "六 = ろく — Meaning: six",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2600,7 +2600,7 @@
       "eight",
       "nine"
     ],
-    "note": "六 = ろく; Reading: ろく (roku)",
+    "note": "六 = ろく — Reading: ろく (roku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2614,7 +2614,7 @@
       "きゅう (kyuu)",
       "じゅう (juu)"
     ],
-    "note": "七 = なな/しち; Meaning: seven",
+    "note": "七 = なな/しち — Meaning: seven",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2628,7 +2628,7 @@
       "nine",
       "ten"
     ],
-    "note": "七 = なな/しち; Reading: なな (nana)",
+    "note": "七 = なな/しち — Reading: なな (nana)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2642,7 +2642,7 @@
       "じゅう (juu)",
       "ろく (roku)"
     ],
-    "note": "八 = はち; Meaning: eight",
+    "note": "八 = はち — Meaning: eight",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2656,7 +2656,7 @@
       "ten",
       "six"
     ],
-    "note": "八 = はち; Reading: はち (hachi)",
+    "note": "八 = はち — Reading: はち (hachi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2670,7 +2670,7 @@
       "ろく (roku)",
       "なな (nana)"
     ],
-    "note": "九 = きゅう/く; Meaning: nine",
+    "note": "九 = きゅう/く — Meaning: nine",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2684,7 +2684,7 @@
       "six",
       "seven"
     ],
-    "note": "九 = きゅう/く; Reading: きゅう (kyuu)",
+    "note": "九 = きゅう/く — Reading: きゅう (kyuu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2698,7 +2698,7 @@
       "せん (sen)",
       "なな (nana)"
     ],
-    "note": "十 = じゅう; Meaning: ten",
+    "note": "十 = じゅう — Meaning: ten",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2712,7 +2712,7 @@
       "thousand",
       "seven"
     ],
-    "note": "十 = じゅう; Reading: じゅう (juu)",
+    "note": "十 = じゅう — Reading: じゅう (juu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2726,7 +2726,7 @@
       "まん (man)",
       "ごじゅう (gojuu)"
     ],
-    "note": "百 = ひゃく; Meaning: hundred",
+    "note": "百 = ひゃく — Meaning: hundred",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2740,7 +2740,7 @@
       "ten thousand",
       "fifty"
     ],
-    "note": "百 = ひゃく; Reading: ひゃく (hyaku)",
+    "note": "百 = ひゃく — Reading: ひゃく (hyaku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2754,7 +2754,7 @@
       "じゅう (juu)",
       "ごひゃく (gohyaku)"
     ],
-    "note": "千 = せん; Meaning: thousand",
+    "note": "千 = せん — Meaning: thousand",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2768,7 +2768,7 @@
       "ten",
       "five hundred"
     ],
-    "note": "千 = せん; Reading: せん (sen)",
+    "note": "千 = せん — Reading: せん (sen)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2782,7 +2782,7 @@
       "おく (oku)",
       "じゅう (juu)"
     ],
-    "note": "万 = まん; Meaning: ten thousand",
+    "note": "万 = まん — Meaning: ten thousand",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2796,7 +2796,7 @@
       "hundred million",
       "ten"
     ],
-    "note": "万 = まん; Reading: まん (man)",
+    "note": "万 = まん — Reading: まん (man)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2810,7 +2810,7 @@
       "しゅう (shuu)",
       "じかん (jikan)"
     ],
-    "note": "年 = ねん/とし; Meaning: year",
+    "note": "年 = ねん/とし — Meaning: year",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2824,7 +2824,7 @@
       "week",
       "hour"
     ],
-    "note": "年 = ねん/とし; Reading: ねん (nen)",
+    "note": "年 = ねん/とし — Reading: ねん (nen)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2838,7 +2838,7 @@
       "にち (nichi)",
       "じかん (jikan)"
     ],
-    "note": "週 = しゅう; Meaning: week",
+    "note": "週 = しゅう — Meaning: week",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2852,7 +2852,7 @@
       "day",
       "hour"
     ],
-    "note": "週 = しゅう; Reading: しゅう (shuu)",
+    "note": "週 = しゅう — Reading: しゅう (shuu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2866,7 +2866,7 @@
       "ねん (nen)",
       "しゅう (shuu)"
     ],
-    "note": "時 = じ/とき; Meaning: time / hour",
+    "note": "時 = じ/とき — Meaning: time / hour",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2880,7 +2880,7 @@
       "year",
       "week"
     ],
-    "note": "時 = じ/とき; Reading: じ (ji)",
+    "note": "時 = じ/とき — Reading: じ (ji)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2894,7 +2894,7 @@
       "にち (nichi)",
       "ねん (nen)"
     ],
-    "note": "分 = ふん/ぶん; Meaning: minute / part",
+    "note": "分 = ふん/ぶん — Meaning: minute / part",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2908,7 +2908,7 @@
       "day",
       "year"
     ],
-    "note": "分 = ふん/ぶん; Reading: ふん (fun)",
+    "note": "分 = ふん/ぶん — Reading: ふん (fun)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2922,7 +2922,7 @@
       "わ (wa)",
       "なか (naka)"
     ],
-    "note": "半 = はん; 半分 = half Meaning: half",
+    "note": "半 = はん; 半分 = half — Meaning: half",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2936,7 +2936,7 @@
       "side",
       "middle"
     ],
-    "note": "半 = はん; 半分 = half Reading: はん (han)",
+    "note": "半 = はん; 半分 = half — Reading: はん (han)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2950,7 +2950,7 @@
       "した (shita)",
       "なか (naka)"
     ],
-    "note": "前 = まえ/ぜん; Meaning: before / front",
+    "note": "前 = まえ/ぜん — Meaning: before / front",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2964,7 +2964,7 @@
       "below",
       "inside"
     ],
-    "note": "前 = まえ/ぜん; Reading: まえ (mae)",
+    "note": "前 = まえ/ぜん — Reading: まえ (mae)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -2978,7 +2978,7 @@
       "した (shita)",
       "よこ (yoko)"
     ],
-    "note": "後 = あと/ご; Meaning: after / behind",
+    "note": "後 = あと/ご — Meaning: after / behind",
     "hint": "How do you read this kanji?"
   },
   {
@@ -2992,7 +2992,7 @@
       "below",
       "beside"
     ],
-    "note": "後 = あと/ご; Reading: あと (ato)",
+    "note": "後 = あと/ご — Reading: あと (ato)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3006,7 +3006,7 @@
       "むかし (mukashi)",
       "つぎ (tsugi)"
     ],
-    "note": "今 = いま/こん; Meaning: now",
+    "note": "今 = いま/こん — Meaning: now",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3020,7 +3020,7 @@
       "long ago",
       "next"
     ],
-    "note": "今 = いま/こん; Reading: いま (ima)",
+    "note": "今 = いま/こん — Reading: いま (ima)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3034,7 +3034,7 @@
       "いちど (ichido)",
       "ぜん (zen)"
     ],
-    "note": "毎 = まい; 毎日/毎週; Meaning: every",
+    "note": "毎 = まい; 毎日/毎週 — Meaning: every",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3048,7 +3048,7 @@
       "once",
       "all"
     ],
-    "note": "毎 = まい; 毎日/毎週; Reading: まい (mai)",
+    "note": "毎 = まい; 毎日/毎週 — Reading: まい (mai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3062,7 +3062,7 @@
       "ゆうがた (yuugata)",
       "よなか (yonaka)"
     ],
-    "note": "朝 = あさ/ちょう; Meaning: morning",
+    "note": "朝 = あさ/ちょう — Meaning: morning",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3076,7 +3076,7 @@
       "evening",
       "midnight"
     ],
-    "note": "朝 = あさ/ちょう; Reading: あさ (asa)",
+    "note": "朝 = あさ/ちょう — Reading: あさ (asa)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3090,7 +3090,7 @@
       "ゆうがた (yuugata)",
       "あさって (asatte)"
     ],
-    "note": "昼 = ひる/ちゅう; Meaning: noon / daytime",
+    "note": "昼 = ひる/ちゅう — Meaning: noon / daytime",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3104,7 +3104,7 @@
       "evening",
       "day after tomorrow"
     ],
-    "note": "昼 = ひる/ちゅう; Reading: ひる (hiru)",
+    "note": "昼 = ひる/ちゅう — Reading: ひる (hiru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3118,7 +3118,7 @@
       "ゆうがた (yuugata)",
       "まよなか (mayonaka)"
     ],
-    "note": "夜 = よる/や; Meaning: night",
+    "note": "夜 = よる/や — Meaning: night",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3132,7 +3132,7 @@
       "evening",
       "midnight"
     ],
-    "note": "夜 = よる/や; Reading: よる (yoru)",
+    "note": "夜 = よる/や — Reading: よる (yoru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3146,7 +3146,7 @@
       "かわ (kawa)",
       "もり (mori)"
     ],
-    "note": "空 = そら/くう; 空 also = empty Meaning: sky",
+    "note": "空 = そら/くう; 空 also = empty — Meaning: sky",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3160,7 +3160,7 @@
       "river",
       "forest"
     ],
-    "note": "空 = そら/くう; 空 also = empty Reading: そら (sora)",
+    "note": "空 = そら/くう; 空 also = empty — Reading: そら (sora)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3174,7 +3174,7 @@
       "くも (kumo)",
       "かみなり (kaminari)"
     ],
-    "note": "雨 = あめ/う; Meaning: rain",
+    "note": "雨 = あめ/う — Meaning: rain",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3188,7 +3188,7 @@
       "cloud",
       "thunder"
     ],
-    "note": "雨 = あめ/う; Reading: あめ (ame)",
+    "note": "雨 = あめ/う — Reading: あめ (ame)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3202,7 +3202,7 @@
       "かぜ (kaze)",
       "くも (kumo)"
     ],
-    "note": "雪 = ゆき/せつ; Meaning: snow",
+    "note": "雪 = ゆき/せつ — Meaning: snow",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3216,7 +3216,7 @@
       "wind",
       "cloud"
     ],
-    "note": "雪 = ゆき/せつ; Reading: ゆき (yuki)",
+    "note": "雪 = ゆき/せつ — Reading: ゆき (yuki)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3230,7 +3230,7 @@
       "は (ha)",
       "み (mi)"
     ],
-    "note": "花 = はな/か; Meaning: flower",
+    "note": "花 = はな/か — Meaning: flower",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3244,7 +3244,7 @@
       "leaf",
       "fruit"
     ],
-    "note": "花 = はな/か; Reading: はな (hana)",
+    "note": "花 = はな/か — Reading: はな (hana)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3258,7 +3258,7 @@
       "は (ha)",
       "もり (mori)"
     ],
-    "note": "草 = くさ/そう; Meaning: grass",
+    "note": "草 = くさ/そう — Meaning: grass",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3272,7 +3272,7 @@
       "leaf",
       "forest"
     ],
-    "note": "草 = くさ/そう; Reading: くさ (kusa)",
+    "note": "草 = くさ/そう — Reading: くさ (kusa)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3286,7 +3286,7 @@
       "はな (hana)",
       "もり (mori)"
     ],
-    "note": "竹 = たけ/ちく; Meaning: bamboo",
+    "note": "竹 = たけ/ちく — Meaning: bamboo",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3300,7 +3300,7 @@
       "flower",
       "forest"
     ],
-    "note": "竹 = たけ/ちく; Reading: たけ (take)",
+    "note": "竹 = たけ/ちく — Reading: たけ (take)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3314,7 +3314,7 @@
       "あね (ane)",
       "おじ (oji)"
     ],
-    "note": "父 = ちち/ふ; Meaning: father",
+    "note": "父 = ちち/ふ — Meaning: father",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3328,7 +3328,7 @@
       "older sister",
       "uncle"
     ],
-    "note": "父 = ちち/ふ; Reading: ちち (chichi)",
+    "note": "父 = ちち/ふ — Reading: ちち (chichi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3342,7 +3342,7 @@
       "あね (ane)",
       "おば (oba)"
     ],
-    "note": "母 = はは/ぼ; Meaning: mother",
+    "note": "母 = はは/ぼ — Meaning: mother",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3356,7 +3356,7 @@
       "older sister",
       "aunt"
     ],
-    "note": "母 = はは/ぼ; Reading: はは (haha)",
+    "note": "母 = はは/ぼ — Reading: はは (haha)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3370,7 +3370,7 @@
       "おじ (oji)",
       "むすこ (musuko)"
     ],
-    "note": "兄 = あに/きょう; Meaning: older brother",
+    "note": "兄 = あに/きょう — Meaning: older brother",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3384,7 +3384,7 @@
       "uncle",
       "son"
     ],
-    "note": "兄 = あに/きょう; Reading: あに (ani)",
+    "note": "兄 = あに/きょう — Reading: あに (ani)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3398,7 +3398,7 @@
       "おば (oba)",
       "むすめ (musume)"
     ],
-    "note": "姉 = あね/し; Meaning: older sister",
+    "note": "姉 = あね/し — Meaning: older sister",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3412,7 +3412,7 @@
       "aunt",
       "daughter"
     ],
-    "note": "姉 = あね/し; Reading: あね (ane)",
+    "note": "姉 = あね/し — Reading: あね (ane)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3426,7 +3426,7 @@
       "おじ (oji)",
       "むすこ (musuko)"
     ],
-    "note": "弟 = おとうと/てい; Meaning: younger brother",
+    "note": "弟 = おとうと/てい — Meaning: younger brother",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3440,7 +3440,7 @@
       "uncle",
       "son"
     ],
-    "note": "弟 = おとうと/てい; Reading: おとうと (otouto)",
+    "note": "弟 = おとうと/てい — Reading: おとうと (otouto)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3454,7 +3454,7 @@
       "おば (oba)",
       "むすめ (musume)"
     ],
-    "note": "妹 = いもうと/まい; Meaning: younger sister",
+    "note": "妹 = いもうと/まい — Meaning: younger sister",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3468,7 +3468,7 @@
       "aunt",
       "daughter"
     ],
-    "note": "妹 = いもうと/まい; Reading: いもうと (imouto)",
+    "note": "妹 = いもうと/まい — Reading: いもうと (imouto)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3482,7 +3482,7 @@
       "かぞく (kazoku)",
       "ひとり (hitori)"
     ],
-    "note": "友 = とも/ゆう; 友達 = ともだち Meaning: friend",
+    "note": "友 = とも/ゆう; 友達 = ともだち — Meaning: friend",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3496,7 +3496,7 @@
       "family",
       "alone"
     ],
-    "note": "友 = とも/ゆう; 友達 = ともだち Reading: とも (tomo)",
+    "note": "友 = とも/ゆう; 友達 = ともだち — Reading: とも (tomo)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3510,7 +3510,7 @@
       "からだ (karada)",
       "かた (kata)"
     ],
-    "note": "名 = な/めい; 名前 = name Meaning: name",
+    "note": "名 = な/めい; 名前 = name — Meaning: name",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3524,7 +3524,7 @@
       "body",
       "shoulder"
     ],
-    "note": "名 = な/めい; 名前 = name Reading: なまえ (namae)",
+    "note": "名 = な/めい; 名前 = name — Reading: なまえ (namae)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3538,7 +3538,7 @@
       "て (te)",
       "あし (ashi)"
     ],
-    "note": "体 = からだ/たい; Meaning: body",
+    "note": "体 = からだ/たい — Meaning: body",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3552,7 +3552,7 @@
       "hand",
       "foot"
     ],
-    "note": "体 = からだ/たい; Reading: からだ (karada)",
+    "note": "体 = からだ/たい — Reading: からだ (karada)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3566,7 +3566,7 @@
       "あし (ashi)",
       "からだ (karada)"
     ],
-    "note": "頭 = あたま/とう; Meaning: head",
+    "note": "頭 = あたま/とう — Meaning: head",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3580,7 +3580,7 @@
       "foot",
       "body"
     ],
-    "note": "頭 = あたま/とう; Reading: あたま (atama)",
+    "note": "頭 = あたま/とう — Reading: あたま (atama)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3594,7 +3594,7 @@
       "め (me)",
       "くち (kuchi)"
     ],
-    "note": "顔 = かお/がん; Meaning: face",
+    "note": "顔 = かお/がん — Meaning: face",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3608,7 +3608,7 @@
       "eye",
       "mouth"
     ],
-    "note": "顔 = かお/がん; Reading: かお (kao)",
+    "note": "顔 = かお/がん — Reading: かお (kao)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3622,7 +3622,7 @@
       "むら (mura)",
       "と (to)"
     ],
-    "note": "国 = くに/こく; Meaning: country",
+    "note": "国 = くに/こく — Meaning: country",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3636,7 +3636,7 @@
       "village",
       "city"
     ],
-    "note": "国 = くに/こく; Reading: くに (kuni)",
+    "note": "国 = くに/こく — Reading: くに (kuni)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3650,7 +3650,7 @@
       "しま (shima)",
       "と (to)"
     ],
-    "note": "町 = まち/ちょう; Meaning: town",
+    "note": "町 = まち/ちょう — Meaning: town",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3664,7 +3664,7 @@
       "island",
       "city"
     ],
-    "note": "町 = まち/ちょう; Reading: まち (machi)",
+    "note": "町 = まち/ちょう — Reading: まち (machi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3678,7 +3678,7 @@
       "しま (shima)",
       "と (to)"
     ],
-    "note": "村 = むら/そん; Meaning: village",
+    "note": "村 = むら/そん — Meaning: village",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3692,7 +3692,7 @@
       "island",
       "city"
     ],
-    "note": "村 = むら/そん; Reading: むら (mura)",
+    "note": "村 = むら/そん — Reading: むら (mura)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3706,7 +3706,7 @@
       "えき (eki)",
       "みせ (mise)"
     ],
-    "note": "道 = みち/どう; Meaning: road / way",
+    "note": "道 = みち/どう — Meaning: road / way",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3720,7 +3720,7 @@
       "station",
       "shop"
     ],
-    "note": "道 = みち/どう; Reading: みち (michi)",
+    "note": "道 = みち/どう — Reading: みち (michi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3734,7 +3734,7 @@
       "もり (mori)",
       "やま (yama)"
     ],
-    "note": "田 = た/でん; 田んぼ Meaning: rice field",
+    "note": "田 = た/でん; 田んぼ — Meaning: rice field",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3748,7 +3748,7 @@
       "forest",
       "mountain"
     ],
-    "note": "田 = た/でん; 田んぼ Reading: た (ta)",
+    "note": "田 = た/でん; 田んぼ — Reading: た (ta)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3762,7 +3762,7 @@
       "すな (suna)",
       "みず (mizu)"
     ],
-    "note": "石 = いし/せき; Meaning: stone / rock",
+    "note": "石 = いし/せき — Meaning: stone / rock",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3776,7 +3776,7 @@
       "sand",
       "water"
     ],
-    "note": "石 = いし/せき; Reading: いし (ishi)",
+    "note": "石 = いし/せき — Reading: いし (ishi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3790,7 +3790,7 @@
       "かべ (kabe)",
       "へや (heya)"
     ],
-    "note": "門 = もん; Meaning: gate",
+    "note": "門 = もん — Meaning: gate",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3804,7 +3804,7 @@
       "wall",
       "room"
     ],
-    "note": "門 = もん; Reading: もん (mon)",
+    "note": "門 = もん — Reading: もん (mon)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3818,7 +3818,7 @@
       "かき (kaki)",
       "はな (hana)"
     ],
-    "note": "学 = がく/まな; 学校/学生 Meaning: study / learning",
+    "note": "学 = がく/まな; 学校/学生 — Meaning: study / learning",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3832,7 +3832,7 @@
       "write",
       "speak"
     ],
-    "note": "学 = がく/まな; 学校/学生 Reading: がく (gaku)",
+    "note": "学 = がく/まな; 学校/学生 — Reading: がく (gaku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3846,7 +3846,7 @@
       "たてもの (tatemono)",
       "えき (eki)"
     ],
-    "note": "校 = こう; 学校 = がっこう Meaning: school",
+    "note": "校 = こう; 学校 = がっこう — Meaning: school",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3860,7 +3860,7 @@
       "building",
       "station"
     ],
-    "note": "校 = こう; 学校 = がっこう Reading: こう (kou)",
+    "note": "校 = こう; 学校 = がっこう — Reading: こう (kou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3874,7 +3874,7 @@
       "そだつ (sodatsu)",
       "はたらく (hataraku)"
     ],
-    "note": "生 = いきる/せい; 先生/学生 Meaning: live / life",
+    "note": "生 = いきる/せい; 先生/学生 — Meaning: live / life",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3888,7 +3888,7 @@
       "grow up",
       "work"
     ],
-    "note": "生 = いきる/せい; 先生/学生 Reading: いきる (ikiru)",
+    "note": "生 = いきる/せい; 先生/学生 — Reading: いきる (ikiru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3902,7 +3902,7 @@
       "あおい (aoi)",
       "きいろい (kiiroi)"
     ],
-    "note": "白 = しろい/はく; Meaning: white",
+    "note": "白 = しろい/はく — Meaning: white",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3916,7 +3916,7 @@
       "blue",
       "yellow"
     ],
-    "note": "白 = しろい/はく; Reading: しろい (shiroi)",
+    "note": "白 = しろい/はく — Reading: しろい (shiroi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3930,7 +3930,7 @@
       "あおい (aoi)",
       "きいろい (kiiroi)"
     ],
-    "note": "赤 = あかい/せき; Meaning: red",
+    "note": "赤 = あかい/せき — Meaning: red",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3944,7 +3944,7 @@
       "blue",
       "yellow"
     ],
-    "note": "赤 = あかい/せき; Reading: あかい (akai)",
+    "note": "赤 = あかい/せき — Reading: あかい (akai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3958,7 +3958,7 @@
       "くろい (kuroi)",
       "きいろい (kiiroi)"
     ],
-    "note": "青 = あおい/せい; also green in some contexts Meaning: blue",
+    "note": "青 = あおい/せい; also green in some contexts — Meaning: blue",
     "hint": "How do you read this kanji?"
   },
   {
@@ -3972,7 +3972,7 @@
       "black",
       "yellow"
     ],
-    "note": "青 = あおい/せい; also green in some contexts Reading: あおい (aoi)",
+    "note": "青 = あおい/せい; also green in some contexts — Reading: あおい (aoi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -3986,7 +3986,7 @@
       "あおい (aoi)",
       "きいろい (kiiroi)"
     ],
-    "note": "黒 = くろい/こく; Meaning: black",
+    "note": "黒 = くろい/こく — Meaning: black",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4000,7 +4000,7 @@
       "blue",
       "yellow"
     ],
-    "note": "黒 = くろい/こく; Reading: くろい (kuroi)",
+    "note": "黒 = くろい/こく — Reading: くろい (kuroi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4014,7 +4014,7 @@
       "おおきい (ookii)",
       "ちいさい (chiisai)"
     ],
-    "note": "高 = たかい/こう; Meaning: tall / expensive",
+    "note": "高 = たかい/こう — Meaning: tall / expensive",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4028,7 +4028,7 @@
       "big",
       "small"
     ],
-    "note": "高 = たかい/こう; Reading: たかい (takai)",
+    "note": "高 = たかい/こう — Reading: たかい (takai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4042,7 +4042,7 @@
       "きけん (kiken)",
       "むずかしい (muzukashii)"
     ],
-    "note": "安 = やすい/あん; 安全 = safe Meaning: cheap / safe",
+    "note": "安 = やすい/あん; 安全 = safe — Meaning: cheap / safe",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4056,7 +4056,7 @@
       "dangerous",
       "difficult"
     ],
-    "note": "安 = やすい/あん; 安全 = safe Reading: やすい (yasui)",
+    "note": "安 = やすい/あん; 安全 = safe — Reading: やすい (yasui)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4070,7 +4070,7 @@
       "おおきい (ookii)",
       "ちいさい (chiisai)"
     ],
-    "note": "新 = あたらしい/しん; 新幹線 Meaning: new",
+    "note": "新 = あたらしい/しん; 新幹線 — Meaning: new",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4084,7 +4084,7 @@
       "big",
       "small"
     ],
-    "note": "新 = あたらしい/しん; 新幹線 Reading: あたらしい (atarashii)",
+    "note": "新 = あたらしい/しん; 新幹線 — Reading: あたらしい (atarashii)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4098,7 +4098,7 @@
       "おおきい (ookii)",
       "たかい (takai)"
     ],
-    "note": "古 = ふるい/こ; for things, not people Meaning: old (thing)",
+    "note": "古 = ふるい/こ; for things, not people — Meaning: old (thing)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4112,7 +4112,7 @@
       "big",
       "expensive"
     ],
-    "note": "古 = ふるい/こ; for things, not people Reading: ふるい (furui)",
+    "note": "古 = ふるい/こ; for things, not people — Reading: ふるい (furui)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4126,7 +4126,7 @@
       "ひくい (hikui)",
       "ふとい (futoi)"
     ],
-    "note": "長 = ながい/ちょう; 長所 = strength Meaning: long",
+    "note": "長 = ながい/ちょう; 長所 = strength — Meaning: long",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4140,7 +4140,7 @@
       "low",
       "thick"
     ],
-    "note": "長 = ながい/ちょう; 長所 = strength Reading: ながい (nagai)",
+    "note": "長 = ながい/ちょう; 長所 = strength — Reading: ながい (nagai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4154,7 +4154,7 @@
       "おかしい (okashii)",
       "ふせいかく (fuseikaku)"
     ],
-    "note": "正 = ただしい/せい; 正しい Meaning: correct / right",
+    "note": "正 = ただしい/せい; 正しい — Meaning: correct / right",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4168,7 +4168,7 @@
       "strange",
       "inaccurate"
     ],
-    "note": "正 = ただしい/せい; 正しい Reading: ただしい (tadashii)",
+    "note": "正 = ただしい/せい; 正しい — Reading: ただしい (tadashii)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4182,7 +4182,7 @@
       "かお (kao)",
       "こえ (koe)"
     ],
-    "note": "気 = き/けい; 元気/天気/気持ち Meaning: spirit / energy / feeling",
+    "note": "気 = き/けい; 元気/天気/気持ち — Meaning: spirit / energy / feeling",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4196,7 +4196,7 @@
       "face",
       "voice"
     ],
-    "note": "気 = き/けい; 元気/天気/気持ち Reading: き (ki)",
+    "note": "気 = き/けい; 元気/天気/気持ち — Reading: き (ki)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4210,7 +4210,7 @@
       "やま (yama)",
       "そら (sora)"
     ],
-    "note": "天 = てん; 天気 = weather; 天国 = heaven Meaning: heaven / sky",
+    "note": "天 = てん; 天気 = weather; 天国 = heaven — Meaning: heaven / sky",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4224,7 +4224,7 @@
       "mountain",
       "sky"
     ],
-    "note": "天 = てん; 天気 = weather; 天国 = heaven Reading: てん (ten)",
+    "note": "天 = てん; 天気 = weather; 天国 = heaven — Reading: てん (ten)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4238,7 +4238,7 @@
       "うみ (umi)",
       "やま (yama)"
     ],
-    "note": "地 = ち/じ; 地図/地下鉄 Meaning: earth / ground",
+    "note": "地 = ち/じ; 地図/地下鉄 — Meaning: earth / ground",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4252,7 +4252,7 @@
       "sea",
       "mountain"
     ],
-    "note": "地 = ち/じ; 地図/地下鉄 Reading: ち (chi)",
+    "note": "地 = ち/じ; 地図/地下鉄 — Reading: ち (chi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4266,7 +4266,7 @@
       "にし (nishi)",
       "まんなか (mannaka)"
     ],
-    "note": "北 = きた/ほく; Meaning: north",
+    "note": "北 = きた/ほく — Meaning: north",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4280,7 +4280,7 @@
       "west",
       "center"
     ],
-    "note": "北 = きた/ほく; Reading: きた (kita)",
+    "note": "北 = きた/ほく — Reading: きた (kita)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4294,7 +4294,7 @@
       "にし (nishi)",
       "まんなか (mannaka)"
     ],
-    "note": "南 = みなみ/なん; Meaning: south",
+    "note": "南 = みなみ/なん — Meaning: south",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4308,7 +4308,7 @@
       "west",
       "center"
     ],
-    "note": "南 = みなみ/なん; Reading: みなみ (minami)",
+    "note": "南 = みなみ/なん — Reading: みなみ (minami)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4322,7 +4322,7 @@
       "みなみ (minami)",
       "まんなか (mannaka)"
     ],
-    "note": "東 = ひがし/とう; 東京 Meaning: east",
+    "note": "東 = ひがし/とう; 東京 — Meaning: east",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4336,7 +4336,7 @@
       "south",
       "center"
     ],
-    "note": "東 = ひがし/とう; 東京 Reading: ひがし (higashi)",
+    "note": "東 = ひがし/とう; 東京 — Reading: ひがし (higashi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4350,7 +4350,7 @@
       "みなみ (minami)",
       "まんなか (mannaka)"
     ],
-    "note": "西 = にし/さい/せい; Meaning: west",
+    "note": "西 = にし/さい/せい — Meaning: west",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4364,7 +4364,7 @@
       "south",
       "center"
     ],
-    "note": "西 = にし/さい/せい; Reading: にし (nishi)",
+    "note": "西 = にし/さい/せい — Reading: にし (nishi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4378,7 +4378,7 @@
       "うしろ (ushiro)",
       "うえ (ue)"
     ],
-    "note": "右 = みぎ/う; Meaning: right",
+    "note": "右 = みぎ/う — Meaning: right",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4392,7 +4392,7 @@
       "behind",
       "above"
     ],
-    "note": "右 = みぎ/う; Reading: みぎ (migi)",
+    "note": "右 = みぎ/う — Reading: みぎ (migi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4406,7 +4406,7 @@
       "うしろ (ushiro)",
       "うえ (ue)"
     ],
-    "note": "左 = ひだり/さ; Meaning: left",
+    "note": "左 = ひだり/さ — Meaning: left",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4420,7 +4420,7 @@
       "behind",
       "above"
     ],
-    "note": "左 = ひだり/さ; Reading: ひだり (hidari)",
+    "note": "左 = ひだり/さ — Reading: ひだり (hidari)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4434,7 +4434,7 @@
       "うえ (ue)",
       "した (shita)"
     ],
-    "note": "外 = そと/がい; 外国 = foreign country Meaning: outside",
+    "note": "外 = そと/がい; 外国 = foreign country — Meaning: outside",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4448,7 +4448,7 @@
       "above",
       "below"
     ],
-    "note": "外 = そと/がい; 外国 = foreign country Reading: そと (soto)",
+    "note": "外 = そと/がい; 外国 = foreign country — Reading: そと (soto)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4462,7 +4462,7 @@
       "よこ (yoko)",
       "うえ (ue)"
     ],
-    "note": "間 = あいだ/かん; 時間/人間 Meaning: between / interval",
+    "note": "間 = あいだ/かん; 時間/人間 — Meaning: between / interval",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4476,7 +4476,7 @@
       "beside",
       "above"
     ],
-    "note": "間 = あいだ/かん; 時間/人間 Reading: あいだ (aida)",
+    "note": "間 = あいだ/かん; 時間/人間 — Reading: あいだ (aida)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4490,7 +4490,7 @@
       "いつ (itsu)",
       "どれ (dore)"
     ],
-    "note": "何 = なに/なん; question word Meaning: what",
+    "note": "何 = なに/なん; question word — Meaning: what",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4504,7 +4504,7 @@
       "when",
       "which"
     ],
-    "note": "何 = なに/なん; question word Reading: なに (nani)",
+    "note": "何 = なに/なん; question word — Reading: なに (nani)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4518,7 +4518,7 @@
       "ぶん (bun)",
       "こえ (koe)"
     ],
-    "note": "語 = ご; 日本語/英語 Meaning: language / word",
+    "note": "語 = ご; 日本語/英語 — Meaning: language / word",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4532,7 +4532,7 @@
       "sentence",
       "voice"
     ],
-    "note": "語 = ご; 日本語/英語 Reading: ご (go)",
+    "note": "語 = ご; 日本語/英語 — Reading: ご (go)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4546,7 +4546,7 @@
       "ご (go)",
       "もじ (moji)"
     ],
-    "note": "字 = じ; 漢字/文字 Meaning: character / letter",
+    "note": "字 = じ; 漢字/文字 — Meaning: character / letter",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4560,7 +4560,7 @@
       "language",
       "character"
     ],
-    "note": "字 = じ; 漢字/文字 Reading: じ (ji)",
+    "note": "字 = じ; 漢字/文字 — Reading: じ (ji)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4574,7 +4574,7 @@
       "ぶん (bun)",
       "めいし (meishi)"
     ],
-    "note": "数 = かず/すう; 数学 = math Meaning: number",
+    "note": "数 = かず/すう; 数学 = math — Meaning: number",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4588,7 +4588,7 @@
       "sentence",
       "noun"
     ],
-    "note": "数 = かず/すう; 数学 = math Reading: かず (kazu)",
+    "note": "数 = かず/すう; 数学 = math — Reading: かず (kazu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4602,7 +4602,7 @@
       "ポンド (pondo)",
       "セント (sento)"
     ],
-    "note": "円 = えん; Japanese currency & circle Meaning: yen / circle",
+    "note": "円 = えん; Japanese currency & circle — Meaning: yen / circle",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4616,7 +4616,7 @@
       "pound",
       "cent"
     ],
-    "note": "円 = えん; Japanese currency & circle Reading: えん (en)",
+    "note": "円 = えん; Japanese currency & circle — Reading: えん (en)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4630,7 +4630,7 @@
       "かね (kane)",
       "はな (hana)"
     ],
-    "note": "玉 = たま; お金 comes from 玉 Meaning: ball / jewel",
+    "note": "玉 = たま; お金 comes from 玉 — Meaning: ball / jewel",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4644,7 +4644,7 @@
       "metal",
       "flower"
     ],
-    "note": "玉 = たま; お金 comes from 玉 Reading: たま (tama)",
+    "note": "玉 = たま; お金 comes from 玉 — Reading: たま (tama)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4658,7 +4658,7 @@
       "あるく (aruku)",
       "はしる (hashiru)"
     ],
-    "note": "立 = たつ/りつ; 立つ = to stand Meaning: stand",
+    "note": "立 = たつ/りつ; 立つ = to stand — Meaning: stand",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4672,7 +4672,7 @@
       "walk",
       "run"
     ],
-    "note": "立 = たつ/りつ; 立つ = to stand Reading: たつ (tatsu)",
+    "note": "立 = たつ/りつ; 立つ = to stand — Reading: たつ (tatsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4686,7 +4686,7 @@
       "べんきょうする",
       "いそぐ (isogu)"
     ],
-    "note": "休 = やすむ/きゅう; 休み = holiday/rest Meaning: rest",
+    "note": "休 = やすむ/きゅう; 休み = holiday/rest — Meaning: rest",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4700,7 +4700,7 @@
       "study",
       "hurry"
     ],
-    "note": "休 = やすむ/きゅう; 休み = holiday/rest Reading: やすむ (yasumu)",
+    "note": "休 = やすむ/きゅう; 休み = holiday/rest — Reading: やすむ (yasumu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4714,7 +4714,7 @@
       "かえる (kaeru)",
       "とまる (tomaru)"
     ],
-    "note": "出 = でる/しゅつ; 出口 = exit Meaning: exit / come out",
+    "note": "出 = でる/しゅつ; 出口 = exit — Meaning: exit / come out",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4728,7 +4728,7 @@
       "return",
       "stop"
     ],
-    "note": "出 = でる/しゅつ; 出口 = exit Reading: でる (deru)",
+    "note": "出 = でる/しゅつ; 出口 = exit — Reading: でる (deru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4742,7 +4742,7 @@
       "かえる (kaeru)",
       "さる (saru)"
     ],
-    "note": "入 = はいる/にゅう; 入口 = entrance Meaning: enter",
+    "note": "入 = はいる/にゅう; 入口 = entrance — Meaning: enter",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4756,7 +4756,7 @@
       "return",
       "leave"
     ],
-    "note": "入 = はいる/にゅう; 入口 = entrance Reading: はいる (hairu)",
+    "note": "入 = はいる/にゅう; 入口 = entrance — Reading: はいる (hairu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4770,7 +4770,7 @@
       "もつ (motsu)",
       "なげる (nageru)"
     ],
-    "note": "引 = ひく/いん; 引く vs 押す Meaning: pull",
+    "note": "引 = ひく/いん; 引く vs 押す — Meaning: pull",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4784,7 +4784,7 @@
       "hold",
       "throw"
     ],
-    "note": "引 = ひく/いん; 引く vs 押す Reading: ひく (hiku)",
+    "note": "引 = ひく/いん; 引く vs 押す — Reading: ひく (hiku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4798,7 +4798,7 @@
       "はる (haru)",
       "おる (oru)"
     ],
-    "note": "切 = きる/せつ; 大切 = important Meaning: cut",
+    "note": "切 = きる/せつ; 大切 = important — Meaning: cut",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4812,7 +4812,7 @@
       "paste",
       "fold"
     ],
-    "note": "切 = きる/せつ; 大切 = important Reading: きる (kiru)",
+    "note": "切 = きる/せつ; 大切 = important — Reading: きる (kiru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4826,7 +4826,7 @@
       "よむ (yomu)",
       "かく (kaku)"
     ],
-    "note": "聞 = きく/もん; also means to ask Meaning: hear / ask",
+    "note": "聞 = きく/もん; also means to ask — Meaning: hear / ask",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4840,7 +4840,7 @@
       "read",
       "write"
     ],
-    "note": "聞 = きく/もん; also means to ask Reading: きく (kiku)",
+    "note": "聞 = きく/もん; also means to ask — Reading: きく (kiku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4854,7 +4854,7 @@
       "やめる (yameru)",
       "とめる (tomeru)"
     ],
-    "note": "始 = はじめる/し; 始まる = to begin (intrans) Meaning: begin / start",
+    "note": "始 = はじめる/し; 始まる = to begin (intrans) — Meaning: begin / start",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4868,7 +4868,7 @@
       "quit",
       "stop"
     ],
-    "note": "始 = はじめる/し; 始まる = to begin (intrans) Reading: はじめる (hajimeru)",
+    "note": "始 = はじめる/し; 始まる = to begin (intrans) — Reading: はじめる (hajimeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4882,7 +4882,7 @@
       "すすむ (susumu)",
       "かえる (kaeru)"
     ],
-    "note": "終 = おわる/しゅう; 終わり = ending Meaning: end / finish",
+    "note": "終 = おわる/しゅう; 終わり = ending — Meaning: end / finish",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4896,7 +4896,7 @@
       "advance",
       "return"
     ],
-    "note": "終 = おわる/しゅう; 終わり = ending Reading: おわる (owaru)",
+    "note": "終 = おわる/しゅう; 終わり = ending — Reading: おわる (owaru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4910,7 +4910,7 @@
       "はいる (hairu)",
       "でる (deru)"
     ],
-    "note": "開 = あける/かい; 開く (intrans) / 開ける (trans) Meaning: open",
+    "note": "開 = あける/かい; 開く (intrans) / 開ける (trans) — Meaning: open",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4924,7 +4924,7 @@
       "enter",
       "exit"
     ],
-    "note": "開 = あける/かい; 開く (intrans) / 開ける (trans) Reading: あける (akeru)",
+    "note": "開 = あける/かい; 開く (intrans) / 開ける (trans) — Reading: あける (akeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4938,7 +4938,7 @@
       "まわす (mawasu)",
       "おす (osu)"
     ],
-    "note": "閉 = しめる/へい; 閉まる (intrans) / 閉める (trans) Meaning: close / shut",
+    "note": "閉 = しめる/へい; 閉まる (intrans) / 閉める (trans) — Meaning: close / shut",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4952,7 +4952,7 @@
       "turn",
       "push"
     ],
-    "note": "閉 = しめる/へい; 閉まる (intrans) / 閉める (trans) Reading: しめる (shimeru)",
+    "note": "閉 = しめる/へい; 閉まる (intrans) / 閉める (trans) — Reading: しめる (shimeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4966,7 +4966,7 @@
       "はいる (hairu)",
       "でる (deru)"
     ],
-    "note": "上 = あがる/じょう; 上げる (trans) Meaning: go up / rise",
+    "note": "上 = あがる/じょう; 上げる (trans) — Meaning: go up / rise",
     "hint": "How do you read this kanji?"
   },
   {
@@ -4980,7 +4980,7 @@
       "enter",
       "exit"
     ],
-    "note": "上 = あがる/じょう; 上げる (trans) Reading: あがる (agaru)",
+    "note": "上 = あがる/じょう; 上げる (trans) — Reading: あがる (agaru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -4994,7 +4994,7 @@
       "すすむ (susumu)",
       "かえる (kaeru)"
     ],
-    "note": "下 = さがる/か; 下げる (trans) Meaning: go down / fall",
+    "note": "下 = さがる/か; 下げる (trans) — Meaning: go down / fall",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5008,7 +5008,7 @@
       "advance",
       "return"
     ],
-    "note": "下 = さがる/か; 下げる (trans) Reading: さがる (sagaru)",
+    "note": "下 = さがる/か; 下げる (trans) — Reading: さがる (sagaru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5022,7 +5022,7 @@
       "すすむ (susumu)",
       "とまる (tomaru)"
     ],
-    "note": "走 = はしる/そう; Meaning: run",
+    "note": "走 = はしる/そう — Meaning: run",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5036,7 +5036,7 @@
       "advance",
       "stop"
     ],
-    "note": "走 = はしる/そう; Reading: はしる (hashiru)",
+    "note": "走 = はしる/そう — Reading: はしる (hashiru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5050,7 +5050,7 @@
       "すわる (suwaru)",
       "たつ (tatsu)"
     ],
-    "note": "歩 = あるく/ほ; 散歩 = walk Meaning: walk",
+    "note": "歩 = あるく/ほ; 散歩 = walk — Meaning: walk",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5064,7 +5064,7 @@
       "sit",
       "stand"
     ],
-    "note": "歩 = あるく/ほ; 散歩 = walk Reading: あるく (aruku)",
+    "note": "歩 = あるく/ほ; 散歩 = walk — Reading: あるく (aruku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5078,7 +5078,7 @@
       "あるく (aruku)",
       "とまる (tomaru)"
     ],
-    "note": "泳 = およぐ/えい; 水泳 = swimming Meaning: swim",
+    "note": "泳 = およぐ/えい; 水泳 = swimming — Meaning: swim",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5092,7 +5092,7 @@
       "walk",
       "stop"
     ],
-    "note": "泳 = およぐ/えい; 水泳 = swimming Reading: およぐ (oyogu)",
+    "note": "泳 = およぐ/えい; 水泳 = swimming — Reading: およぐ (oyogu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5106,7 +5106,7 @@
       "あるく (aruku)",
       "おりる (oriru)"
     ],
-    "note": "飛 = とぶ/ひ; 飛行機 = airplane Meaning: fly / jump",
+    "note": "飛 = とぶ/ひ; 飛行機 = airplane — Meaning: fly / jump",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5120,7 +5120,7 @@
       "walk",
       "land"
     ],
-    "note": "飛 = とぶ/ひ; 飛行機 = airplane Reading: とぶ (tobu)",
+    "note": "飛 = とぶ/ひ; 飛行機 = airplane — Reading: とぶ (tobu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5134,7 +5134,7 @@
       "はしる (hashiru)",
       "すわる (suwaru)"
     ],
-    "note": "乗 = のる/じょう; 乗り換え = transfer Meaning: ride / board",
+    "note": "乗 = のる/じょう; 乗り換え = transfer — Meaning: ride / board",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5148,7 +5148,7 @@
       "run",
       "sit"
     ],
-    "note": "乗 = のる/じょう; 乗り換え = transfer Reading: のる (noru)",
+    "note": "乗 = のる/じょう; 乗り換え = transfer — Reading: のる (noru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5162,7 +5162,7 @@
       "はいる (hairu)",
       "すすむ (susumu)"
     ],
-    "note": "降 = おりる/こう; 雨が降る = rain falls Meaning: get off / descend",
+    "note": "降 = おりる/こう; 雨が降る = rain falls — Meaning: get off / descend",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5176,7 +5176,7 @@
       "enter",
       "advance"
     ],
-    "note": "降 = おりる/こう; 雨が降る = rain falls Reading: おりる (oriru)",
+    "note": "降 = おりる/こう; 雨が降る = rain falls — Reading: おりる (oriru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5190,7 +5190,7 @@
       "とどく (todoku)",
       "かえす (kaesu)"
     ],
-    "note": "送 = おくる/そう; 送る = send; 送り迎え Meaning: send",
+    "note": "送 = おくる/そう; 送る = send; 送り迎え — Meaning: send",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5204,7 +5204,7 @@
       "arrive",
       "return"
     ],
-    "note": "送 = おくる/そう; 送る = send; 送り迎え Reading: おくる (okuru)",
+    "note": "送 = おくる/そう; 送る = send; 送り迎え — Reading: おくる (okuru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5218,7 +5218,7 @@
       "わたす (watasu)",
       "かえす (kaesu)"
     ],
-    "note": "受 = うける/じゅ; 受ける = take exam; 受付 = reception Meaning: receive / take (exam)",
+    "note": "受 = うける/じゅ; 受ける = take exam; 受付 = reception — Meaning: receive / take (exam)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5232,7 +5232,7 @@
       "hand over",
       "return"
     ],
-    "note": "受 = うける/じゅ; 受ける = take exam; 受付 = reception Reading: うける (ukeru)",
+    "note": "受 = うける/じゅ; 受ける = take exam; 受付 = reception — Reading: うける (ukeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5246,7 +5246,7 @@
       "おくる (okuru)",
       "わたす (watasu)"
     ],
-    "note": "貰 = もらう; giving/receiving set: あげる/くれる/もらう Meaning: receive",
+    "note": "貰 = もらう; giving/receiving set: あげる/くれる/もらう — Meaning: receive",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5260,7 +5260,7 @@
       "send",
       "hand over"
     ],
-    "note": "貰 = もらう; giving/receiving set: あげる/くれる/もらう Reading: もらう (morau)",
+    "note": "貰 = もらう; giving/receiving set: あげる/くれる/もらう — Reading: もらう (morau)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5274,7 +5274,7 @@
       "うける (ukeru)",
       "かえす (kaesu)"
     ],
-    "note": "上 = あげる; giving verb: あげる (I give) Meaning: give (to other) / raise",
+    "note": "上 = あげる; giving verb: あげる (I give) — Meaning: give (to other) / raise",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5288,7 +5288,7 @@
       "take",
       "return"
     ],
-    "note": "上 = あげる; giving verb: あげる (I give) Reading: あげる (ageru)",
+    "note": "上 = あげる; giving verb: あげる (I give) — Reading: あげる (ageru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5302,7 +5302,7 @@
       "はなす (hanasu)",
       "いう (iu)"
     ],
-    "note": "呼 = よぶ/こ; 呼ぶ = to call Meaning: call / invite",
+    "note": "呼 = よぶ/こ; 呼ぶ = to call — Meaning: call / invite",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5316,7 +5316,7 @@
       "speak",
       "say"
     ],
-    "note": "呼 = よぶ/こ; 呼ぶ = to call Reading: よぶ (yobu)",
+    "note": "呼 = よぶ/こ; 呼ぶ = to call — Reading: よぶ (yobu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5330,7 +5330,7 @@
       "よぶ (yobu)",
       "いう (iu)"
     ],
-    "note": "答 = こたえる/とう; 答え = answer Meaning: answer",
+    "note": "答 = こたえる/とう; 答え = answer — Meaning: answer",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5344,7 +5344,7 @@
       "call",
       "say"
     ],
-    "note": "答 = こたえる/とう; 答え = answer Reading: こたえる (kotaeru)",
+    "note": "答 = こたえる/とう; 答え = answer — Reading: こたえる (kotaeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5358,7 +5358,7 @@
       "とまる (tomaru)",
       "やすむ (yasumu)"
     ],
-    "note": "急 = いそぐ/きゅう; 急いで = hurry up! Meaning: hurry",
+    "note": "急 = いそぐ/きゅう; 急いで = hurry up! — Meaning: hurry",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5372,7 +5372,7 @@
       "stop",
       "rest"
     ],
-    "note": "急 = いそぐ/きゅう; 急いで = hurry up! Reading: いそぐ (isogu)",
+    "note": "急 = いそぐ/きゅう; 急いで = hurry up! — Reading: いそぐ (isogu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5386,7 +5386,7 @@
       "あんしんする",
       "なやむ (nayamu)"
     ],
-    "note": "困 = こまる/こん; 困った = troublesome Meaning: be troubled / in trouble",
+    "note": "困 = こまる/こん; 困った = troublesome — Meaning: be troubled / in trouble",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5400,7 +5400,7 @@
       "be relieved",
       "worry"
     ],
-    "note": "困 = こまる/こん; 困った = troublesome Reading: こまる (komaru)",
+    "note": "困 = こまる/こん; 困った = troublesome — Reading: こまる (komaru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5414,7 +5414,7 @@
       "よろこぶ (yorokobu)",
       "おどろく (odoroku)"
     ],
-    "note": "泣 = なく/きゅう; Meaning: cry",
+    "note": "泣 = なく/きゅう — Meaning: cry",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5428,7 +5428,7 @@
       "rejoice",
       "be surprised"
     ],
-    "note": "泣 = なく/きゅう; Reading: なく (naku)",
+    "note": "泣 = なく/きゅう — Reading: なく (naku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5442,7 +5442,7 @@
       "かなしむ (kanashimu)",
       "おどろく (odoroku)"
     ],
-    "note": "笑 = わらう/しょう; 笑顔 = smiling face Meaning: laugh / smile",
+    "note": "笑 = わらう/しょう; 笑顔 = smiling face — Meaning: laugh / smile",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5456,7 +5456,7 @@
       "grieve",
       "be surprised"
     ],
-    "note": "笑 = わらう/しょう; 笑顔 = smiling face Reading: わらう (warau)",
+    "note": "笑 = わらう/しょう; 笑顔 = smiling face — Reading: わらう (warau)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5470,7 +5470,7 @@
       "わらう (warau)",
       "かなしむ (kanashimu)"
     ],
-    "note": "怒 = おこる/ど; 怒鳴る = yell Meaning: get angry",
+    "note": "怒 = おこる/ど; 怒鳴る = yell — Meaning: get angry",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5484,7 +5484,7 @@
       "laugh",
       "grieve"
     ],
-    "note": "怒 = おこる/ど; 怒鳴る = yell Reading: おこる (okoru)",
+    "note": "怒 = おこる/ど; 怒鳴る = yell — Reading: おこる (okoru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5498,7 +5498,7 @@
       "おこる (okoru)",
       "こまる (komaru)"
     ],
-    "note": "喜 = よろこぶ/き; 喜び = joy Meaning: rejoice / be glad",
+    "note": "喜 = よろこぶ/き; 喜び = joy — Meaning: rejoice / be glad",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5512,7 +5512,7 @@
       "get angry",
       "be troubled"
     ],
-    "note": "喜 = よろこぶ/き; 喜び = joy Reading: よろこぶ (yorokobu)",
+    "note": "喜 = よろこぶ/き; 喜び = joy — Reading: よろこぶ (yorokobu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5526,7 +5526,7 @@
       "しずか (shizuka)",
       "あんい (anian)"
     ],
-    "note": "忙 = いそがしい/ぼう; 忙しい Meaning: busy",
+    "note": "忙 = いそがしい/ぼう; 忙しい — Meaning: busy",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5540,7 +5540,7 @@
       "quiet",
       "easy"
     ],
-    "note": "忙 = いそがしい/ぼう; 忙しい Reading: いそがしい (isogashii)",
+    "note": "忙 = いそがしい/ぼう; 忙しい — Reading: いそがしい (isogashii)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5554,7 +5554,7 @@
       "たいへん (taihen)",
       "むずかしい (muzukashii)"
     ],
-    "note": "暇 = ひま/か; 暇な時 = free time Meaning: free time / leisure",
+    "note": "暇 = ひま/か; 暇な時 = free time — Meaning: free time / leisure",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5568,7 +5568,7 @@
       "hard/serious",
       "difficult"
     ],
-    "note": "暇 = ひま/か; 暇な時 = free time Reading: ひま (hima)",
+    "note": "暇 = ひま/か; 暇な時 = free time — Reading: ひま (hima)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5582,7 +5582,7 @@
       "ちりょう (chiryou)",
       "かいふく (kaifuku)"
     ],
-    "note": "病 = びょう/へい; 病気/病院 Meaning: illness",
+    "note": "病 = びょう/へい; 病気/病院 — Meaning: illness",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5596,7 +5596,7 @@
       "treatment",
       "recovery"
     ],
-    "note": "病 = びょう/へい; 病気/病院 Reading: びょう (byou)",
+    "note": "病 = びょう/へい; 病気/病院 — Reading: びょう (byou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5610,7 +5610,7 @@
       "ところ (tokoro)",
       "しせつ (shisetsu)"
     ],
-    "note": "院 = いん; 病院/美容院/入院 Meaning: institution",
+    "note": "院 = いん; 病院/美容院/入院 — Meaning: institution",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5624,7 +5624,7 @@
       "place",
       "facility"
     ],
-    "note": "院 = いん; 病院/美容院/入院 Reading: いん (in)",
+    "note": "院 = いん; 病院/美容院/入院 — Reading: いん (in)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5638,7 +5638,7 @@
       "ちゅうしゃ (chuusha)",
       "しんさつ (shinsatsu)"
     ],
-    "note": "薬 = くすり/やく; 薬局 = pharmacy Meaning: medicine",
+    "note": "薬 = くすり/やく; 薬局 = pharmacy — Meaning: medicine",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5652,7 +5652,7 @@
       "injection",
       "examination"
     ],
-    "note": "薬 = くすり/やく; 薬局 = pharmacy Reading: くすり (kusuri)",
+    "note": "薬 = くすり/やく; 薬局 = pharmacy — Reading: くすり (kusuri)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5666,7 +5666,7 @@
       "かんご (kango)",
       "ちりょう (chiryou)"
     ],
-    "note": "医 = い; 医者/医療 Meaning: medicine / doctor",
+    "note": "医 = い; 医者/医療 — Meaning: medicine / doctor",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5680,7 +5680,7 @@
       "nursing",
       "treatment"
     ],
-    "note": "医 = い; 医者/医療 Reading: い (i)",
+    "note": "医 = い; 医者/医療 — Reading: い (i)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5694,7 +5694,7 @@
       "うんどう (undou)",
       "いみ (imi)"
     ],
-    "note": "運 = うん/うごく; 運動/運転/運 Meaning: luck / carry",
+    "note": "運 = うん/うごく; 運動/運転/運 — Meaning: luck / carry",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5708,7 +5708,7 @@
       "exercise",
       "meaning"
     ],
-    "note": "運 = うん/うごく; 運動/運転/運 Reading: うん (un)",
+    "note": "運 = うん/うごく; 運動/運転/運 — Reading: うん (un)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5722,7 +5722,7 @@
       "やすむ (yasumu)",
       "たつ (tatsu)"
     ],
-    "note": "動 = うごく/どう; 運動/感動 Meaning: move",
+    "note": "動 = うごく/どう; 運動/感動 — Meaning: move",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5736,7 +5736,7 @@
       "rest",
       "stand"
     ],
-    "note": "動 = うごく/どう; 運動/感動 Reading: うごく (ugoku)",
+    "note": "動 = うごく/どう; 運動/感動 — Reading: うごく (ugoku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5750,7 +5750,7 @@
       "て (te)",
       "あし (ashi)"
     ],
-    "note": "体 = からだ/たい; 体育/体操 Meaning: body",
+    "note": "体 = からだ/たい; 体育/体操 — Meaning: body",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5764,7 +5764,7 @@
       "hand",
       "foot"
     ],
-    "note": "体 = からだ/たい; 体育/体操 Reading: からだ (karada)",
+    "note": "体 = からだ/たい; 体育/体操 — Reading: からだ (karada)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5778,7 +5778,7 @@
       "かお (kao)",
       "め (me)"
     ],
-    "note": "心 = こころ/しん; 心配/安心 Meaning: heart / mind",
+    "note": "心 = こころ/しん; 心配/安心 — Meaning: heart / mind",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5792,7 +5792,7 @@
       "face",
       "eye"
     ],
-    "note": "心 = こころ/しん; 心配/安心 Reading: こころ (kokoro)",
+    "note": "心 = こころ/しん; 心配/安心 — Reading: こころ (kokoro)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5806,7 +5806,7 @@
       "かたい (katai)",
       "かるい (karui)"
     ],
-    "note": "強 = つよい/きょう; 強い/勉強 Meaning: strong",
+    "note": "強 = つよい/きょう; 強い/勉強 — Meaning: strong",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5820,7 +5820,7 @@
       "hard",
       "light"
     ],
-    "note": "強 = つよい/きょう; 強い/勉強 Reading: つよい (tsuyoi)",
+    "note": "強 = つよい/きょう; 強い/勉強 — Reading: つよい (tsuyoi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5834,7 +5834,7 @@
       "おもい (omoi)",
       "むずかしい (muzukashii)"
     ],
-    "note": "弱 = よわい/じゃく; Meaning: weak",
+    "note": "弱 = よわい/じゃく — Meaning: weak",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5848,7 +5848,7 @@
       "heavy",
       "difficult"
     ],
-    "note": "弱 = よわい/じゃく; Reading: よわい (yowai)",
+    "note": "弱 = よわい/じゃく — Reading: よわい (yowai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5862,7 +5862,7 @@
       "ちかい (chikai)",
       "とおい (tooi)"
     ],
-    "note": "速 = はやい/そく; 速度 = speed (cf 早い = early) Meaning: fast (speed)",
+    "note": "速 = はやい/そく; 速度 = speed (cf 早い = early) — Meaning: fast (speed)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5876,7 +5876,7 @@
       "near",
       "far"
     ],
-    "note": "速 = はやい/そく; 速度 = speed (cf 早い = early) Reading: はやい (hayai)",
+    "note": "速 = はやい/そく; 速度 = speed (cf 早い = early) — Reading: はやい (hayai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5890,7 +5890,7 @@
       "とおい (tooi)",
       "ながい (nagai)"
     ],
-    "note": "遅 = おそい/ち; 遅れる = be late Meaning: slow / late",
+    "note": "遅 = おそい/ち; 遅れる = be late — Meaning: slow / late",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5904,7 +5904,7 @@
       "far",
       "long"
     ],
-    "note": "遅 = おそい/ち; 遅れる = be late Reading: おそい (osoi)",
+    "note": "遅 = おそい/ち; 遅れる = be late — Reading: おそい (osoi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5918,7 +5918,7 @@
       "おそい (osoi)",
       "ひろい (hiroi)"
     ],
-    "note": "近 = ちかい/きん; 近所 = neighborhood Meaning: near",
+    "note": "近 = ちかい/きん; 近所 = neighborhood — Meaning: near",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5932,7 +5932,7 @@
       "slow",
       "wide"
     ],
-    "note": "近 = ちかい/きん; 近所 = neighborhood Reading: ちかい (chikai)",
+    "note": "近 = ちかい/きん; 近所 = neighborhood — Reading: ちかい (chikai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5946,7 +5946,7 @@
       "おおきい (ookii)",
       "たかい (takai)"
     ],
-    "note": "遠 = とおい/えん; 遠足 = field trip Meaning: far",
+    "note": "遠 = とおい/えん; 遠足 = field trip — Meaning: far",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5960,7 +5960,7 @@
       "big",
       "expensive"
     ],
-    "note": "遠 = とおい/えん; 遠足 = field trip Reading: とおい (tooi)",
+    "note": "遠 = とおい/えん; 遠足 = field trip — Reading: とおい (tooi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -5974,7 +5974,7 @@
       "たかい (takai)",
       "おおきい (ookii)"
     ],
-    "note": "広 = ひろい/こう; 広場 = plaza Meaning: wide / spacious",
+    "note": "広 = ひろい/こう; 広場 = plaza — Meaning: wide / spacious",
     "hint": "How do you read this kanji?"
   },
   {
@@ -5988,7 +5988,7 @@
       "tall",
       "big"
     ],
-    "note": "広 = ひろい/こう; 広場 = plaza Reading: ひろい (hiroi)",
+    "note": "広 = ひろい/こう; 広場 = plaza — Reading: ひろい (hiroi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6002,7 +6002,7 @@
       "たかい (takai)",
       "ながい (nagai)"
     ],
-    "note": "狭 = せまい/きょう; Meaning: narrow",
+    "note": "狭 = せまい/きょう — Meaning: narrow",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6016,7 +6016,7 @@
       "tall",
       "long"
     ],
-    "note": "狭 = せまい/きょう; Reading: せまい (semai)",
+    "note": "狭 = せまい/きょう — Reading: せまい (semai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6030,7 +6030,7 @@
       "わずか (wazuka)",
       "ちょっと (chotto)"
     ],
-    "note": "多 = おおい/た; 多い = many; 多分 = probably Meaning: many / a lot",
+    "note": "多 = おおい/た; 多い = many; 多分 = probably — Meaning: many / a lot",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6044,7 +6044,7 @@
       "a little",
       "a bit"
     ],
-    "note": "多 = おおい/た; 多い = many; 多分 = probably Reading: おおい (ooi)",
+    "note": "多 = おおい/た; 多い = many; 多分 = probably — Reading: おおい (ooi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6058,7 +6058,7 @@
       "じゅうぶん (juubun)",
       "おおく (ooku)"
     ],
-    "note": "少 = すくない/しょう; 少し = a little Meaning: few / little",
+    "note": "少 = すくない/しょう; 少し = a little — Meaning: few / little",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6072,7 +6072,7 @@
       "enough",
       "huge amount"
     ],
-    "note": "少 = すくない/しょう; 少し = a little Reading: すくない (sukunai)",
+    "note": "少 = すくない/しょう; 少し = a little — Reading: すくない (sukunai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6086,7 +6086,7 @@
       "ぼんやり (bonyari)",
       "くもり (kumori)"
     ],
-    "note": "明 = あかるい/めい; 明るい/明日/説明 Meaning: bright / clear",
+    "note": "明 = あかるい/めい; 明るい/明日/説明 — Meaning: bright / clear",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6100,7 +6100,7 @@
       "vague",
       "cloudy"
     ],
-    "note": "明 = あかるい/めい; 明るい/明日/説明 Reading: あかるい (akarui)",
+    "note": "明 = あかるい/めい; 明るい/明日/説明 — Reading: あかるい (akarui)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6114,7 +6114,7 @@
       "あおい (aoi)",
       "きいろい (kiiroi)"
     ],
-    "note": "暗 = くらい/あん; 暗い/暗記 Meaning: dark",
+    "note": "暗 = くらい/あん; 暗い/暗記 — Meaning: dark",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6128,7 +6128,7 @@
       "blue",
       "yellow"
     ],
-    "note": "暗 = くらい/あん; 暗い/暗記 Reading: くらい (kurai)",
+    "note": "暗 = くらい/あん; 暗い/暗記 — Reading: くらい (kurai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6142,7 +6142,7 @@
       "あたたかい (atatakai)",
       "ぬるい (nurui)"
     ],
-    "note": "暑 = あつい/しょ; weather hot (cf 熱い = hot to touch) Meaning: hot (weather)",
+    "note": "暑 = あつい/しょ; weather hot (cf 熱い = hot to touch) — Meaning: hot (weather)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6156,7 +6156,7 @@
       "warm",
       "lukewarm"
     ],
-    "note": "暑 = あつい/しょ; weather hot (cf 熱い = hot to touch) Reading: あつい (atsui)",
+    "note": "暑 = あつい/しょ; weather hot (cf 熱い = hot to touch) — Reading: あつい (atsui)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6170,7 +6170,7 @@
       "すずしい (suzushii)",
       "ぬるい (nurui)"
     ],
-    "note": "寒 = さむい/かん; weather cold (cf 冷たい = cold to touch) Meaning: cold (weather)",
+    "note": "寒 = さむい/かん; weather cold (cf 冷たい = cold to touch) — Meaning: cold (weather)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6184,7 +6184,7 @@
       "cool",
       "lukewarm"
     ],
-    "note": "寒 = さむい/かん; weather cold (cf 冷たい = cold to touch) Reading: さむい (samui)",
+    "note": "寒 = さむい/かん; weather cold (cf 冷たい = cold to touch) — Reading: さむい (samui)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6198,7 +6198,7 @@
       "すずしい (suzushii)",
       "ひんやり (hinyari)"
     ],
-    "note": "温 = あたたかい/おん; 温度/温泉 Meaning: warm",
+    "note": "温 = あたたかい/おん; 温度/温泉 — Meaning: warm",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6212,7 +6212,7 @@
       "cool",
       "chilly"
     ],
-    "note": "温 = あたたかい/おん; 温度/温泉 Reading: あたたかい (atatakai)",
+    "note": "温 = あたたかい/おん; 温度/温泉 — Reading: あたたかい (atatakai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6226,7 +6226,7 @@
       "ぬるい (nurui)",
       "すずしい (suzushii)"
     ],
-    "note": "冷 = つめたい/れい; 冷たい/冷蔵庫/冷静 Meaning: cold (to touch)",
+    "note": "冷 = つめたい/れい; 冷たい/冷蔵庫/冷静 — Meaning: cold (to touch)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6240,7 +6240,7 @@
       "lukewarm",
       "cool"
     ],
-    "note": "冷 = つめたい/れい; 冷たい/冷蔵庫/冷静 Reading: つめたい (tsumetai)",
+    "note": "冷 = つめたい/れい; 冷たい/冷蔵庫/冷静 — Reading: つめたい (tsumetai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6254,7 +6254,7 @@
       "ゆき (yuki)",
       "かぜ (kaze)"
     ],
-    "note": "晴 = はれる/せい; 晴れ = sunny Meaning: clear up (weather)",
+    "note": "晴 = はれる/せい; 晴れ = sunny — Meaning: clear up (weather)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6268,7 +6268,7 @@
       "snow",
       "wind"
     ],
-    "note": "晴 = はれる/せい; 晴れ = sunny Reading: はれる (hareru)",
+    "note": "晴 = はれる/せい; 晴れ = sunny — Reading: はれる (hareru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6282,7 +6282,7 @@
       "ゆき (yuki)",
       "ふく (fuku)"
     ],
-    "note": "曇 = くもる/どん; 曇り = cloudy Meaning: become cloudy",
+    "note": "曇 = くもる/どん; 曇り = cloudy — Meaning: become cloudy",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6296,7 +6296,7 @@
       "snow",
       "blow"
     ],
-    "note": "曇 = くもる/どん; 曇り = cloudy Reading: くもる (kumoru)",
+    "note": "曇 = くもる/どん; 曇り = cloudy — Reading: くもる (kumoru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6310,7 +6310,7 @@
       "くる (kuru)",
       "すむ (sumu)"
     ],
-    "note": "旅 = たび/りょ; 旅行 = travel Meaning: travel / journey",
+    "note": "旅 = たび/りょ; 旅行 = travel — Meaning: travel / journey",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6324,7 +6324,7 @@
       "come",
       "live"
     ],
-    "note": "旅 = たび/りょ; 旅行 = travel Reading: たび (tabi)",
+    "note": "旅 = たび/りょ; 旅行 = travel — Reading: たび (tabi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6338,7 +6338,7 @@
       "みずうみ (mizuumi)",
       "いけ (ike)"
     ],
-    "note": "海 = うみ/かい; 海外 = overseas Meaning: sea / ocean",
+    "note": "海 = うみ/かい; 海外 = overseas — Meaning: sea / ocean",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6352,7 +6352,7 @@
       "lake",
       "pond"
     ],
-    "note": "海 = うみ/かい; 海外 = overseas Reading: うみ (umi)",
+    "note": "海 = うみ/かい; 海外 = overseas — Reading: うみ (umi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6366,7 +6366,7 @@
       "みずうみ (mizuumi)",
       "たき (taki)"
     ],
-    "note": "池 = いけ/ち; Meaning: pond",
+    "note": "池 = いけ/ち — Meaning: pond",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6380,7 +6380,7 @@
       "lake",
       "waterfall"
     ],
-    "note": "池 = いけ/ち; Reading: いけ (ike)",
+    "note": "池 = いけ/ち — Reading: いけ (ike)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6394,7 +6394,7 @@
       "えき (eki)",
       "つうろ (tsuurou)"
     ],
-    "note": "橋 = はし/きょう; Meaning: bridge",
+    "note": "橋 = はし/きょう — Meaning: bridge",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6408,7 +6408,7 @@
       "station",
       "passage"
     ],
-    "note": "橋 = はし/きょう; Reading: はし (hashi)",
+    "note": "橋 = はし/きょう — Reading: はし (hashi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6422,7 +6422,7 @@
       "ていりゅうじょ (teiryuujo)",
       "バスてい (basu tei)"
     ],
-    "note": "駅 = えき; 駅員 = station staff Meaning: station",
+    "note": "駅 = えき; 駅員 = station staff — Meaning: station",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6436,7 +6436,7 @@
       "bus stop",
       "intersection"
     ],
-    "note": "駅 = えき; 駅員 = station staff Reading: えき (eki)",
+    "note": "駅 = えき; 駅員 = station staff — Reading: えき (eki)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6450,7 +6450,7 @@
       "もじ (moji)",
       "ひょう (hyou)"
     ],
-    "note": "図 = ず/と; 地図/図書館 Meaning: diagram / map",
+    "note": "図 = ず/と; 地図/図書館 — Meaning: diagram / map",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6464,7 +6464,7 @@
       "character",
       "chart"
     ],
-    "note": "図 = ず/と; 地図/図書館 Reading: ず (zu)",
+    "note": "図 = ず/と; 地図/図書館 — Reading: ず (zu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6478,7 +6478,7 @@
       "ところ (tokoro)",
       "いえ (ie)"
     ],
-    "note": "館 = かん; 図書館/体育館/美術館 Meaning: building / hall",
+    "note": "館 = かん; 図書館/体育館/美術館 — Meaning: building / hall",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6492,7 +6492,7 @@
       "place",
       "house"
     ],
-    "note": "館 = かん; 図書館/体育館/美術館 Reading: かん (kan)",
+    "note": "館 = かん; 図書館/体育館/美術館 — Reading: かん (kan)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6506,7 +6506,7 @@
       "かん (kan)",
       "いえ (ie)"
     ],
-    "note": "室 = しつ; 教室/洋室/和室 Meaning: room",
+    "note": "室 = しつ; 教室/洋室/和室 — Meaning: room",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6520,7 +6520,7 @@
       "building/hall",
       "house"
     ],
-    "note": "室 = しつ; 教室/洋室/和室 Reading: しつ (shitsu)",
+    "note": "室 = しつ; 教室/洋室/和室 — Reading: しつ (shitsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6534,7 +6534,7 @@
       "かん (kan)",
       "しつ (shitsu)"
     ],
-    "note": "階 = かい; 3階 = 3rd floor; 階段 = stairs Meaning: floor / story",
+    "note": "階 = かい; 3階 = 3rd floor; 階段 = stairs — Meaning: floor / story",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6548,7 +6548,7 @@
       "hall",
       "basement"
     ],
-    "note": "階 = かい; 3階 = 3rd floor; 階段 = stairs Reading: かい (kai)",
+    "note": "階 = かい; 3階 = 3rd floor; 階段 = stairs — Reading: かい (kai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6562,7 +6562,7 @@
       "うち (uchi)",
       "かいしゃ (kaisha)"
     ],
-    "note": "家 = いえ/か; いえ = house; うち = my home; 家族 Meaning: house",
+    "note": "家 = いえ/か; いえ = house; うち = my home; 家族 — Meaning: house",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6576,7 +6576,7 @@
       "home",
       "company"
     ],
-    "note": "家 = いえ/か; いえ = house; うち = my home; 家族 Reading: いえ (ie)",
+    "note": "家 = いえ/か; いえ = house; うち = my home; 家族 — Reading: いえ (ie)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6590,7 +6590,7 @@
       "ともだち (tomodachi)",
       "しゃかい (shakai)"
     ],
-    "note": "族 = ぞく; 家族/民族/部族 Meaning: family / tribe",
+    "note": "族 = ぞく; 家族/民族/部族 — Meaning: family / tribe",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6604,7 +6604,7 @@
       "friend",
       "society"
     ],
-    "note": "族 = ぞく; 家族/民族/部族 Reading: ぞく (zoku)",
+    "note": "族 = ぞく; 家族/民族/部族 — Reading: ぞく (zoku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6618,7 +6618,7 @@
       "ともだち (tomodachi)",
       "あに (ani)"
     ],
-    "note": "親 = おや/しん; 親切 = kind; 両親 = parents Meaning: parent",
+    "note": "親 = おや/しん; 親切 = kind; 両親 = parents — Meaning: parent",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6632,7 +6632,7 @@
       "friend",
       "older brother"
     ],
-    "note": "親 = おや/しん; 親切 = kind; 両親 = parents Reading: おや (oya)",
+    "note": "親 = おや/しん; 親切 = kind; 両親 = parents — Reading: おや (oya)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6646,7 +6646,7 @@
       "こ (ko)",
       "かれ (kare)"
     ],
-    "note": "夫 = おっと/ふ; 夫婦 = married couple Meaning: husband",
+    "note": "夫 = おっと/ふ; 夫婦 = married couple — Meaning: husband",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6660,7 +6660,7 @@
       "child",
       "boyfriend"
     ],
-    "note": "夫 = おっと/ふ; 夫婦 = married couple Reading: おっと (otto)",
+    "note": "夫 = おっと/ふ; 夫婦 = married couple — Reading: おっと (otto)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6674,7 +6674,7 @@
       "こ (ko)",
       "かのじょ (kanojo)"
     ],
-    "note": "妻 = つま/さい; Meaning: wife",
+    "note": "妻 = つま/さい — Meaning: wife",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6688,7 +6688,7 @@
       "child",
       "girlfriend"
     ],
-    "note": "妻 = つま/さい; Reading: つま (tsuma)",
+    "note": "妻 = つま/さい — Reading: つま (tsuma)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6702,7 +6702,7 @@
       "こども (kodomo)",
       "ふるい (furui)"
     ],
-    "note": "若 = わかい/じゃく; Meaning: young",
+    "note": "若 = わかい/じゃく — Meaning: young",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6716,7 +6716,7 @@
       "child",
       "old (thing)"
     ],
-    "note": "若 = わかい/じゃく; Reading: わかい (wakai)",
+    "note": "若 = わかい/じゃく — Reading: わかい (wakai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6730,7 +6730,7 @@
       "にち (nichi)",
       "じかん (jikan)"
     ],
-    "note": "歳 = さい; 何歳 = how old; also 才 Meaning: years old",
+    "note": "歳 = さい; 何歳 = how old; also 才 — Meaning: years old",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6744,7 +6744,7 @@
       "day",
       "hour"
     ],
-    "note": "歳 = さい; 何歳 = how old; also 才 Reading: さい (sai)",
+    "note": "歳 = さい; 何歳 = how old; also 才 — Reading: さい (sai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6758,7 +6758,7 @@
       "うちゅう (uchuu)",
       "しぜん (shizen)"
     ],
-    "note": "世 = よ/せ; 世界 = world; 世代 = generation Meaning: world / generation",
+    "note": "世 = よ/せ; 世界 = world; 世代 = generation — Meaning: world / generation",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6772,7 +6772,7 @@
       "universe",
       "nature"
     ],
-    "note": "世 = よ/せ; 世界 = world; 世代 = generation Reading: よ (yo)",
+    "note": "世 = よ/せ; 世界 = world; 世代 = generation — Reading: よ (yo)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6786,7 +6786,7 @@
       "しぜん (shizen)",
       "うちゅう (uchuu)"
     ],
-    "note": "界 = かい; 世界/業界 Meaning: world / boundary",
+    "note": "界 = かい; 世界/業界 — Meaning: world / boundary",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6800,7 +6800,7 @@
       "nature",
       "universe"
     ],
-    "note": "界 = かい; 世界/業界 Reading: かい (kai)",
+    "note": "界 = かい; 世界/業界 — Reading: かい (kai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6814,7 +6814,7 @@
       "じんじゃ (jinja)",
       "がっこう (gakkou)"
     ],
-    "note": "社 = しゃ; 会社/神社 Meaning: company / shrine",
+    "note": "社 = しゃ; 会社/神社 — Meaning: company / shrine",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6828,7 +6828,7 @@
       "shrine",
       "school"
     ],
-    "note": "社 = しゃ; 会社/神社 Reading: しゃ (sha)",
+    "note": "社 = しゃ; 会社/神社 — Reading: しゃ (sha)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6842,7 +6842,7 @@
       "がくせい (gakusei)",
       "しゃちょう (shachou)"
     ],
-    "note": "員 = いん; 店員/社員/会員 Meaning: member / staff",
+    "note": "員 = いん; 店員/社員/会員 — Meaning: member / staff",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6856,7 +6856,7 @@
       "student",
       "company president"
     ],
-    "note": "員 = いん; 店員/社員/会員 Reading: いん (in)",
+    "note": "員 = いん; 店員/社員/会員 — Reading: いん (in)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6870,7 +6870,7 @@
       "しゃちょう (shachou)",
       "いいん (iin)"
     ],
-    "note": "長 = ちょう/ながい; 社長/部長/校長 Meaning: chief / head",
+    "note": "長 = ちょう/ながい; 社長/部長/校長 — Meaning: chief / head",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6884,7 +6884,7 @@
       "company president",
       "committee member"
     ],
-    "note": "長 = ちょう/ながい; 社長/部長/校長 Reading: ちょう (chou)",
+    "note": "長 = ちょう/ながい; 社長/部長/校長 — Reading: ちょう (chou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6898,7 +6898,7 @@
       "かい (kai)",
       "かん (kan)"
     ],
-    "note": "部 = ぶ; 部活/部屋/全部 Meaning: department / club",
+    "note": "部 = ぶ; 部活/部屋/全部 — Meaning: department / club",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6912,7 +6912,7 @@
       "meeting/floor",
       "building"
     ],
-    "note": "部 = ぶ; 部活/部屋/全部 Reading: ぶ (bu)",
+    "note": "部 = ぶ; 部活/部屋/全部 — Reading: ぶ (bu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6926,7 +6926,7 @@
       "がっか (gakka)",
       "せんもん (senmon)"
     ],
-    "note": "科 = か/こ; 科目/理科/歯科 Meaning: department / subject",
+    "note": "科 = か/こ; 科目/理科/歯科 — Meaning: department / subject",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6940,7 +6940,7 @@
       "subject",
       "specialty"
     ],
-    "note": "科 = か/こ; 科目/理科/歯科 Reading: か (ka)",
+    "note": "科 = か/こ; 科目/理科/歯科 — Reading: か (ka)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6954,7 +6954,7 @@
       "しつもん (shitsumon)",
       "けっか (kekka)"
     ],
-    "note": "問 = もん; 問題/質問/問い合わせ Meaning: question / problem",
+    "note": "問 = もん; 問題/質問/問い合わせ — Meaning: question / problem",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6968,7 +6968,7 @@
       "question",
       "result"
     ],
-    "note": "問 = もん; 問題/質問/問い合わせ Reading: もん (mon)",
+    "note": "問 = もん; 問題/質問/問い合わせ — Reading: もん (mon)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -6982,7 +6982,7 @@
       "ないよう (naiyou)",
       "けっか (kekka)"
     ],
-    "note": "題 = だい; 問題/題名/宿題 Meaning: topic / title",
+    "note": "題 = だい; 問題/題名/宿題 — Meaning: topic / title",
     "hint": "How do you read this kanji?"
   },
   {
@@ -6996,7 +6996,7 @@
       "content",
       "result"
     ],
-    "note": "題 = だい; 問題/題名/宿題 Reading: だい (dai)",
+    "note": "題 = だい; 問題/題名/宿題 — Reading: だい (dai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7010,7 +7010,7 @@
       "いみ (imi)",
       "もくてき (mokuteki)"
     ],
-    "note": "意 = い; 意味/意見/注意 Meaning: meaning / intention",
+    "note": "意 = い; 意味/意見/注意 — Meaning: meaning / intention",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7024,7 +7024,7 @@
       "meaning",
       "purpose"
     ],
-    "note": "意 = い; 意味/意見/注意 Reading: い (i)",
+    "note": "意 = い; 意味/意見/注意 — Reading: い (i)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7038,7 +7038,7 @@
       "りょうり (ryouri)",
       "しょくひん (shokuhin)"
     ],
-    "note": "味 = あじ/み; 意味/味方 Meaning: taste / flavor",
+    "note": "味 = あじ/み; 意味/味方 — Meaning: taste / flavor",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7052,7 +7052,7 @@
       "dish",
       "food item"
     ],
-    "note": "味 = あじ/み; 意味/味方 Reading: あじ (aji)",
+    "note": "味 = あじ/み; 意味/味方 — Reading: あじ (aji)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7066,7 +7066,7 @@
       "ひよう (hiyou)",
       "ちんぎん (chingin)"
     ],
-    "note": "料 = りょう; 料理/料金/材料 Meaning: fee / material",
+    "note": "料 = りょう; 料理/料金/材料 — Meaning: fee / material",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7080,7 +7080,7 @@
       "cost",
       "wage"
     ],
-    "note": "料 = りょう; 料理/料金/材料 Reading: りょう (ryou)",
+    "note": "料 = りょう; 料理/料金/材料 — Reading: りょう (ryou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7094,7 +7094,7 @@
       "いみ (imi)",
       "もくてき (mokuteki)"
     ],
-    "note": "理 = り; 料理/理由/理解 Meaning: reason / logic",
+    "note": "理 = り; 料理/理由/理解 — Meaning: reason / logic",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7108,7 +7108,7 @@
       "meaning",
       "purpose"
     ],
-    "note": "理 = り; 料理/理由/理解 Reading: り (ri)",
+    "note": "理 = り; 料理/理由/理解 — Reading: り (ri)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7122,7 +7122,7 @@
       "いみ (imi)",
       "わけ (wake)"
     ],
-    "note": "由 = ゆう/よし; 理由 = reason; 自由 = freedom Meaning: reason / cause",
+    "note": "由 = ゆう/よし; 理由 = reason; 自由 = freedom — Meaning: reason / cause",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7136,7 +7136,7 @@
       "meaning",
       "reason"
     ],
-    "note": "由 = ゆう/よし; 理由 = reason; 自由 = freedom Reading: ゆう (yuu)",
+    "note": "由 = ゆう/よし; 理由 = reason; 自由 = freedom — Reading: ゆう (yuu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7150,7 +7150,7 @@
       "じぶん (jibun)",
       "かれ (kare)"
     ],
-    "note": "自 = じ/みずから; 自分/自動/自由 Meaning: self",
+    "note": "自 = じ/みずから; 自分/自動/自由 — Meaning: self",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7164,7 +7164,7 @@
       "oneself",
       "he"
     ],
-    "note": "自 = じ/みずから; 自分/自動/自由 Reading: じ (ji)",
+    "note": "自 = じ/みずから; 自分/自動/自由 — Reading: じ (ji)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7178,7 +7178,7 @@
       "じどう (jidou)",
       "とうぜん (touzen)"
     ],
-    "note": "然 = ぜん/ねん; 自然/当然/全然 Meaning: nature / naturally",
+    "note": "然 = ぜん/ねん; 自然/当然/全然 — Meaning: nature / naturally",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7192,7 +7192,7 @@
       "automatic",
       "natural/obvious"
     ],
-    "note": "然 = ぜん/ねん; 自然/当然/全然 Reading: ぜん (zen)",
+    "note": "然 = ぜん/ねん; 自然/当然/全然 — Reading: ぜん (zen)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7206,7 +7206,7 @@
       "いきる (ikiru)",
       "はたらく (hataraku)"
     ],
-    "note": "活 = かつ; 生活/活動/部活 Meaning: lively / activity",
+    "note": "活 = かつ; 生活/活動/部活 — Meaning: lively / activity",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7220,7 +7220,7 @@
       "live",
       "work"
     ],
-    "note": "活 = かつ; 生活/活動/部活 Reading: かつ (katsu)",
+    "note": "活 = かつ; 生活/活動/部活 — Reading: かつ (katsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7234,7 +7234,7 @@
       "べんきょうする",
       "ねる (neru)"
     ],
-    "note": "働 = はたらく/どう; 労働/働き方 Meaning: work",
+    "note": "働 = はたらく/どう; 労働/働き方 — Meaning: work",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7248,7 +7248,7 @@
       "study",
       "sleep"
     ],
-    "note": "働 = はたらく/どう; 労働/働き方 Reading: はたらく (hataraku)",
+    "note": "働 = はたらく/どう; 労働/働き方 — Reading: はたらく (hataraku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7262,7 +7262,7 @@
       "おおきさ (ookisa)",
       "おもさ (omosa)"
     ],
-    "note": "力 = ちから/りょく; 努力/協力 Meaning: power / strength",
+    "note": "力 = ちから/りょく; 努力/協力 — Meaning: power / strength",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7276,7 +7276,7 @@
       "size",
       "weight"
     ],
-    "note": "力 = ちから/りょく; 努力/協力 Reading: ちから (chikara)",
+    "note": "力 = ちから/りょく; 努力/協力 — Reading: ちから (chikara)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7290,7 +7290,7 @@
       "うで (ude)",
       "こぶし (kobushi)"
     ],
-    "note": "手 = て/しゅ; 手紙/上手/苦手 Meaning: hand",
+    "note": "手 = て/しゅ; 手紙/上手/苦手 — Meaning: hand",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7304,7 +7304,7 @@
       "arm",
       "fist"
     ],
-    "note": "手 = て/しゅ; 手紙/上手/苦手 Reading: て (te)",
+    "note": "手 = て/しゅ; 手紙/上手/苦手 — Reading: て (te)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7318,7 +7318,7 @@
       "きんぞく (kinzoku)",
       "ぬの (nuno)"
     ],
-    "note": "紙 = かみ/し; 手紙/新聞紙 Meaning: paper",
+    "note": "紙 = かみ/し; 手紙/新聞紙 — Meaning: paper",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7332,7 +7332,7 @@
       "metal",
       "cloth"
     ],
-    "note": "紙 = かみ/し; 手紙/新聞紙 Reading: かみ (kami)",
+    "note": "紙 = かみ/し; 手紙/新聞紙 — Reading: かみ (kami)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7346,7 +7346,7 @@
       "うた (uta)",
       "おんがく (ongaku)"
     ],
-    "note": "声 = こえ/せい; 大声/歌声 Meaning: voice",
+    "note": "声 = こえ/せい; 大声/歌声 — Meaning: voice",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7360,7 +7360,7 @@
       "song",
       "music"
     ],
-    "note": "声 = こえ/せい; 大声/歌声 Reading: こえ (koe)",
+    "note": "声 = こえ/せい; 大声/歌声 — Reading: こえ (koe)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7374,7 +7374,7 @@
       "おんがく (ongaku)",
       "しずかさ (shizukasa)"
     ],
-    "note": "音 = おと/おん; 音楽/発音 Meaning: sound",
+    "note": "音 = おと/おん; 音楽/発音 — Meaning: sound",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7388,7 +7388,7 @@
       "music",
       "silence"
     ],
-    "note": "音 = おと/おん; 音楽/発音 Reading: おと (oto)",
+    "note": "音 = おと/おん; 音楽/発音 — Reading: おと (oto)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7402,7 +7402,7 @@
       "いそがしい (isogashii)",
       "かなしい (kanashii)"
     ],
-    "note": "楽 = たのしい/がく/らく; 音楽/楽しい/気楽 Meaning: fun / music",
+    "note": "楽 = たのしい/がく/らく; 音楽/楽しい/気楽 — Meaning: fun / music",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7416,7 +7416,7 @@
       "busy",
       "sad"
     ],
-    "note": "楽 = たのしい/がく/らく; 音楽/楽しい/気楽 Reading: たのしい (tanoshii)",
+    "note": "楽 = たのしい/がく/らく; 音楽/楽しい/気楽 — Reading: たのしい (tanoshii)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7430,7 +7430,7 @@
       "こえ (koe)",
       "えんそう (ensou)"
     ],
-    "note": "歌 = うた/か; 歌う = to sing Meaning: song",
+    "note": "歌 = うた/か; 歌う = to sing — Meaning: song",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7444,7 +7444,7 @@
       "voice",
       "performance"
     ],
-    "note": "歌 = うた/か; 歌う = to sing Reading: うた (uta)",
+    "note": "歌 = うた/か; 歌う = to sing — Reading: うた (uta)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7458,7 +7458,7 @@
       "かく (kaku)",
       "えがく (egaku)"
     ],
-    "note": "映 = うつる/えい; 映画/映像 Meaning: reflect / project",
+    "note": "映 = うつる/えい; 映画/映像 — Meaning: reflect / project",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7472,7 +7472,7 @@
       "write",
       "draw"
     ],
-    "note": "映 = うつる/えい; 映画/映像 Reading: うつる (utsuru)",
+    "note": "映 = うつる/えい; 映画/映像 — Reading: うつる (utsuru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7486,7 +7486,7 @@
       "ず (zu)",
       "ぬりえ (nurie)"
     ],
-    "note": "画 = え/が/かく; 映画/画像/計画 Meaning: picture / painting",
+    "note": "画 = え/が/かく; 映画/画像/計画 — Meaning: picture / painting",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7500,7 +7500,7 @@
       "diagram",
       "coloring"
     ],
-    "note": "画 = え/が/かく; 映画/画像/計画 Reading: え (e)",
+    "note": "画 = え/が/かく; 映画/画像/計画 — Reading: え (e)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7514,7 +7514,7 @@
       "とる (toru)",
       "みる (miru)"
     ],
-    "note": "写 = うつす/しゃ; 写真/写す Meaning: copy / photograph",
+    "note": "写 = うつす/しゃ; 写真/写す — Meaning: copy / photograph",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7528,7 +7528,7 @@
       "take (photo)",
       "see"
     ],
-    "note": "写 = うつす/しゃ; 写真/写す Reading: うつす (utsusu)",
+    "note": "写 = うつす/しゃ; 写真/写す — Reading: うつす (utsusu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7542,7 +7542,7 @@
       "かくう (kakuu)",
       "ぎ (gi)"
     ],
-    "note": "真 = ほんとう/しん; 写真/真剣/真面目 Meaning: truth / real",
+    "note": "真 = ほんとう/しん; 写真/真剣/真面目 — Meaning: truth / real",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7556,7 +7556,7 @@
       "imaginary",
       "fake"
     ],
-    "note": "真 = ほんとう/しん; 写真/真剣/真面目 Reading: ほんとう (hontou)",
+    "note": "真 = ほんとう/しん; 写真/真剣/真面目 — Reading: ほんとう (hontou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7570,7 +7570,7 @@
       "おもさ (omosa)",
       "ながさ (nagasa)"
     ],
-    "note": "色 = いろ/しょく; 色々 = various Meaning: color",
+    "note": "色 = いろ/しょく; 色々 = various — Meaning: color",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7584,7 +7584,7 @@
       "weight",
       "length"
     ],
-    "note": "色 = いろ/しょく; 色々 = various Reading: いろ (iro)",
+    "note": "色 = いろ/しょく; 色々 = various — Reading: いろ (iro)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7598,7 +7598,7 @@
       "おもさ (omosa)",
       "ながさ (nagasa)"
     ],
-    "note": "形 = かたち/けい; 人形/三角形 Meaning: shape / form",
+    "note": "形 = かたち/けい; 人形/三角形 — Meaning: shape / form",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7612,7 +7612,7 @@
       "weight",
       "length"
     ],
-    "note": "形 = かたち/けい; 人形/三角形 Reading: かたち (katachi)",
+    "note": "形 = かたち/けい; 人形/三角形 — Reading: かたち (katachi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7626,7 +7626,7 @@
       "ひょうじゅん (hyoujun)",
       "けいさん (keisan)"
     ],
-    "note": "表 = ひょう/おもて/あらわす; 表現/発表/時刻表 Meaning: table / chart / express",
+    "note": "表 = ひょう/おもて/あらわす; 表現/発表/時刻表 — Meaning: table / chart / express",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7640,7 +7640,7 @@
       "standard",
       "calculation"
     ],
-    "note": "表 = ひょう/おもて/あらわす; 表現/発表/時刻表 Reading: ひょう (hyou)",
+    "note": "表 = ひょう/おもて/あらわす; 表現/発表/時刻表 — Reading: ひょう (hyou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7654,7 +7654,7 @@
       "みえる (mieru)",
       "でる (deru)"
     ],
-    "note": "現 = あらわれる/げん; 現在/現実/表現 Meaning: appear / present",
+    "note": "現 = あらわれる/げん; 現在/現実/表現 — Meaning: appear / present",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7668,7 +7668,7 @@
       "can be seen",
       "come out"
     ],
-    "note": "現 = あらわれる/げん; 現在/現実/表現 Reading: あらわれる (arawareru)",
+    "note": "現 = あらわれる/げん; 現在/現実/表現 — Reading: あらわれる (arawareru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7682,7 +7682,7 @@
       "そうぞう (souzou)",
       "ゆめ (yume)"
     ],
-    "note": "実 = じつ/み; 現実/実は/実験 Meaning: reality / truth",
+    "note": "実 = じつ/み; 現実/実は/実験 — Meaning: reality / truth",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7696,7 +7696,7 @@
       "imagination",
       "dream"
     ],
-    "note": "実 = じつ/み; 現実/実は/実験 Reading: じつ (jitsu)",
+    "note": "実 = じつ/み; 現実/実は/実験 — Reading: じつ (jitsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7710,7 +7710,7 @@
       "けいけん (keiken)",
       "しけん (shiken)"
     ],
-    "note": "験 = けん; 試験/実験/経験 Meaning: test / experience",
+    "note": "験 = けん; 試験/実験/経験 — Meaning: test / experience",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7724,7 +7724,7 @@
       "experience",
       "exam"
     ],
-    "note": "験 = けん; 試験/実験/経験 Reading: けん (ken)",
+    "note": "験 = けん; 試験/実験/経験 — Reading: けん (ken)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7738,7 +7738,7 @@
       "かんがえる (kangaeru)",
       "きめる (kimeru)"
     ],
-    "note": "試 = ためす/し; 試験/試合/試す Meaning: try / test",
+    "note": "試 = ためす/し; 試験/試合/試す — Meaning: try / test",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7752,7 +7752,7 @@
       "think",
       "decide"
     ],
-    "note": "試 = ためす/し; 試験/試合/試す Reading: ためす (tamesu)",
+    "note": "試 = ためす/し; 試験/試合/試す — Reading: ためす (tamesu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7766,7 +7766,7 @@
       "むく (muku)",
       "あたる (ataru)"
     ],
-    "note": "合 = あう/ごう; 試合/合う/都合 Meaning: fit / match",
+    "note": "合 = あう/ごう; 試合/合う/都合 — Meaning: fit / match",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7780,7 +7780,7 @@
       "face",
       "hit"
     ],
-    "note": "合 = あう/ごう; 試合/合う/都合 Reading: あう (au)",
+    "note": "合 = あう/ごう; 試合/合う/都合 — Reading: あう (au)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7794,7 +7794,7 @@
       "とまる (tomaru)",
       "かわる (kawaru)"
     ],
-    "note": "成 = なる/せい; 成功/成長/完成 Meaning: become / succeed",
+    "note": "成 = なる/せい; 成功/成長/完成 — Meaning: become / succeed",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7808,7 +7808,7 @@
       "stop",
       "change"
     ],
-    "note": "成 = なる/せい; 成功/成長/完成 Reading: なる (naru)",
+    "note": "成 = なる/せい; 成功/成長/完成 — Reading: なる (naru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7822,7 +7822,7 @@
       "もくてき (mokuteki)",
       "どりょく (doryoku)"
     ],
-    "note": "功 = こう; 成功/功績 Meaning: achievement / success",
+    "note": "功 = こう; 成功/功績 — Meaning: achievement / success",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7836,7 +7836,7 @@
       "purpose",
       "effort"
     ],
-    "note": "功 = こう; 成功/功績 Reading: こう (kou)",
+    "note": "功 = こう; 成功/功績 — Reading: こう (kou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7850,7 +7850,7 @@
       "あそぶ (asobu)",
       "さぼる (saboru)"
     ],
-    "note": "努 = どりょく/つとめる; 努力 = effort Meaning: effort / strive",
+    "note": "努 = どりょく/つとめる; 努力 = effort — Meaning: effort / strive",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7864,7 +7864,7 @@
       "play",
       "skip"
     ],
-    "note": "努 = どりょく/つとめる; 努力 = effort Reading: どりょく (doryoku)",
+    "note": "努 = どりょく/つとめる; 努力 = effort — Reading: どりょく (doryoku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7878,7 +7878,7 @@
       "もくてき (mokuteki)",
       "しごと (shigoto)"
     ],
-    "note": "力 = りょく/ちから; 努力/能力/協力 Meaning: effort",
+    "note": "力 = りょく/ちから; 努力/能力/協力 — Meaning: effort",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7892,7 +7892,7 @@
       "purpose",
       "work"
     ],
-    "note": "力 = りょく/ちから; 努力/能力/協力 Reading: どりょく (doryoku)",
+    "note": "力 = りょく/ちから; 努力/能力/協力 — Reading: どりょく (doryoku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7906,7 +7906,7 @@
       "ちがう (chigau)",
       "まわる (mawaru)"
     ],
-    "note": "向 = むく/こう; 方向/向かう/傾向 Meaning: face toward / direction",
+    "note": "向 = むく/こう; 方向/向かう/傾向 — Meaning: face toward / direction",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7920,7 +7920,7 @@
       "differ",
       "go around"
     ],
-    "note": "向 = むく/こう; 方向/向かう/傾向 Reading: むく (muku)",
+    "note": "向 = むく/こう; 方向/向かう/傾向 — Reading: むく (muku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7934,7 +7934,7 @@
       "しりぞく (shirizoku)",
       "おくれる (okureru)"
     ],
-    "note": "進 = すすむ/しん; 前進/進歩/進める Meaning: advance / progress",
+    "note": "進 = すすむ/しん; 前進/進歩/進める — Meaning: advance / progress",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7948,7 +7948,7 @@
       "retreat",
       "fall behind"
     ],
-    "note": "進 = すすむ/しん; 前進/進歩/進める Reading: すすむ (susumu)",
+    "note": "進 = すすむ/しん; 前進/進歩/進める — Reading: すすむ (susumu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7962,7 +7962,7 @@
       "のる (noru)",
       "つく (tsuku)"
     ],
-    "note": "退 = しりぞく/たい; 退職/引退/撤退 Meaning: retreat / resign",
+    "note": "退 = しりぞく/たい; 退職/引退/撤退 — Meaning: retreat / resign",
     "hint": "How do you read this kanji?"
   },
   {
@@ -7976,7 +7976,7 @@
       "board",
       "arrive"
     ],
-    "note": "退 = しりぞく/たい; 退職/引退/撤退 Reading: しりぞく (shirizoku)",
+    "note": "退 = しりぞく/たい; 退職/引退/撤退 — Reading: しりぞく (shirizoku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -7990,7 +7990,7 @@
       "とまる (tomaru)",
       "おわる (owaru)"
     ],
-    "note": "増 = ふえる/ぞう; 増える/増加 Meaning: increase",
+    "note": "増 = ふえる/ぞう; 増える/増加 — Meaning: increase",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8004,7 +8004,7 @@
       "stop",
       "end"
     ],
-    "note": "増 = ふえる/ぞう; 増える/増加 Reading: ふえる (fueru)",
+    "note": "増 = ふえる/ぞう; 増える/増加 — Reading: ふえる (fueru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8018,7 +8018,7 @@
       "すすむ (susumu)",
       "たかくなる"
     ],
-    "note": "減 = へる/げん; 減る/減少 Meaning: decrease",
+    "note": "減 = へる/げん; 減る/減少 — Meaning: decrease",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8032,7 +8032,7 @@
       "advance",
       "become expensive"
     ],
-    "note": "減 = へる/げん; 減る/減少 Reading: へる (heru)",
+    "note": "減 = へる/げん; 減る/減少 — Reading: へる (heru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8046,7 +8046,7 @@
       "かえる (kaeru)",
       "こわす (kowasu)"
     ],
-    "note": "改 = あらためる/かい; 改善/改正/改める Meaning: reform / renew",
+    "note": "改 = あらためる/かい; 改善/改正/改める — Meaning: reform / renew",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8060,7 +8060,7 @@
       "change",
       "break"
     ],
-    "note": "改 = あらためる/かい; 改善/改正/改める Reading: あらためる (aratameru)",
+    "note": "改 = あらためる/かい; 改善/改正/改める — Reading: あらためる (aratameru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8074,7 +8074,7 @@
       "たいした (taishita)",
       "なんでもない"
     ],
-    "note": "善 = よい/ぜん; 改善/善悪/最善 Meaning: good / virtue",
+    "note": "善 = よい/ぜん; 改善/善悪/最善 — Meaning: good / virtue",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8088,7 +8088,7 @@
       "considerable",
       "nothing"
     ],
-    "note": "善 = よい/ぜん; 改善/善悪/最善 Reading: よい (yoi)",
+    "note": "善 = よい/ぜん; 改善/善悪/最善 — Reading: よい (yoi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8102,7 +8102,7 @@
       "せいかく (seikaku)",
       "りっぱ (rippa)"
     ],
-    "note": "悪 = わるい/あく; 悪い/悪化/最悪 Meaning: bad / evil",
+    "note": "悪 = わるい/あく; 悪い/悪化/最悪 — Meaning: bad / evil",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8116,7 +8116,7 @@
       "accurate",
       "splendid"
     ],
-    "note": "悪 = わるい/あく; 悪い/悪化/最悪 Reading: わるい (warui)",
+    "note": "悪 = わるい/あく; 悪い/悪化/最悪 — Reading: わるい (warui)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8130,7 +8130,7 @@
       "ひどい (hidoi)",
       "まずい (mazui)"
     ],
-    "note": "良 = よい/りょう; 良い/良心/改良 Meaning: good",
+    "note": "良 = よい/りょう; 良い/良心/改良 — Meaning: good",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8144,7 +8144,7 @@
       "terrible",
       "bad (taste/situation)"
     ],
-    "note": "良 = よい/りょう; 良い/良心/改良 Reading: よい (yoi)",
+    "note": "良 = よい/りょう; 良い/良心/改良 — Reading: よい (yoi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8158,7 +8158,7 @@
       "おかしい (okashii)",
       "いつわり (itsuwari)"
     ],
-    "note": "正 = ただしい/せい; 正しい/正直/訂正 Meaning: correct",
+    "note": "正 = ただしい/せい; 正しい/正直/訂正 — Meaning: correct",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8172,7 +8172,7 @@
       "strange",
       "falsehood"
     ],
-    "note": "正 = ただしい/せい; 正しい/正直/訂正 Reading: ただしい (tadashii)",
+    "note": "正 = ただしい/せい; 正しい/正直/訂正 — Reading: ただしい (tadashii)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8186,7 +8186,7 @@
       "わすれる (wasureru)",
       "むしする (mushisuru)"
     ],
-    "note": "確 = たしか/かく; 確かめる/確認/正確 Meaning: confirm / certain",
+    "note": "確 = たしか/かく; 確かめる/確認/正確 — Meaning: confirm / certain",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8200,7 +8200,7 @@
       "forget",
       "ignore"
     ],
-    "note": "確 = たしか/かく; 確かめる/確認/正確 Reading: たしかめる (tashikameru)",
+    "note": "確 = たしか/かく; 確かめる/確認/正確 — Reading: たしかめる (tashikameru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8214,7 +8214,7 @@
       "うたがう (utagau)",
       "ひてい (hitei)"
     ],
-    "note": "認 = みとめる/にん; 認める/確認/認識 Meaning: recognize / approve",
+    "note": "認 = みとめる/にん; 認める/確認/認識 — Meaning: recognize / approve",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8228,7 +8228,7 @@
       "doubt",
       "deny"
     ],
-    "note": "認 = みとめる/にん; 認める/確認/認識 Reading: みとめる (mitomeru)",
+    "note": "認 = みとめる/にん; 認める/確認/認識 — Reading: みとめる (mitomeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8242,7 +8242,7 @@
       "かんがえ (kangae)",
       "いけん (iken)"
     ],
-    "note": "判 = はんだん/はん; 判断/裁判/判明 Meaning: judgment / decision",
+    "note": "判 = はんだん/はん; 判断/裁判/判明 — Meaning: judgment / decision",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8256,7 +8256,7 @@
       "thought",
       "opinion"
     ],
-    "note": "判 = はんだん/はん; 判断/裁判/判明 Reading: はんだん (handan)",
+    "note": "判 = はんだん/はん; 判断/裁判/判明 — Reading: はんだん (handan)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8270,7 +8270,7 @@
       "さそう (sasou)",
       "おうじる (oujiru)"
     ],
-    "note": "断 = ことわる/だん; 断る/判断/決断 Meaning: refuse / cut off",
+    "note": "断 = ことわる/だん; 断る/判断/決断 — Meaning: refuse / cut off",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8284,7 +8284,7 @@
       "invite",
       "respond to"
     ],
-    "note": "断 = ことわる/だん; 断る/判断/決断 Reading: ことわる (kotowaru)",
+    "note": "断 = ことわる/だん; 断る/判断/決断 — Reading: ことわる (kotowaru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8298,7 +8298,7 @@
       "いけん (iken)",
       "しょうこ (shouko)"
     ],
-    "note": "論 = ろん; 議論/論文/理論 Meaning: argument / theory",
+    "note": "論 = ろん; 議論/論文/理論 — Meaning: argument / theory",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8312,7 +8312,7 @@
       "opinion",
       "evidence"
     ],
-    "note": "論 = ろん; 議論/論文/理論 Reading: ろん (ron)",
+    "note": "論 = ろん; 議論/論文/理論 — Reading: ろん (ron)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8326,7 +8326,7 @@
       "いけん (iken)",
       "はなしあい (hanashiai)"
     ],
-    "note": "議 = ぎ; 会議/議論/議員 Meaning: deliberate / discuss",
+    "note": "議 = ぎ; 会議/議論/議員 — Meaning: deliberate / discuss",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8340,7 +8340,7 @@
       "opinion",
       "discussion"
     ],
-    "note": "議 = ぎ; 会議/議論/議員 Reading: ぎ (gi)",
+    "note": "議 = ぎ; 会議/議論/議員 — Reading: ぎ (gi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8354,7 +8354,7 @@
       "ほうりつ (houritsu)",
       "ぎょうせい (gyousei)"
     ],
-    "note": "政 = せい/まつりごと; 政治/政府/行政 Meaning: politics / government",
+    "note": "政 = せい/まつりごと; 政治/政府/行政 — Meaning: politics / government",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8368,7 +8368,7 @@
       "law",
       "administration"
     ],
-    "note": "政 = せい/まつりごと; 政治/政府/行政 Reading: せいじ (seiji)",
+    "note": "政 = せい/まつりごと; 政治/政府/行政 — Reading: せいじ (seiji)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8382,7 +8382,7 @@
       "じょうけん (jouken)",
       "ぎむ (gimu)"
     ],
-    "note": "法 = ほう/のり; 法律/方法/文法 Meaning: law / method",
+    "note": "法 = ほう/のり; 法律/方法/文法 — Meaning: law / method",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8396,7 +8396,7 @@
       "condition",
       "obligation"
     ],
-    "note": "法 = ほう/のり; 法律/方法/文法 Reading: ほう (hou)",
+    "note": "法 = ほう/のり; 法律/方法/文法 — Reading: ほう (hou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8410,7 +8410,7 @@
       "じゆう (jiyuu)",
       "かいほう (kaihou)"
     ],
-    "note": "律 = りつ; 法律/規律/自律 Meaning: law / discipline",
+    "note": "律 = りつ; 法律/規律/自律 — Meaning: law / discipline",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8424,7 +8424,7 @@
       "freedom",
       "liberation"
     ],
-    "note": "律 = りつ; 法律/規律/自律 Reading: りつ (ritsu)",
+    "note": "律 = りつ; 法律/規律/自律 — Reading: りつ (ritsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8438,7 +8438,7 @@
       "きそく (kisoku)",
       "ルール (ruuru)"
     ],
-    "note": "制 = せい; 制度/制限/体制 Meaning: system / control",
+    "note": "制 = せい; 制度/制限/体制 — Meaning: system / control",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8452,7 +8452,7 @@
       "regulation",
       "rule"
     ],
-    "note": "制 = せい; 制度/制限/体制 Reading: せい (sei)",
+    "note": "制 = せい; 制度/制限/体制 — Reading: せい (sei)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8466,7 +8466,7 @@
       "ねん (nen)",
       "にち (nichi)"
     ],
-    "note": "度 = ど/たび; 程度/態度/今度 Meaning: degree / time(s)",
+    "note": "度 = ど/たび; 程度/態度/今度 — Meaning: degree / time(s)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8480,7 +8480,7 @@
       "year",
       "day"
     ],
-    "note": "度 = ど/たび; 程度/態度/今度 Reading: ど (do)",
+    "note": "度 = ど/たび; 程度/態度/今度 — Reading: ど (do)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8494,7 +8494,7 @@
       "くらい (kurai)",
       "ぐらい (gurai)"
     ],
-    "note": "程 = ほど/てい; 程度/〜ほど〜ない Meaning: degree / extent",
+    "note": "程 = ほど/てい; 程度/〜ほど〜ない — Meaning: degree / extent",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8508,7 +8508,7 @@
       "about",
       "about (same)"
     ],
-    "note": "程 = ほど/てい; 程度/〜ほど〜ない Reading: ほど (hodo)",
+    "note": "程 = ほど/てい; 程度/〜ほど〜ない — Reading: ほど (hodo)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8522,7 +8522,7 @@
       "すすむ (susumu)",
       "のびる (nobiru)"
     ],
-    "note": "限 = かぎる/げん; 制限/限る/無限 Meaning: limit",
+    "note": "限 = かぎる/げん; 制限/限る/無限 — Meaning: limit",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8536,7 +8536,7 @@
       "advance",
       "extend"
     ],
-    "note": "限 = かぎる/げん; 制限/限る/無限 Reading: かぎる (kagiru)",
+    "note": "限 = かぎる/げん; 制限/限る/無限 — Reading: かぎる (kagiru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8550,7 +8550,7 @@
       "だめ (dame)",
       "きんし (kinshi)"
     ],
-    "note": "可 = か; 可能/不可/許可 Meaning: possible / allow",
+    "note": "可 = か; 可能/不可/許可 — Meaning: possible / allow",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8564,7 +8564,7 @@
       "no good",
       "prohibited"
     ],
-    "note": "可 = か; 可能/不可/許可 Reading: か (ka)",
+    "note": "可 = か; 可能/不可/許可 — Reading: か (ka)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8578,7 +8578,7 @@
       "にがて (nigate)",
       "へた (heta)"
     ],
-    "note": "能 = のう; 可能/能力/才能 Meaning: ability / talent",
+    "note": "能 = のう; 可能/能力/才能 — Meaning: ability / talent",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8592,7 +8592,7 @@
       "bad at",
       "weakness"
     ],
-    "note": "能 = のう; 可能/能力/才能 Reading: のう (nou)",
+    "note": "能 = のう; 可能/能力/才能 — Reading: のう (nou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8606,7 +8606,7 @@
       "てき (teki)",
       "かんぜん (kanzen)"
     ],
-    "note": "化 = か/ばける; 変化/文化/化学 Meaning: change / transform",
+    "note": "化 = か/ばける; 変化/文化/化学 — Meaning: change / transform",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8620,7 +8620,7 @@
       "enemy",
       "perfect"
     ],
-    "note": "化 = か/ばける; 変化/文化/化学 Reading: か (ka)",
+    "note": "化 = か/ばける; 変化/文化/化学 — Reading: か (ka)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8634,7 +8634,7 @@
       "むしする (mushisuru)",
       "はなれる (hanareru)"
     ],
-    "note": "関 = かかわる/かん; 関係/関心/関わる Meaning: relate / concern",
+    "note": "関 = かかわる/かん; 関係/関心/関わる — Meaning: relate / concern",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8648,7 +8648,7 @@
       "ignore",
       "separate"
     ],
-    "note": "関 = かかわる/かん; 関係/関心/関わる Reading: かかわる (kakawaru)",
+    "note": "関 = かかわる/かん; 関係/関心/関わる — Reading: かかわる (kakawaru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8662,7 +8662,7 @@
       "ぶもん (bumon)",
       "やくしょく (yakushoku)"
     ],
-    "note": "係 = かかり/けい; 関係/係員 Meaning: person in charge / relate",
+    "note": "係 = かかり/けい; 関係/係員 — Meaning: person in charge / relate",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8676,7 +8676,7 @@
       "department",
       "position"
     ],
-    "note": "係 = かかり/けい; 関係/係員 Reading: かかり (kakari)",
+    "note": "係 = かかり/けい; 関係/係員 — Reading: かかり (kakari)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8690,7 +8690,7 @@
       "かんそう (kansou)",
       "いけん (iken)"
     ],
-    "note": "情 = じょう/なさけ; 感情/情報/事情 Meaning: emotion / feeling / situation",
+    "note": "情 = じょう/なさけ; 感情/情報/事情 — Meaning: emotion / feeling / situation",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8704,7 +8704,7 @@
       "impression",
       "opinion"
     ],
-    "note": "情 = じょう/なさけ; 感情/情報/事情 Reading: じょう (jou)",
+    "note": "情 = じょう/なさけ; 感情/情報/事情 — Reading: じょう (jou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8718,7 +8718,7 @@
       "にゅーす (nyuusu)",
       "れんらく (renraku)"
     ],
-    "note": "報 = ほう; 情報/報告/報道 Meaning: report / news",
+    "note": "報 = ほう; 情報/報告/報道 — Meaning: report / news",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8732,7 +8732,7 @@
       "news",
       "contact"
     ],
-    "note": "報 = ほう; 情報/報告/報道 Reading: ほう (hou)",
+    "note": "報 = ほう; 情報/報告/報道 — Reading: ほう (hou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8746,7 +8746,7 @@
       "きく (kiku)",
       "うける (ukeru)"
     ],
-    "note": "告 = つげる/こく; 報告/広告/告白 Meaning: tell / announce",
+    "note": "告 = つげる/こく; 報告/広告/告白 — Meaning: tell / announce",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8760,7 +8760,7 @@
       "listen",
       "receive"
     ],
-    "note": "告 = つげる/こく; 報告/広告/告白 Reading: つげる (tsugeru)",
+    "note": "告 = つげる/こく; 報告/広告/告白 — Reading: つげる (tsugeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8774,7 +8774,7 @@
       "わすれる (wasureru)",
       "むしする (mushisuru)"
     ],
-    "note": "伝 = つたえる/でん; 伝える/伝統/宣伝 Meaning: convey / transmit",
+    "note": "伝 = つたえる/でん; 伝える/伝統/宣伝 — Meaning: convey / transmit",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8788,7 +8788,7 @@
       "forget",
       "ignore"
     ],
-    "note": "伝 = つたえる/でん; 伝える/伝統/宣伝 Reading: つたえる (tsutaeru)",
+    "note": "伝 = つたえる/でん; 伝える/伝統/宣伝 — Reading: つたえる (tsutaeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8802,7 +8802,7 @@
       "ぎろん (giron)",
       "かんがえ (kangae)"
     ],
-    "note": "説 = せつ/とく; 説明/小説/意見 Meaning: theory / explain",
+    "note": "説 = せつ/とく; 説明/小説/意見 — Meaning: theory / explain",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8816,7 +8816,7 @@
       "argument",
       "thought"
     ],
-    "note": "説 = せつ/とく; 説明/小説/意見 Reading: せつ (setsu)",
+    "note": "説 = せつ/とく; 説明/小説/意見 — Reading: せつ (setsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8830,7 +8830,7 @@
       "あいまい (aimai)",
       "ふかいな (fukai na)"
     ],
-    "note": "明 = あかるい/めい; 説明/明るい/明らか Meaning: bright / clear / explain",
+    "note": "明 = あかるい/めい; 説明/明るい/明らか — Meaning: bright / clear / explain",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8844,7 +8844,7 @@
       "vague",
       "unpleasant"
     ],
-    "note": "明 = あかるい/めい; 説明/明るい/明らか Reading: あかるい (akarui)",
+    "note": "明 = あかるい/めい; 説明/明るい/明らか — Reading: あかるい (akarui)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8858,7 +8858,7 @@
       "そらす (sorasu)",
       "まちがえる (machigaeru)"
     ],
-    "note": "示 = しめす/じ; 示す/指示/展示 Meaning: show / indicate",
+    "note": "示 = しめす/じ; 示す/指示/展示 — Meaning: show / indicate",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8872,7 +8872,7 @@
       "divert",
       "mistake"
     ],
-    "note": "示 = しめす/じ; 示す/指示/展示 Reading: しめす (shimesu)",
+    "note": "示 = しめす/じ; 示す/指示/展示 — Reading: しめす (shimesu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8886,7 +8886,7 @@
       "つめ (tsume)",
       "てのひら (tenohira)"
     ],
-    "note": "指 = ゆび/し; 指す/指示/指定 Meaning: finger / point to",
+    "note": "指 = ゆび/し; 指す/指示/指定 — Meaning: finger / point to",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8900,7 +8900,7 @@
       "nail",
       "palm"
     ],
-    "note": "指 = ゆび/し; 指す/指示/指定 Reading: ゆび (yubi)",
+    "note": "指 = ゆび/し; 指す/指示/指定 — Reading: ゆび (yubi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8914,7 +8914,7 @@
       "たい (tai)",
       "いち (ichi)"
     ],
-    "note": "点 = てん; 点数/問題点/観点 Meaning: point / score",
+    "note": "点 = てん; 点数/問題点/観点 — Meaning: point / score",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8928,7 +8928,7 @@
       "body",
       "position"
     ],
-    "note": "点 = てん; 点数/問題点/観点 Reading: てん (ten)",
+    "note": "点 = てん; 点数/問題点/観点 — Reading: てん (ten)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8942,7 +8942,7 @@
       "えん (en)",
       "かど (kado)"
     ],
-    "note": "線 = せん; 線路/地下鉄の線/直線 Meaning: line",
+    "note": "線 = せん; 線路/地下鉄の線/直線 — Meaning: line",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8956,7 +8956,7 @@
       "circle",
       "corner"
     ],
-    "note": "線 = せん; 線路/地下鉄の線/直線 Reading: せん (sen)",
+    "note": "線 = せん; 線路/地下鉄の線/直線 — Reading: せん (sen)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8970,7 +8970,7 @@
       "かど (kado)",
       "かたち (katachi)"
     ],
-    "note": "面 = めん/おもて; 場面/面倒/面白い Meaning: face / surface / aspect",
+    "note": "面 = めん/おもて; 場面/面倒/面白い — Meaning: face / surface / aspect",
     "hint": "How do you read this kanji?"
   },
   {
@@ -8984,7 +8984,7 @@
       "corner",
       "shape"
     ],
-    "note": "面 = めん/おもて; 場面/面倒/面白い Reading: めん (men)",
+    "note": "面 = めん/おもて; 場面/面倒/面白い — Reading: めん (men)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -8998,7 +8998,7 @@
       "かんきょう (kankyou)",
       "じょうきょう (joukyou)"
     ],
-    "note": "場 = ば/じょう; 場所/場合/立場 Meaning: place / scene",
+    "note": "場 = ば/じょう; 場所/場合/立場 — Meaning: place / scene",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9012,7 +9012,7 @@
       "environment",
       "situation"
     ],
-    "note": "場 = ば/じょう; 場所/場合/立場 Reading: ば (ba)",
+    "note": "場 = ば/じょう; 場所/場合/立場 — Reading: ば (ba)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9026,7 +9026,7 @@
       "こと (koto)",
       "もの (mono)"
     ],
-    "note": "所 = ところ/しょ; 場所/台所/近所 Meaning: place",
+    "note": "所 = ところ/しょ; 場所/台所/近所 — Meaning: place",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9040,7 +9040,7 @@
       "thing (abstract)",
       "thing (concrete)"
     ],
-    "note": "所 = ところ/しょ; 場所/台所/近所 Reading: ところ (tokoro)",
+    "note": "所 = ところ/しょ; 場所/台所/近所 — Reading: ところ (tokoro)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9054,7 +9054,7 @@
       "じかん (jikan)",
       "ば (ba)"
     ],
-    "note": "事 = こと/じ; 仕事/大事/事件 Meaning: thing (abstract) / matter",
+    "note": "事 = こと/じ; 仕事/大事/事件 — Meaning: thing (abstract) / matter",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9068,7 +9068,7 @@
       "time",
       "place"
     ],
-    "note": "事 = こと/じ; 仕事/大事/事件 Reading: こと (koto)",
+    "note": "事 = こと/じ; 仕事/大事/事件 — Reading: こと (koto)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9082,7 +9082,7 @@
       "かね (kane)",
       "みず (mizu)"
     ],
-    "note": "物 = もの/ぶつ; 建物/動物/食べ物 Meaning: thing (concrete)",
+    "note": "物 = もの/ぶつ; 建物/動物/食べ物 — Meaning: thing (concrete)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9096,7 +9096,7 @@
       "money",
       "water"
     ],
-    "note": "物 = もの/ぶつ; 建物/動物/食べ物 Reading: もの (mono)",
+    "note": "物 = もの/ぶつ; 建物/動物/食べ物 — Reading: もの (mono)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9110,7 +9110,7 @@
       "じけん (jiken)",
       "もんだい (mondai)"
     ],
-    "note": "件 = けん; 事件/条件/件数 Meaning: matter / case",
+    "note": "件 = けん; 事件/条件/件数 — Meaning: matter / case",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9124,7 +9124,7 @@
       "incident",
       "problem"
     ],
-    "note": "件 = けん; 事件/条件/件数 Reading: けん (ken)",
+    "note": "件 = けん; 事件/条件/件数 — Reading: けん (ken)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9138,7 +9138,7 @@
       "こうどう (koudou)",
       "げんいん (genin)"
     ],
-    "note": "状 = じょう; 状況/現状/状態 Meaning: state / condition",
+    "note": "状 = じょう; 状況/現状/状態 — Meaning: state / condition",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9152,7 +9152,7 @@
       "action",
       "cause"
     ],
-    "note": "状 = じょう; 状況/現状/状態 Reading: じょう (jou)",
+    "note": "状 = じょう; 状況/現状/状態 — Reading: じょう (jou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9166,7 +9166,7 @@
       "もんだい (mondai)",
       "げんじょう (genjou)"
     ],
-    "note": "況 = きょう; 状況/近況/況して Meaning: condition / circumstances",
+    "note": "況 = きょう; 状況/近況/況して — Meaning: condition / circumstances",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9180,7 +9180,7 @@
       "problem",
       "current state"
     ],
-    "note": "況 = きょう; 状況/近況/況して Reading: きょう (kyou)",
+    "note": "況 = きょう; 状況/近況/況して — Reading: きょう (kyou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9194,7 +9194,7 @@
       "ば (ba)",
       "ばあい (baai)"
     ],
-    "note": "際 = さい/きわ; 実際/国際/際に Meaning: occasion / edge",
+    "note": "際 = さい/きわ; 実際/国際/際に — Meaning: occasion / edge",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9208,7 +9208,7 @@
       "place",
       "case"
     ],
-    "note": "際 = さい/きわ; 実際/国際/際に Reading: さい (sai)",
+    "note": "際 = さい/きわ; 実際/国際/際に — Reading: さい (sai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9222,7 +9222,7 @@
       "しょうらい (shourai)",
       "せいか (seika)"
     ],
-    "note": "機 = き; 飛行機/機会/危機 Meaning: machine / opportunity",
+    "note": "機 = き; 飛行機/機会/危機 — Meaning: machine / opportunity",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9236,7 +9236,7 @@
       "future",
       "achievement"
     ],
-    "note": "機 = き; 飛行機/機会/危機 Reading: き (ki)",
+    "note": "機 = き; 飛行機/機会/危機 — Reading: き (ki)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9250,7 +9250,7 @@
       "ぎじゅつ (gijutsu)",
       "どうぐ (dougu)"
     ],
-    "note": "械 = かい; 機械 = machine Meaning: machine / tool",
+    "note": "械 = かい; 機械 = machine — Meaning: machine / tool",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9264,7 +9264,7 @@
       "technology",
       "tool"
     ],
-    "note": "械 = かい; 機械 = machine Reading: かい (kai)",
+    "note": "械 = かい; 機械 = machine — Reading: かい (kai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9278,7 +9278,7 @@
       "わざ (waza)",
       "さいのう (sainou)"
     ],
-    "note": "術 = じゅつ; 技術/芸術/手術 Meaning: art / technique",
+    "note": "術 = じゅつ; 技術/芸術/手術 — Meaning: art / technique",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9292,7 +9292,7 @@
       "skill",
       "talent"
     ],
-    "note": "術 = じゅつ; 技術/芸術/手術 Reading: じゅつ (jutsu)",
+    "note": "術 = じゅつ; 技術/芸術/手術 — Reading: じゅつ (jutsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9306,7 +9306,7 @@
       "わざ (waza)",
       "じゅつ (jutsu)"
     ],
-    "note": "技 = ぎ/わざ; 技術/技能/競技 Meaning: skill / technique",
+    "note": "技 = ぎ/わざ; 技術/技能/競技 — Meaning: skill / technique",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9320,7 +9320,7 @@
       "skill",
       "technique"
     ],
-    "note": "技 = ぎ/わざ; 技術/技能/競技 Reading: ぎ (gi)",
+    "note": "技 = ぎ/わざ; 技術/技能/競技 — Reading: ぎ (gi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9334,7 +9334,7 @@
       "えんぎ (engi)",
       "ひょうげん (hyougen)"
     ],
-    "note": "芸 = げい; 芸術/芸能/手芸 Meaning: art / performance",
+    "note": "芸 = げい; 芸術/芸能/手芸 — Meaning: art / performance",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9348,7 +9348,7 @@
       "acting/performance",
       "expression"
     ],
-    "note": "芸 = げい; 芸術/芸能/手芸 Reading: げい (gei)",
+    "note": "芸 = げい; 芸術/芸能/手芸 — Reading: げい (gei)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9362,7 +9362,7 @@
       "かう (kau)",
       "つかう (tsukau)"
     ],
-    "note": "産 = うむ/さん; 生産/産業/出産 Meaning: produce / give birth",
+    "note": "産 = うむ/さん; 生産/産業/出産 — Meaning: produce / give birth",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9376,7 +9376,7 @@
       "buy",
       "use"
     ],
-    "note": "産 = うむ/さん; 生産/産業/出産 Reading: うむ (umu)",
+    "note": "産 = うむ/さん; 生産/産業/出産 — Reading: うむ (umu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9390,7 +9390,7 @@
       "さんぎょう (sangyou)",
       "きぎょう (kigyou)"
     ],
-    "note": "業 = ぎょう; 産業/農業/授業 Meaning: industry / work / karma",
+    "note": "業 = ぎょう; 産業/農業/授業 — Meaning: industry / work / karma",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9404,7 +9404,7 @@
       "industry",
       "enterprise"
     ],
-    "note": "業 = ぎょう; 産業/農業/授業 Reading: ぎょう (gyou)",
+    "note": "業 = ぎょう; 産業/農業/授業 — Reading: ぎょう (gyou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9418,7 +9418,7 @@
       "ぎょぎょう (gyogyou)",
       "ちくさん (chikusan)"
     ],
-    "note": "農 = のう; 農業/農家/農村 Meaning: agriculture / farming",
+    "note": "農 = のう; 農業/農家/農村 — Meaning: agriculture / farming",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9432,7 +9432,7 @@
       "fishing",
       "livestock"
     ],
-    "note": "農 = のう; 農業/農家/農村 Reading: のう (nou)",
+    "note": "農 = のう; 農業/農家/農村 — Reading: のう (nou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9446,7 +9446,7 @@
       "こうじょう (koujou)",
       "さぎょう (sagyou)"
     ],
-    "note": "工 = こう; 工場/工事/人工 Meaning: construction / craft",
+    "note": "工 = こう; 工場/工事/人工 — Meaning: construction / craft",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9460,7 +9460,7 @@
       "factory",
       "work/operation"
     ],
-    "note": "工 = こう; 工場/工事/人工 Reading: こう (kou)",
+    "note": "工 = こう; 工場/工事/人工 — Reading: こう (kou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9474,7 +9474,7 @@
       "ぼうえき (boueki)",
       "はんばい (hanbai)"
     ],
-    "note": "商 = しょう; 商業/商品/商店 Meaning: commerce / trade",
+    "note": "商 = しょう; 商業/商品/商店 — Meaning: commerce / trade",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9488,7 +9488,7 @@
       "trade",
       "sales"
     ],
-    "note": "商 = しょう; 商業/商品/商店 Reading: しょう (shou)",
+    "note": "商 = しょう; 商業/商品/商店 — Reading: しょう (shou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9502,7 +9502,7 @@
       "ひん (hin)",
       "さくひん (sakuhin)"
     ],
-    "note": "品 = しな/ひん; 商品/品質/作品 Meaning: goods / item",
+    "note": "品 = しな/ひん; 商品/品質/作品 — Meaning: goods / item",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9516,7 +9516,7 @@
       "item",
       "work/piece"
     ],
-    "note": "品 = しな/ひん; 商品/品質/作品 Reading: しな (shina)",
+    "note": "品 = しな/ひん; 商品/品質/作品 — Reading: しな (shina)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9530,7 +9530,7 @@
       "おおきさ (ookisa)",
       "ながさ (nagasa)"
     ],
-    "note": "質 = しつ/ち; 品質/質問/性質 Meaning: quality",
+    "note": "質 = しつ/ち; 品質/質問/性質 — Meaning: quality",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9544,7 +9544,7 @@
       "size",
       "length"
     ],
-    "note": "質 = しつ/ち; 品質/質問/性質 Reading: しつ (shitsu)",
+    "note": "質 = しつ/ち; 品質/質問/性質 — Reading: しつ (shitsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9558,7 +9558,7 @@
       "おおきさ (ookisa)",
       "ながさ (nagasa)"
     ],
-    "note": "量 = りょう; 量/大量/重量 Meaning: quantity / amount",
+    "note": "量 = りょう; 量/大量/重量 — Meaning: quantity / amount",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9572,7 +9572,7 @@
       "size",
       "length"
     ],
-    "note": "量 = りょう; 量/大量/重量 Reading: りょう (ryou)",
+    "note": "量 = りょう; 量/大量/重量 — Reading: りょう (ryou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9586,7 +9586,7 @@
       "ひよう (hiyou)",
       "ひょうか (hyouka)"
     ],
-    "note": "価 = か; 価格/価値/評価 Meaning: price / value",
+    "note": "価 = か; 価格/価値/評価 — Meaning: price / value",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9600,7 +9600,7 @@
       "cost",
       "evaluation"
     ],
-    "note": "価 = か; 価格/価値/評価 Reading: か (ka)",
+    "note": "価 = か; 価格/価値/評価 — Reading: か (ka)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9614,7 +9614,7 @@
       "かち (kachi)",
       "ひよう (hiyou)"
     ],
-    "note": "値 = ね/ち; 値段/値打ち/数値 Meaning: price / value / worth",
+    "note": "値 = ね/ち; 値段/値打ち/数値 — Meaning: price / value / worth",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9628,7 +9628,7 @@
       "value",
       "cost"
     ],
-    "note": "値 = ね/ち; 値段/値打ち/数値 Reading: ね (ne)",
+    "note": "値 = ね/ち; 値段/値打ち/数値 — Reading: ね (ne)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9642,7 +9642,7 @@
       "ひよう (hiyou)",
       "うりあげ (uriage)"
     ],
-    "note": "費 = ひ; 費用/交通費/消費 Meaning: expense / cost",
+    "note": "費 = ひ; 費用/交通費/消費 — Meaning: expense / cost",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9656,7 +9656,7 @@
       "expense",
       "sales"
     ],
-    "note": "費 = ひ; 費用/交通費/消費 Reading: ひ (hi)",
+    "note": "費 = ひ; 費用/交通費/消費 — Reading: ひ (hi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9670,7 +9670,7 @@
       "ねだん (nedan)",
       "りょうきん (ryoukin)"
     ],
-    "note": "税 = ぜい; 消費税/税金/納税 Meaning: tax",
+    "note": "税 = ぜい; 消費税/税金/納税 — Meaning: tax",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9684,7 +9684,7 @@
       "fine",
       "fee"
     ],
-    "note": "税 = ぜい; 消費税/税金/納税 Reading: ぜい (zei)",
+    "note": "税 = ぜい; 消費税/税金/納税 — Reading: ぜい (zei)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9698,7 +9698,7 @@
       "ひょうか (hyouka)",
       "さんすう (sansuu)"
     ],
-    "note": "計 = けい/はかる; 計画/合計/時計 Meaning: measure / plan",
+    "note": "計 = けい/はかる; 計画/合計/時計 — Meaning: measure / plan",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9712,7 +9712,7 @@
       "evaluate",
       "arithmetic"
     ],
-    "note": "計 = けい/はかる; 計画/合計/時計 Reading: けい (kei)",
+    "note": "計 = けい/はかる; 計画/合計/時計 — Reading: けい (kei)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9726,7 +9726,7 @@
       "え (e)",
       "いと (ito)"
     ],
-    "note": "画 = かく/が; 計画/映画/画像 Meaning: plan / draw",
+    "note": "画 = かく/が; 計画/映画/画像 — Meaning: plan / draw",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9740,7 +9740,7 @@
       "picture",
       "intention"
     ],
-    "note": "画 = かく/が; 計画/映画/画像 Reading: かく (kaku)",
+    "note": "画 = かく/が; 計画/映画/画像 — Reading: かく (kaku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9754,7 +9754,7 @@
       "きげん (kigen)",
       "にってい (nittei)"
     ],
-    "note": "期 = き; 期間/学期/期待 Meaning: period / term",
+    "note": "期 = き; 期間/学期/期待 — Meaning: period / term",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9768,7 +9768,7 @@
       "deadline",
       "schedule"
     ],
-    "note": "期 = き; 期間/学期/期待 Reading: き (ki)",
+    "note": "期 = き; 期間/学期/期待 — Reading: き (ki)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9782,7 +9782,7 @@
       "あいだ (aida)",
       "ま (ma)"
     ],
-    "note": "間 = かん/あいだ; 時間/人間/空間 Meaning: interval / duration",
+    "note": "間 = かん/あいだ; 時間/人間/空間 — Meaning: interval / duration",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9796,7 +9796,7 @@
       "between",
       "space/pause"
     ],
-    "note": "間 = かん/あいだ; 時間/人間/空間 Reading: かん (kan)",
+    "note": "間 = かん/あいだ; 時間/人間/空間 — Reading: かん (kan)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9810,7 +9810,7 @@
       "から (kara)",
       "ほど (hodo)"
     ],
-    "note": "以 = い; 以上/以下/以来 Meaning: more than / since",
+    "note": "以 = い; 以上/以下/以来 — Meaning: more than / since",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9824,7 +9824,7 @@
       "from",
       "about/extent"
     ],
-    "note": "以 = い; 以上/以下/以来 Reading: い (i)",
+    "note": "以 = い; 以上/以下/以来 — Reading: い (i)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9838,7 +9838,7 @@
       "やく (yaku)",
       "まで (made)"
     ],
-    "note": "以上 = いじょう; 以上/以下/それ以上 Meaning: or more / above",
+    "note": "以上 = いじょう; 以上/以下/それ以上 — Meaning: or more / above",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9852,7 +9852,7 @@
       "about",
       "until"
     ],
-    "note": "以上 = いじょう; 以上/以下/それ以上 Reading: いじょう (ijou)",
+    "note": "以上 = いじょう; 以上/以下/それ以上 — Reading: いじょう (ijou)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9866,7 +9866,7 @@
       "やく (yaku)",
       "から (kara)"
     ],
-    "note": "以下 = いか; 以下/未満の違い Meaning: or less / below",
+    "note": "以下 = いか; 以下/未満の違い — Meaning: or less / below",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9880,7 +9880,7 @@
       "about",
       "from"
     ],
-    "note": "以下 = いか; 以下/未満の違い Reading: いか (ika)",
+    "note": "以下 = いか; 以下/未満の違い — Reading: いか (ika)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9894,7 +9894,7 @@
       "つぎ (tsugi)",
       "はじめ (hajime)"
     ],
-    "note": "前 = ぜん/まえ; 以前/前回/午前 Meaning: before / previous",
+    "note": "前 = ぜん/まえ; 以前/前回/午前 — Meaning: before / previous",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9908,7 +9908,7 @@
       "next",
       "beginning"
     ],
-    "note": "前 = ぜん/まえ; 以前/前回/午前 Reading: ぜん (zen)",
+    "note": "前 = ぜん/まえ; 以前/前回/午前 — Reading: ぜん (zen)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9922,7 +9922,7 @@
       "さき (saki)",
       "はじめ (hajime)"
     ],
-    "note": "後 = ご/あと; 以後/午後/後で Meaning: after / later",
+    "note": "後 = ご/あと; 以後/午後/後で — Meaning: after / later",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9936,7 +9936,7 @@
       "ahead",
       "beginning"
     ],
-    "note": "後 = ご/あと; 以後/午後/後で Reading: ご (go)",
+    "note": "後 = ご/あと; 以後/午後/後で — Reading: ご (go)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9950,7 +9950,7 @@
       "ほか (hoka)",
       "べつ (betsu)"
     ],
-    "note": "内 = うち/ない; 国内/以内/内容 Meaning: inside / within",
+    "note": "内 = うち/ない; 国内/以内/内容 — Meaning: inside / within",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9964,7 +9964,7 @@
       "other",
       "separate"
     ],
-    "note": "内 = うち/ない; 国内/以内/内容 Reading: うち (uchi)",
+    "note": "内 = うち/ない; 国内/以内/内容 — Reading: うち (uchi)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -9978,7 +9978,7 @@
       "なか (naka)",
       "ほか (hoka)"
     ],
-    "note": "外 = そと/がい; 海外/外国/外出 Meaning: outside / foreign",
+    "note": "外 = そと/がい; 海外/外国/外出 — Meaning: outside / foreign",
     "hint": "How do you read this kanji?"
   },
   {
@@ -9992,7 +9992,7 @@
       "middle",
       "other"
     ],
-    "note": "外 = そと/がい; 海外/外国/外出 Reading: がい (gai)",
+    "note": "外 = そと/がい; 海外/外国/外出 — Reading: がい (gai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10006,7 +10006,7 @@
       "さく (saku)",
       "とりのぞく"
     ],
-    "note": "加 = くわえる/か; 参加/加える/追加 Meaning: add / join",
+    "note": "加 = くわえる/か; 参加/加える/追加 — Meaning: add / join",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10020,7 +10020,7 @@
       "cut",
       "eliminate"
     ],
-    "note": "加 = くわえる/か; 参加/加える/追加 Reading: くわえる (kuwaeru)",
+    "note": "加 = くわえる/か; 参加/加える/追加 — Reading: くわえる (kuwaeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10034,7 +10034,7 @@
       "かよう (kayou)",
       "いく (iku)"
     ],
-    "note": "参 = さん; 参加/参考/参る(humble go) Meaning: participate / go (humble)",
+    "note": "参 = さん; 参加/参考/参る(humble go) — Meaning: participate / go (humble)",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10048,7 +10048,7 @@
       "commute",
       "go"
     ],
-    "note": "参 = さん; 参加/参考/参る(humble go) Reading: さん (san)",
+    "note": "参 = さん; 参加/参考/参る(humble go) — Reading: さん (san)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10062,7 +10062,7 @@
       "うける (ukeru)",
       "かえす (kaesu)"
     ],
-    "note": "与 = あたえる/よ; 与える/与党 Meaning: give / grant",
+    "note": "与 = あたえる/よ; 与える/与党 — Meaning: give / grant",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10076,7 +10076,7 @@
       "steal",
       "return"
     ],
-    "note": "与 = あたえる/よ; 与える/与党 Reading: あたえる (ataeru)",
+    "note": "与 = あたえる/よ; 与える/与党 — Reading: あたえる (ataeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10090,7 +10090,7 @@
       "かえす (kaesu)",
       "おく (oku)"
     ],
-    "note": "取 = とる/しゅ; 取る/取り組む/取材 Meaning: take / get",
+    "note": "取 = とる/しゅ; 取る/取り組む/取材 — Meaning: take / get",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10104,7 +10104,7 @@
       "return",
       "put"
     ],
-    "note": "取 = とる/しゅ; 取る/取り組む/取材 Reading: とる (toru)",
+    "note": "取 = とる/しゅ; 取る/取り組む/取材 — Reading: とる (toru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10118,7 +10118,7 @@
       "とられる (torareru)",
       "かえす (kaesu)"
     ],
-    "note": "得 = える/とく; 得る/得意/利得 Meaning: obtain / gain",
+    "note": "得 = える/とく; 得る/得意/利得 — Meaning: obtain / gain",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10132,7 +10132,7 @@
       "be taken",
       "return"
     ],
-    "note": "得 = える/とく; 得る/得意/利得 Reading: える (eru)",
+    "note": "得 = える/とく; 得る/得意/利得 — Reading: える (eru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10146,7 +10146,7 @@
       "とる (toru)",
       "もつ (motsu)"
     ],
-    "note": "失 = うしなう/しつ; 失う/失敗/失礼 Meaning: lose / miss",
+    "note": "失 = うしなう/しつ; 失う/失敗/失礼 — Meaning: lose / miss",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10160,7 +10160,7 @@
       "take",
       "have"
     ],
-    "note": "失 = うしなう/しつ; 失う/失敗/失礼 Reading: うしなう (ushinau)",
+    "note": "失 = うしなう/しつ; 失う/失敗/失礼 — Reading: うしなう (ushinau)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10174,7 +10174,7 @@
       "なげる (nageru)",
       "うごかす (ugokasu)"
     ],
-    "note": "置 = おく/ち; 置く/位置/放置 Meaning: put / place",
+    "note": "置 = おく/ち; 置く/位置/放置 — Meaning: put / place",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10188,7 +10188,7 @@
       "throw",
       "move"
     ],
-    "note": "置 = おく/ち; 置く/位置/放置 Reading: おく (oku)",
+    "note": "置 = おく/ち; 置く/位置/放置 — Reading: おく (oku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10202,7 +10202,7 @@
       "みだす (midasu)",
       "わる (waru)"
     ],
-    "note": "整 = ととのえる/せい; 整える/整理/調整 Meaning: arrange / prepare",
+    "note": "整 = ととのえる/せい; 整える/整理/調整 — Meaning: arrange / prepare",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10216,7 +10216,7 @@
       "disturb",
       "divide"
     ],
-    "note": "整 = ととのえる/せい; 整える/整理/調整 Reading: ととのえる (totonoeru)",
+    "note": "整 = ととのえる/せい; 整える/整理/調整 — Reading: ととのえる (totonoeru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10230,7 +10230,7 @@
       "ふかいな (fukaina)",
       "こんらん (konran)"
     ],
-    "note": "理 = り; 理解/理由/整理 Meaning: understanding / reason",
+    "note": "理 = り; 理解/理由/整理 — Meaning: understanding / reason",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10244,7 +10244,7 @@
       "unpleasant",
       "confusion"
     ],
-    "note": "理 = り; 理解/理由/整理 Reading: りかい (rikai)",
+    "note": "理 = り; 理解/理由/整理 — Reading: りかい (rikai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10258,7 +10258,7 @@
       "こまる (komaru)",
       "まよう (mayou)"
     ],
-    "note": "解 = わかる/かい; 理解/解決/解説 Meaning: understand / solve",
+    "note": "解 = わかる/かい; 理解/解決/解説 — Meaning: understand / solve",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10272,7 +10272,7 @@
       "be troubled",
       "get lost/confused"
     ],
-    "note": "解 = わかる/かい; 理解/解決/解説 Reading: わかる (wakaru)",
+    "note": "解 = わかる/かい; 理解/解決/解説 — Reading: わかる (wakaru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10286,7 +10286,7 @@
       "なぞ (nazo)",
       "かだい (kadai)"
     ],
-    "note": "答 = こたえ/とう; 答え/回答/解答 Meaning: answer",
+    "note": "答 = こたえ/とう; 答え/回答/解答 — Meaning: answer",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10300,7 +10300,7 @@
       "riddle",
       "task"
     ],
-    "note": "答 = こたえ/とう; 答え/回答/解答 Reading: こたえ (kotae)",
+    "note": "答 = こたえ/とう; 答え/回答/解答 — Reading: こたえ (kotae)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10314,7 +10314,7 @@
       "げんいん (genin)",
       "けっか (kekka)"
     ],
-    "note": "問 = もんだい/もん; 問題/質問/問い Meaning: problem / question",
+    "note": "問 = もんだい/もん; 問題/質問/問い — Meaning: problem / question",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10328,7 +10328,7 @@
       "cause",
       "result"
     ],
-    "note": "問 = もんだい/もん; 問題/質問/問い Reading: もんだい (mondai)",
+    "note": "問 = もんだい/もん; 問題/質問/問い — Reading: もんだい (mondai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10342,7 +10342,7 @@
       "もり (mori)",
       "かわ (kawa)"
     ],
-    "note": "原 = はら/げん; 原因/原料/高原 Meaning: field / origin / cause",
+    "note": "原 = はら/げん; 原因/原料/高原 — Meaning: field / origin / cause",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10356,7 +10356,7 @@
       "forest",
       "river"
     ],
-    "note": "原 = はら/げん; 原因/原料/高原 Reading: はら (hara)",
+    "note": "原 = はら/げん; 原因/原料/高原 — Reading: はら (hara)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10370,7 +10370,7 @@
       "りゆう (riyuu)",
       "げんいん (genin)"
     ],
-    "note": "因 = いん; 原因/因果/要因 Meaning: cause / reason",
+    "note": "因 = いん; 原因/因果/要因 — Meaning: cause / reason",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10384,7 +10384,7 @@
       "reason",
       "cause"
     ],
-    "note": "因 = いん; 原因/因果/要因 Reading: いん (in)",
+    "note": "因 = いん; 原因/因果/要因 — Reading: いん (in)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10398,7 +10398,7 @@
       "けいか (keika)",
       "けっか (kekka)"
     ],
-    "note": "果 = はたす/か; 結果/成果/果たす Meaning: result / accomplish",
+    "note": "果 = はたす/か; 結果/成果/果たす — Meaning: result / accomplish",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10412,7 +10412,7 @@
       "progress",
       "result"
     ],
-    "note": "果 = はたす/か; 結果/成果/果たす Reading: はたす (hatasu)",
+    "note": "果 = はたす/か; 結果/成果/果たす — Reading: はたす (hatasu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10426,7 +10426,7 @@
       "わける (wakeru)",
       "ひく (hiku)"
     ],
-    "note": "結 = むすぶ/けつ; 結果/結婚/結ぶ Meaning: tie / connect / result",
+    "note": "結 = むすぶ/けつ; 結果/結婚/結ぶ — Meaning: tie / connect / result",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10440,7 +10440,7 @@
       "divide",
       "pull"
     ],
-    "note": "結 = むすぶ/けつ; 結果/結婚/結ぶ Reading: むすぶ (musubu)",
+    "note": "結 = むすぶ/けつ; 結果/結婚/結ぶ — Reading: むすぶ (musubu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10454,7 +10454,7 @@
       "こうさい (kousai)",
       "もてる (moteru)"
     ],
-    "note": "婚 = こん; 結婚/離婚/婚約 Meaning: marriage",
+    "note": "婚 = こん; 結婚/離婚/婚約 — Meaning: marriage",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10468,7 +10468,7 @@
       "dating",
       "be popular"
     ],
-    "note": "婚 = こん; 結婚/離婚/婚約 Reading: こん (kon)",
+    "note": "婚 = こん; 結婚/離婚/婚約 — Reading: こん (kon)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10482,7 +10482,7 @@
       "ころす (korosu)",
       "やめる (yameru)"
     ],
-    "note": "育 = そだてる/いく; 教育/育てる/発育 Meaning: raise / grow",
+    "note": "育 = そだてる/いく; 教育/育てる/発育 — Meaning: raise / grow",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10496,7 +10496,7 @@
       "kill",
       "quit"
     ],
-    "note": "育 = そだてる/いく; 教育/育てる/発育 Reading: そだてる (sodateru)",
+    "note": "育 = そだてる/いく; 教育/育てる/発育 — Reading: そだてる (sodateru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10510,7 +10510,7 @@
       "もどる (modoru)",
       "うける (ukeru)"
     ],
-    "note": "発 = はつ/はっ; 発展/出発/発表 Meaning: emit / develop / start",
+    "note": "発 = はつ/はっ; 発展/出発/発表 — Meaning: emit / develop / start",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10524,7 +10524,7 @@
       "return",
       "receive"
     ],
-    "note": "発 = はつ/はっ; 発展/出発/発表 Reading: はっする (hassuru)",
+    "note": "発 = はつ/はっ; 発展/出発/発表 — Reading: はっする (hassuru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10538,7 +10538,7 @@
       "おわる (owaru)",
       "とじる (tojiru)"
     ],
-    "note": "展 = てん; 発展/展示/展開 Meaning: exhibit / develop",
+    "note": "展 = てん; 発展/展示/展開 — Meaning: exhibit / develop",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10552,7 +10552,7 @@
       "end",
       "close"
     ],
-    "note": "展 = てん; 発展/展示/展開 Reading: てん (ten)",
+    "note": "展 = てん; 発展/展示/展開 — Reading: てん (ten)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10566,7 +10566,7 @@
       "まがる (magaru)",
       "おる (oru)"
     ],
-    "note": "伸 = のびる/しん; 伸びる/伸ばす Meaning: stretch / extend",
+    "note": "伸 = のびる/しん; 伸びる/伸ばす — Meaning: stretch / extend",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10580,7 +10580,7 @@
       "bend",
       "fold"
     ],
-    "note": "伸 = のびる/しん; 伸びる/伸ばす Reading: のびる (nobiru)",
+    "note": "伸 = のびる/しん; 伸びる/伸ばす — Reading: のびる (nobiru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10594,7 +10594,7 @@
       "ふえる (fueru)",
       "たかくなる"
     ],
-    "note": "縮 = ちぢむ/しゅく; 短縮/縮む/圧縮 Meaning: shrink",
+    "note": "縮 = ちぢむ/しゅく; 短縮/縮む/圧縮 — Meaning: shrink",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10608,7 +10608,7 @@
       "increase",
       "become taller"
     ],
-    "note": "縮 = ちぢむ/しゅく; 短縮/縮む/圧縮 Reading: ちぢむ (chijimu)",
+    "note": "縮 = ちぢむ/しゅく; 短縮/縮む/圧縮 — Reading: ちぢむ (chijimu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10622,7 +10622,7 @@
       "へる (heru)",
       "きえる (kieru)"
     ],
-    "note": "広 = ひろがる/こう; 広がる/広める/広告 Meaning: spread / widen",
+    "note": "広 = ひろがる/こう; 広がる/広める/広告 — Meaning: spread / widen",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10636,7 +10636,7 @@
       "decrease",
       "disappear"
     ],
-    "note": "広 = ひろがる/こう; 広がる/広める/広告 Reading: ひろがる (hirogaru)",
+    "note": "広 = ひろがる/こう; 広がる/広める/広告 — Reading: ひろがる (hirogaru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10650,7 +10650,7 @@
       "うすい (usui)",
       "よわい (yowai)"
     ],
-    "note": "深 = ふかい/しん; 深い/深夜/深刻 Meaning: deep",
+    "note": "深 = ふかい/しん; 深い/深夜/深刻 — Meaning: deep",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10664,7 +10664,7 @@
       "thin/light",
       "weak"
     ],
-    "note": "深 = ふかい/しん; 深い/深夜/深刻 Reading: ふかい (fukai)",
+    "note": "深 = ふかい/しん; 深い/深夜/深刻 — Reading: ふかい (fukai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10678,7 +10678,7 @@
       "おおきい (ookii)",
       "たかい (takai)"
     ],
-    "note": "浅 = あさい/せん; 浅い/浅草 Meaning: shallow",
+    "note": "浅 = あさい/せん; 浅い/浅草 — Meaning: shallow",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10692,7 +10692,7 @@
       "big",
       "tall"
     ],
-    "note": "浅 = あさい/せん; 浅い/浅草 Reading: あさい (asai)",
+    "note": "浅 = あさい/せん; 浅い/浅草 — Reading: あさい (asai)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10706,7 +10706,7 @@
       "かんたん (kantan)",
       "ゆるい (yurui)"
     ],
-    "note": "厳 = きびしい/げん; 厳しい/厳格/荘厳 Meaning: strict / severe",
+    "note": "厳 = きびしい/げん; 厳しい/厳格/荘厳 — Meaning: strict / severe",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10720,7 +10720,7 @@
       "easy",
       "loose/lenient"
     ],
-    "note": "厳 = きびしい/げん; 厳しい/厳格/荘厳 Reading: きびしい (kibishii)",
+    "note": "厳 = きびしい/げん; 厳しい/厳格/荘厳 — Reading: きびしい (kibishii)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10734,7 +10734,7 @@
       "こわい (kowai)",
       "きつい (kitsui)"
     ],
-    "note": "優 = やさしい/ゆう; 優しい/優秀/優先 Meaning: gentle / superior",
+    "note": "優 = やさしい/ゆう; 優しい/優秀/優先 — Meaning: gentle / superior",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10748,7 +10748,7 @@
       "scary",
       "harsh"
     ],
-    "note": "優 = やさしい/ゆう; 優しい/優秀/優先 Reading: やさしい (yasashii)",
+    "note": "優 = やさしい/ゆう; 優しい/優秀/優先 — Reading: やさしい (yasashii)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10762,7 +10762,7 @@
       "かんたん (kantan)",
       "じゅんすい (junsui)"
     ],
-    "note": "複 = ふく; 複数/複雑/複合 Meaning: multiple / complex",
+    "note": "複 = ふく; 複数/複雑/複合 — Meaning: multiple / complex",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10776,7 +10776,7 @@
       "easy",
       "pure"
     ],
-    "note": "複 = ふく; 複数/複雑/複合 Reading: ふく (fuku)",
+    "note": "複 = ふく; 複数/複雑/複合 — Reading: ふく (fuku)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10790,7 +10790,7 @@
       "たんじゅん (tanjun)",
       "きれい (kirei)"
     ],
-    "note": "雑 = ざつ; 複雑/雑誌/混雑 Meaning: miscellaneous / rough",
+    "note": "雑 = ざつ; 複雑/雑誌/混雑 — Meaning: miscellaneous / rough",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10804,7 +10804,7 @@
       "simple",
       "clean"
     ],
-    "note": "雑 = ざつ; 複雑/雑誌/混雑 Reading: ざつ (zatsu)",
+    "note": "雑 = ざつ; 複雑/雑誌/混雑 — Reading: ざつ (zatsu)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10818,7 +10818,7 @@
       "きれいにする",
       "すっきり"
     ],
-    "note": "混 = まじる/こん; 混ぜる/混雑/混乱 Meaning: mix / crowd",
+    "note": "混 = まじる/こん; 混ぜる/混雑/混乱 — Meaning: mix / crowd",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10832,7 +10832,7 @@
       "clean up",
       "tidy"
     ],
-    "note": "混 = まじる/こん; 混ぜる/混雑/混乱 Reading: まじる (majiru)",
+    "note": "混 = まじる/こん; 混ぜる/混雑/混乱 — Reading: まじる (majiru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10846,7 +10846,7 @@
       "せいとん (seiton)",
       "しずまる"
     ],
-    "note": "乱 = みだれる/らん; 混乱/乱れる/反乱 Meaning: disturb / disorder",
+    "note": "乱 = みだれる/らん; 混乱/乱れる/反乱 — Meaning: disturb / disorder",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10860,7 +10860,7 @@
       "organize",
       "settle"
     ],
-    "note": "乱 = みだれる/らん; 混乱/乱れる/反乱 Reading: みだれる (midareru)",
+    "note": "乱 = みだれる/らん; 混乱/乱れる/反乱 — Reading: みだれる (midareru)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10874,7 +10874,7 @@
       "さわがしい (sawagashii)",
       "はげしい (hageshii)"
     ],
-    "note": "静 = しずか/せい; 静か/静止/冷静 Meaning: quiet / still",
+    "note": "静 = しずか/せい; 静か/静止/冷静 — Meaning: quiet / still",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10888,7 +10888,7 @@
       "busy",
       "intense"
     ],
-    "note": "静 = しずか/せい; 静か/静止/冷静 Reading: しずか (shizuka)",
+    "note": "静 = しずか/せい; 静か/静止/冷静 — Reading: しずか (shizuka)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10902,7 +10902,7 @@
       "きわどい (kiwadoi)",
       "ふきん (fukin)"
     ],
-    "note": "平 = たいら/へい; 平和/平均/平日 Meaning: flat / peace",
+    "note": "平 = たいら/へい; 平和/平均/平日 — Meaning: flat / peace",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10916,7 +10916,7 @@
       "risky",
       "uneven"
     ],
-    "note": "平 = たいら/へい; 平和/平均/平日 Reading: たいら (taira)",
+    "note": "平 = たいら/へい; 平和/平均/平日 — Reading: たいら (taira)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10930,7 +10930,7 @@
       "ふきん (fukin)",
       "ふびょうどう"
     ],
-    "note": "均 = きん; 平均/均等/均一 Meaning: equal / average",
+    "note": "均 = きん; 平均/均等/均一 — Meaning: equal / average",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10944,7 +10944,7 @@
       "uneven",
       "unequal"
     ],
-    "note": "均 = きん; 平均/均等/均一 Reading: きん (kin)",
+    "note": "均 = きん; 平均/均等/均一 — Reading: きん (kin)",
     "hint": "What does this kanji mean?"
   },
   {
@@ -10958,7 +10958,7 @@
       "おなじ (onaji)",
       "ふびょうどう"
     ],
-    "note": "等 = ひとしい/など; 平等/等しい/など Meaning: equal / etc.",
+    "note": "等 = ひとしい/など; 平等/等しい/など — Meaning: equal / etc.",
     "hint": "How do you read this kanji?"
   },
   {
@@ -10972,7 +10972,7 @@
       "same",
       "unequal"
     ],
-    "note": "等 = ひとしい/など; 平等/等しい/など Reading: ひとしい (hitoshii)",
+    "note": "等 = ひとしい/など; 平等/等しい/など — Reading: ひとしい (hitoshii)",
     "hint": "What does this kanji mean?"
   }
 ]
