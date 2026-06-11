@@ -243,7 +243,7 @@
     "category": "time",
     "level": "medium",
     "q": "３時半",
-    "a": "さんじはん (sanji han)",
+    "a": "さんじはん",
     "d": [
       "さんじさんじゅっぷん",
       "さんじご",
@@ -288,7 +288,7 @@
     "category": "time",
     "level": "medium",
     "q": "午後３時",
-    "a": "ごごさんじ (gogo sanji)",
+    "a": "ごごさんじ",
     "d": [
       "ごぜんさんじ",
       "さんじごご",
@@ -993,12 +993,12 @@
     "category": "time",
     "level": "easy",
     "q": "いちじかん",
-    "a": "いちじかん",
+    "a": "1 hour",
     "d": [
-      "いちじ",
-      "いっぷん",
-      "いちにち",
-      "いちがつ"
+      "1 o'clock",
+      "1 minute",
+      "1 day",
+      "January"
     ],
     "note": "時間 (じかん) = duration of hours; 一時間 = いちじかん",
     "hint": "How do you say this duration?",
@@ -1008,12 +1008,12 @@
     "category": "time",
     "level": "easy",
     "q": "にじかん",
-    "a": "にじかん",
+    "a": "2 hours",
     "d": [
-      "にじ",
-      "にふん",
-      "ふつか",
-      "にがつ"
+      "2 o'clock",
+      "2 minutes",
+      "the 2nd / 2 days",
+      "February"
     ],
     "note": "2時間 = にじかん",
     "hint": "How do you say this duration?",
@@ -1023,12 +1023,11 @@
     "category": "time",
     "level": "easy",
     "q": "はんとし",
-    "a": "はんとし",
+    "a": "half a year",
     "d": [
-      "はんねん",
-      "はんつき",
-      "はんにち",
-      "はんじかん"
+      "half month",
+      "half day",
+      "half hour"
     ],
     "note": "半年 (はんとし) = 6 months / half a year",
     "hint": "What does this word mean?",
@@ -1038,12 +1037,12 @@
     "category": "time",
     "level": "easy",
     "q": "まいにち",
-    "a": "まいにち",
+    "a": "every day",
     "d": [
-      "まいあさ",
-      "まいばん",
-      "まいとし",
-      "まいつき"
+      "every morning",
+      "every evening",
+      "every year",
+      "every month"
     ],
     "note": "毎日 (まいにち) = every day",
     "hint": "What does this word mean?",
@@ -1053,12 +1052,12 @@
     "category": "time",
     "level": "easy",
     "q": "まいあさ",
-    "a": "まいあさ",
+    "a": "every morning",
     "d": [
-      "まいにち",
-      "まいばん",
-      "まいとし",
-      "まいつき"
+      "every day",
+      "every evening",
+      "every year",
+      "every month"
     ],
     "note": "毎朝 (まいあさ) = every morning",
     "hint": "What does this word mean?",
@@ -1068,12 +1067,12 @@
     "category": "time",
     "level": "easy",
     "q": "まいばん",
-    "a": "まいばん",
+    "a": "every evening",
     "d": [
-      "まいにち",
-      "まいあさ",
-      "まいとし",
-      "まいつき"
+      "every day",
+      "every morning",
+      "every year",
+      "every month"
     ],
     "note": "毎晩 (まいばん) = every evening",
     "hint": "What does this word mean?",
@@ -1083,12 +1082,12 @@
     "category": "time",
     "level": "easy",
     "q": "きょう",
-    "a": "きょう",
+    "a": "today",
     "d": [
-      "きのう",
-      "あした",
-      "あさって",
-      "おととい"
+      "yesterday",
+      "tomorrow",
+      "day after tomorrow",
+      "day before yesterday"
     ],
     "note": "今日 (きょう) = today",
     "hint": "What does this word mean?",
@@ -1098,12 +1097,12 @@
     "category": "time",
     "level": "easy",
     "q": "きのう",
-    "a": "きのう",
+    "a": "yesterday",
     "d": [
-      "きょう",
-      "あした",
-      "あさって",
-      "おととい"
+      "today",
+      "tomorrow",
+      "day after tomorrow",
+      "day before yesterday"
     ],
     "note": "昨日 (きのう) = yesterday",
     "hint": "What does this word mean?",
@@ -1113,12 +1112,12 @@
     "category": "time",
     "level": "easy",
     "q": "あした",
-    "a": "あした",
+    "a": "tomorrow",
     "d": [
-      "きょう",
-      "きのう",
-      "あさって",
-      "おととい"
+      "today",
+      "yesterday",
+      "day after tomorrow",
+      "day before yesterday"
     ],
     "note": "明日 (あした/あす) = tomorrow",
     "hint": "What does this word mean?",
@@ -1128,12 +1127,12 @@
     "category": "time",
     "level": "easy",
     "q": "おととい",
-    "a": "おととい",
+    "a": "the day before yesterday",
     "d": [
-      "きょう",
-      "きのう",
-      "あした",
-      "あさって"
+      "today",
+      "yesterday",
+      "tomorrow",
+      "day after tomorrow"
     ],
     "note": "一昨日 (おととい) = the day before yesterday",
     "hint": "What does this word mean?",
@@ -1143,12 +1142,12 @@
     "category": "time",
     "level": "easy",
     "q": "あさって",
-    "a": "あさって",
+    "a": "the day after tomorrow",
     "d": [
-      "きょう",
-      "きのう",
-      "あした",
-      "おととい"
+      "today",
+      "yesterday",
+      "tomorrow",
+      "day before yesterday"
     ],
     "note": "明後日 (あさって) = the day after tomorrow",
     "hint": "What does this word mean?",
@@ -1158,12 +1157,12 @@
     "category": "time",
     "level": "easy",
     "q": "けさ",
-    "a": "けさ",
+    "a": "this morning",
     "d": [
-      "こんばん",
-      "きょうのひる",
-      "きのうのあさ",
-      "あしたのあさ"
+      "tonight",
+      "this noon",
+      "yesterday morning",
+      "tomorrow morning"
     ],
     "note": "今朝 (けさ) = this morning",
     "hint": "What does this word mean?",
@@ -1173,12 +1172,12 @@
     "category": "time",
     "level": "easy",
     "q": "こんばん",
-    "a": "こんばん",
+    "a": "this evening",
     "d": [
-      "けさ",
-      "きょう",
-      "こんにち",
-      "こんしゅう"
+      "this morning",
+      "today",
+      "these days",
+      "this week"
     ],
     "note": "今晩 (こんばん) = this evening",
     "hint": "What does this word mean?",
@@ -1188,12 +1187,11 @@
     "category": "time",
     "level": "easy",
     "q": "ことし",
-    "a": "ことし",
+    "a": "this year",
     "d": [
-      "きょねん",
-      "らいねん",
-      "さらいねん",
-      "さくねん"
+      "last year",
+      "next year",
+      "year after next"
     ],
     "note": "今年 (ことし) = this year",
     "hint": "What does this word mean?",
@@ -1203,12 +1201,12 @@
     "category": "time",
     "level": "easy",
     "q": "きょねん",
-    "a": "きょねん",
+    "a": "last year",
     "d": [
-      "ことし",
-      "らいねん",
-      "さらいねん",
-      "おととし"
+      "this year",
+      "next year",
+      "year after next",
+      "year before last"
     ],
     "note": "去年 (きょねん) = last year",
     "hint": "What does this word mean?",
@@ -1218,12 +1216,12 @@
     "category": "time",
     "level": "easy",
     "q": "らいねん",
-    "a": "らいねん",
+    "a": "next year",
     "d": [
-      "ことし",
-      "きょねん",
-      "さらいねん",
-      "おととし"
+      "this year",
+      "last year",
+      "year after next",
+      "year before last"
     ],
     "note": "来年 (らいねん) = next year",
     "hint": "What does this word mean?",
@@ -1233,12 +1231,12 @@
     "category": "time",
     "level": "easy",
     "q": "こんしゅう",
-    "a": "こんしゅう",
+    "a": "this week",
     "d": [
-      "せんしゅう",
-      "らいしゅう",
-      "さらいしゅう",
-      "こんげつ"
+      "last week",
+      "next week",
+      "week after next",
+      "this month"
     ],
     "note": "今週 (こんしゅう) = this week",
     "hint": "What does this word mean?",
@@ -1248,12 +1246,12 @@
     "category": "time",
     "level": "easy",
     "q": "せんしゅう",
-    "a": "せんしゅう",
+    "a": "last week",
     "d": [
-      "こんしゅう",
-      "らいしゅう",
-      "さらいしゅう",
-      "こんげつ"
+      "this week",
+      "next week",
+      "week after next",
+      "this month"
     ],
     "note": "先週 (せんしゅう) = last week",
     "hint": "What does this word mean?",
@@ -1263,12 +1261,12 @@
     "category": "time",
     "level": "easy",
     "q": "らいしゅう",
-    "a": "らいしゅう",
+    "a": "next week",
     "d": [
-      "こんしゅう",
-      "せんしゅう",
-      "さらいしゅう",
-      "こんげつ"
+      "this week",
+      "last week",
+      "week after next",
+      "this month"
     ],
     "note": "来週 (らいしゅう) = next week",
     "hint": "What does this word mean?",
@@ -1278,12 +1276,12 @@
     "category": "time",
     "level": "easy",
     "q": "こんげつ",
-    "a": "こんげつ",
+    "a": "this month",
     "d": [
-      "せんげつ",
-      "らいげつ",
-      "こんしゅう",
-      "ことし"
+      "last month",
+      "next month",
+      "this week",
+      "this year"
     ],
     "note": "今月 (こんげつ) = this month",
     "hint": "What does this word mean?",
@@ -1293,12 +1291,12 @@
     "category": "time",
     "level": "easy",
     "q": "せんげつ",
-    "a": "せんげつ",
+    "a": "last month",
     "d": [
-      "こんげつ",
-      "らいげつ",
-      "こんしゅう",
-      "きょねん"
+      "this month",
+      "next month",
+      "this week",
+      "last year"
     ],
     "note": "先月 (せんげつ) = last month",
     "hint": "What does this word mean?",
@@ -1308,12 +1306,12 @@
     "category": "time",
     "level": "easy",
     "q": "らいげつ",
-    "a": "らいげつ",
+    "a": "next month",
     "d": [
-      "こんげつ",
-      "せんげつ",
-      "こんしゅう",
-      "らいねん"
+      "this month",
+      "last month",
+      "this week",
+      "next year"
     ],
     "note": "来月 (らいげつ) = next month",
     "hint": "What does this word mean?",
@@ -1342,7 +1340,6 @@
     "d": [
       "しちにち",
       "ななにち",
-      "なのか",
       "なぬか"
     ],
     "note": "7日 = なのか (not しちにち!)",
@@ -1357,7 +1354,6 @@
     "d": [
       "はちにち",
       "やにち",
-      "ようか",
       "はっか"
     ],
     "note": "8日 = ようか ⚠️ irregular!",
@@ -1398,12 +1394,12 @@
     "category": "time",
     "level": "medium",
     "q": "はるやすみ",
-    "a": "はるやすみ",
+    "a": "spring break",
     "d": [
-      "なつやすみ",
-      "ふゆやすみ",
-      "あきやすみ",
-      "やすみ"
+      "summer vacation",
+      "winter break",
+      "autumn break",
+      "holiday/rest"
     ],
     "note": "春休み (はるやすみ) = spring break",
     "hint": "What does this word mean?",
@@ -1413,12 +1409,12 @@
     "category": "time",
     "level": "medium",
     "q": "なつやすみ",
-    "a": "なつやすみ",
+    "a": "summer vacation",
     "d": [
-      "はるやすみ",
-      "ふゆやすみ",
-      "あきやすみ",
-      "やすみ"
+      "spring break",
+      "winter break",
+      "autumn break",
+      "holiday/rest"
     ],
     "note": "夏休み (なつやすみ) = summer vacation",
     "hint": "What does this word mean?",
@@ -1428,12 +1424,12 @@
     "category": "time",
     "level": "medium",
     "q": "ふゆやすみ",
-    "a": "ふゆやすみ",
+    "a": "winter break",
     "d": [
-      "はるやすみ",
-      "なつやすみ",
-      "あきやすみ",
-      "やすみ"
+      "spring break",
+      "summer vacation",
+      "autumn break",
+      "holiday/rest"
     ],
     "note": "冬休み (ふゆやすみ) = winter break",
     "hint": "What does this word mean?",
@@ -1443,12 +1439,12 @@
     "category": "time",
     "level": "medium",
     "q": "はる",
-    "a": "はる",
+    "a": "spring",
     "d": [
-      "なつ",
-      "あき",
-      "ふゆ",
-      "きせつ"
+      "summer",
+      "autumn",
+      "winter",
+      "season"
     ],
     "note": "春 (はる) = spring season",
     "hint": "What season is this?",
@@ -1458,12 +1454,12 @@
     "category": "time",
     "level": "medium",
     "q": "なつ",
-    "a": "なつ",
+    "a": "summer",
     "d": [
-      "はる",
-      "あき",
-      "ふゆ",
-      "きせつ"
+      "spring",
+      "autumn",
+      "winter",
+      "season"
     ],
     "note": "夏 (なつ) = summer season",
     "hint": "What season is this?",
@@ -1473,12 +1469,12 @@
     "category": "time",
     "level": "medium",
     "q": "あき",
-    "a": "あき",
+    "a": "autumn",
     "d": [
-      "はる",
-      "なつ",
-      "ふゆ",
-      "きせつ"
+      "spring",
+      "summer",
+      "winter",
+      "season"
     ],
     "note": "秋 (あき) = autumn season",
     "hint": "What season is this?",
@@ -1488,12 +1484,12 @@
     "category": "time",
     "level": "medium",
     "q": "ふゆ",
-    "a": "ふゆ",
+    "a": "winter",
     "d": [
-      "はる",
-      "なつ",
-      "あき",
-      "きせつ"
+      "spring",
+      "summer",
+      "autumn",
+      "season"
     ],
     "note": "冬 (ふゆ) = winter season",
     "hint": "What season is this?",
@@ -1502,17 +1498,16 @@
   {
     "category": "time",
     "level": "medium",
-    "q": "にほんのしょうがつ",
-    "a": "January 1st — New Year in Japan",
+    "q": "しょうがつ",
+    "a": "Japanese New Year",
     "d": [
       "Golden Week",
-      "Obon",
-      "Christmas",
-      "Tanabata"
+      "Obon festival",
+      "Star Festival"
     ],
-    "note": "正月 (しょうがつ) = Japanese New Year; １月１日",
-    "hint": "What special occasion is this?",
-    "meaning": "正月"
+    "note": "正月 (しょうがつ) = Japanese New Year, celebrated January 1",
+    "hint": "What does this word mean?",
+    "meaning": "New Year"
   },
   {
     "category": "time",
@@ -1520,10 +1515,9 @@
     "q": "ゴールデンウィーク",
     "a": "late April to early May holidays",
     "d": [
-      "Obon",
-      "Shogatsu",
-      "Tanabata",
-      "Seijin no Hi"
+      "mid-August ancestor festival",
+      "January 1 New Year period",
+      "July 7 star festival"
     ],
     "note": "ゴールデンウィーク = Golden Week, late April–early May",
     "hint": "What does this word mean?",
@@ -1535,10 +1529,9 @@
     "q": "おぼん",
     "a": "mid-August ancestor festival",
     "d": [
-      "Shogatsu",
-      "Golden Week",
-      "Tanabata",
-      "Seijin no Hi"
+      "late April–early May holidays",
+      "January 1 New Year period",
+      "July 7 star festival"
     ],
     "note": "お盆 (おぼん) = Obon festival, mid-August",
     "hint": "What does this word mean?",
@@ -1550,10 +1543,9 @@
     "q": "たなばた",
     "a": "Star Festival, July 7th",
     "d": [
-      "Obon",
-      "Shogatsu",
-      "Golden Week",
-      "Hinamatsuri"
+      "mid-August ancestor festival",
+      "late April–early May holidays",
+      "2nd Monday of January holiday"
     ],
     "note": "七夕 (たなばた) = Star Festival, July 7th",
     "hint": "What does this word mean?",
@@ -1565,10 +1557,9 @@
     "q": "せいじんのひ",
     "a": "Coming-of-Age Day (age 20)",
     "d": [
-      "Keiro no Hi",
-      "Taiiku no Hi",
-      "Bunka no Hi",
-      "Kinrou Kansha no Hi"
+      "mid-August ancestor festival",
+      "July 7 star festival",
+      "late April–early May holidays"
     ],
     "note": "成人の日 = Coming-of-Age Day, 2nd Monday of January",
     "hint": "What does this word mean?",
@@ -1593,42 +1584,40 @@
     "category": "time",
     "level": "medium",
     "q": "ごぜんれいじ",
-    "a": "ごぜん れいじ (gozen reiji)",
+    "a": "midnight (12 AM)",
     "d": [
-      "ごご じゅうにじ",
-      "しょうご",
-      "ごぜん いちじ",
-      "ごご じゅういちじ"
+      "noon (12 PM)",
+      "1 AM",
+      "11 PM"
     ],
     "note": "午前零時 (ごぜんれいじ) = midnight = 12:00 AM",
-    "hint": "How do you say this time?",
+    "hint": "What time is this?",
     "meaning": "midnight (12 AM)"
   },
   {
     "category": "time",
     "level": "medium",
     "q": "しょうご",
-    "a": "しょうご",
+    "a": "noon (12 PM)",
     "d": [
-      "ごぜんれいじ",
-      "ごご じゅうにじ",
-      "ごぜん じゅうにじ",
-      "まよなか"
+      "midnight (12 AM)",
+      "sunrise",
+      "sunset"
     ],
     "note": "正午 (しょうご) = noon / 12:00 PM",
-    "hint": "How do you say this time?",
+    "hint": "What time is this?",
     "meaning": "noon (12 PM)"
   },
   {
     "category": "time",
     "level": "medium",
     "q": "ふだん",
-    "a": "ふだん",
+    "a": "usually",
     "d": [
-      "たまに",
-      "ときどき",
-      "よく",
-      "ぜんぜん"
+      "occasionally",
+      "sometimes",
+      "often",
+      "not at all"
     ],
     "note": "普段 (ふだん) = usually, normally",
     "hint": "What does this word mean?",
@@ -1638,12 +1627,12 @@
     "category": "time",
     "level": "medium",
     "q": "ときどき",
-    "a": "ときどき",
+    "a": "sometimes",
     "d": [
-      "ふだん",
-      "たまに",
-      "よく",
-      "いつも"
+      "usually",
+      "occasionally",
+      "often",
+      "always"
     ],
     "note": "時々 (ときどき) = sometimes",
     "hint": "What does this adverb mean?",
@@ -1653,12 +1642,11 @@
     "category": "time",
     "level": "medium",
     "q": "たまに",
-    "a": "たまに (tama ni)",
+    "a": "occasionally",
     "d": [
-      "ふだん",
-      "ときどき",
-      "よく",
-      "いつも"
+      "usually",
+      "sometimes",
+      "often"
     ],
     "note": "たまに = occasionally, once in a while",
     "hint": "What does this adverb mean?",
@@ -1668,12 +1656,12 @@
     "category": "time",
     "level": "medium",
     "q": "よく",
-    "a": "よく",
+    "a": "often",
     "d": [
-      "ふだん",
-      "たまに",
-      "ときどき",
-      "めったに"
+      "usually",
+      "occasionally",
+      "sometimes",
+      "rarely"
     ],
     "note": "よく = often, frequently",
     "hint": "What does this adverb mean?",
@@ -1683,12 +1671,11 @@
     "category": "time",
     "level": "medium",
     "q": "めったに〜ない",
-    "a": "めったに〜ない (metta ni~nai)",
+    "a": "rarely / seldom",
     "d": [
-      "ふだん",
-      "たまに",
-      "よく",
-      "いつも"
+      "usually",
+      "occasionally",
+      "always"
     ],
     "note": "めったに＋negative = rarely, seldom",
     "hint": "What does this expression mean?",
@@ -1698,12 +1685,12 @@
     "category": "time",
     "level": "medium",
     "q": "ずっと",
-    "a": "ずっと",
+    "a": "all along",
     "d": [
-      "たまに",
-      "ときどき",
-      "すこし",
-      "だいたい"
+      "occasionally",
+      "sometimes",
+      "a little",
+      "roughly"
     ],
     "note": "ずっと = all the time, continuously, ever since",
     "hint": "What does this adverb mean?",
@@ -1713,12 +1700,12 @@
     "category": "time",
     "level": "medium",
     "q": "もうすぐ",
-    "a": "もうすぐ",
+    "a": "very soon",
     "d": [
-      "まもなく",
-      "すこしまえ",
-      "あとで",
-      "さっき"
+      "shortly",
+      "a little while ago",
+      "later",
+      "a moment ago"
     ],
     "note": "もうすぐ = very soon, almost (time)",
     "hint": "What does this expression mean?",
@@ -1728,12 +1715,12 @@
     "category": "time",
     "level": "hard",
     "q": "さらいねん",
-    "a": "さらいねん",
+    "a": "the year after next",
     "d": [
-      "らいねん",
-      "ことし",
-      "きょねん",
-      "おととし"
+      "next year",
+      "this year",
+      "last year",
+      "year before last"
     ],
     "note": "再来年 (さらいねん) = year after next",
     "hint": "What does this word mean?",
@@ -1743,12 +1730,12 @@
     "category": "time",
     "level": "hard",
     "q": "おととし",
-    "a": "おととし",
+    "a": "the year before last",
     "d": [
-      "きょねん",
-      "ことし",
-      "らいねん",
-      "さらいねん"
+      "last year",
+      "this year",
+      "next year",
+      "year after next"
     ],
     "note": "一昨年 (おととし) = year before last",
     "hint": "What does this word mean?",
@@ -1758,12 +1745,12 @@
     "category": "time",
     "level": "hard",
     "q": "さらいしゅう",
-    "a": "さらいしゅう",
+    "a": "the week after next",
     "d": [
-      "らいしゅう",
-      "こんしゅう",
-      "せんしゅう",
-      "せんせんしゅう"
+      "next week",
+      "this week",
+      "last week",
+      "week before last"
     ],
     "note": "再来週 (さらいしゅう) = week after next",
     "hint": "What does this word mean?",
@@ -1773,12 +1760,12 @@
     "category": "time",
     "level": "hard",
     "q": "せんせんしゅう",
-    "a": "せんせんしゅう",
+    "a": "the week before last",
     "d": [
-      "せんしゅう",
-      "こんしゅう",
-      "らいしゅう",
-      "さらいしゅう"
+      "last week",
+      "this week",
+      "next week",
+      "week after next"
     ],
     "note": "先々週 (せんせんしゅう) = week before last",
     "hint": "What does this word mean?",
@@ -1788,12 +1775,12 @@
     "category": "time",
     "level": "hard",
     "q": "しあさって",
-    "a": "しあさって",
+    "a": "3 days from now",
     "d": [
-      "あさって",
-      "あした",
-      "きょう",
-      "あさってのつぎ"
+      "day after tomorrow",
+      "tomorrow",
+      "today",
+      "4 days from now"
     ],
     "note": "明明後日 (しあさって) = 3 days from now",
     "hint": "What does this word mean?",
@@ -1802,53 +1789,50 @@
   {
     "category": "time",
     "level": "hard",
-    "q": "うるうとし",
+    "q": "閏年",
     "a": "うるうどし",
     "d": [
       "へいねん",
-      "まるねん",
-      "さいねん",
-      "ひゃくねん"
+      "じゅんねん",
+      "まんねん"
     ],
-    "note": "閏年 (うるうどし) = leap year (every 4 years)",
-    "hint": "What does this word mean?",
+    "note": "閏年 (うるうどし) = leap year, occurs every 4 years",
+    "hint": "How do you read this word?",
     "meaning": "leap year"
   },
   {
     "category": "time",
     "level": "hard",
-    "q": "にほんのかいしゃのかいけいねんど",
-    "a": "4月 to 3月 of the next year",
+    "q": "ねんど",
+    "a": "fiscal / academic year",
     "d": [
-      "January to December",
-      "July to June",
-      "October to September",
-      "March to February"
+      "calendar year",
+      "semester",
+      "anniversary"
     ],
-    "note": "会計年度 (かいけいねんど) = fiscal year; Japan uses April–March",
-    "hint": "When is Japan's fiscal/school year?",
-    "meaning": "Japanese fiscal year"
+    "note": "年度 (ねんど) = fiscal/academic year — in Japan runs April to March",
+    "hint": "What does this word mean?",
+    "meaning": "fiscal year"
   },
   {
     "category": "time",
     "level": "hard",
-    "q": "がっこうのにゅうがくしき",
-    "a": "April — school entrance ceremony",
+    "q": "にゅうがくしき",
+    "a": "school entrance ceremony",
     "d": [
-      "September",
-      "January",
-      "July",
-      "October"
+      "graduation ceremony",
+      "sports festival",
+      "culture festival"
     ],
-    "note": "入学式 (にゅうがくしき) = school entrance ceremony; always April in Japan",
-    "hint": "When does school typically start in Japan?",
-    "meaning": "School entrance ceremony month"
+    "note": "入学式 (にゅうがくしき) = school entrance ceremony — held in April in Japan",
+    "hint": "What does this word mean?",
+    "meaning": "school entrance ceremony"
   },
   {
     "category": "time",
     "level": "hard",
     "q": "ちょうど２時間",
-    "a": "ちょうど にじかん (choudo nijikan)",
+    "a": "ちょうど にじかん",
     "d": [
       "だいたい にじかん",
       "やく にじかん",
@@ -1863,7 +1847,7 @@
     "category": "time",
     "level": "hard",
     "q": "やく３０ぷん",
-    "a": "やく さんじゅっぷん (yaku sanjuppun)",
+    "a": "やく さんじゅっぷん",
     "d": [
       "ちょうど さんじゅっぷん",
       "さんじゅっぷんいじょう",
@@ -1878,42 +1862,39 @@
     "category": "time",
     "level": "hard",
     "q": "さんじかんいじょう",
-    "a": "さんじかんいじょう (sanjikan ijou)",
+    "a": "3 hours or more",
     "d": [
-      "さんじかんいか",
-      "さんじかんちょうど",
-      "さんじかんまえ",
-      "さんじかんご"
+      "3 hours or less",
+      "exactly 3 hours",
+      "3 hours ago"
     ],
     "note": "以上 (いじょう) = or more; 3時間以上 = 3+ hours",
-    "hint": "What does this time expression mean?",
+    "hint": "What does this expression mean?",
     "meaning": "3 hours or more"
   },
   {
     "category": "time",
     "level": "hard",
     "q": "にじかんいか",
-    "a": "にじかんいか (nijikan ika)",
+    "a": "2 hours or less",
     "d": [
-      "にじかんいじょう",
-      "にじかんちょうど",
-      "にじかんまえ",
-      "にじかんご"
+      "2 hours or more",
+      "exactly 2 hours",
+      "2 hours later"
     ],
     "note": "以下 (いか) = or less/under; 2時間以下 = under 2 hours",
-    "hint": "What does this time expression mean?",
+    "hint": "What does this expression mean?",
     "meaning": "2 hours or less"
   },
   {
     "category": "time",
     "level": "hard",
     "q": "こんかいとじかい",
-    "a": "こんかいとじかい (konkai to jikai)",
+    "a": "this time and next time",
     "d": [
-      "まいかいとぜんかい",
-      "ぜんかいとこんかい",
-      "じかいとこんかい",
-      "まいかいとこんかい"
+      "last time and this time",
+      "every time",
+      "first and last time"
     ],
     "note": "今回 (こんかい) = this time; 次回 (じかい) = next time",
     "hint": "What does this expression mean?",
@@ -1938,12 +1919,12 @@
     "category": "time",
     "level": "hard",
     "q": "じだい",
-    "a": "じだい",
+    "a": "era",
     "d": [
-      "れきし",
-      "れきねん",
-      "きかん",
-      "ねんだい"
+      "history",
+      "calendar years",
+      "period",
+      "era/decade"
     ],
     "note": "時代 (じだい) = era, period; 江戸時代 = Edo period",
     "hint": "What does this word mean?",
@@ -1953,12 +1934,12 @@
     "category": "time",
     "level": "hard",
     "q": "ねんごう",
-    "a": "ねんごう",
+    "a": "Japanese era name",
     "d": [
-      "せいれき",
-      "きりすとき",
-      "れきし",
-      "きかん"
+      "Western calendar (AD)",
+      "Christian era",
+      "history",
+      "period"
     ],
     "note": "元号 (ねんごう) = Japanese era system: 令和, 平成, 昭和...",
     "hint": "What does this word mean?",
@@ -1968,12 +1949,12 @@
     "category": "time",
     "level": "hard",
     "q": "せいれき",
-    "a": "せいれき",
+    "a": "Western calendar (AD)",
     "d": [
-      "ねんごう",
-      "われき",
-      "きゅうれき",
-      "たいいん"
+      "Japanese era name",
+      "Japanese calendar",
+      "old lunar calendar",
+      "lunar calendar"
     ],
     "note": "西暦 (せいれき) = Western calendar / Anno Domini",
     "hint": "What does this word mean?",
@@ -1983,12 +1964,12 @@
     "category": "time",
     "level": "hard",
     "q": "われき",
-    "a": "われき",
+    "a": "Japanese calendar",
     "d": [
-      "せいれき",
-      "ねんごう",
-      "きゅうれき",
-      "たいいん"
+      "Western calendar (AD)",
+      "Japanese era name",
+      "old lunar calendar",
+      "lunar calendar"
     ],
     "note": "和暦 (われき) = Japanese traditional calendar system",
     "hint": "What does this word mean?",
@@ -1998,12 +1979,11 @@
     "category": "time",
     "level": "hard",
     "q": "しゅんぶんのひ",
-    "a": "しゅんぶんのひ (shunbun no hi)",
+    "a": "Vernal Equinox Day (around March 21)",
     "d": [
-      "どようのひ",
-      "たいようのひ",
-      "しゅうぶんのひ",
-      "こうのひ"
+      "Autumnal Equinox Day",
+      "Children's Day",
+      "Marine Day"
     ],
     "note": "春分の日 = Vernal Equinox Day (around March 21)",
     "hint": "What holiday is this?",
@@ -2013,12 +1993,11 @@
     "category": "time",
     "level": "hard",
     "q": "しゅうぶんのひ",
-    "a": "しゅうぶんのひ (shuubun no hi)",
+    "a": "Autumnal Equinox Day (around Sept 23)",
     "d": [
-      "しゅんぶんのひ",
-      "こどものひ",
-      "けんぽうきねんび",
-      "みどりのひ"
+      "Vernal Equinox Day",
+      "Greenery Day",
+      "Constitution Day"
     ],
     "note": "秋分の日 = Autumnal Equinox Day (around Sept 23)",
     "hint": "What holiday is this?",
@@ -2028,12 +2007,11 @@
     "category": "time",
     "level": "hard",
     "q": "こどものひ",
-    "a": "こどものひ (kodomo no hi)",
+    "a": "Children's Day (May 5)",
     "d": [
-      "けんぽうきねんび",
-      "みどりのひ",
-      "しゅんぶんのひ",
-      "しゅうぶんのひ"
+      "Constitution Day",
+      "Greenery Day",
+      "Vernal Equinox Day"
     ],
     "note": "こどもの日 = Children's Day, May 5 (part of Golden Week)",
     "hint": "What holiday is this?",
@@ -2043,12 +2021,11 @@
     "category": "time",
     "level": "hard",
     "q": "けんぽうきねんび",
-    "a": "けんぽうきねんび (kenpou kinenbi)",
+    "a": "Constitution Day (May 3)",
     "d": [
-      "こどものひ",
-      "みどりのひ",
-      "しゅんぶんのひ",
-      "みどりのひ"
+      "Children's Day",
+      "Greenery Day",
+      "Marine Day"
     ],
     "note": "憲法記念日 = Constitution Day, May 3 (Golden Week)",
     "hint": "What holiday is this?",
@@ -2058,12 +2035,12 @@
     "category": "time",
     "level": "hard",
     "q": "きねんび",
-    "a": "きねんび",
+    "a": "anniversary",
     "d": [
-      "たんじょうび",
-      "むかしのひ",
-      "まつり",
-      "さいてん"
+      "birthday",
+      "old days",
+      "festival",
+      "festival day"
     ],
     "note": "記念日 (きねんび) = anniversary, memorial day",
     "hint": "What does this word mean?",
@@ -2073,12 +2050,11 @@
     "category": "time",
     "level": "hard",
     "q": "まんねんひつ",
-    "a": "まんねんひつ (mannen hitsu)",
+    "a": "fountain pen",
     "d": [
-      "ボールペン",
-      "えんぴつ",
-      "マーカー",
-      "シャーペン"
+      "ballpoint pen",
+      "pencil",
+      "mechanical pencil"
     ],
     "note": "万年筆 (まんねんひつ) = fountain pen — 万年 = 10,000 years!",
     "hint": "What does this compound mean?",
@@ -2088,12 +2064,11 @@
     "category": "time",
     "level": "hard",
     "q": "いちじてき",
-    "a": "いちじてき",
+    "a": "temporary",
     "d": [
-      "えいきゅうてき",
-      "きゅうてき",
-      "ながきてき",
-      "じかんてき"
+      "permanent",
+      "temporal",
+      "periodic"
     ],
     "note": "一時的 (いちじてき) = temporary; 一時 = one time/moment",
     "hint": "What does this word mean?",
@@ -2103,12 +2078,12 @@
     "category": "time",
     "level": "easy",
     "q": "ごご",
-    "a": "ごご",
+    "a": "afternoon",
     "d": [
-      "ごぜん",
-      "あさ",
-      "よる",
-      "ひる"
+      "morning (AM)",
+      "morning",
+      "night",
+      "noon"
     ],
     "note": "午後 (ごご) = afternoon/PM",
     "hint": "What time of day is this?",
@@ -2118,12 +2093,11 @@
     "category": "time",
     "level": "easy",
     "q": "ごぜん",
-    "a": "ごぜん",
+    "a": "morning",
     "d": [
-      "ごご",
-      "あさ",
-      "よる",
-      "ひる"
+      "afternoon",
+      "night",
+      "noon"
     ],
     "note": "午前 (ごぜん) = morning/AM",
     "hint": "What time of day is this?",
@@ -2133,12 +2107,12 @@
     "category": "time",
     "level": "easy",
     "q": "あさ",
-    "a": "あさ",
+    "a": "morning",
     "d": [
-      "ひる",
-      "よる",
-      "ゆうがた",
-      "ごご"
+      "noon",
+      "night",
+      "evening",
+      "afternoon"
     ],
     "note": "朝 (あさ) = morning (general)",
     "hint": "What time of day is this?",
@@ -2148,12 +2122,12 @@
     "category": "time",
     "level": "easy",
     "q": "ひる",
-    "a": "ひる",
+    "a": "noon",
     "d": [
-      "あさ",
-      "よる",
-      "ゆうがた",
-      "ごご"
+      "morning",
+      "night",
+      "evening",
+      "afternoon"
     ],
     "note": "昼 (ひる) = noon/daytime",
     "hint": "What time of day is this?",
@@ -2163,12 +2137,12 @@
     "category": "time",
     "level": "easy",
     "q": "よる",
-    "a": "よる",
+    "a": "night",
     "d": [
-      "あさ",
-      "ひる",
-      "ゆうがた",
-      "ごご"
+      "morning",
+      "noon",
+      "evening",
+      "afternoon"
     ],
     "note": "夜 (よる) = night",
     "hint": "What time of day is this?",
@@ -2178,12 +2152,12 @@
     "category": "time",
     "level": "easy",
     "q": "ゆうがた",
-    "a": "ゆうがた",
+    "a": "evening",
     "d": [
-      "あさ",
-      "ひる",
-      "よる",
-      "ごご"
+      "morning",
+      "noon",
+      "night",
+      "afternoon"
     ],
     "note": "夕方 (ゆうがた) = early evening",
     "hint": "What time of day is this?",
@@ -2193,12 +2167,12 @@
     "category": "time",
     "level": "hard",
     "q": "ひごろ",
-    "a": "ひごろ",
+    "a": "usually",
     "d": [
-      "ときどき",
-      "たまに",
-      "よく",
-      "まいにち"
+      "sometimes",
+      "occasionally",
+      "often",
+      "every day"
     ],
     "note": "日頃 (ひごろ) = habitually, on a daily basis",
     "hint": "What does this word mean?",
@@ -2208,12 +2182,12 @@
     "category": "time",
     "level": "hard",
     "q": "まもなく",
-    "a": "まもなく",
+    "a": "shortly",
     "d": [
-      "もうすぐ",
-      "すぐに",
-      "あとで",
-      "まだ"
+      "very soon",
+      "immediately",
+      "later",
+      "not yet"
     ],
     "note": "間もなく (まもなく) = shortly, in a moment (more formal than もうすぐ)",
     "hint": "What does this word mean?",
@@ -2223,12 +2197,12 @@
     "category": "time",
     "level": "hard",
     "q": "とっくに",
-    "a": "とっくに",
+    "a": "long ago",
     "d": [
-      "まだ",
-      "もうすぐ",
-      "やっと",
-      "さっき"
+      "not yet",
+      "very soon",
+      "finally",
+      "a moment ago"
     ],
     "note": "とっくに = long ago, already (implies the person should know)",
     "hint": "What does this word mean?",
@@ -2238,12 +2212,12 @@
     "category": "time",
     "level": "hard",
     "q": "やっと",
-    "a": "やっと",
+    "a": "finally",
     "d": [
-      "もうすぐ",
-      "まもなく",
-      "とっくに",
-      "さっき"
+      "very soon",
+      "shortly",
+      "long since",
+      "a moment ago"
     ],
     "note": "やっと = finally (after much effort/waiting)",
     "hint": "What does this word mean?",
@@ -2253,12 +2227,11 @@
     "category": "time",
     "level": "hard",
     "q": "ようやく",
-    "a": "ようやく",
+    "a": "finally",
     "d": [
-      "やっと",
-      "まもなく",
-      "とっくに",
-      "まだ"
+      "shortly",
+      "long since",
+      "not yet"
     ],
     "note": "ようやく = finally (more formal/literary than やっと)",
     "hint": "What does this word mean?",
@@ -2268,12 +2241,12 @@
     "category": "time",
     "level": "hard",
     "q": "かつて",
-    "a": "かつて",
+    "a": "once",
     "d": [
-      "むかし",
-      "いつか",
-      "もとは",
-      "まえ"
+      "long ago",
+      "someday",
+      "originally",
+      "before"
     ],
     "note": "かつて = once, formerly (often used with ある/ない: かつてない = unprecedented)",
     "hint": "What does this word mean?",
@@ -2283,12 +2256,11 @@
     "category": "time",
     "level": "hard",
     "q": "いつのまにか",
-    "a": "いつのまにか (itsu no ma ni ka)",
+    "a": "before I knew it",
     "d": [
-      "いつか",
-      "いつも",
-      "ずっと",
-      "もうすぐ"
+      "someday",
+      "always",
+      "very soon"
     ],
     "note": "いつの間にか = before I knew it, without realizing",
     "hint": "What does this phrase mean?",
@@ -2298,12 +2270,12 @@
     "category": "time",
     "level": "hard",
     "q": "たちまち",
-    "a": "たちまち",
+    "a": "instantly",
     "d": [
-      "すぐに",
-      "まもなく",
-      "やっと",
-      "ようやく"
+      "immediately",
+      "shortly",
+      "finally",
+      "at last"
     ],
     "note": "たちまち = instantly, in the blink of an eye",
     "hint": "What does this word mean?",
@@ -2313,12 +2285,11 @@
     "category": "time",
     "level": "hard",
     "q": "そのうち",
-    "a": "そのうち (sono uchi)",
+    "a": "before long",
     "d": [
-      "もうすぐ",
-      "まもなく",
-      "やっと",
-      "いずれ"
+      "very soon (definite)",
+      "finally",
+      "long ago"
     ],
     "note": "そのうち = one of these days, eventually (vague future)",
     "hint": "What does this expression mean?",
@@ -2328,12 +2299,12 @@
     "category": "time",
     "level": "hard",
     "q": "いずれ",
-    "a": "いずれ",
+    "a": "eventually",
     "d": [
-      "そのうち",
-      "まもなく",
-      "やっと",
-      "もうすぐ"
+      "before long",
+      "shortly",
+      "finally",
+      "very soon"
     ],
     "note": "いずれ = eventually, sooner or later (formal)",
     "hint": "What does this word mean?",

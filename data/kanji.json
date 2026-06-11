@@ -2192,7 +2192,7 @@
       "さがす",
       "きめる",
       "なやむ",
-      "えらぶ"
+      "えらぶ (alt)"
     ],
     "note": "選 = えらぶ/せん; 選ぶ = choose; 選手 = athlete Meaning: choose / select",
     "hint": "How do you read this kanji?"
@@ -5285,7 +5285,7 @@
     "d": [
       "receive",
       "give (to me)",
-      "receive",
+      "take",
       "return"
     ],
     "note": "上 = あげる; giving verb: あげる (I give) Reading: あげる (ageru)",
@@ -6070,7 +6070,7 @@
       "many",
       "a lot",
       "enough",
-      "many"
+      "huge amount"
     ],
     "note": "少 = すくない/しょう; 少し = a little Reading: すくない (sukunai)",
     "hint": "What does this kanji mean?"
@@ -6434,7 +6434,7 @@
       "airport",
       "port",
       "bus stop",
-      "bus stop"
+      "intersection"
     ],
     "note": "駅 = えき; 駅員 = station staff Reading: えき (eki)",
     "hint": "What does this kanji mean?"
@@ -6546,7 +6546,7 @@
       "room",
       "building",
       "hall",
-      "room"
+      "basement"
     ],
     "note": "階 = かい; 3階 = 3rd floor; 階段 = stairs Reading: かい (kai)",
     "hint": "What does this kanji mean?"
@@ -7076,7 +7076,7 @@
     "a": "fee / material",
     "d": [
       "price",
-      "price",
+      "tax",
       "cost",
       "wage"
     ],
@@ -8392,7 +8392,7 @@
     "a": "law / method",
     "d": [
       "rule",
-      "rule",
+      "custom",
       "condition",
       "obligation"
     ],
@@ -8492,7 +8492,7 @@
       "てい (tei)",
       "ていど (teido)",
       "くらい (kurai)",
-      "ほど (hodo)"
+      "ぐらい (gurai)"
     ],
     "note": "程 = ほど/てい; 程度/〜ほど〜ない Meaning: degree / extent",
     "hint": "How do you read this kanji?"
@@ -8504,7 +8504,7 @@
     "a": "degree / extent",
     "d": [
       "degree",
-      "degree",
+      "limit",
       "about",
       "about (same)"
     ],
@@ -8560,7 +8560,7 @@
     "a": "possible / allow",
     "d": [
       "impossible",
-      "impossible",
+      "difficult",
       "no good",
       "prohibited"
     ],
@@ -8590,7 +8590,7 @@
       "incompetence",
       "unskilled",
       "bad at",
-      "unskilled"
+      "weakness"
     ],
     "note": "能 = のう; 可能/能力/才能 Reading: のう (nou)",
     "hint": "What does this kanji mean?"
@@ -9176,7 +9176,7 @@
     "a": "condition / circumstances",
     "d": [
       "situation",
-      "situation",
+      "feeling",
       "problem",
       "current state"
     ],
@@ -9596,7 +9596,7 @@
     "a": "price / value",
     "d": [
       "price",
-      "price",
+      "quantity",
       "cost",
       "evaluation"
     ],
@@ -9624,7 +9624,7 @@
     "a": "price / value / worth",
     "d": [
       "price",
-      "price",
+      "number",
       "value",
       "cost"
     ],
@@ -9681,7 +9681,7 @@
     "d": [
       "cost",
       "price",
-      "price",
+      "fine",
       "fee"
     ],
     "note": "税 = ぜい; 消費税/税金/納税 Reading: ぜい (zei)",
@@ -9904,7 +9904,7 @@
     "a": "before / previous",
     "d": [
       "after",
-      "after",
+      "later",
       "next",
       "beginning"
     ],
@@ -9932,7 +9932,7 @@
     "a": "after / later",
     "d": [
       "before",
-      "before",
+      "earlier",
       "ahead",
       "beginning"
     ],
@@ -9960,7 +9960,7 @@
     "a": "inside / within",
     "d": [
       "outside",
-      "outside",
+      "beyond",
       "other",
       "separate"
     ],
@@ -9988,7 +9988,7 @@
     "a": "outside / foreign",
     "d": [
       "inside",
-      "inside",
+      "within",
       "middle",
       "other"
     ],
@@ -10073,7 +10073,7 @@
     "d": [
       "receive",
       "take",
-      "receive",
+      "steal",
       "return"
     ],
     "note": "与 = あたえる/よ; 与える/与党 Reading: あたえる (ataeru)",
@@ -10128,7 +10128,7 @@
     "a": "obtain / gain",
     "d": [
       "lose",
-      "lose",
+      "drop",
       "be taken",
       "return"
     ],
@@ -10885,7 +10885,7 @@
     "d": [
       "noisy",
       "lively",
-      "noisy",
+      "busy",
       "intense"
     ],
     "note": "静 = しずか/せい; 静か/静止/冷静 Reading: しずか (shizuka)",

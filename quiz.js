@@ -78,13 +78,24 @@ function generateNumberQ(level) {
     if (w > 0 && w !== n) wrongs.add(numToJapanese(w));
   }
   const d = [...wrongs].filter(w=>w!==correct).slice(0,3);
-  const display = n.toLocaleString('en-US').replace(/,/g,'，');
+  const display = n.toLocaleString('en-US');
   return { category:'numbers', level, _generated:true, q:display, a:correct, d, note:`${display} = ${correct}`, hint:'How do you read this number?' };
 }
 
 // ── TYPED ANSWER SUPPORT ─────────────────────────────────────────────
 // Categories where typing romaji is supported (answer is romaji or derivable)
-const TYPE_SUPPORTED = ['hiragana', 'katakana', 'numbers'];
+const TYPE_SUPPORTED = ['hiragana', 'katakana', 'numbers', 'time'];
+
+// Per-question check: can this question accept typed input?
+// time has mixed answers (kana readings + English meanings) — only kana
+// answers are typeable as romaji; English-answer questions fall back to choice
+function canTypeAnswer(q) {
+  if (!TYPE_SUPPORTED.includes(q.category)) return false;
+  if (q.category === 'numbers' || q.category === 'time') {
+    return /^[ぁ-んァ-ヶー\s]+$/.test(q.a); // pure kana answers only
+  }
+  return true; // hiragana/katakana answers are already romaji
+}
 
 // Kana → romaji (strict Hepburn: shi, chi, tsu, fu, ji)
 const KANA_MAP = {
@@ -169,6 +180,14 @@ function getAcceptedAnswers(q) {
     if (canonical === 'shi') accepted.add('yon');
     if (canonical === 'kyuu') accepted.add('ku');
     if (canonical === 'ku') accepted.add('kyuu');
+  } else if (q.category === 'time') {
+    // Kana answer (e.g. ごごさんじ) — convert to romaji
+    const canonical = kanaToRomaji(q.a);
+    accepted.add(canonical);
+    // 7 alternates: しちじ/ななじ both heard (note: 4時=よじ and 9時=くじ
+    // are STRICT — no yon/kyuu swap for times)
+    accepted.add(canonical.replace(/shichi/g, 'nana'));
+    accepted.add(canonical.replace(/nana/g, 'shichi'));
   } else {
     // hiragana/katakana — answer is already romaji ('neko', 'ohayou gozaimasu')
     accepted.add(normalizeAnswer(q.a));
@@ -288,7 +307,7 @@ let bestStreak = 0, curStreak = 0;
 
 const AMODE_DESCS = {
   choice: '',
-  type: 'Type the romaji answer (hiragana, katakana & numbers). Other categories stay multiple choice.',
+  type: 'Type the romaji answer (hiragana, katakana, numbers & time readings). Other questions stay multiple choice.',
 };
 
 function updateInfo() {
@@ -387,8 +406,8 @@ function renderQuestion() {
   const grid = document.getElementById('optionsGrid');
   grid.innerHTML = '';
 
-  // Typed answer mode — only for supported categories (others fall back to choice)
-  const useTyping = selAnswerMode === 'type' && TYPE_SUPPORTED.includes(q.category);
+  // Typed answer mode — per-question check (English-answer time questions fall back to choice)
+  const useTyping = selAnswerMode === 'type' && canTypeAnswer(q);
 
   if (useTyping) {
     grid.style.display = 'block';
@@ -445,7 +464,8 @@ function submitTyped(q) {
 
   const { result, closest } = checkTypedAnswer(raw, q);
   const fb = document.getElementById('feedback');
-  const note = q.note ? ' — '+q.note : '';
+  const meaningStr = q.meaning && !(q.note||'').toLowerCase().includes(q.meaning.toLowerCase()) ? ' ('+q.meaning+')' : '';
+  const note = (q.note ? ' — '+q.note : '') + meaningStr;
 
   if (result === 'correct') {
     score++;
@@ -456,11 +476,10 @@ function submitTyped(q) {
     fb.className = 'feedback correct-fb show';
     fb.textContent = '✓ Correct!'+(curStreak>2?' 🔥 '+curStreak+' in a row!':'')+note;
   } else if (result === 'almost') {
-    // Counted as correct, but show proper spelling — yellow warning style
-    score++;
-    curStreak++;
-    if (curStreak > bestStreak) bestStreak = curStreak;
-    delete wrongWeights[k];
+    // Spelling was off — not counted in score, streak resets,
+    // and the question comes back sooner for practice
+    curStreak = 0;
+    wrongWeights[k] = (wrongWeights[k]||0)+1;
     input.classList.add('input-almost');
     fb.className = 'feedback almost-fb show';
     fb.textContent = '❗ Almost! Correct spelling: '+closest+note;
@@ -502,7 +521,8 @@ function selectAnswer(btn, chosen, correct, q) {
   }
 
   const fb = document.getElementById('feedback');
-  const note = q.note ? ' — '+q.note : '';
+  const meaningStr = q.meaning && !(q.note||'').toLowerCase().includes(q.meaning.toLowerCase()) ? ' ('+q.meaning+')' : '';
+  const note = (q.note ? ' — '+q.note : '') + meaningStr;
 
   if (chosen === correct) {
     score++;

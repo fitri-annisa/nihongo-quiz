@@ -1097,14 +1097,14 @@
   {
     "category": "particle",
     "level": "easy",
-    "q": "やまだ___さんはなんさいですか。",
-    "a": "さん",
+    "q": "やまださん___なんさいですか。",
+    "a": "は",
     "d": [
-      "は",
       "が",
-      "を"
+      "を",
+      "に"
     ],
-    "note": "さん = honorific suffix; separate from particles",
+    "note": "は = topic marker; やまださんは = as for Mr./Ms. Yamada",
     "hint": "Choose the correct particle(s) for the blank(s).",
     "translation": "How old is Mr./Ms. Yamada?",
     "_isParticle": true
