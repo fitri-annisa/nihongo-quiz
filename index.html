@@ -3,13 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
 <title>Japanese Quiz</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600&display=swap');
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#0f0e17;--surface:#1a1927;--surface2:#24223a;--surface-hover:#2a2744;--surface-active:#1e1a30;--border:rgba(255,255,255,0.08);--accent:#e94f6f;--accent2:#7c6af7;--text:#f0eefc;--muted:#8f8daa;--correct:#3ecf8e;--wrong:#e94f6f;--almost:#f5c453;--radius:12px}
-[data-theme="light"]{--bg:#f7f6fb;--surface:#ffffff;--surface2:#f0eef8;--surface-hover:#e8e5f5;--surface-active:#f3effc;--border:rgba(30,26,60,0.12);--accent:#d63960;--accent2:#6a56e8;--text:#221f38;--muted:#6b6885;--correct:#1ba86b;--wrong:#d63960;--almost:#c2920f}
-.theme-btn{position:fixed;top:14px;right:14px;z-index:50;background:var(--surface);border:1.5px solid var(--border);border-radius:99px;width:38px;height:38px;font-size:1.05rem;cursor:pointer;transition:all 0.15s;display:flex;align-items:center;justify-content:center}
+:root{color-scheme:dark;--bg:#0f0e17;--surface:#1a1927;--surface2:#24223a;--surface-hover:#2a2744;--surface-active:#1e1a30;--border:rgba(255,255,255,0.08);--accent:#e94f6f;--accent2:#7c6af7;--text:#f0eefc;--muted:#8f8daa;--correct:#3ecf8e;--wrong:#e94f6f;--almost:#f5c453;--radius:12px}
+[data-theme="light"]{color-scheme:light;--bg:#f7f6fb;--surface:#ffffff;--surface2:#f0eef8;--surface-hover:#e8e5f5;--surface-active:#f3effc;--border:rgba(30,26,60,0.12);--accent:#d63960;--accent2:#6a56e8;--text:#221f38;--muted:#6b6885;--correct:#1ba86b;--wrong:#d63960;--almost:#c2920f}
+.theme-btn{position:fixed;top:14px;right:14px;z-index:50;background:var(--surface);border:1.5px solid var(--border);border-radius:99px;width:44px;height:44px;font-size:1.15rem;cursor:pointer;transition:all 0.15s;display:flex;align-items:center;justify-content:center}
 .theme-btn:hover{border-color:var(--accent2)}
 body{background:var(--bg);color:var(--text);transition:background 0.25s,color 0.25s;font-family:'Inter','Noto Sans JP',sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:2rem 1rem}
 header{text-align:center;margin-bottom:1.5rem}
@@ -62,7 +63,7 @@ header p{color:var(--muted);font-size:0.85rem;margin-top:5px}
 .sentence-translation{font-size:0.78rem;color:var(--muted);text-align:center;margin-top:4px;font-style:italic}
 .options-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
 .type-row{display:flex;gap:8px}
-.type-input{flex:1;padding:0.85rem 1rem;border-radius:var(--radius);border:1.5px solid var(--border);background:var(--surface2);color:var(--text);font-size:1rem;font-family:'Inter',sans-serif}
+.type-input{flex:1;min-width:0;padding:0.85rem 1rem;border-radius:var(--radius);border:1.5px solid var(--border);background:var(--surface2);color:var(--text);font-size:1rem;font-family:'Inter',sans-serif}
 .type-input:focus{outline:none;border-color:var(--accent2);box-shadow:0 0 0 2px rgba(124,106,247,0.15)}
 .type-input.input-correct{border-color:var(--correct)}
 .type-input.input-almost{border-color:var(--almost)}
@@ -102,6 +103,7 @@ header p{color:var(--muted);font-size:0.85rem;margin-top:5px}
 .confirm-yes{padding:0.65rem 1.6rem;background:var(--wrong);border:none;border-radius:var(--radius);color:white;font-size:0.85rem;font-weight:600;cursor:pointer}
 .confirm-no{padding:0.65rem 1.6rem;background:transparent;border:1.5px solid var(--border);border-radius:var(--radius);color:var(--muted);font-size:0.85rem;cursor:pointer}
 footer{margin-top:2rem;color:var(--muted);font-size:0.72rem;text-align:center}
+@media (max-width:420px){.type-submit{padding:0.85rem 1rem}.quiz-box{padding:1.2rem}}
 </style>
 </head>
 <body>
